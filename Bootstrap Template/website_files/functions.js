@@ -2,6 +2,7 @@ $(document).ready(function(){
 	
 	var Major = null;
 	var Minor = null;
+	var selectedRow = null;
 	
 	setupDropdownMenus();
 	setupMainDataTable();
@@ -21,16 +22,13 @@ $(document).ready(function(){
 		alert(Minor);
 	});
 	
-	
-
-
-
 });
 
 
 function setupMainDataTable(){
 	var data = [["CSCI101", "Intro to Programming", 3], ["CSCI261", "Programming Concepts", 3], ["CSCI262", "Data Structures", 3]];
 	var table = document.getElementById("mainTableBody");
+	table.innerHTML = '';
 	
 	for(var i=0; i<data.length; i++){
 		var node = document.createElement("tr");
@@ -42,6 +40,15 @@ function setupMainDataTable(){
 			node.appendChild(cell);
 		}
 		table.appendChild(node);
+		
+		//sets up the ability to highlight the selected row
+		var createClickHandler = function(row) {
+			return function() {
+				HighlightRowInTable(table, row);
+				
+			};
+		};
+		node.onclick = createClickHandler(node);
 	}
 }
 
@@ -65,3 +72,22 @@ function setupDropdownMenus(){
 	}
 	
 }
+
+function HighlightRowInTable(table, row){
+	var rows = table.getElementsByTagName("tr");
+	
+	for(var i=0; i<rows.length; i++){
+		rows[i].style.backgroundColor='#ffffff';
+		rows[i].hilight = false;
+	}
+	
+	row.style.backgroundColor='#BCD4EC';
+	row.hilight = true;
+}
+
+
+
+
+
+
+
