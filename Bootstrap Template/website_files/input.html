@@ -16,8 +16,8 @@
   <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
-  <!-- our CSS style sheet -->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
   <link href="jquery.dataTables.min.css" rel="stylesheet" type="text/css">
   
 </head>
@@ -39,48 +39,113 @@
             <span class="nav-link-text">Generated Schedules</span>
           </a>
         </li>
-
-      </ul>
+      <img src="images/Mines_Logo.jpg" class="center-block" width="150" height="150"/>
+	  </ul>
+	  
     </div>
   </nav>
   <div class="content-wrapper">
     <div class="container-fluid">
 	<!-- Dropdown menus -->
 	<div class="row">
-		<div class="col-sm-1">
+		<div class="col-sm-2">
 		<div class="dropdown">
-		<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="chosenMajor">
-		Major
-		</button>
-		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="majorOptions">
+		   <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		   Bulletin Year
+		   </button>
+		   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="bulletinOptions">
 		</div>
 		</div>
 		</div>
 		
-		<div class="col-sm-1">
+		<div class="col-sm-2">
 		<div class="dropdown">
-		   <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="chosenMinor">
+		<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		Major
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="majorOptions">
+		
+		</div>
+		</div>
+		</div>
+		
+		<div class="col-sm-2">
+		<div class="dropdown">
+		   <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		   Minor
 		   </button>
 		   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="minorOptions">
 		</div>
 		</div>
 		</div>
-		
-				<div class="col-sm-1">
+			<div class="col-sm-2">
 		<div class="dropdown">
-		   <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="chosenBulletinYear">
-		   Bulletin Year
+		   <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		   ASI
 		   </button>
-		   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="BulletinOptions">
+		   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="ASIOptions">
 		</div>
 		</div>
 		</div>
 		
 		
-		
-		
+		<div class="col-sm-2">
+		<div class="dropdown">
+		   <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Number of Semesters
+		   </button>
+		   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="semesterOptions">
 		</div>
+		</div>
+		</div>
+		</div> <!-- end of row with all the dropdown menus -->
+	<br />
+	<br />
+<div class= "row">
+<div class="card-deck">
+	
+	<div class="card" style="width: 18rem;">
+  <div class="card-body">
+  <h5 class="card-title">Bulletin Year</h5>
+    <p class="card-text" id= "bcard">Let's</p>
+  </div>
+</div>
+
+	<div class="card" style="width: 18rem;">
+  <div class="card-body">
+  <h5 class="card-title">Major</h5>
+    <p class="card-text" id="majcard">Just</p>
+  </div>
+</div>
+
+	<div class="card" style="width: 18rem;">
+  <div class="card-body">
+  <h5 class="card-title">Minor</h5>
+    <p class="card-text" id="mincard">Drop</p>
+  </div>
+</div>
+
+	<div class="card" style="width: 18rem;">
+  <div class="card-body">
+  <h5 class="card-title">ASI</h5>
+    <p class="card-text" id ="ASIcard">Out</p>
+  </div>
+</div>
+
+	<div class="card" style="width: 18rem;">
+  <div class="card-body">
+  <h5 class="card-title">Number of semesters</h5>
+    <p class="card-text" id="numcard">Now</p>
+  </div>
+</div>
+
+</div>
+</div>
+
+	
+<br />
+	<br />
+		
 		
       <!-- DataTables-->
       <div class="card mb-3">
@@ -199,10 +264,10 @@
     <script src="js/sb-admin.min.js"></script>
     <!-- Custom scripts for this page-->
     <script src="js/sb-admin-datatables.min.js"></script>
-    <!-- <script src="js/sb-admin-charts.min.js"></script> -->
   </div>
 </body>
 	<!-- Our Javascript files -->
-	<script src="DataTables.js"></script>
+	<script src="DropdownMenus.js"></script>
+  <script src="DataTables.js"></script>
 
 </html>
