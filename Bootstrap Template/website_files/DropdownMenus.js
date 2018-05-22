@@ -71,7 +71,7 @@ $("#semesterOptions a").click(function(){
 $( '#majorOptions a' ).click(function() {
 		var selText = $(this).text();
 		var index = $.inArray(selText,Major);
-		alert(index);
+		//alert(index);
 		if(index == -1){
 		    Major.push( selText );	  
 	  }
