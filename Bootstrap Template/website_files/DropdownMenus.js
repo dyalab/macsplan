@@ -1,37 +1,4 @@
 $(document).ready(function(){
-  <div id="checkbox-container">
-  <div>
-    <label for="option1">Option 1</label>
-    <input type="checkbox" id="option1">
-  </div>
-  <div>
-    <label for="option2">Option 2</label>
-    <input type="checkbox" id="option2">
-  </div>
-  <div>
-    <label for="option3">Option 3</label>
-    <input type="checkbox" id="option3">
-  </div>
-</div>
-  
-  var checkboxValues = JSON.parse(localStorage.getItem('checkboxValues')) || {},
-    $checkboxes = $("#checkbox-container :checkbox");
-
-$checkboxes.on("change", function(){
-  $checkboxes.each(function(){
-    checkboxValues[this.id] = this.checked;
-  });
-  
-  localStorage.setItem("checkboxValues", JSON.stringify(checkboxValues));
-});
-
-// On page load
-$.each(checkboxValues, function(key, value) {
-  $("#" + key).prop('checked', value);
-});
-  
-  
-  
   
   var majorDropDown = document.getElementById("majorOptions");
   var minorDropDown = document.getElementById("minorOptions");
@@ -65,14 +32,7 @@ bulletinDropDown.appendChild(node);
 for (var i= 0; i < degreeOptions.length; i++){
   var node = document.createElement("a");
   node.setAttribute("class", "dropdown-item");
-  node.setAttribute("href","#");
-  
-  var checkBoxes = document.createElement("input");
-  checkBoxes.type = "checkbox";
-  checkBoxes.class = "small"
-  checkBoxes.value = degreeOptions[i];
-  node.appendChild(checkBoxes);
-  
+  node.setAttribute("href","#");  
   var textnode = document.createTextNode(degreeOptions[i]);
   node.appendChild(textnode);
   majorDropDown.appendChild(node);
@@ -108,15 +68,14 @@ $("#semesterOptions a").click(function(){
 	cardText.innerHTML = numSemester;
 });
 
-$( '#majorOptions a input' ).change(function(event) {
-		var checkbox = event.target;
-		
-		
-	  if(checkbox.checked){
-		    Major.push( checkbox.value );	  
+$( '#majorOptions a' ).click(function() {
+		var selText = $(this).text();
+		var index = $.inArray(selText,Major);
+		alert(index);
+		if(index == -1){
+		    Major.push( selText );	  
 	  }
 	  else{
-		  var index = Major.indexOf(checkbox.value);
 		  if (index !== -1) Major.splice(index, 1);
 		  
 	  }
@@ -126,21 +85,19 @@ $( '#majorOptions a input' ).change(function(event) {
 	cardText.innerHTML = Major;
 });
 
-$( '#minorOptions a input' ).change(function(event) {
-		var checkbox = event.target;
-		
-		
-	  if(checkbox.checked){
-		    Minor.push( checkbox.value );	  
+$( '#minorOptions a' ).click(function() {
+		var selText = $(this).text();
+		var index = $.inArray(selText,Minor);
+		if(index == -1){
+		    Minor.push( selText );	  
 	  }
 	  else{
-		  var index = Minor.indexOf(checkbox.value);
 		  if (index !== -1) Minor.splice(index, 1);
 		  
 	  }
 
    
-    	var cardText = document.getElementById("mincard");
+  	var cardText = document.getElementById("mincard");
 	cardText.innerHTML = Minor;
 });
 //////////////////////////////////////////////////////////////////////////////////////
