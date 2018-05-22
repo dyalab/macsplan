@@ -17,9 +17,20 @@ var deleteKeyCode = 46;
 
 
 $(document).ready(function(){
-	mainDataTable = $("#dataTable").DataTable();
-	takenDataTable = $('#TakenDataTable').DataTable();
-	desiredDataTable =  $('#DesiredDataTable').DataTable();
+	
+	//NOTE: Also remember to get rid of datatable.js in js folder!!!!
+	mainDataTable = $('#dataTable').DataTable( {
+        "lengthMenu": [[5, 10, 15], [5, 10, 15]],
+		"iDisplayLength":5
+    } );
+	takenDataTable = $('#TakenDataTable').DataTable( {
+        "lengthMenu": [[5, 10, 15], [5, 10, 15]],
+		"iDisplayLength":5
+    } );
+	desiredDataTable =  $('#DesiredDataTable').DataTable( {
+        "lengthMenu": [[5, 10, 15], [5, 10, 15]],
+		"iDisplayLength":5
+    } );
 	
 	loadElements(mainDataTable);
 	
