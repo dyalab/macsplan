@@ -1,0 +1,67 @@
+.Semester {
+    margin: 20px auto 20px;
+    width: 50%;
+}
+
+.semester-divider {
+    border-color:  #000;
+    border-width: 3px;
+    margin: 5px 0px 5px;
+}
+
+.course-divider {
+    border-color:  #000;
+    border-width: 1px;
+    margin: 1px 0px 1px; 
+}
+
+#schedule-label {
+    width: 300px;
+    margin: 10px auto 10px;
+}
+
+.semester-info-table, span{
+    font-size: 18px;
+}
+
+span {
+        display: inline-block;
+    vertical-align: top;
+}
+
+.course span{
+    font-size: 14px;
+}
+
+.course-id {
+    position: relative;
+    width: 19%;
+    margin: 0px;
+}
+
+.course-name {
+    position: relative;
+    width: 39%;
+    margin: 0px;
+}
+
+.course-credit {
+    position: relative;
+    width: 15%;
+    margin: 0px;
+    text-align: center;
+}
+
+.lock-label {
+    position: relative;
+    width: 12%;
+    margin: 0pxl;
+    text-align: center;
+}
+
+.move-label {
+    position: relative;
+    width: 12%;
+    margin: 0px;
+    text-align: center;
+}
