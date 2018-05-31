@@ -8,4 +8,5 @@
                (:file "package")
                (:file "type" :depends-on ("package"))
                (:file "io" :depends-on ("type"))
+               (:file "planner" :depends-on ("io"))
                ))

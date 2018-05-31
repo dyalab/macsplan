@@ -6,19 +6,29 @@
   (jonathan:parse string))
 
 (defun load-json (pathname)
-  (parse-catalog (read-file-into-string pathname)))
+  (parse-json (read-file-into-string pathname)))
 
 
+(defun parse-json-cnf (e)
+  (tmsmt::exp-and*  (map 'list #'tmsmt::exp-or* e)))
+
+(defun parse-json-exp (e)
+  (if (atom e)
+      e
+      (destructuring-bind (op &rest args) e
+        (cond ((string= op "and")
+               (cons 'and (map 'list #'parse-json-exp args)))
+              ((string= op "or")
+               (cons 'or (map 'list #'parse-json-exp args)))
+              ((string= op "not")
+               (cons 'not (map 'list #'parse-json-exp args)))
+              (t e)))))
 
 ;;; Course Catalog
 
-(defun normalize-prereq (name)
-  (if (eql #\! (aref name 0))
-      (values (subseq name 1) t)
-      (values name nil)))
 
 (defun parse-prereq (e)
- (tmsmt::exp-and*  (map 'list #'tmsmt::exp-or* e)))
+ (parse-json-cnf e))
 
 
 (defun parse-catalog (string)
@@ -35,17 +45,11 @@
                (error "Duplicate course ~A" id))
               (t
                (setf (gethash id catalog) course)))))
-    ;; check catalog
-    (do-catalog (course catalog)
-      (tmsmt::check-exp (lambda (v)
-                          (unless (or (tmsmt::smt-true-p v)
-                                      (catalog-contains-id catalog (normalize-prereq v)))
-                            (error "Course not found `~A'" v)))
-                        (course-prereq course)))
+    (check-catalog catalog)
     catalog))
 
 (defun load-catalog (pathname)
-  (load-json pathname))
+  (parse-catalog (read-file-into-string pathname)))
 
 (defun ensure-catalog (thing)
   (etypecase thing
@@ -55,4 +59,20 @@
 
 
 
-;; Student Data
+;;; Student Data
+
+(defun parse-student (string)
+  (let* ((json (parse-json string))
+         (student (make-student :taken (getf json :|taken|)
+                                :degree (parse-json-exp (getf json :|degree|)))))
+    student))
+
+
+(defun load-student (pathname)
+  (parse-student (read-file-into-string pathname)))
+
+(defun ensure-student (thing)
+  (etypecase thing
+    (list thing)
+    (string (parse-student thing))
+    (pathname (load-student thing))))
