@@ -1,0 +1,723 @@
+[
+{
+"Id": "CSCI101"
+"Name": "INTRODUCTION TO COMPUTER SCIENCE"
+"Credits": 3.0
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI102"
+"Name": "INTRODUCTION TO COMPUTER SCIENCE - LAB"
+"Credits": 1.0
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI198"
+"Name": "SPECIAL TOPICS"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI199"
+"Name": "INDEPENDENT STUDY"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI250"
+"Name": "PYTHON-BASED COMPUTING: BUILDING A SENSOR SYSTEM"
+"Credits": 3.0
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI260"
+"Name": "FORTRAN PROGRAMMING"
+"Credits": 2.0
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI261"
+"Name": "PROGRAMMING CONCEPTS"
+"Credits": 3.0
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI262"
+"Name": "DATA STRUCTURES"
+"Credits": 3.0
+"Pre_req": [["CSCI261"]]
+}
+,
+{
+"Id": "CSCI274"
+"Name": "INTRODUCTION TO THE LINUX OPERATING SYSTEM"
+"Credits": 1.0
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI298"
+"Name": "SPECIAL TOPICS"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI299"
+"Name": "INDEPENDENT STUDY"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI303"
+"Name": "INTRODUCTION TO DATA SCIENCE"
+"Credits": 3.0
+"Pre_req": [["CSCI101", "CSCI261"]]
+}
+,
+{
+"Id": "CSCI306"
+"Name": "SOFTWARE ENGINEERING"
+"Credits": 3.0
+"Pre_req": [["CSCI262"]]
+}
+,
+{
+"Id": "CSCI340"
+"Name": "COOPERATIVE EDUCATION"
+"Credits": 3.0
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI341"
+"Name": "COMPUTER ORGANIZATION"
+"Credits": 3.0
+"Pre_req": [["CSCI261"], ["!CSCI262"]]
+}
+,
+{
+"Id": "CSCI358"
+"Name": "DISCRETE MATHEMATICS"
+"Credits": 3.0
+"Pre_req": [["MATH213", "MATH223", "MATH224"]]
+}
+,
+{
+"Id": "CSCI370"
+"Name": "ADVANCED SOFTWARE ENGINEERING"
+"Credits": 6.0
+"Pre_req": [["CSCI306"]]
+}
+,
+{
+"Id": "CSCI398"
+"Name": "SPECIAL TOPICS"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI399"
+"Name": "INDEPENDENT STUDY"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI400"
+"Name": "PRINCIPLES OF PROGRAMMING LANGUAGES"
+"Credits": 3.0
+"Pre_req": [["CSCI306"]]
+}
+,
+{
+"Id": "CSCI403"
+"Name": "DATA BASE MANAGEMENT"
+"Credits": 3.0
+"Pre_req": [["CSCI262"]]
+}
+,
+{
+"Id": "CSCI404"
+"Name": "ARTIFICIAL INTELLIGENCE"
+"Credits": 3.0
+"Pre_req": [["CSCI262", "CSCI358"], ["MATH201"]]
+}
+,
+{
+"Id": "CSCI406"
+"Name": "ALGORITHMS"
+"Credits": 3.0
+"Pre_req": [["CSCI262", "MATH213", "MATH223", "MATH224"], ["MATH300", "MATH358", "CSCI358"]]
+}
+,
+{
+"Id": "CSCI410"
+"Name": "ELEMENTS OF COMPUTING SYSTEMS"
+"Credits": 3.0
+"Pre_req": [["CSCI341", "EENG383"]]
+}
+,
+{
+"Id": "CSCI422"
+"Name": "USER INTERFACES"
+"Credits": 3.0
+"Pre_req": [["CSCI262"]]
+}
+,
+{
+"Id": "CSCI423"
+"Name": "COMPUTER SIMULATION"
+"Credits": 3.0
+"Pre_req": [["CSCI306"], ["MATH323", "MATH201"], ["CSCI274"]]
+}
+,
+{
+"Id": "CSCI437"
+"Name": "INTRODUCTION TO COMPUTER VISION"
+"Credits": 3.0
+"Pre_req": [["MATH201", "EENG311", "MATH332", "CSCI261"]]
+}
+,
+{
+"Id": "CSCI440"
+"Name": "PARALLEL COMPUTING FOR SCIENTISTS AND ENGINEERS"
+"Credits": 3.0
+"Pre_req": [["CSCI262", "CSCI341"]]
+}
+,
+{
+"Id": "CSCI441"
+"Name": "COMPUTER GRAPHICS"
+"Credits": 3.0
+"Pre_req": [["CSCI262", "MATH332"]]
+}
+,
+{
+"Id": "CSCI442"
+"Name": "OPERATING SYSTEMS"
+"Credits": 3.0
+"Pre_req": [["CSCI262", "CSCI274", "CSCI341"]]
+}
+,
+{
+"Id": "CSCI443"
+"Name": "ADVANCED PROGRAMMING CONCEPTS USING JAVA"
+"Credits": 3.0
+"Pre_req": [["CSCI306"]]
+}
+,
+{
+"Id": "CSCI444"
+"Name": "ADVANCED COMPUTER GRAPHICS"
+"Credits": 3.0
+"Pre_req": [["CSCI441"]]
+}
+,
+{
+"Id": "CSCI445"
+"Name": "WEB PROGRAMMING"
+"Credits": 3.0
+"Pre_req": [["CSCI262"], ["!CSCI403"]]
+}
+,
+{
+"Id": "CSCI446"
+"Name": "WEB APPLICATIONS"
+"Credits": 3.0
+"Pre_req": [["CSCI262"], ["!CSCI403"]]
+}
+,
+{
+"Id": "CSCI447"
+"Name": "SCIENTIFIC VISUALIZATION"
+"Credits": 3.0
+"Pre_req": [["CSCI262"], ["MATH441"]]
+}
+,
+{
+"Id": "CSCI448"
+"Name": "MOBILE APPLICATION DEVELOPMENT"
+"Credits": 3.0
+"Pre_req": [["CSCI306"]]
+}
+,
+{
+"Id": "CSCI455"
+"Name": "GAME THEORY AND NETWORKS"
+"Credits": 3.0
+"Pre_req": [["CSCI358"], ["CSCI406"]]
+}
+,
+{
+"Id": "CSCI470"
+"Name": "INTRODUCTION TO MACHINE LEARNING"
+"Credits": 3.0
+"Pre_req": [["MATH201"], ["MATH332"]]
+}
+,
+{
+"Id": "CSCI471"
+"Name": "COMPUTER NETWORKS I"
+"Credits": 3.0
+"Pre_req": [["CSCI262"], ["CSCI274"]]
+}
+,
+{
+"Id": "CSCI473"
+"Name": "HUMAN-CENTERED ROBOTICS"
+"Credits": 3.0
+"Pre_req": [["CSCI262"], ["MATH201"]]
+}
+,
+{
+"Id": "CSCI474"
+"Name": "INTRODUCTION TO CRYPTOGRAPHY"
+"Credits": 3.0
+"Pre_req": [["CSCI262", "CSCI358", "MATH334", "MATH335", "MATH201"]]
+}
+,
+{
+"Id": "CSCI475"
+"Name": "INFORMATION SECURITY AND PRIVACY"
+"Credits": 3.0
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI477"
+"Name": "ELEMENTS OF GAMES AND GAME DEVELOPMENT"
+"Credits": 3.0
+"Pre_req": [["CSCI262"]]
+}
+,
+{
+"Id": "CSCI480"
+"Name": "COMPUTER SCIENCE HONORS THESIS"
+"Credits": 3.0
+"Pre_req": [["CSCI306"]]
+}
+,
+{
+"Id": "CSCI498"
+"Name": "SPECIAL TOPICS"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "CSCI499"
+"Name": "INDEPENDENT STUDY"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "MATH100"
+"Name": "INTRODUCTORY TOPICS FOR CALCULUS"
+"Credits": 3.0
+"Pre_req": []
+}
+,
+{
+"Id": "MATH111"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS I"
+"Credits": 4.0
+"Pre_req": []
+}
+,
+{
+"Id": "MATH112"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II"
+"Credits": 4.0
+"Pre_req": [["MATH111"]]
+}
+,
+{
+"Id": "MATH113"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II - SHORT FORM"
+"Credits": 1.0
+"Pre_req": []
+}
+,
+{
+"Id": "MATH122"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II HONORS"
+"Credits": 4.0
+"Pre_req": [["MATH111"]]
+}
+,
+{
+"Id": "MATH198"
+"Name": "SPECIAL TOPICS"
+"Credits": 6.0
+"Pre_req": []
+}
+,
+{
+"Id": "MATH199"
+"Name": "INDEPENDENT STUDY"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "MATH201"
+"Name": "PROBABILITY AND STATISTICS FOR ENGINEERS"
+"Credits": 3.0
+"Pre_req": [["MATH112", "MATH122", "!MATH113"]]
+}
+,
+{
+"Id": "MATH213"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III"
+"Credits": 4.0
+"Pre_req": [["MATH112", "MATH122", "!MATH113"]]
+}
+,
+{
+"Id": "MATH214"
+"Name": "CALCULUS FOR SCIENTIST AND ENGINEERS III - SHORT FORM"
+"Credits": 1.0
+"Pre_req": []
+}
+,
+{
+"Id": "MATH223"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III HONORS"
+"Credits": 4.0
+"Pre_req": [["MATH122"]]
+}
+,
+{
+"Id": "MATH224"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III HONORS"
+"Credits": 4.0
+"Pre_req": [["MATH122"]]
+}
+,
+{
+"Id": "MATH225"
+"Name": "DIFFERENTIAL EQUATIONS"
+"Credits": 3.0
+"Pre_req": [["MATH112", "MATH122", "!MATH113"]]
+}
+,
+{
+"Id": "MATH235"
+"Name": "DIFFERENTIAL EQUATIONS HONORS"
+"Credits": 3.0
+"Pre_req": [["MATH112", "MATH122", "!MATH113"]]
+}
+,
+{
+"Id": "MATH298"
+"Name": "SPECIAL TOPICS"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "MATH299"
+"Name": "INDEPENDENT STUDY"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "MATH300"
+"Name": "FOUNDATIONS OF ADVANCED MATHEMATICS"
+"Credits": 3.0
+"Pre_req": [["MATH112", "MATH122"]]
+}
+,
+{
+"Id": "MATH301"
+"Name": "INTRODUCTION TO ANALYSIS"
+"Credits": 3.0
+"Pre_req": [["MATH300"]]
+}
+,
+{
+"Id": "MATH307"
+"Name": "INTRODUCTION TO SCIENTIFIC COMPUTING"
+"Credits": 3.0
+"Pre_req": [["MATH213", "MATH223", "MATH224"], ["!MATH225", "!MATH235"]]
+}
+,
+{
+"Id": "MATH310"
+"Name": "INTRODUCTION TO MATHEMATICAL MODELING"
+"Credits": 4.0
+"Pre_req": [["MATH201"], ["MATH225"]]
+}
+,
+{
+"Id": "MATH331"
+"Name": "MATHEMATICAL BIOLOGY"
+"Credits": 3.0
+"Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]]
+}
+,
+{
+"Id": "MATH332"
+"Name": "LINEAR ALGEBRA"
+"Credits": 3.0
+"Pre_req": [["MATH213", "MATH223", "MATH224"]]
+}
+,
+{
+"Id": "MATH334"
+"Name": "INTRODUCTION TO PROBABILITY"
+"Credits": 3.0
+"Pre_req": [["MATH213", "MATH223", "MATH224"]]
+}
+,
+{
+"Id": "MATH335"
+"Name": "INTRODUCTION TO MATHEMATICAL STATISTICS"
+"Credits": 3.0
+"Pre_req": [["MATH334"]]
+}
+,
+{
+"Id": "MATH340"
+"Name": "COOPERATIVE EDUCATION"
+"Credits": 3.0
+"Pre_req": []
+}
+,
+{
+"Id": "MATH342"
+"Name": "HONORS LINEAR ALGEBRA"
+"Credits": 3.0
+"Pre_req": [["MATH213", "MATH223", "MATH224"]]
+}
+,
+{
+"Id": "MATH348"
+"Name": "ADVANCED ENGINEERING MATHEMATICS"
+"Credits": 3.0
+"Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]]
+}
+,
+{
+"Id": "MATH358"
+"Name": "DISCRETE MATHEMATICS"
+"Credits": 3.0
+"Pre_req": [["MATH213", "MATH223", "MATH224"]]
+}
+,
+{
+"Id": "MATH398"
+"Name": "SPECIAL TOPICS"
+"Credits": 6.0
+"Pre_req": []
+}
+,
+{
+"Id": "MATH399"
+"Name": "INDEPENDENT STUDY"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "MATH406"
+"Name": "ALGORITHMS"
+"Credits": 3.0
+"Pre_req": [["CSCI262"], ["MATH213", "MATH223", "MATH224"], ["MATH358", "CSCI358"]]
+}
+,
+{
+"Id": "MATH408"
+"Name": "COMPUTATIONAL METHODS FOR DIFFERENTIAL EQUATIONS"
+"Credits": 3.0
+"Pre_req": [["MATH307"]]
+}
+,
+{
+"Id": "MATH424"
+"Name": "INTRODUCTION TO APPLIED STATISTICS"
+"Credits": 3.0
+"Pre_req": [["MATH201", "MATH335"], ["MATH332", "MATH342"]]
+}
+,
+{
+"Id": "MATH432"
+"Name": "SPATIAL STATISTICS"
+"Credits": 3.0
+"Pre_req": [["MATH335"], ["!MATH424"]]
+}
+,
+{
+"Id": "MATH436"
+"Name": "ADVANCED STATISTICAL MODELING"
+"Credits": 3.0
+"Pre_req": [["MATH335"], ["MATH424"]]
+}
+,
+{
+"Id": "MATH437"
+"Name": "MULTIVARIATE ANALYSIS"
+"Credits": 3.0
+"Pre_req": [["MATH335", "MATH201"], ["MATH332", "MATH342"]]
+}
+,
+{
+"Id": "MATH438"
+"Name": "STOCHASTIC MODELS"
+"Credits": 3.0
+"Pre_req": [["MATH334"]]
+}
+,
+{
+"Id": "MATH439"
+"Name": "SURVIVAL ANALYSIS"
+"Credits": 3.0
+"Pre_req": [["MATH335"]]
+}
+,
+{
+"Id": "MATH440"
+"Name": "PARALLEL SCIENTIFIC COMPUTING"
+"Credits": 3.0
+"Pre_req": [["MATH307", "CSCI407"]]
+}
+,
+{
+"Id": "MATH441"
+"Name": "COMPUTER GRAPHICS"
+"Credits": 3.0
+"Pre_req": [["CSCI262"]]
+}
+,
+{
+"Id": "MATH444"
+"Name": "ADVANCED COMPUTER GRAPHICS"
+"Credits": 3.0
+"Pre_req": []
+}
+,
+{
+"Id": "MATH447"
+"Name": "SCIENTIFIC VISUALIZATION"
+"Credits": 3.0
+"Pre_req": [["CSCI262"], ["MATH441"]]
+}
+,
+{
+"Id": "MATH454"
+"Name": "COMPLEX ANALYSIS"
+"Credits": 3.0
+"Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]]
+}
+,
+{
+"Id": "MATH455"
+"Name": "PARTIAL DIFFERENTIAL EQUATIONS"
+"Credits": 3.0
+"Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]]
+}
+,
+{
+"Id": "MATH457"
+"Name": "INTEGRAL EQUATIONS"
+"Credits": 3.0
+"Pre_req": [["MATH332", "MATH342"], ["MATH455"]]
+}
+,
+{
+"Id": "MATH458"
+"Name": "ABSTRACT ALGEBRA"
+"Credits": 3.0
+"Pre_req": [["MATH300"]]
+}
+,
+{
+"Id": "MATH459"
+"Name": "ASYMPTOTICS"
+"Credits": 3.0
+"Pre_req": [["MATH213"], ["MATH225"]]
+}
+,
+{
+"Id": "MATH472"
+"Name": "MATHEMATICAL AND COMPUTATIONAL NEUROSCIENCE"
+"Credits": 3.0
+"Pre_req": [["MATH331"]]
+}
+,
+{
+"Id": "MATH474"
+"Name": "INTRODUCTION TO CRYPTOGRAPHY"
+"Credits": 3.0
+"Pre_req": [["CSCI262", "MATH334", "MATH335", "MATH358"]]
+}
+,
+{
+"Id": "MATH482"
+"Name": "STATISTICS PRACTICUM (CAPSTONE)"
+"Credits": 3.0
+"Pre_req": [["MATH335"], ["MATH424"]]
+}
+,
+{
+"Id": "MATH484"
+"Name": "MATHEMATICAL AND COMPUTATIONAL MODELING (CAPSTONE)"
+"Credits": 3.0
+"Pre_req": [["MATH331"], ["MATH307"], ["MATH455"]]
+}
+,
+{
+"Id": "MATH491"
+"Name": "UNDERGRADUATE RESEARCH"
+"Credits": "1-3 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "MATH492"
+"Name": "UNDERGRADUATE RESEARCH"
+"Credits": "1-3 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "MATH498"
+"Name": "SPECIAL TOPICS"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+{
+"Id": "MATH499"
+"Name": "INDEPENDENT STUDY"
+"Credits": "1-6 Semester Hr."
+"Pre_req": []
+}
+,
+
+    {
+        "Id" : "EENG383"
+    }
+    ,
+    {
+        "Id" : "MATH323"
+    },
+    {
+        "Id" : "EENG311"
+    },
+    {
+        "Id" : "CSCI407"
+    }
+]
