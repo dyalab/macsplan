@@ -1,4 +1,4 @@
-var classes = [["CSCI101", "Intro to Programming", 3],["CSCI2161", "Programming Concepts", 3],["CSCI262", "Data Structures", 3],
+var classes = [["CSCI101", "Intro to Programming", 3],["CSCI2161 Elective", ["Elective", "test1", "test2", "test3"], 3],["CSCI262", "Data Structures", 3],
  ["CBEN110", "Fundementals of Biology 1", 4],["CHGN121", "Principles of Chemistry", 4],["MATH111", "Calculus for Scientists and Engineers", 3],
  ["PHGN100", "Physics 1", 4.5],["PHGN200", "Physics 2", 4.5],["MATH225", "Differential Equations", 3]];
 var takenTableData = JSON.parse(sessionStorage.getItem("takenTableData")) || [];
@@ -137,10 +137,17 @@ function removeItemFromStorage(name, item){
 function loadElementsInMainTable(){
 	for(var i=0; i<classes.length; i++){
 		var createRow = true;
+		var createDropDown = false;
+		var dropdownData = null;
 		var row = document.createElement("tr");
 		for(var j=0; j<classes[i].length; j++){
+			var colData = classes[i][j];
 			
-			//for(var k=0; k<takenDataTable.row)
+			if(j==1 && classes[i][j].length == 4){
+				dropdownData = classes[i][j];
+				createDropDown = true;
+			}
+			
 			takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
 				if(this.data()[0]==classes[i][j]){
 					createRow = false;
@@ -152,23 +159,51 @@ function loadElementsInMainTable(){
 					createRow = false;
 				}
 			});
+			
 			var col = document.createElement("td");
-			var colInfo = document.createTextNode(classes[i][j]);
-			col.appendChild(colInfo);
-			row.appendChild(col);
+			if(createDropDown){
+				var menuButton = document.createElement("button");
+				//menuButton.setAttribute("class","btn btn-secondary dropdown-toggle");
+				menuButton.setAttribute("type","button");
+				menuButton.setAttribute("data-toggle","dropdown");
+				menuButton.setAttribute("aria-haspopup","true");
+				menuButton.setAttribute("aria-expanded","false");
+				menuButton.innerHTML = dropdownData[0];
+				
+				var menu = document.createElement("div");
+				menu.setAttribute("class", "dropdown-menu");
+				menu.setAttribute("aria-labelledby", "dropdownMenuButton");
+				
+				for(var k=1; k<dropdownData.length; k++){
+					var item = document.createElement("a");
+					item.setAttribute("class", "dropdown-item");
+					item.setAttribute("href", "#");
+					var itemData = document.createTextNode(dropdownData[k]);
+					item.appendChild(itemData);
+					menu.appendChild(item);
+				}
+				col.appendChild(menu);
+				row.appendChild(menuButton);
+				row.appendChild(col);
+				
+				createDropDown = false; 
+			}
+			else{
+				var colInfo = document.createTextNode(colData);
+				col.appendChild(colInfo);
+				row.appendChild(col);
+			}
+			
 		}
 		var col = document.createElement("td");
 		$(col).append(createButtons);
 		row.appendChild(col);
 		if(createRow){
-			mainDataTable.row.add(row).draw(true)
+			mainDataTable.row.add(row).draw(true);
+			
 		}
 	}
 }
 
-function createButtons(){
-	
-	return $("<div class='row'><button class='btn btn-secondary btn-sm m-2' type='button' id='takenButton'>Taken</button><button class='btn btn-secondary btn-sm m-2' type='button' id='desiredButton'>Desired</button></div>");
-	
-}
+function createButtons(){return $("<div class='row'><button class='btn btn-secondary btn-sm m-2' type='button' id='takenButton'>Taken</button><button class='btn btn-secondary btn-sm m-2' type='button' id='desiredButton'>Desired</button></div>");}
 
