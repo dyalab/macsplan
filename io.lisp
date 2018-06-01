@@ -8,6 +8,9 @@
 (defun load-json (pathname)
   (parse-json (read-file-into-string pathname)))
 
+(defun  plan-json (plan)
+  (jonathan:to-json plan))
+
 
 (defun parse-json-cnf (e)
   (tmsmt::exp-and*  (map 'list #'tmsmt::exp-or* e)))
@@ -23,6 +26,8 @@
               ((string= op "not")
                (cons 'not (map 'list #'parse-json-exp args)))
               (t e)))))
+
+
 
 ;;; Course Catalog
 
@@ -63,8 +68,10 @@
 
 (defun parse-student (string)
   (let* ((json (parse-json string))
-         (student (make-student :taken (getf json :|taken|)
-                                :degree (parse-json-exp (getf json :|degree|)))))
+         (student (make-student ;:taken (getf json :|taken|)
+                   :degree (parse-json-exp (getf json :|degree|)))))
+    (dolist (c (getf json :|taken|))
+      (setf (gethash c (student-taken student)) t))
     student))
 
 

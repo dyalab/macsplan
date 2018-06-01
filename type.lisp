@@ -29,11 +29,12 @@
     (check-catalog-exp catalog (course-prereq course))))
 
 (defstruct student
-  taken
+  (taken (make-hash-table :test #'equal))
   degree)
 
 
 (defun check-student (catalog student)
-  (dolist (c (student-taken student))
-    (check-catalog-exp catalog c))
+  (loop for c being the hash-keys of (student-taken student)
+     do
+       (check-catalog-exp catalog c))
   (check-catalog-exp catalog (student-degree student)))
