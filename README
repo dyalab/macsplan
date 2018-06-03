@@ -1,0 +1,35 @@
+Mines Automatic Class Schedule Planner (MACSPlan)
+
+Installation
+============
+
+1. Install [TMKit](http://tmkit.dyalab.org/)
+
+2. Copy the ASD file, usually as follows:
+
+       cp macsplan.asd ~/.local/share/common-lisp/source/
+
+3. From the Lisp REPL, load (including dependencies) via quicklisp:
+
+       (ql:quickload 'macsplan)
+
+Usage
+=====
+
+Data Formats
+------------
+
+See the example files for the course catalog and student info under
+`./data/`.
+
+Using the XML-RPC Server
+------------------------
+
+Run the startup script:
+
+    ./macsplan
+
+The server will listen on port 8080 under path `/RPC2`.  The exposed
+method `plan` takes two arguments, the JSON-encoded course catalog and
+the JSON-encoded student data.  It returns a list of the list of
+courses to take each semester.
