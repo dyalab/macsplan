@@ -56,6 +56,8 @@ $(document).ready(function(){
 		var data = mainDataTable.row( node ).data();
 		
 		if(this.id=="takenButton"){
+			
+			
 			takenDataTable.row.add(data).draw(true);
 			
 			if(sessionStorage.takenTableData){
@@ -147,18 +149,9 @@ function loadElementsInMainTable(){
 			if(j==1 && classes[i][j][0] == "Elective"){
 				createDropDown = true;
 			}
+			if(createRow) {createRow = isInTable(classes[i][j], takenDataTable);}
+			if(createRow) {createRow = isInTable(classes[i][j], desiredDataTable);}
 			
-			takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-				if(this.data()[0]==classes[i][j]){
-					createRow = false;
-				}
-			});
-			
-			desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-				if(this.data()[0]==classes[i][j]){
-					createRow = false;
-				}
-			});
 			
 			var col = document.createElement("td");
 			if(createDropDown){
@@ -215,18 +208,30 @@ function getNParent(object, number){
 	
 }
 
+function isInTable(info, table){
+	var ret = true;
+	table.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+		
+		if(this.data()[1]==info){
+			ret = false;
+		}
+	});
+	return ret;
+}
+
 window.onclick = function(event) {
 	if(event.target.matches("#ElectiveChoice")){
 		var oldData = mainDataTable.row(getNParent(event.target, 3)).data();
-		console.log(oldData);
-		var newData = oldData[1];
-		var data = $(newData).children(".btn").get(0);
-		data.innerHTML = event.target.innerHTML;
-		oldData[1] = $(data).parent().html()
-		console.log(oldData);
-		mainDataTable.row(getNParent(event.target, 4)).remove().draw(false);
-		mainDataTable.row.add(oldData).draw(true);
-		
+		var newData = [oldData[0], event.target.innerHTML, oldData[2], oldData[3]];
+		var createRow = true;
+		mainDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+			if(this.data()[1]==newData[1]){
+				createRow = false;
+			}
+		});
+		if(createRow){
+			mainDataTable.row.add(newData).draw(true);
+		}
 	}
 	
 	
