@@ -56,29 +56,31 @@ $(document).ready(function(){
 		var data = mainDataTable.row( node ).data();
 		
 		if(this.id=="takenButton"){
-			
-			
-			takenDataTable.row.add(data).draw(true);
-			
-			if(sessionStorage.takenTableData){
-				var temp = JSON.parse(sessionStorage.takenTableData);
-				temp[temp.length] = data;
-				sessionStorage.takenTableData = JSON.stringify(temp);
-			}
-			else{
-				sessionStorage.takenTableData = JSON.stringify([data]);
+			if(isInTable(data[1], takenDataTable)){
+				takenDataTable.row.add(data).draw(true);
+				
+				if(sessionStorage.takenTableData){
+					var temp = JSON.parse(sessionStorage.takenTableData);
+					temp[temp.length] = data;
+					sessionStorage.takenTableData = JSON.stringify(temp);
+				}
+				else{
+					sessionStorage.takenTableData = JSON.stringify([data]);
+				}
 			}
 		}
 		else if(this.id=="desiredButton"){
-			desiredDataTable.row.add(data).draw(true);
-			
-			if(sessionStorage.desiredTableData){
-				var temp = JSON.parse(sessionStorage.desiredTableData);
-				temp[temp.length] = data;
-				sessionStorage.desiredTableData = JSON.stringify(temp);
-			}
-			else{
-				sessionStorage.desiredTableData = JSON.stringify([data]);
+			if(isInTable(data[1], desiredDataTable)){
+				desiredDataTable.row.add(data).draw(true);
+				
+				if(sessionStorage.desiredTableData){
+					var temp = JSON.parse(sessionStorage.desiredTableData);
+					temp[temp.length] = data;
+					sessionStorage.desiredTableData = JSON.stringify(temp);
+				}
+				else{
+					sessionStorage.desiredTableData = JSON.stringify([data]);
+				}
 			}
 		}
 		else{
