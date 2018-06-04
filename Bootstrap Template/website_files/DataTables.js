@@ -55,8 +55,6 @@ $(document).ready(function(){
 		var node = $(this).parent().parent();
 		var data = mainDataTable.row( node ).data();
 		
-		mainDataTable.row(node).remove().draw( false );
-		
 		if(this.id=="takenButton"){
 			takenDataTable.row.add(data).draw(true);
 			
@@ -81,6 +79,10 @@ $(document).ready(function(){
 				sessionStorage.desiredTableData = JSON.stringify([data]);
 			}
 		}
+		else{
+			return;
+		}
+		mainDataTable.row(node).remove().draw( false );
 	});
 	
 	$("#removeButton").click(function(){
@@ -138,13 +140,11 @@ function loadElementsInMainTable(){
 	for(var i=0; i<classes.length; i++){
 		var createRow = true;
 		var createDropDown = false;
-		var dropdownData = null;
 		var row = document.createElement("tr");
 		for(var j=0; j<classes[i].length; j++){
 			var colData = classes[i][j];
 			
-			if(j==1 && classes[i][j].length == 4){
-				dropdownData = classes[i][j];
+			if(j==1 && classes[i][j][0] == "Elective"){
 				createDropDown = true;
 			}
 			
@@ -165,25 +165,26 @@ function loadElementsInMainTable(){
 				var menuButton = document.createElement("button");
 				//menuButton.setAttribute("class","btn btn-secondary dropdown-toggle");
 				menuButton.setAttribute("type","button");
+				menuButton.setAttribute("class","btn");
 				menuButton.setAttribute("data-toggle","dropdown");
-				menuButton.setAttribute("aria-haspopup","true");
-				menuButton.setAttribute("aria-expanded","false");
-				menuButton.innerHTML = dropdownData[0];
+				menuButton.setAttribute("data", colData);
+				menuButton.innerHTML = colData[0];
 				
 				var menu = document.createElement("div");
 				menu.setAttribute("class", "dropdown-menu");
-				menu.setAttribute("aria-labelledby", "dropdownMenuButton");
 				
-				for(var k=1; k<dropdownData.length; k++){
+				for(var k=1; k<colData.length; k++){
 					var item = document.createElement("a");
 					item.setAttribute("class", "dropdown-item");
-					item.setAttribute("href", "#");
-					var itemData = document.createTextNode(dropdownData[k]);
+					item.setAttribute("id", "ElectiveChoice");
+					var itemData = document.createTextNode(colData[k]);
 					item.appendChild(itemData);
 					menu.appendChild(item);
 				}
-				col.appendChild(menu);
-				row.appendChild(menuButton);
+				var div = document.createElement("div");
+				div.appendChild(menu);
+				div.appendChild(menuButton);
+				col.appendChild(div);
 				row.appendChild(col);
 				
 				createDropDown = false; 
@@ -207,3 +208,26 @@ function loadElementsInMainTable(){
 
 function createButtons(){return $("<div class='row'><button class='btn btn-secondary btn-sm m-2' type='button' id='takenButton'>Taken</button><button class='btn btn-secondary btn-sm m-2' type='button' id='desiredButton'>Desired</button></div>");}
 
+function getNParent(object, number){
+	if(number == 0){return object;}
+	
+	return(getNParent($(object).parent(), number-1));
+	
+}
+
+window.onclick = function(event) {
+	if(event.target.matches("#ElectiveChoice")){
+		var oldData = mainDataTable.row(getNParent(event.target, 3)).data();
+		console.log(oldData);
+		var newData = oldData[1];
+		var data = $(newData).children(".btn").get(0);
+		data.innerHTML = event.target.innerHTML;
+		oldData[1] = $(data).parent().html()
+		console.log(oldData);
+		mainDataTable.row(getNParent(event.target, 4)).remove().draw(false);
+		mainDataTable.row.add(oldData).draw(true);
+		
+	}
+	
+	
+}
