@@ -6,6 +6,10 @@ var classNames = ["Introduction to Computer Science", "PYTHON-BASED COMPUTING: B
 var classCredits = [3.0, 3.0, 4.0, 6.0];
 var semesters = [[1, ["CSCI101", "CSCI250", "MATH112", "CSCI370"], ["Introduction to Computer Science", "PYTHON-BASED COMPUTING: BUILDING A SENSOR SYSTEM", "CALCULUS FOR SCIENTISTS AND ENGINEERS II", "ADVANCED SOFTWARE ENGINEERING"], [3.0, 3.0, 4.0, 6.0]], [2, ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"], ["INTRODUCTION TO THE LINUX OPERATING SYSTEM", "INTRODUCTION TO DATA SCIENCE", "COMPUTER ORGANIZATION", "CALCULUS FOR SCIENTISTS AND ENGINEERS III", "DIFFERENTIAL EQUATIONS"], [1.0, 3.0, 3.0, 4.0, 3.0]]];
 
+$(document).ready(function(){
+	loadElements(semesterContainer);
+} );
+
 function loadElements(semesterContainer) {
     for (var i = 0; i < semesters.legnth; i++) {
         var semester = document.createElement("div");
@@ -47,7 +51,7 @@ function loadElements(semesterContainer) {
             semester.appendChild(classDiv);
             semester.appendChild(semesDiv);
         }
-        semesterContainer.write(semester);
+        semesterContainer.appendChild(semester);
     }
 }
 
