@@ -1,0 +1,14 @@
+{
+  "name": "Dantam Scheduler",
+  "version": "1.0.0",
+  "description": "automatic class sceduler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Kaiser, Sebastian Cabrol, Michael Lesartre, Taewoo Kim",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
