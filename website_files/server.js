@@ -21,7 +21,12 @@ app.get('/schedule' /*root url*/, (req, res)=>{
 
 app.get('/courseCatalogData', (req, res) =>{
 	res.sendFile('courseCatalogData.json', {root: path.join(__dirname)});
-	
+
+});
+
+app.get('/majorData', (req, res) =>{
+	res.sendFile('majorData.json', {root: path.join(__dirname)});
+
 });
 
 

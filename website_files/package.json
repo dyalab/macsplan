@@ -9,6 +9,7 @@
   "author": "Nick Kaiser, Sebastian Cabrol, Michael Lesartre, Taewoo Kim",
   "license": "ISC",
   "dependencies": {
+    "angular-xmlrpc": "^1.1.1",
     "express": "^4.16.3"
   }
 }
