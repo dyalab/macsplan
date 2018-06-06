@@ -1,0 +1,19 @@
+[{
+		"name": "Bidhan Chatterjee",
+		"email": "bidhan@example.com"
+	},
+	{
+		"name": "Rameshwar Ghosh",
+		"email": "datasoftonline@example.com"
+	},
+	
+{
+"Id": "CSCI262",
+"Name": "Data Structures",
+"Credits": "3",
+"pre_req": [["CSCI261"]],
+"semester": ["F","S"]
+
+}
+
+]

@@ -21,7 +21,6 @@
     <link href="jquery.dataTables.min.css" rel="stylesheet" type="text/css">
     <!-- angular JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
-
 </head>
 
 <body ng-app="myApp" ng-controller="myCtrl" onkeydown="keyPressedFunction(event)">
@@ -46,7 +45,7 @@
 		<p></p>
 		<input type="file" id="scheduleFile" value="Import" />
 		<span style="display:inline-block; width: 9%;"></span>
-		
+
 		<button id="Export">Export Schedule</button>
 		<p></p>
 		<button id="Import">Import</button>
@@ -243,6 +242,12 @@
         <button class="btn btn-secondary" type="button" id="removeButton">
             Remove
         </button>
+        <br/>
+
+      </br/>
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="generateButton">
+          Generate Schedule!
+        </button>
 
     </div>
     <!-- /.container-fluid-->
@@ -262,7 +267,9 @@
 </body>
 
 <!-- Our Javascript files -->
+<script src="loadCourses.js"></script>
 <script src="DropdownMenus.js"></script>
 <script src="DataTables.js"></script>
+<script src="sendToBackEnd.js"></script>
 
 </html>

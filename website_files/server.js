@@ -10,12 +10,23 @@ const express = require('express');
 const path = require('path');
 const app = express();
 app.use(express.static(__dirname));
+
 app.get('/' /*root url*/, (req, res)=>{
   res.sendFile('input.html',{root: path.join(__dirname)});
 });
 
 app.get('/schedule' /*root url*/, (req, res)=>{
   res.sendFile('schedule.html',{root: path.join(__dirname)});
+});
+
+app.get('/courseCatalogData', (req, res) =>{
+	res.sendFile('courseCatalogData.json', {root: path.join(__dirname)});
+
+});
+
+app.get('/majorData', (req, res) =>{
+	res.sendFile('majorData.json', {root: path.join(__dirname)});
+
 });
 
 
