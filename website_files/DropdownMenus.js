@@ -60,6 +60,7 @@ for (var i = 2015; i < 2020; i++){
 //TODO:filling in ASI and minor dropdown (There's more ASI options so it needs to be a separate one)
 
 //filling in number of semesters dropdown
+>>>>>>> master
 for (var i = 1; i <= 10; i++){
 	var node = document.createElement("a");
   node.setAttribute("class", "dropdown-item");
@@ -71,7 +72,6 @@ for (var i = 1; i <= 10; i++){
 
 
 $(document).ready(function(){
-
 
 //Event Handlers for the dropdown items/////////////////////////////////////////////////
 $("#bulletinOptions a").click(function(){
@@ -92,7 +92,6 @@ $( '#majorOptions a' ).click(function() {
 	  }
 	  else{
 		  if (index !== -1) Major.splice(index, 1);
-
 	  }
 
 	sessionStorage.setItem("major",JSON.stringify(Major));
@@ -108,7 +107,6 @@ $( '#minorOptions a' ).click(function() {
 	  }
 	  else{
 		  if (index !== -1) Minor.splice(index, 1);
-
 	  }
 
    sessionStorage.setItem("minor",JSON.stringify(Minor));

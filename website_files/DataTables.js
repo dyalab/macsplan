@@ -54,7 +54,6 @@ $(document).ready(function(){
 	$("#dataTable tbody").on("click", "button", function(){
 		var node = $(this).parent().parent();
 		var data = mainDataTable.row( node ).data();
-		
 		if(this.id=="takenButton"){
 			if(isInTable(data[1], takenDataTable)){
 				takenDataTable.row.add(data).draw(true);
@@ -189,14 +188,12 @@ function loadElementsInMainTable(){
 				col.appendChild(colInfo);
 				row.appendChild(col);
 			}
-			
 		}
 		var col = document.createElement("td");
 		$(col).append(createButtons);
 		row.appendChild(col);
 		if(createRow){
-			mainDataTable.row.add(row).draw(true);
-			
+			mainDataTable.row.add(row).draw(true);	
 		}
 	}
 }
