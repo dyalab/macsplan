@@ -1,4 +1,4 @@
-  
+
   //reference variables for HTML elements
   var majorDropDown = document.getElementById("majorOptions");
   var minorDropDown = document.getElementById("minorOptions");
@@ -13,38 +13,54 @@
   var ASI = "";
   var startsem = sessionStorage.getItem("startsem") || "";
 
-  
-//////FIlling in all the dropdown menu ITEMS ///////////////////////////////////////////////////////  
+  //angularJS. This is so that the display on the cards will be updated with saved values when refreshed
+  var app = angular.module('myApp', []);
+  app.controller('myCtrl', function($scope) {
+  	$scope.major = Major.toString();
+  	$scope.minor = Minor.toString();
+  	$scope.ASI = ASI;
+  	$scope.bulYear = bulletinYear;
+  	$scope.startsem = startsem;
+  	$scope.numS = numSemester;
+  });
+//////FIlling in all the dropdown menu ITEMS ///////////////////////////////////////////////////////
+
+//filling in Major drop down
+//NOTE: uses variables intialized in loadCourses.js
+
+/*degreeOoptions is for test purposes. Leave commented out.
+  var degreeOptions = ["Applied Mathematics & Statistics","Chemical Engineering","Chemical and Biochemical Engineering","Chemistry","Civil Engineering","Computer Science","Economics & Business","Electrical Engineering",
+  "Engineering Physics","Environmental Engineering",
+  "Geological Engineering","Geophysical Engineering",
+  "Mechanical Engineering","Metallurgical & Materials Engineering","Mining Engineering"];
+  */
+
+majorCatalogDone.then(function(){
+  for (var i= 0; i < majorCatalog.length; i++){
+    var node = document.createElement("a");
+    node.setAttribute("class", "dropdown-item");
+    node.setAttribute("href","#");
+    var textnode = document.createTextNode(majorCatalog[i].Id);
+    node.appendChild(textnode);
+    majorDropDown.appendChild(node);
+  }
+});
+
 //fill in Bulletin Year
 for (var i = 2015; i < 2020; i++){
    var node = document.createElement("a");
   node.setAttribute("class", "dropdown-item");
   node.setAttribute("href","#");
   node.innerHTML = i + "-" + (i+1);
-bulletinDropDown.appendChild(node);
+  bulletinDropDown.appendChild(node);
 }
 
-//filling in Major and Minor drop down
-//TODO: make sure the names are derived from JSOn objects of all the degrees
-  var degreeOptions = ["Applied Mathematics & Statistics","Chemical Engineering","Chemical and Biochemical Engineering","Chemistry","Civil Engineering","Computer Science","Economics & Business","Electrical Engineering",
-  "Engineering Physics","Environmental Engineering",
-  "Geological Engineering","Geophysical Engineering",
-  "Mechanical Engineering","Metallurgical & Materials Engineering","Mining Engineering"];
-for (var i= 0; i < degreeOptions.length; i++){
-  var node = document.createElement("a");
-  node.setAttribute("class", "dropdown-item");
-  node.setAttribute("href","#");  
-  var textnode = document.createTextNode(degreeOptions[i]);
-  node.appendChild(textnode);
-  majorDropDown.appendChild(node);
-  
-  var clone = node.cloneNode(true);
-  minorDropDown.appendChild(clone);
-}
 
-//TODO:filling in ASI dropdown (There's more ASI options so it needs to be a separate one)
 
-//filling in number of semesters dropdown 
+//TODO:filling in ASI and minor dropdown (There's more ASI options so it needs to be a separate one)
+
+//filling in number of semesters dropdown
+>>>>>>> master
 for (var i = 1; i <= 10; i++){
 	var node = document.createElement("a");
   node.setAttribute("class", "dropdown-item");
@@ -54,21 +70,8 @@ for (var i = 1; i <= 10; i++){
 }
 //End of filling in items for dropdown menus //////////////////////////////////////////////////////////////////////////
 
-//angular. This is so that the display on the cards will be updated with saved values when refreshed
-var app = angular.module('myApp', []);
-app.controller('myCtrl', function($scope) {
-	$scope.major = Major.toString();
-	$scope.minor = Minor.toString();
-	$scope.ASI = ASI;
-	$scope.bulYear = bulletinYear;
-	$scope.startsem = startsem;
-	$scope.numS = numSemester;
-});
-
 
 $(document).ready(function(){
-
-
 
 //Event Handlers for the dropdown items/////////////////////////////////////////////////
 $("#bulletinOptions a").click(function(){
@@ -85,11 +88,10 @@ $( '#majorOptions a' ).click(function() {
 		var index = $.inArray(selText,Major);
 		//alert(index);
 		if(index == -1){
-		    Major.push( selText );	  
+		    Major.push( selText );
 	  }
 	  else{
 		  if (index !== -1) Major.splice(index, 1);
-		  
 	  }
 
 	sessionStorage.setItem("major",JSON.stringify(Major));
@@ -101,11 +103,10 @@ $( '#minorOptions a' ).click(function() {
 		var selText = $(this).text();
 		var index = $.inArray(selText,Minor);
 		if(index == -1){
-		    Minor.push( selText );	  
+		    Minor.push( selText );
 	  }
 	  else{
 		  if (index !== -1) Minor.splice(index, 1);
-		  
 	  }
 
    sessionStorage.setItem("minor",JSON.stringify(Minor));

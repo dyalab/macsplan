@@ -58,7 +58,7 @@ function loadElements(semesterContainer) {
             semList.appendChild(uList);
             semListCon.appendChild(semList);
             classDiv.appendChild(semListCon);
-            
+
             semester.appendChild(classDiv);
             semester.appendChild(semesDiv);
         }
