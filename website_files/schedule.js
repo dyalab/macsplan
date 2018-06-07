@@ -29,15 +29,10 @@ function loadElements(semesterContainer) {
 			var id = document.createElement("span");
 			var name = document.createElement("span");
 			var credit = document.createElement("span");
-			var lock = document.createElement("span");
-			var move = document.createElement("span");
-			lock.innerHTML = "[]";
-			move.innerHTML = "[]";
+            
 			id.className = "course-id";
 			name.className = "course-name";
 			credit.className = "course-credit";
-			lock.className = "lock-label";
-			move.className = "move-label";
 			var semesDiv = document.createElement("hr");
 			semesDiv.className = "course-divider";
             id.innerHTML = semesters[i][1][j];
@@ -46,9 +41,24 @@ function loadElements(semesterContainer) {
             classDiv.appendChild(id);
             classDiv.appendChild(name);
             classDiv.appendChild(credit);
-            classDiv.appendChild(lock);
-            classDiv.appendChild(move);
-			console.log(id);
+            
+            var semListCon = document.createElement("div");
+            semListCon.className = "semester-label";
+			var semList = document.createElement("div");
+            semList.className = "dropdown-check-list";
+            semList.tabIndex = 100;
+            $(semList).append($("<span class='anchor'>Semesters</span>"));
+            var uList = document.createElement("ul");
+            uList.className = "items";
+            for(var k = 0; k < semesters.length; k++) {
+                var item = document.createElement("li");
+                item.innerHTML = "<input type='checkbox' />" + (k + 1);
+                uList.appendChild(item);
+            }
+            semList.appendChild(uList);
+            semListCon.appendChild(semList);
+            classDiv.appendChild(semListCon);
+            
             semester.appendChild(classDiv);
             semester.appendChild(semesDiv);
         }
@@ -60,6 +70,6 @@ function loadElements(semesterContainer) {
 function createInfoTable() {
     var infoTable = document.createElement("div");
     infoTable.className = "semester-info-table";
-	 $(infoTable).append($("<span class='course-id'>Course ID</span> <span class='course-name'>Course Name</span> <span class='course-credit'>Credits</span> <span class='lock-label'>Lock</span> <span class='move-label'>Move</span>"));
+	 $(infoTable).append($("<span class='course-id'>Course ID</span> <span class='course-name'>Course Name</span> <span class='course-credit'>Credits</span> <span class='semesters-label'>Desired Semesters</span>"));
     return infoTable;
 }

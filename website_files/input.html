@@ -16,8 +16,8 @@
     <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="css/schedule.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
     <link href="jquery.dataTables.min.css" rel="stylesheet" type="text/css">
     <!-- angular JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
@@ -245,6 +245,30 @@
         </button>
 
     </div>
+    
+    <div id="semesterContainer">
+    <h2 id="schedule-label">Generated Schedule</h2>
+    </div>
+    
+    <br/>
+<div class="container">
+  <div class="row">
+       <div class="col-lg-12">
+     <div class="button-group">
+        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+<ul class="dropdown-menu">
+  <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 1</a></li>
+  <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 2</a></li>
+  <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 3</a></li>
+  <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 4</a></li>
+  <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 5</a></li>
+  <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox"/>&nbsp;Option 6</a></li>
+</ul>
+  </div>
+</div>
+  </div>
+</div>
+
     <!-- /.container-fluid-->
     <!-- /.content-wrapper-->
     <!-- Bootstrap core JavaScript-->
@@ -264,5 +288,7 @@
 <!-- Our Javascript files -->
 <script src="DropdownMenus.js"></script>
 <script src="DataTables.js"></script>
+<script src="schedule.js"></script>
+
 
 </html>
