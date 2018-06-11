@@ -60,7 +60,6 @@ for (var i = 2015; i < 2020; i++){
 //TODO:filling in ASI and minor dropdown (There's more ASI options so it needs to be a separate one)
 
 //filling in number of semesters dropdown
->>>>>>> master
 for (var i = 1; i <= 10; i++){
 	var node = document.createElement("a");
   node.setAttribute("class", "dropdown-item");
