@@ -1,6 +1,7 @@
-var semesterContainer;
+var semesters = [[1, ["CSCI101", "CSCI250", "MATH112", "CSCI370"], ["Introduction to Computer Science", "PYTHON-BASED COMPUTING: BUILDING A SENSOR SYSTEM", "CALCULUS FOR SCIENTISTS AND ENGINEERS II", "ADVANCED SOFTWARE ENGINEERING"], [3.0, 3.0, 4.0, 6.0]], [2, ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"], ["INTRODUCTION TO THE LINUX OPERATING SYSTEM", "INTRODUCTION TO DATA SCIENCE", "COMPUTER ORGANIZATION", "CALCULUS FOR SCIENTISTS AND ENGINEERS III", "DIFFERENTIAL EQUATIONS"], [1.0, 3.0, 3.0, 4.0, 3.0]],[3, ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"], ["INTRODUCTION TO THE LINUX OPERATING SYSTEM", "INTRODUCTION TO DATA SCIENCE", "COMPUTER ORGANIZATION", "CALCULUS FOR SCIENTISTS AND ENGINEERS III", "DIFFERENTIAL EQUATIONS"], [1.0, 3.0, 3.0, 4.0, 3.0]],[4, ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"], ["INTRODUCTION TO THE LINUX OPERATING SYSTEM", "INTRODUCTION TO DATA SCIENCE", "COMPUTER ORGANIZATION", "CALCULUS FOR SCIENTISTS AND ENGINEERS III", "DIFFERENTIAL EQUATIONS"], [1.0, 3.0, 3.0, 4.0, 3.0]]];
 
-var semesters = [[1, ["CSCI101", "CSCI250", "MATH112", "CSCI370"], ["Introduction to Computer Science", "PYTHON-BASED COMPUTING: BUILDING A SENSOR SYSTEM", "CALCULUS FOR SCIENTISTS AND ENGINEERS II", "ADVANCED SOFTWARE ENGINEERING"], [3.0, 3.0, 4.0, 6.0]], [2, ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"], ["INTRODUCTION TO THE LINUX OPERATING SYSTEM", "INTRODUCTION TO DATA SCIENCE", "COMPUTER ORGANIZATION", "CALCULUS FOR SCIENTISTS AND ENGINEERS III", "DIFFERENTIAL EQUATIONS"], [1.0, 3.0, 3.0, 4.0, 3.0]]];
+var dropDownLists = document.getElementsByClassName("dropdown-check-list");
+var checkListItems = document.getElementsByClassName("items");
 
 $(document).ready(function(){
 	semesterContainer = document.getElementById("semesterContainer");
@@ -9,6 +10,7 @@ $(document).ready(function(){
 } );
 
 function loadElements(semesterContainer) {
+    var num = 0;
     for (var i = 0; i < semesters.length; i++) {
 		
         var semester = document.createElement("div");
@@ -47,7 +49,8 @@ function loadElements(semesterContainer) {
 			var semList = document.createElement("div");
             semList.className = "dropdown-check-list";
             semList.tabIndex = 100;
-            $(semList).append($("<span class='anchor'>Semesters</span>"));
+            $(semList).append($("<span class='anchor' value=" + num + ">Semesters</span>"));
+            num++;
             var uList = document.createElement("ul");
             uList.className = "items";
             for(var k = 0; k < semesters.length; k++) {
@@ -64,6 +67,7 @@ function loadElements(semesterContainer) {
         }
         semesterContainer.appendChild(semester);
 		semesterContainer.appendChild(document.createElement("br"));
+        setUpCheckBoxes();
     }
 }
 
@@ -72,4 +76,25 @@ function createInfoTable() {
     infoTable.className = "semester-info-table";
 	 $(infoTable).append($("<span class='course-id'>Course ID</span> <span class='course-name'>Course Name</span> <span class='course-credit'>Credits</span> <span class='semesters-label'>Desired Semesters</span>"));
     return infoTable;
+}
+
+function setUpCheckBoxes() {
+    for(var i = 0; i < dropDownLists.length; i++) {
+        dropDownLists[i].getElementsByClassName("anchor")[0].onclick = function(evt) {
+            console.log(this);
+            var value = $(this).attr('value');
+            console.log(value);
+            if(checkListItems[value].classList.contains('visible')) {
+                checkListItems[value].classList.remove('visible');
+                checkListItems[value].style.display = "none";
+            }
+            else {
+                checkListItems[value].classList.add('visible');
+                checkListItems[value].style.display = "block";
+            }
+        }
+        checkListItems[i].onblur = function(evt) {
+            checkListItems[i].classList.remove('visible');
+        }
+    }
 }

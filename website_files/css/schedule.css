@@ -60,13 +60,6 @@ span {
     text-align: center;
 }
 
-.move-label {
-    position: relative;
-    width: 12%;
-    margin: 0px;
-    text-align: center;
-}
-
 .dropdown-check-list {
   display: inline-block;
 }
@@ -105,6 +98,7 @@ span {
   margin: 0;
   border: 1px solid #ccc;
   border-top: none;
+    text-align: left;
 }
 
 .dropdown-check-list ul.items li {
