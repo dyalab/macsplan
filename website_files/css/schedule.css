@@ -49,7 +49,6 @@ span {
     position: relative;
     width: 15%;
     margin: 0px;
-    text-align: center;
 }
 
 .semester-label {
@@ -57,7 +56,6 @@ span {
     position: relative;
     width: 23%;
     margin: 0pxl;
-    text-align: center;
 }
 
 .dropdown-check-list {
