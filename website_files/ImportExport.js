@@ -15,11 +15,29 @@ $(document).ready(function(){
 			document.getElementById('result').value = formatted;
 		}
   
-		fr.readAsText(files.item(0));
+		var JSONimport = files.item(0);
+		loadDataTablesFromImportFile(JSONimport);
+		
 	};
 	
 	document.getElementById('Export').onclick = function() {
 		var mainTable = document.getElementById('dataTable');
+		
+		var JSONexport = [];
+		
+		var takenExport = [];
+		var desiredExport = [];
+		
+		takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+			takenExport.push(this.data());
+		});
+		
+		desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+			desiredExport.push(this.data());
+		});
+		
+		JSONexport.push(takenExport);
+		JSONexport.push(desiredExport);
 		
 		var rows = mainTable.rows;
 		var $th = $('table th');
@@ -42,3 +60,34 @@ $(document).ready(function(){
 	};
 		
 });
+
+
+function loadDataTablesFromImportFile(var JSONimport){
+	
+	takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+		takenDataTable.row(this.data()).remove().draw(false);
+	});
+	
+	desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+		desiredDataTable.row(this.data()).remove().draw(false);
+	});
+	
+	mainDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+		mainDataTable.row(this.data()).remove().draw(false);
+	});
+	
+	takenTableData = JSONimport[1];
+	desiredTableData = JSONimport[2];
+	sessionStorage.takenTableData = takenTableData;
+	sessionStorage.desiredTableData = desiredTableData;
+	
+	for(var i=0; i<takenTableData.length; i++){
+		takenDataTable.row.add(takenTableData[i]).draw(true);
+	}
+	
+	for(var i=0; i<desiredTableData.length; i++){
+		desiredDataTable.row.add(desiredTableData[i]).draw(true);
+	}
+	loadElementsInMainTable();
+	
+}
