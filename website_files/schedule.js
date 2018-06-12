@@ -4,9 +4,7 @@ var dropDownLists = document.getElementsByClassName("dropdown-check-list");
 var checkListItems = document.getElementsByClassName("items");
 
 $(document).ready(function(){
-	semesterContainer = document.getElementById("semesterContainer");
 	
-	loadElements(semesterContainer);
 } );
 
 function loadElements(semesterContainer) {
@@ -123,15 +121,12 @@ function modifiedReturn() {
 			for(var k = 0; k < checkboxs.length; k++) {
 				if(checkboxs[k].checked) {
 					desiredSems.push(k + 1);
-					if(i == 0) {
-						console.log((j + 1) + '.' + (k + 1));
-					}
 				}
 			}
 			course = generatedSchedule[i][j];
-			for(var k = 2; k < inputValues.length; k++) {
-				if(inputValues[k][0] == course) {
-					inputValues[k][1] = desiredSems;
+			for(var k = 2; k < modify.length; k++) {
+				if(modify[k][0] == course) {
+					 modify[k][1] = desiredSems;
 					break;
 				}
 			}

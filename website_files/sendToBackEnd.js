@@ -22,14 +22,14 @@ function ReadyClasses(input, typeList, bulletin, id){
   console.log(selectedType);
 
   for(var i = 0; i < selectedType.Classes.length; i++){
-      input.push(new InputClass(selectedType.Classes[i]));
+      degree.push(selectedType.Classes[i]);
   }
 
   for (var i = 0; i < selectedType.Electives.length; i++){
       var name = selectedType.Electives[i][0];
       var count = Number(selectedType.Electives[i][1]);
       for (var j = 0; j < count; j++){
-      input.push(new InputClass(name));
+      degree.push(name);
     }
   }
 }
@@ -39,39 +39,43 @@ function ReadyClasses(input, typeList, bulletin, id){
 $("#generateButton").click(function(){
 	//all front-end input preparation is done here.
 	inputValues = [];
+    taken = [];
+    degree = [];
+    modify = [];
 
+    /*current inputValue format:
+        {
+        "taken":[],
+        "degree":["and",other classes stuff],
+        "modify":[[class, [1,2,3,4]], [asdf, [1,2,4]]
+        }
+*/
 	for (var i = 0; i < Major.length; i ++){
 		ReadyClasses(inputValues,majorCatalog,bulletinYear,Major[i]);
 	}
 	//TODO: call this function for minor, asi too
 
 	//fixes the taken classes to set their taken value to true and puts in the appropriate class where electives are
-	for(var i=0; i<inputValues.length; i++){
-		takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-			if(this.data()[0]==inputValues[i].id){
-				inputValues[i].taken = true;
-			}
-			else if(inputValues[i].id[4] == "x" && this.data()[0].slice(0,4) == inputValues[i].id.slice(0,4)){
-				inputValues[i].id = this.data()[0];
-				inputValues[i].taken = true;
-			}
-		});
-
+	for(var i=0; i<degree.length; i++){
 		desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
 
 			if(inputValues[i].id.indexOf('xxx') != -1 && this.data()[0].slice(0,4) == inputValues[i].id.slice(0,4)){
 				inputValues[i].id = this.data()[0];
 			}
 		});
-
+   
 	}
-
+    
+    takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+        taken.push(this.data()[0]);
+    });
 	//TODO: for Nick, For all classes desired, update class name if it’s just electives (ex. CSCI4xx -> CSCI470)
 
 
 	//For class in InputValue:
 	//Make desiredSemester array be 1 to numberOfSemester decided
-	var semesterArray = [];
+	/*
+    var semesterArray = [];
 	for (var i = 1 ; i <= numSemester; i++){
 		semesterArray.push(i);
 	}
@@ -82,7 +86,16 @@ $("#generateButton").click(function(){
 
 	//puts the start semester and number of semester object in beginning of array.
 	inputValues.unshift({Starting_semester: startsem, NumberOfSemesters: numSemester});
+    */
+    
+    inputValues.push(taken);
+    inputValues.push(degrees);
+    inputValues.push(modify);
 
 
 	console.log(JSON.stringify(inputValues));
+    
+         var semesterContainer = document.getElementById("semesterContainer");
+	
+        loadElements(semesterContainer);
 	});
