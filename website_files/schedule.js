@@ -1,4 +1,4 @@
-var  generatedSchedule = [["CSCI101", "CSCI250", "MATH112", "CSCI370"], ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"]];
+var  generatedSchedule = [["CSCI101", "CSCI298", "MATH112", "CSCI370"], ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"]];
 
 var dropDownLists = document.getElementsByClassName("dropdown-check-list");
 var checkListItems = document.getElementsByClassName("items");
@@ -39,12 +39,13 @@ function loadElements(semesterContainer) {
 			var courseName = "NOT FOUND";
 			var courseCredits = "NOT FOUND";
 			for(var k = 0; k < courseCatalog.length; k++) {
-				if(courseCatalog[k][0] == courseID) {
-					courseName = courseCatalog[k][1];
-					if(courseCatalog[k][2].valueof() == courseCatalog[k][3].valueof()) {
-						courseCredits = courseCatalog[k][2];
+
+				if(courseCatalog[k].Id == courseID) {
+					courseName = courseCatalog[k].Name;
+					if(courseCatalog[k].Min_Credits == courseCatalog[k].Max_Credits) {
+						courseCredits = courseCatalog[k].Min_Credits;
 					} else {
-					courseCredits = courseCatalog[k][3] + "-" + courseCatalog[k][2];
+					courseCredits = courseCatalog[k].Min_Credits + "-" + courseCatalog[k].Max_Credits;
 					}
 					break;
 				}
