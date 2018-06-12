@@ -54,8 +54,10 @@ $(document).ready(function(){
 			var formatted = JSON.stringify(result, null, 2);
 			document.getElementById('result').value = formatted;
 		}
-
-	 var JSONimport =	files.item(0); //this is our array imported from JSON FILE, TODO: for Sebastian, figure out how to actually get this
+  
+var JSONimport =	files.item(0); //this is our array imported from JSON FILE, TODO: for Sebastian, figure out how to actually get this
+		loadDataTablesFromImportFile(JSONimport);
+		
 
 	 //importing dropdown menu items
    bulletinYear = JSONimport[0].Bulletin;
@@ -116,6 +118,22 @@ cardText.innerHTML = startsem;
 
 
 		var mainTable = document.getElementById('dataTable');
+		
+		var takenExport = [];
+		var desiredExport = [];
+		
+		takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+			takenExport.push(this.data());
+		});
+		
+		desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+			desiredExport.push(this.data());
+		});
+		
+		JSONexport.push(takenExport);
+		JSONexport.push(desiredExport);
+		
+
 
 		var rows = mainTable.rows;
 		var $th = $('table th');
@@ -140,3 +158,34 @@ cardText.innerHTML = startsem;
 	};
 
 });
+
+
+function loadDataTablesFromImportFile(var JSONimport){
+	
+	takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+		takenDataTable.row(this.data()).remove().draw(false);
+	});
+	
+	desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+		desiredDataTable.row(this.data()).remove().draw(false);
+	});
+	
+	mainDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+		mainDataTable.row(this.data()).remove().draw(false);
+	});
+	
+	takenTableData = JSONimport[1];
+	desiredTableData = JSONimport[2];
+	sessionStorage.takenTableData = takenTableData;
+	sessionStorage.desiredTableData = desiredTableData;
+	
+	for(var i=0; i<takenTableData.length; i++){
+		takenDataTable.row.add(takenTableData[i]).draw(true);
+	}
+	
+	for(var i=0; i<desiredTableData.length; i++){
+		desiredDataTable.row.add(desiredTableData[i]).draw(true);
+	}
+	loadElementsInMainTable();
+	
+}
