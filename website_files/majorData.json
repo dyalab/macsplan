@@ -1,0 +1,9 @@
+[
+  {
+	“Id”: “Computer Science”,
+	“Bulletin”: “2017-2018”,
+	“classes”: ["CSCI101","CSCI250","CSCI274","PHGN100","PHGN200","MATH113","MATH225","MATH332"], #core classes
+	“Electives”: [[HASS3xx,2 ],[CSCI4xx,5 ]]
+  }
+
+]

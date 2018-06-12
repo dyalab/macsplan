@@ -11,7 +11,7 @@ var takenDataTable = null;
 var desiredDataTable =  null;
 var deleteKeyCode = 46;
 
-courseJSONDone.done(fucntion(){
+courseJSONDone.done(function(){
  for(var i=0; i<courseCatalog.length; i++){
 		var newClass = [];
 		newClass.push(courseCatalog[i][0]);
