@@ -18,7 +18,7 @@
   app.controller('myCtrl', function($scope) {
   	$scope.major = Major.toString();
   	$scope.minor = Minor.toString();
-  	$scope.ASI = ASI;
+  	$scope.ASI = ASI.toString();
   	$scope.bulYear = bulletinYear;
   	$scope.startsem = startsem;
   	$scope.numS = numSemester;
