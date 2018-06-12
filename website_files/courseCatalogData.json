@@ -1,5 +1,14 @@
 [
 {
+"Id": "HASSxxx",
+"Name": ["Elective", "HASS300", "HASS301", "HASS302", "HASS303", "HASS304"],
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
 "Id": "CSCI101",
 "Name": "INTRODUCTION TO COMPUTER SCIENCE",
 "Max_Credits": "3.0",
