@@ -93,6 +93,28 @@ cardText.innerHTML = startsem;
 
 
 	document.getElementById('Export').onclick = function() {
+			//prepare JSON array for export:
+			var JSONexport = [];
+			var firstElement = { "Bulletin": bulletinYear,
+				"Major": Major,
+				"Minor": Minor,
+				"ASI": ASI,
+				"NumSemester": numSemester,
+				"StartingSemester": startsem,
+			};
+			JSONexport.push(firstElement);
+			//TODO: Nick fills it with his stuff
+
+
+			//TODO: Sebastian, export this out to user's preferred location
+			JSON.stringify(JSONexport); //send this as export JSON files
+
+
+
+
+
+
+
 		var mainTable = document.getElementById('dataTable');
 
 		var rows = mainTable.rows;
@@ -113,6 +135,8 @@ cardText.innerHTML = startsem;
 
 		var container = document.getElementById('container');
 		container.appendChild(a);
+
+
 	};
 
 });
