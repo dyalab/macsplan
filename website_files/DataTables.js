@@ -12,13 +12,18 @@ var desiredDataTable =  null;
 var deleteKeyCode = 46;
 
 courseJSONDone.done(fucntion(){
-  for(var i=0; i<courseCatalog.length; i++){
-    var newClass = [];
-    newClass.push(courseCatalog[i][0]);
-    newClass.push(courseCatalog[i][1]);
-    newClass.push(courseCatalog[i][2]);
-    classes.push(newClass);
-  }
+ for(var i=0; i<courseCatalog.length; i++){
+		var newClass = [];
+		newClass.push(courseCatalog[i][0]);
+		newClass.push(courseCatalog[i][1]);
+
+		if(courseCatalog[i][2] != courseCatalog[i][3]){
+			newClass.push(courseCatalog[i][2] +"-"+courseCatalog[i][3]);
+		}
+
+		newClass.push(courseCatalog[i][2]);
+		classes.push(newClass);
+	}
 });
 
 $(document).ready(function(){
