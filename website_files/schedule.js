@@ -37,6 +37,7 @@ function loadElements(semesterContainer) {
 			var courseName = "NOT FOUND";
 			var courseCredits = "NOT FOUND";
 			for(var k = 0; k < courseCatalog.length; k++) {
+
 				if(courseCatalog[k].Id == courseID) {
 					courseName = courseCatalog[k].Name;
 					if(courseCatalog[k].Min_Credits == courseCatalog[k].Max_Credits) {
