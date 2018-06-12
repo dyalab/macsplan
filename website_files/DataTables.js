@@ -1,6 +1,4 @@
-var classes = [["CSCI101", "Intro to Programming", 3],["ABCDxxx", ["Elective", ["ABCD111", "test1"], ["ABCD222", "test2"], ["ABCD333", "test3"]], 3],["CSCI262", "Data Structures", 3],
- ["CBEN110", "Fundementals of Biology 1", 4],["CHGN121", "Principles of Chemistry", 4],["MATH111", "Calculus for Scientists and Engineers", 3],
- ["PHGN100", "Physics 1", 4.5],["PHGN200", "Physics 2", 4.5],["MATH225", "Differential Equations", 3]];
+var classes = [];
 var takenTableData = JSON.parse(sessionStorage.getItem("takenTableData")) || [];
 var desiredTableData = JSON.parse(sessionStorage.getItem("desiredTableData")) || [];
 var mainTable = document.getElementById("mainTableBody");
@@ -10,21 +8,6 @@ var mainDataTable = null;
 var takenDataTable = null;
 var desiredDataTable =  null;
 var deleteKeyCode = 46;
-
-courseJSONDone.done(function(){
- for(var i=0; i<courseCatalog.length; i++){
-		var newClass = [];
-		newClass.push(courseCatalog[i][0]);
-		newClass.push(courseCatalog[i][1]);
-
-		if(courseCatalog[i][2] != courseCatalog[i][3]){
-			newClass.push(courseCatalog[i][2] +"-"+courseCatalog[i][3]);
-		}
-
-		newClass.push(courseCatalog[i][2]);
-		classes.push(newClass);
-	}
-});
 
 $(document).ready(function(){
 
@@ -42,6 +25,9 @@ $(document).ready(function(){
 		"iDisplayLength":5
     } );
 
+	
+	
+	
 	if(sessionStorage.takenTableData){
 		loadElementsInClassTables(takenDataTable, takenTableData);
 	}
@@ -49,8 +35,24 @@ $(document).ready(function(){
 	if(sessionStorage.desiredTableData){
 		loadElementsInClassTables(desiredDataTable, desiredTableData);
 	}
+	
+	courseJSONDone.done(function(){
+		for(var i=0; i<courseCatalog.length; i++){
+			var newClass = [];
+			newClass.push(courseCatalog[i].Id);
+			newClass.push(courseCatalog[i].Name);
 
-	loadElementsInMainTable();
+			if(courseCatalog[i].Max_Credits != courseCatalog[i].Min_Credits){
+				newClass.push(courseCatalog[i].Min_Credits +"-"+courseCatalog[i].Max_Credits);
+			}else{
+				newClass.push(courseCatalog[i].Min_Credits);
+			}
+			classes.push(newClass);
+		}
+		loadElementsInMainTable();
+	});
+	
+	
 
 	$('#personalClassesWrapper tbody').on( 'click', 'tr', function () {
 		if ( $(this).hasClass('selected') ) {

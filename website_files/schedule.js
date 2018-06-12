@@ -41,7 +41,7 @@ function loadElements(semesterContainer) {
 			for(var k = 0; k < courseCatalog.length; k++) {
 				if(courseCatalog[k][0] == courseID) {
 					courseName = courseCatalog[k][1];
-					if(courseCatalog[k][2] == courseCatalog[k][3]) {
+					if(courseCatalog[k][2].valueof() == courseCatalog[k][3].valueof()) {
 						courseCredits = courseCatalog[k][2];
 					} else {
 					courseCredits = courseCatalog[k][3] + "-" + courseCatalog[k][2];
