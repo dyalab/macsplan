@@ -1,4 +1,4 @@
-var semesters = [["CSCI101", "CSCI250", "MATH112", "CSCI370"], ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"]];
+var  generatedSchedule = [["CSCI101", "CSCI250", "MATH112", "CSCI370"], ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"]];
 
 var dropDownLists = document.getElementsByClassName("dropdown-check-list");
 var checkListItems = document.getElementsByClassName("items");
@@ -12,7 +12,7 @@ $(document).ready(function(){
 function loadElements(semesterContainer) {
     $(semesterContainer).append($("<h2 id='schedule-label'>Generated Schedule</h2>"));
     var num = 0;
-    for (var i = 0; i < semesters.length; i++) {
+    for (var i = 0; i < generatedSchedule.length; i++) {
 		
         var semester = document.createElement("div");
         semester.className = "semester";
@@ -26,23 +26,37 @@ function loadElements(semesterContainer) {
         semester.appendChild(createInfoTable());
         semester.appendChild(semDiv);
         
-        for (var j = 0; j < semesters[i].length; j++) {
+        for (var j = 0; j < generatedSchedule[i].length; j++) {
 			var classDiv = document.createElement("div");
 			classDiv.className = "course";
             
+			var courseID = generatedSchedule[i][j]
 			var id = document.createElement("span");
             id.className = "course-id";
-            id.innerHTML = semesters[i][j];
+            id.innerHTML = courseID;
             classDiv.appendChild(id);
 
+			var courseName = "NOT FOUND";
+			var courseCredits = "NOT FOUND";
+			for(var k = 0; k < courseCatalog.length; k++) {
+				if(courseCatalog[k][0] == courseID) {
+					courseName = courseCatalog[k][1];
+					if(courseCatalog[k][2] == courseCatalog[k][3]) {
+						courseCredits = courseCatalog[k][2];
+					} else {
+					courseCredits = courseCatalog[k][3] + "-" + courseCatalog[k][2];
+					}
+					break;
+				}
+			}
             var name = document.createElement("span");
 			name.className = "course-name";
-            name.innerHTML = semesters[i][j]; //neet to get name from catalog
+            name.innerHTML = courseName;
             classDiv.appendChild(name);
 
             var credit = document.createElement("span");
 			credit.className = "course-credit";
-            credit.innerHTML = semesters[i][j]; //need to get credits from catalog
+            credit.innerHTML = courseCredits;
             classDiv.appendChild(credit);
             
             var semListCon = document.createElement("div");
@@ -53,9 +67,9 @@ function loadElements(semesterContainer) {
             num++;
             var uList = document.createElement("ul");
             uList.className = "items";
-            for(var k = 0; k < semesters.length; k++) {
+            for(var k = 0; k < generatedSchedule.length; k++) {
                 var item = document.createElement("li");
-                item.innerHTML = "<input type='checkbox' checked='true' />" + (k + 1);
+                item.innerHTML = "<input type='checkbox' class='semCheck' checked='true' />" + (k + 1);
                 uList.appendChild(item);
             }
             semList.appendChild(uList);
@@ -98,3 +112,33 @@ function setUpCheckBoxes() {
         }
     }
 }
+
+function modifiedReturn() {
+	var semesters = semesterContainer.getElementsByClassName("semester");
+	for(var i = 0; i < semesters.length; i++) {
+		var courses = semesters[i].getElementsByClassName("course");
+		for(var j = 0; j < courses.length; j++) {
+			var checkboxs = courses[j].getElementsByClassName("semCheck");
+			var desiredSems = [];
+			for(var k = 0; k < checkboxs.length; k++) {
+				if(checkboxs[k].checked) {
+					desiredSems.push(k + 1);
+					if(i == 0) {
+						console.log((j + 1) + '.' + (k + 1));
+					}
+				}
+			}
+			course = generatedSchedule[i][j];
+			for(var k = 2; k < inputValues.length; k++) {
+				if(inputValues[k][0] == course) {
+					inputValues[k][1] = desiredSems;
+					break;
+				}
+			}
+		}
+	}
+}
+
+$("#modifyButton").click(function(){
+	modifiedReturn();
+});
