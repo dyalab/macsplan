@@ -36,7 +36,7 @@ $(document).ready(function(){
 		loadElementsInClassTables(desiredDataTable, desiredTableData);
 	}
 	
-	courseJSONDone.done(function(){
+	/*courseJSONDone.done(function(){
 		for(var i=0; i<courseCatalog.length; i++){
 			var newClass = [];
 			newClass.push(courseCatalog[i].Id);
@@ -50,9 +50,15 @@ $(document).ready(function(){
 			classes.push(newClass);
 		}
 		loadElementsInMainTable();
-	});
+	});*/
+    
+    for(var i=0; i<chosenMajor.length; i++){
+        for(var j=0; j<chosenMajor[i].Classes.length; j++){
+            classes.push(chosenMajor[i].Classes[j]);
+        }
+    }
 	
-	
+	loadElementsInMainTable();
 
 	$('#personalClassesWrapper tbody').on( 'click', 'tr', function () {
 		if ( $(this).hasClass('selected') ) {

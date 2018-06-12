@@ -16,7 +16,15 @@ var majorJSONDone = $.getJSON("http://localhost:80/majorData.json", function(jso
 
 
 //variable to put into backend planner along with catalogJSON
-var inputValues = [];
+class InputVal{
+  constructor(){
+    this.taken = [];
+    this.degree= [];
+    this.modify = [];
+  }
+}
+
+var inputValues = new InputVal();
 var taken = [];
 var degree = [];
 var modify = [];

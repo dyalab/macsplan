@@ -15,11 +15,17 @@ function ReadyClasses(input, typeList, bulletin, id){
   console.log(id);
   console.log(bulletin);
   for (var i = 0; i < typeList.length; i++){
+      /*
       if (typeList[i].Id === id && typeList[i].Bulletin === bulletin){
+          selectedType = typeList[i];
+      }
+      */
+            if (typeList[i].Id === id){
           selectedType = typeList[i];
       }
   }
   console.log(selectedType);
+      console.log(selectedType.Classes);
 
   for(var i = 0; i < selectedType.Classes.length; i++){
       degree.push(selectedType.Classes[i]);
@@ -32,13 +38,14 @@ function ReadyClasses(input, typeList, bulletin, id){
       degree.push(name);
     }
   }
+    return selectedType;
 }
 
 
 
 $("#generateButton").click(function(){
 	//all front-end input preparation is done here.
-	inputValues = [];
+	inputValues = new InputVal();
     taken = [];
     degree = [];
     modify = [];
@@ -50,17 +57,19 @@ $("#generateButton").click(function(){
         "modify":[[class, [1,2,3,4]], [asdf, [1,2,4]]
         }
 */
-	for (var i = 0; i < Major.length; i ++){
-		ReadyClasses(inputValues,majorCatalog,bulletinYear,Major[i]);
+    var chosenMajor = [];
+    for (var i = 0; i < Major.length; i ++){
+		chosenMajor.push(ReadyClasses(inputValues,majorCatalog,bulletinYear,Major[i]));
 	}
+    console.log(chosenMajor);
 	//TODO: call this function for minor, asi too
-
 	//fixes the taken classes to set their taken value to true and puts in the appropriate class where electives are
 	for(var i=0; i<degree.length; i++){
 		desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
 
 			if(inputValues[i].id.indexOf('xxx') != -1 && this.data()[0].slice(0,4) == inputValues[i].id.slice(0,4)){
-				inputValues[i].id = this.data()[0];
+				degree[i] = this.data()[0];
+                desiredDataTable.row(this.data()).remove().draw(false);
 			}
 		});
    
@@ -88,9 +97,9 @@ $("#generateButton").click(function(){
 	inputValues.unshift({Starting_semester: startsem, NumberOfSemesters: numSemester});
     */
     
-    inputValues.push(taken);
-    inputValues.push(degrees);
-    inputValues.push(modify);
+    inputValues.taken = taken;
+    inputValues.degree = degree;
+    inputValues.modify = modify;
 
 
 	console.log(JSON.stringify(inputValues));

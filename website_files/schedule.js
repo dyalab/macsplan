@@ -124,15 +124,10 @@ function modifiedReturn() {
 					desiredSems.push(k + 1);
 				}
 			}
-			course = generatedSchedule[i][j];
-			for(var k = 2; k < modify.length; k++) {
-				if(modify[k][0] == course) {
-					 modify[k][1] = desiredSems;
-					break;
-				}
-			}
+			modify.push([generatedSchedule[i][j], desiredSems]);
 		}
 	}
+    console.log(modify);
 }
 
 $("#modifyButton").click(function(){
