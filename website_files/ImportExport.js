@@ -16,6 +16,7 @@ $(document).ready(function(){
 		}
   
 		fr.readAsText(files.item(0));
+		console.log(files.item(0));
 	};
 	
 	document.getElementById('Export').onclick = function() {
