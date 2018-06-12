@@ -11,9 +11,18 @@ var takenDataTable = null;
 var desiredDataTable =  null;
 var deleteKeyCode = 46;
 
+courseJSONDone.done(fucntion(){
+  for(var i=0; i<courseCatalog.length; i++){
+    var newClass = [];
+    newClass.push(courseCatalog[i][0]);
+    newClass.push(courseCatalog[i][1]);
+    newClass.push(courseCatalog[i][2]);
+    classes.push(newClass);
+  }
+});
 
 $(document).ready(function(){
-	
+
 	//NOTE: Also remember to get rid of datatable.js in js folder!!!!
 	mainDataTable = $('#dataTable').DataTable( {
         "lengthMenu": [[5, 10, 15], [5, 10, 15]],
@@ -27,17 +36,17 @@ $(document).ready(function(){
         "lengthMenu": [[5, 10, 15], [5, 10, 15]],
 		"iDisplayLength":5
     } );
-	
+
 	if(sessionStorage.takenTableData){
 		loadElementsInClassTables(takenDataTable, takenTableData);
 	}
-	
+
 	if(sessionStorage.desiredTableData){
 		loadElementsInClassTables(desiredDataTable, desiredTableData);
 	}
-	
+
 	loadElementsInMainTable();
-	
+
 	$('#personalClassesWrapper tbody').on( 'click', 'tr', function () {
 		if ( $(this).hasClass('selected') ) {
 			$(this).removeClass('selected');
@@ -49,15 +58,15 @@ $(document).ready(function(){
 			SelectedTakenRow = this;
 		}
 	} );
-	
-	
+
+
 	$("#dataTable tbody").on("click", "button", function(){
 		var node = $(this).parent().parent();
 		var data = mainDataTable.row( node ).data();
 		if(this.id=="takenButton"){
 			if(isInTable(data[1], takenDataTable)){
 				takenDataTable.row.add(data).draw(true);
-				
+
 				if(sessionStorage.takenTableData){
 					var temp = JSON.parse(sessionStorage.takenTableData);
 					temp[temp.length] = data;
@@ -71,7 +80,7 @@ $(document).ready(function(){
 		else if(this.id=="desiredButton"){
 			if(isInTable(data[1], desiredDataTable)){
 				desiredDataTable.row.add(data).draw(true);
-				
+
 				if(sessionStorage.desiredTableData){
 					var temp = JSON.parse(sessionStorage.desiredTableData);
 					temp[temp.length] = data;
@@ -87,11 +96,11 @@ $(document).ready(function(){
 		}
 		mainDataTable.row(node).remove().draw( false );
 	});
-	
+
 	$("#removeButton").click(function(){
 		RemoveButtonPressed();
 	});
-	
+
 });
 
 function keyPressedFunction(event){
@@ -116,7 +125,7 @@ function RemoveButtonPressed(){
 		else{return;}
 		removeItemFromStorage(tableUsed, data);
 		mainDataTable.row.add(data).draw(true);
-	
+
 }
 
 function loadElementsInClassTables(table, data){
@@ -128,13 +137,13 @@ function loadElementsInClassTables(table, data){
 function removeItemFromStorage(name, item){
 	var data = JSON.parse(sessionStorage.getItem(name));
 	var loc = -1;
-	
+
 	for(var i=0; i<data.length; i++){
 		if(data[i][0]==item[0]){
 			loc = i;
 		}
 	}
-	
+
 	data.splice(loc, 1);
 	sessionStorage.setItem(name, JSON.stringify(data));
 }
@@ -146,14 +155,14 @@ function loadElementsInMainTable(){
 		var row = document.createElement("tr");
 		for(var j=0; j<classes[i].length; j++){
 			var colData = classes[i][j];
-			
+
 			if(j==0 && classes[i][j].indexOf("xxx") != -1){
 				createDropDown = true;
 			}
 			if(createRow) {createRow = isInTable(classes[i][j], takenDataTable);}
 			if(createRow) {createRow = isInTable(classes[i][j], desiredDataTable);}
-			
-			
+
+
 			var col = document.createElement("td");
 			if(createDropDown && j==1){
 				var menuButton = document.createElement("button");
@@ -163,10 +172,10 @@ function loadElementsInMainTable(){
 				menuButton.setAttribute("data-toggle","dropdown");
 				menuButton.setAttribute("data", colData);
 				menuButton.innerHTML = colData[0];
-				
+
 				var menu = document.createElement("div");
 				menu.setAttribute("class", "dropdown-menu");
-				
+
 				for(var k=1; k<colData.length; k++){
 					var item = document.createElement("a");
 					item.setAttribute("class", "dropdown-item");
@@ -180,8 +189,8 @@ function loadElementsInMainTable(){
 				div.appendChild(menuButton);
 				col.appendChild(div);
 				row.appendChild(col);
-				
-				createDropDown = false; 
+
+				createDropDown = false;
 			}
 			else{
 				var colInfo = document.createTextNode(colData);
@@ -193,7 +202,7 @@ function loadElementsInMainTable(){
 		$(col).append(createButtons);
 		row.appendChild(col);
 		if(createRow){
-			mainDataTable.row.add(row).draw(true);	
+			mainDataTable.row.add(row).draw(true);
 		}
 	}
 }
@@ -202,9 +211,9 @@ function createButtons(){return $("<div class='row'><button class='btn btn-secon
 
 function getNParent(object, number){
 	if(number == 0){return object;}
-	
+
 	return(getNParent($(object).parent(), number-1));
-	
+
 }
 
 function isInTable(info, table){
@@ -232,6 +241,6 @@ window.onclick = function(event) {
 			mainDataTable.row.add(newData).draw(true);
 		}
 	}
-	
-	
+
+
 }

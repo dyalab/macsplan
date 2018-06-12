@@ -3,7 +3,7 @@
 
 
 var courseCatalog;
-$.getJSON("http://localhost:80/courseCatalogData.json", function(json){
+var courseJSONDone = $.getJSON("http://localhost:80/courseCatalogData.json", function(json){
     courseCatalog = json;
 });
 

@@ -36,6 +36,7 @@
   */
   
   majorJSONDone.done(function(){
+	 alert("DONE LOADED");
   	for (var i= 0; i < majorCatalog.length; i++){
     var node = document.createElement("a");
     node.setAttribute("class", "dropdown-item");
