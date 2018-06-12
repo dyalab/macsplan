@@ -3,13 +3,13 @@
 
 
 var courseCatalog;
-var courseJSONDone = $.getJSON("http://localhost:80/courseCatalogData.json", function(json){
+var courseJSONDone = $.getJSON("http://macsplan.mines.edu/courseCatalogData.json", function(json){
     courseCatalog = json;
 });
 
 var majorCatalog;
 
-var majorJSONDone = $.getJSON("http://localhost:80/majorData.json", function(json){
+var majorJSONDone = $.getJSON("http://macsplan.mines.edu/majorData.json", function(json){
     majorCatalog = json;
 });
 
