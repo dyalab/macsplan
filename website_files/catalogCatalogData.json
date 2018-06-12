@@ -1,0 +1,1675 @@
+[
+{
+"Id": "CSCI101"
+"Name": "INTRODUCTION TO COMPUTER SCIENCE"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI102"
+"Name": "INTRODUCTION TO COMPUTER SCIENCE - LAB"
+"Max_Credits": 1.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI198"
+"Name": "SPECIAL TOPICS"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI199"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI250"
+"Name": "PYTHON-BASED COMPUTING: BUILDING A SENSOR SYSTEM"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": []
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "CSCI260"
+"Name": "FORTRAN PROGRAMMING"
+"Max_Credits": 2.0
+"Min_Credits": 2.0
+"Pre_req": []
+"semesters": ['F']
+}
+,
+{
+"Id": "CSCI261"
+"Name": "PROGRAMMING CONCEPTS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI262"
+"Name": "DATA STRUCTURES"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['CSCI261']
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "CSCI274"
+"Name": "INTRODUCTION TO THE LINUX OPERATING SYSTEM"
+"Max_Credits": 1.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI298"
+"Name": "SPECIAL TOPICS"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI299"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI303"
+"Name": "INTRODUCTION TO DATA SCIENCE"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'CSCI101', 'CSCI261']
+"semesters": ['S']
+}
+,
+{
+"Id": "CSCI306"
+"Name": "SOFTWARE ENGINEERING"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['CSCI262']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI340"
+"Name": "COOPERATIVE EDUCATION"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": []
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "CSCI341"
+"Name": "COMPUTER ORGANIZATION"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'CSCI261', '!CSCI262']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI358"
+"Name": "DISCRETE MATHEMATICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'MATH213', 'MATH223', 'MATH224']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI370"
+"Name": "ADVANCED SOFTWARE ENGINEERING"
+"Max_Credits": 6.0
+"Min_Credits": 6.0
+"Pre_req": ['CSCI306']
+"semesters": ['Su']
+}
+,
+{
+"Id": "CSCI398"
+"Name": "SPECIAL TOPICS"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI399"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI400"
+"Name": "PRINCIPLES OF PROGRAMMING LANGUAGES"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['CSCI306']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI403"
+"Name": "DATA BASE MANAGEMENT"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['CSCI262']
+"semesters": ['F']
+}
+,
+{
+"Id": "CSCI404"
+"Name": "ARTIFICIAL INTELLIGENCE"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'CSCI262', 'CSCI358'], 'MATH201']
+"semesters": ['S']
+}
+,
+{
+"Id": "CSCI406"
+"Name": "ALGORITHMS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'CSCI262', ['∨', 'MATH213', 'MATH223', 'MATH224'], ['∨', 'MATH300', 'MATH358', 'CSCI358']]
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI410"
+"Name": "ELEMENTS OF COMPUTING SYSTEMS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'CSCI341', 'EENG383']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI422"
+"Name": "USER INTERFACES"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['CSCI262']
+"semesters": ['F']
+}
+,
+{
+"Id": "CSCI423"
+"Name": "COMPUTER SIMULATION"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'CSCI306', ['∨', 'MATH323', 'MATH201'], 'CSCI274']
+"semesters": ['F']
+}
+,
+{
+"Id": "CSCI437"
+"Name": "INTRODUCTION TO COMPUTER VISION"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'MATH201', 'EENG311', 'MATH332', 'CSCI261']
+"semesters": ['F']
+}
+,
+{
+"Id": "CSCI440"
+"Name": "PARALLEL COMPUTING FOR SCIENTISTS AND ENGINEERS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'CSCI262', 'CSCI341']
+"semesters": ['S']
+}
+,
+{
+"Id": "CSCI441"
+"Name": "COMPUTER GRAPHICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'CSCI262', 'MATH332']
+"semesters": ['F']
+}
+,
+{
+"Id": "CSCI442"
+"Name": "OPERATING SYSTEMS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'CSCI262', 'CSCI274', 'CSCI341']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI443"
+"Name": "ADVANCED PROGRAMMING CONCEPTS USING JAVA"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['CSCI306']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI444"
+"Name": "ADVANCED COMPUTER GRAPHICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['CSCI441']
+"semesters": ['S']
+}
+,
+{
+"Id": "CSCI445"
+"Name": "WEB PROGRAMMING"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'CSCI262', '!CSCI403']
+"semesters": ['F']
+}
+,
+{
+"Id": "CSCI446"
+"Name": "WEB APPLICATIONS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'CSCI262', '!CSCI403']
+"semesters": ['S']
+}
+,
+{
+"Id": "CSCI447"
+"Name": "SCIENTIFIC VISUALIZATION"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'CSCI262', 'MATH441']
+"semesters": ['F']
+}
+,
+{
+"Id": "CSCI448"
+"Name": "MOBILE APPLICATION DEVELOPMENT"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['CSCI306']
+"semesters": ['F']
+}
+,
+{
+"Id": "CSCI455"
+"Name": "GAME THEORY AND NETWORKS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'CSCI358', 'CSCI406']
+"semesters": ['F']
+}
+,
+{
+"Id": "CSCI470"
+"Name": "INTRODUCTION TO MACHINE LEARNING"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'MATH201', 'MATH332']
+"semesters": ['F']
+}
+,
+{
+"Id": "CSCI471"
+"Name": "COMPUTER NETWORKS I"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'CSCI262', 'CSCI274']
+"semesters": ['F']
+}
+,
+{
+"Id": "CSCI473"
+"Name": "HUMAN-CENTERED ROBOTICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'CSCI262', 'MATH201']
+"semesters": ['S']
+}
+,
+{
+"Id": "CSCI474"
+"Name": "INTRODUCTION TO CRYPTOGRAPHY"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'CSCI262', 'CSCI358', ['∨', 'MATH334', 'MATH335', 'MATH201']]
+"semesters": ['S']
+}
+,
+{
+"Id": "CSCI475"
+"Name": "INFORMATION SECURITY AND PRIVACY"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": []
+"semesters": ['F']
+}
+,
+{
+"Id": "CSCI477"
+"Name": "ELEMENTS OF GAMES AND GAME DEVELOPMENT"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['CSCI262']
+"semesters": ['S']
+}
+,
+{
+"Id": "CSCI480"
+"Name": "COMPUTER SCIENCE HONORS THESIS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['CSCI306']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI498"
+"Name": "SPECIAL TOPICS"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "CSCI499"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH100"
+"Name": "INTRODUCTORY TOPICS FOR CALCULUS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": []
+"semesters": ['Su']
+}
+,
+{
+"Id": "MATH111"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS I"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": []
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "MATH112"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['MATH111']
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "MATH113"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II - SHORT FORM"
+"Max_Credits": 1.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH122"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II HONORS"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['MATH111']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH198"
+"Name": "SPECIAL TOPICS"
+"Max_Credits": 6.0
+"Min_Credits": 6.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH199"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH201"
+"Name": "PROBABILITY AND STATISTICS FOR ENGINEERS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'MATH112', 'MATH122', '!MATH113']
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "MATH213"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['∨', 'MATH112', 'MATH122', '!MATH113']
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "MATH214"
+"Name": "CALCULUS FOR SCIENTIST AND ENGINEERS III - SHORT FORM"
+"Max_Credits": 1.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH223"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III HONORS"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['MATH122']
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH224"
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III HONORS"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['MATH122']
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH225"
+"Name": "DIFFERENTIAL EQUATIONS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'MATH112', 'MATH122', '!MATH113']
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "MATH235"
+"Name": "DIFFERENTIAL EQUATIONS HONORS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'MATH112', 'MATH122', '!MATH113']
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH298"
+"Name": "SPECIAL TOPICS"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH299"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH300"
+"Name": "FOUNDATIONS OF ADVANCED MATHEMATICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'MATH112', 'MATH122']
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH301"
+"Name": "INTRODUCTION TO ANALYSIS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['MATH300']
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH307"
+"Name": "INTRODUCTION TO SCIENTIFIC COMPUTING"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'MATH213', 'MATH223', 'MATH224'], ['∨', '!MATH225', '!MATH235']]
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "MATH310"
+"Name": "INTRODUCTION TO MATHEMATICAL MODELING"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['∧', 'MATH201', 'MATH225']
+"semesters": ['Su']
+}
+,
+{
+"Id": "MATH331"
+"Name": "MATHEMATICAL BIOLOGY"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'MATH225', 'MATH235'], ['∨', 'MATH213', 'MATH223', 'MATH224']]
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH332"
+"Name": "LINEAR ALGEBRA"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'MATH213', 'MATH223', 'MATH224']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH334"
+"Name": "INTRODUCTION TO PROBABILITY"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'MATH213', 'MATH223', 'MATH224']
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH335"
+"Name": "INTRODUCTION TO MATHEMATICAL STATISTICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['MATH334']
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH340"
+"Name": "COOPERATIVE EDUCATION"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": []
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "MATH342"
+"Name": "HONORS LINEAR ALGEBRA"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'MATH213', 'MATH223', 'MATH224']
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH348"
+"Name": "ADVANCED ENGINEERING MATHEMATICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'MATH225', 'MATH235'], ['∨', 'MATH213', 'MATH223', 'MATH224']]
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "MATH358"
+"Name": "DISCRETE MATHEMATICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'MATH213', 'MATH223', 'MATH224']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH398"
+"Name": "SPECIAL TOPICS"
+"Max_Credits": 6.0
+"Min_Credits": 6.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH399"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH406"
+"Name": "ALGORITHMS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'CSCI262', ['∨', 'MATH213', 'MATH223', 'MATH224'], ['∨', 'MATH358', 'CSCI358']]
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH408"
+"Name": "COMPUTATIONAL METHODS FOR DIFFERENTIAL EQUATIONS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['MATH307']
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH424"
+"Name": "INTRODUCTION TO APPLIED STATISTICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'MATH201', 'MATH335'], ['∨', 'MATH332', 'MATH342']]
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH432"
+"Name": "SPATIAL STATISTICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'MATH335', '!MATH424']
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH436"
+"Name": "ADVANCED STATISTICAL MODELING"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'MATH335', 'MATH424']
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH437"
+"Name": "MULTIVARIATE ANALYSIS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'MATH335', 'MATH201'], ['∨', 'MATH332', 'MATH342']]
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH438"
+"Name": "STOCHASTIC MODELS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['MATH334']
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH439"
+"Name": "SURVIVAL ANALYSIS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['MATH335']
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH440"
+"Name": "PARALLEL SCIENTIFIC COMPUTING"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'MATH307', 'CSCI407']
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH441"
+"Name": "COMPUTER GRAPHICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['CSCI262']
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH444"
+"Name": "ADVANCED COMPUTER GRAPHICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH447"
+"Name": "SCIENTIFIC VISUALIZATION"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'CSCI262', 'MATH441']
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH454"
+"Name": "COMPLEX ANALYSIS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'MATH225', 'MATH235'], ['∨', 'MATH213', 'MATH223', 'MATH224']]
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH455"
+"Name": "PARTIAL DIFFERENTIAL EQUATIONS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'MATH225', 'MATH235'], ['∨', 'MATH213', 'MATH223', 'MATH224']]
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH457"
+"Name": "INTEGRAL EQUATIONS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'MATH332', 'MATH342'], 'MATH455']
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH458"
+"Name": "ABSTRACT ALGEBRA"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['MATH300']
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH459"
+"Name": "ASYMPTOTICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'MATH213', 'MATH225']
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH472"
+"Name": "MATHEMATICAL AND COMPUTATIONAL NEUROSCIENCE"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['MATH331']
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH474"
+"Name": "INTRODUCTION TO CRYPTOGRAPHY"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'CSCI262', 'MATH334', 'MATH335', 'MATH358']
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH482"
+"Name": "STATISTICS PRACTICUM (CAPSTONE)"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'MATH335', 'MATH424']
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH484"
+"Name": "MATHEMATICAL AND COMPUTATIONAL MODELING (CAPSTONE)"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'MATH331', 'MATH307', 'MATH455']
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH491"
+"Name": "UNDERGRADUATE RESEARCH"
+"Max_Credits": 3.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F']
+}
+,
+{
+"Id": "MATH492"
+"Name": "UNDERGRADUATE RESEARCH"
+"Max_Credits": 3.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['S']
+}
+,
+{
+"Id": "MATH498"
+"Name": "SPECIAL TOPICS"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "MATH499"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG198"
+"Name": "SPECIAL TOPICS"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG199"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG281"
+"Name": "INTRODUCTION TO ELECTRICAL CIRCUITS, ELECTRONICS AND POWER"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['PHGN200']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG282"
+"Name": "ELECTRICAL CIRCUITS"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['PHGN200']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG284"
+"Name": "DIGITAL LOGIC"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['∧', 'CSCI261', ['∨', '!EENG282', '!EENG281', '!PHGN215']]
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG298"
+"Name": "SPECIAL TOPICS IN ELECTRICAL ENGINEERING"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG299"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG307"
+"Name": "INTRODUCTION TO FEEDBACK CONTROL SYSTEMS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'EENG281', 'EENG282', 'PHGN215'], 'MATH225']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG310"
+"Name": "INFORMATION SYSTEMS SCIENCE I"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['∧', ['∨', 'EENG281', 'EENG282', 'PHGN215'], 'MATH225']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG311"
+"Name": "INFORMATION SYSTEMS SCIENCE II"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['EENG310']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG334"
+"Name": "ENGINEERING FIELD SESSION, ELECTRICAL"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'EENG284', 'EENG385'], 'EENG389']
+"semesters": ['Su']
+}
+,
+{
+"Id": "EENG340"
+"Name": "COOPERATIVE EDUCATION"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": []
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "EENG383"
+"Name": "MICROCOMPUTER ARCHITECTURE AND INTERFACING"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['∧', ['∨', 'EENG281', 'EENG282', 'PHGN215'], ['∨', 'EENG284', 'PHGN317']]
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG385"
+"Name": "ELECTRONIC DEVICES AND CIRCUITS"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['EENG307']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG386"
+"Name": "FUNDAMENTALS OF ENGINEERING ELECTROMAGNETICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'EENG281', 'EENG282'], 'MATH225']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG389"
+"Name": "FUNDAMENTALS OF ELECTRIC MACHINERY"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['∨', 'EENG281', 'EENG282']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG390"
+"Name": "ENERGY, ELECTRICITY, RENEWABLE ENERGY, AND ELECTRIC POWER GRID"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'EENG281', 'EENG282', 'PHGN215']
+"semesters": ['F']
+}
+,
+{
+"Id": "EENG395"
+"Name": "UNDERGRADUATE RESEARCH"
+"Max_Credits": 3.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG398"
+"Name": "SPECIAL TOPICS IN ELECTRICAL ENGINEERING"
+"Max_Credits": 6.0
+"Min_Credits": 6.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG399"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG411"
+"Name": "DIGITAL SIGNAL PROCESSING"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['EENG310']
+"semesters": ['S']
+}
+,
+{
+"Id": "EENG413"
+"Name": "ANALOG AND DIGITAL COMMUNICATION SYSTEMS"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['EENG310']
+"semesters": ['S']
+}
+,
+{
+"Id": "EENG417"
+"Name": "MODERN CONTROL DESIGN"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['EENG307']
+"semesters": ['F']
+}
+,
+{
+"Id": "EENG421"
+"Name": "SEMICONDUCTOR DEVICE PHYSICS AND DESIGN"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['PHGN200']
+"semesters": ['F']
+}
+,
+{
+"Id": "EENG423"
+"Name": "INTRODUCTION TO VLSI DESIGN"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'EENG281', 'EENG282'], 'EENG284']
+"semesters": ['S']
+}
+,
+{
+"Id": "EENG425"
+"Name": "INTRODUCTION TO ANTENNAS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['EENG386']
+"semesters": ['S']
+}
+,
+{
+"Id": "EENG427"
+"Name": "WIRELESS COMMUNICATIONS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'EENG311', 'MATH201'], 'EENG310']
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "EENG428"
+"Name": "COMPUTATIONAL ELECTROMAGNETICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['EENG386']
+"semesters": ['F']
+}
+,
+{
+"Id": "EENG429"
+"Name": "ACTIVE RF & MICROWAVE DEVICES"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['EENG385']
+"semesters": ['S']
+}
+,
+{
+"Id": "EENG430"
+"Name": "PASSIVE RF & MICROWAVE DEVICES"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['EENG386']
+"semesters": ['F']
+}
+,
+{
+"Id": "EENG437"
+"Name": "INTRODUCTION TO COMPUTER VISION"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'MATH201', 'EENG311', 'MATH332', 'CSCI261']
+"semesters": ['F']
+}
+,
+{
+"Id": "EENG450"
+"Name": "SYSTEMS EXPLORATION AND ENGINEERING DESIGN LAB"
+"Max_Credits": 1.0
+"Min_Credits": 1.0
+"Pre_req": ['∧', 'EENG383', 'EENG307']
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG470"
+"Name": "INTRODUCTION TO HIGH POWER ELECTRONICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['EENG282']
+"semesters": ['F']
+}
+,
+{
+"Id": "EENG472"
+"Name": "PRACTICAL DESIGN OF SMALL RENEWABLE ENERGY SYSTEMS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['EENG382']
+"semesters": []
+}
+,
+{
+"Id": "EENG480"
+"Name": "POWER SYSTEMS ANALYSIS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['EENG389']
+"semesters": ['F']
+}
+,
+{
+"Id": "EENG481"
+"Name": "ANALYSIS AND DESIGN OF ADVANCED ENERGY SYSTEMS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['EENG480']
+"semesters": ['S']
+}
+,
+{
+"Id": "EENG486"
+"Name": "ELECTROMAGNETIC FIELDS AND WAVES"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['EENG386']
+"semesters": ['F']
+}
+,
+{
+"Id": "EENG489"
+"Name": "COMPUTATIONAL METHODS IN ENERGY SYSTEMS AND POWER ELECTRONICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'EENG282', 'EENG382']
+"semesters": ['S']
+}
+,
+{
+"Id": "EENG495"
+"Name": "UNDERGRADUATE RESEARCH"
+"Max_Credits": 3.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG498"
+"Name": "SPECIAL TOPICS IN ELECTRICAL ENGINEERING"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "EENG499"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "PHGN100"
+"Name": "PHYSICS I - MECHANICS"
+"Max_Credits": 4.5
+"Min_Credits": 4.5
+"Pre_req": ['∧', 'MATH111', ['∨', '!MATH112', '!MATH113', '!MATH122']]
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "PHGN198"
+"Name": "SPECIAL TOPICS"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "PHGN199"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "PHGN200"
+"Name": "PHYSICS II-ELECTROMAGNETISM AND OPTICS"
+"Max_Credits": 4.5
+"Min_Credits": 4.5
+"Pre_req": ['∧', 'PHGN100', ['∨', '!MATH213', 'MATH214', 'MATH223']]
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "PHGN215"
+"Name": "ANALOG ELECTRONICS"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['PHGN200']
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN298"
+"Name": "SPECIAL TOPICS"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "PHGN299"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "PHGN300"
+"Name": "PHYSICS III-MODERN PHYSICS I"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'PHGN200', '!MATH225']
+"semesters": ['F']
+}
+,
+{
+"Id": "PHGN310"
+"Name": "HONORS PHYSICS III-MODERN PHYSICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'PHGN200', '!MATH225']
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN311"
+"Name": "INTRODUCTION TO MATHEMATICAL PHYSICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'PHGN300', 'PHGN310', 'MATH225', 'MATH332'], 'CSCI250']
+"semesters": ['F']
+}
+,
+{
+"Id": "PHGN315"
+"Name": "ADVANCED PHYSICS LAB I"
+"Max_Credits": 2.0
+"Min_Credits": 2.0
+"Pre_req": ['∨', 'PHGN300', 'PHGN384']
+"semesters": ['F']
+}
+,
+{
+"Id": "PHGN317"
+"Name": "SEMICONDUCTOR CIRCUITS- DIGITAL"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'PHGN215', 'CSCI250']
+"semesters": ['F']
+}
+,
+{
+"Id": "PHGN320"
+"Name": "MODERN PHYSICS II: BASICS OF QUANTUM MECHANICS"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['∧', ['∨', 'PHGN300', 'PHGN310'], 'PHGN311']
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN324"
+"Name": "INTRODUCTION TO ASTRONOMY AND ASTROPHYSICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['PHGN200']
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN326"
+"Name": "ADVANCED PHYSICS LAB II"
+"Max_Credits": 2.0
+"Min_Credits": 2.0
+"Pre_req": ['PHGN315']
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN340"
+"Name": "COOPERATIVE EDUCATION"
+"Max_Credits": 3.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S', 'Su']
+}
+,
+{
+"Id": "PHGN341"
+"Name": "THERMAL PHYSICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', ['∨', 'CHGN122', 'CHGN125'], 'PHGN311']
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN350"
+"Name": "INTERMEDIATE MECHANICS"
+"Max_Credits": 4.0
+"Min_Credits": 4.0
+"Pre_req": ['∧', 'PHGN200', '!PHGN311']
+"semesters": ['F']
+}
+,
+{
+"Id": "PHGN361"
+"Name": "INTERMEDIATE ELECTROMAGNETISM"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'PHGN200', 'PHGN311']
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN384"
+"Name": "FIELD SESSION TECHNIQUES IN PHYSICS"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": ['∨', 'PHGN300', 'PHGN310', 'PHGN215', 'CSCI250']
+"semesters": ['Su']
+}
+,
+{
+"Id": "PHGN398"
+"Name": "SPECIAL TOPICS"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "PHGN399"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "PHGN401"
+"Name": "THEORETICAL PHYSICS SEMINAR"
+"Max_Credits": 1.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "PHGN418"
+"Name": "GENERAL RELATIVITY"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['PHGN350']
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN419"
+"Name": "PRINCIPLES OF SOLAR ENERGY SYSTEMS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'PHGN200', 'MATH225']
+"semesters": []
+}
+,
+{
+"Id": "PHGN422"
+"Name": "NUCLEAR PHYSICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['PHGN300']
+"semesters": []
+}
+,
+{
+"Id": "PHGN423"
+"Name": "PARTICLE PHYSICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'PHGN350', '!PHGN320']
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN424"
+"Name": "ASTROPHYSICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['PHGN300']
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN433"
+"Name": "BIOPHYSICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['CBEN110']
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN435"
+"Name": "INTERDISCIPLINARY MICROELECTRONICS PROCESSING LABORATORY"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": []
+"semesters": []
+}
+,
+{
+"Id": "PHGN440"
+"Name": "SOLID STATE PHYSICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['PHGN320']
+"semesters": []
+}
+,
+{
+"Id": "PHGN441"
+"Name": "SOLID STATE PHYSICS APPLICATIONS AND PHENOMENA"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∨', 'PHGN440', 'MLGN502']
+"semesters": []
+}
+,
+{
+"Id": "PHGN450"
+"Name": "COMPUTATIONAL PHYSICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['PHGN311']
+"semesters": []
+}
+,
+{
+"Id": "PHGN462"
+"Name": "ELECTROMAGNETIC WAVES AND OPTICAL PHYSICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['PHGN361']
+"semesters": ['F']
+}
+,
+{
+"Id": "PHGN466"
+"Name": "MODERN OPTICAL ENGINEERING"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['PHGN462']
+"semesters": []
+}
+,
+{
+"Id": "PHGN471"
+"Name": "SENIOR DESIGN PRINCIPLES I"
+"Max_Credits": 0.5
+"Min_Credits": 0.5
+"Pre_req": ['∧', 'PHGN384', 'PHGN326', ['∨', '!PHGN481', '!PHGN491']]
+"semesters": ['F']
+}
+,
+{
+"Id": "PHGN472"
+"Name": "SENIOR DESIGN PRINCIPLES II"
+"Max_Credits": 0.5
+"Min_Credits": 0.5
+"Pre_req": ['∧', 'PHGN384', 'PHGN326', ['∨', '!PHGN482', '!PHGN492']]
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN480"
+"Name": "LASER PHYSICS"
+"Max_Credits": 3.0
+"Min_Credits": 3.0
+"Pre_req": ['∧', 'PHGN320', '!PHGN462']
+"semesters": ['F']
+}
+,
+{
+"Id": "PHGN481"
+"Name": "SENIOR DESIGN PRACTICE"
+"Max_Credits": 2.5
+"Min_Credits": 2.5
+"Pre_req": ['∧', 'PHGN384', 'PHGN326', '!PHGN471']
+"semesters": ['F']
+}
+,
+{
+"Id": "PHGN482"
+"Name": "SENIOR DESIGN PRACTICE"
+"Max_Credits": 2.5
+"Min_Credits": 2.5
+"Pre_req": ['∧', 'PHGN384', 'PHGN326', '!PHGN472']
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN491"
+"Name": "HONORS SENIOR DESIGN PRACTICE"
+"Max_Credits": 2.5
+"Min_Credits": 2.5
+"Pre_req": ['∧', 'PHGN384', 'PHGN326', '!PHGN471']
+"semesters": ['F']
+}
+,
+{
+"Id": "PHGN492"
+"Name": "HONORS SENIOR DESIGN PRACTICE"
+"Max_Credits": 2.5
+"Min_Credits": 2.5
+"Pre_req": ['∧', ['∨', 'PHGN481', 'PHGN491'], '!PHGN472']
+"semesters": ['S']
+}
+,
+{
+"Id": "PHGN498"
+"Name": "SPECIAL TOPICS"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+,
+{
+"Id": "PHGN499"
+"Name": "INDEPENDENT STUDY"
+"Max_Credits": 6.0
+"Min_Credits": 1.0
+"Pre_req": []
+"semesters": ['F', 'S']
+}
+]

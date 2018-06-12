@@ -12,7 +12,6 @@ function ReadyClasses(input, typeList, bulletin, id){
   // bulletin = bulletinYear variable from dropdownmenu.js
   //id = major, minor, asi variable from dropdownmenu.js
   var selectedType; //major, minor, asi
-  
   console.log(id);
   console.log(bulletin);
   for (var i = 0; i < typeList.length; i++){
@@ -39,7 +38,8 @@ function ReadyClasses(input, typeList, bulletin, id){
 
 $("#generateButton").click(function(){
 	//all front-end input preparation is done here.
-	inputValues = [new InputClass('CSCI101'), new InputClass('PHGN100'), new InputClass('ABCDxxx')];
+	inputValues = [];
+
 	for (var i = 0; i < Major.length; i ++){
 		ReadyClasses(inputValues,majorCatalog,bulletinYear,Major[i]);
 	}
@@ -56,14 +56,14 @@ $("#generateButton").click(function(){
 				inputValues[i].taken = true;
 			}
 		});
-		
+
 		desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-			
+
 			if(inputValues[i].id.indexOf('xxx') != -1 && this.data()[0].slice(0,4) == inputValues[i].id.slice(0,4)){
 				inputValues[i].id = this.data()[0];
 			}
 		});
-		
+
 	}
 
 	//TODO: for Nick, For all classes desired, update class name if it’s just electives (ex. CSCI4xx -> CSCI470)
