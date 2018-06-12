@@ -14,17 +14,6 @@ var majorJSONDone = $.getJSON("http://localhost:80/majorData.json", function(jso
 });
 
 
-/*
-var majorCatalogDone  = $.ajax({
-  url: "http://localhost:3000/majorData.json",
-  dataType: 'json',
-  async: false,
-  success: function(data) {
-  majorCatalog = data;
-  }
-});
-*/
-
 
 //variable to put into backend planner along with catalogJSON
 var inputValues = [];
