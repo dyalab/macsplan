@@ -34,17 +34,17 @@
   "Geological Engineering","Geophysical Engineering",
   "Mechanical Engineering","Metallurgical & Materials Engineering","Mining Engineering"];
   */
-
-majorCatalogDone.then(function(){
-  for (var i= 0; i < majorCatalog.length; i++){
+  
+  majorJSONDone.done(function(){
+  	for (var i= 0; i < majorCatalog.length; i++){
     var node = document.createElement("a");
     node.setAttribute("class", "dropdown-item");
     node.setAttribute("href","#");
     var textnode = document.createTextNode(majorCatalog[i].Id);
     node.appendChild(textnode);
     majorDropDown.appendChild(node);
-  }
-});
+  } 
+  });
 
 //fill in Bulletin Year
 for (var i = 2015; i < 2020; i++){
@@ -53,7 +53,8 @@ for (var i = 2015; i < 2020; i++){
   node.setAttribute("href","#");
   node.innerHTML = i + "-" + (i+1);
   bulletinDropDown.appendChild(node);
-}
+}  
+
 
 
 
@@ -81,8 +82,7 @@ $("#bulletinOptions a").click(function(){
 	cardText.innerHTML = bulletinYear;
 });
 
-
-$( '#majorOptions a' ).click(function() {
+$('body').on('click','#majorOptions a', function() {
 		var selText = $(this).text();
 		var index = $.inArray(selText,Major);
 		//alert(index);
@@ -97,6 +97,7 @@ $( '#majorOptions a' ).click(function() {
   	var cardText = document.getElementById("majcard");
 	cardText.innerHTML = Major;
 });
+
 
 $( '#minorOptions a' ).click(function() {
 		var selText = $(this).text();
@@ -129,16 +130,4 @@ $("#startSemesterOptions a").click(function(){
 	cardText.innerHTML = startsem;
 });
 //////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
 });

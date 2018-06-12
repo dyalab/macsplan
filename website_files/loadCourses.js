@@ -3,12 +3,18 @@
 
 
 var courseCatalog;
-$.getJSON("http://localhost:3000/courseCatalogData.json", function(json){
+$.getJSON("http://localhost:80/courseCatalogData.json", function(json){
     courseCatalog = json;
 });
 
 var majorCatalog;
 
+var majorJSONDone = $.getJSON("http://localhost:80/majorData.json", function(json){
+    majorCatalog = json;
+});
+
+
+/*
 var majorCatalogDone  = $.ajax({
   url: "http://localhost:3000/majorData.json",
   dataType: 'json',
@@ -17,7 +23,8 @@ var majorCatalogDone  = $.ajax({
   majorCatalog = data;
   }
 });
+*/
 
 
-
+//variable to put into backend planner along with catalogJSON
 var inputValues = [];
