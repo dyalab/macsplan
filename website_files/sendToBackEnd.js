@@ -39,7 +39,8 @@ function ReadyClasses(input, typeList, bulletin, id){
 
 $("#generateButton").click(function(){
 	//all front-end input preparation is done here.
-	inputValues = [new InputClass('CSCI101'), new InputClass('PHGN100'), new InputClass('ABCDxxx')];
+	inputValues = [];
+	
 	for (var i = 0; i < Major.length; i ++){
 		ReadyClasses(inputValues,majorCatalog,bulletinYear,Major[i]);
 	}
