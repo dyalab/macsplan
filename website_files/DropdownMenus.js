@@ -10,7 +10,7 @@
   var Minor = JSON.parse(sessionStorage.getItem("minor")) || [];
   var numSemester = Number(sessionStorage.getItem("numSemester"))|| "";
   var bulletinYear = sessionStorage.getItem("Bulletin") || "";
-  var ASI = "";
+  var ASI = []; //TODO: do same thing as Minor
   var startsem = sessionStorage.getItem("startsem") || "";
 
   //angularJS. This is so that the display on the cards will be updated with saved values when refreshed
@@ -34,7 +34,7 @@
   "Geological Engineering","Geophysical Engineering",
   "Mechanical Engineering","Metallurgical & Materials Engineering","Mining Engineering"];
   */
-  
+
   majorJSONDone.done(function(){
 	 alert("DONE LOADED");
   	for (var i= 0; i < majorCatalog.length; i++){
@@ -44,7 +44,7 @@
     var textnode = document.createTextNode(majorCatalog[i].Id);
     node.appendChild(textnode);
     majorDropDown.appendChild(node);
-  } 
+  }
   });
 
 //fill in Bulletin Year
@@ -54,7 +54,7 @@ for (var i = 2015; i < 2020; i++){
   node.setAttribute("href","#");
   node.innerHTML = i + "-" + (i+1);
   bulletinDropDown.appendChild(node);
-}  
+}
 
 
 
