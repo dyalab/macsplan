@@ -1,4 +1,4 @@
-var classes = [["CSCI101", "Intro to Programming", 3],["CSCI2161 Elective", ["Elective", "test1", "test2", "test3"], 3],["CSCI262", "Data Structures", 3],
+var classes = [["CSCI101", "Intro to Programming", 3],["ABCDxxx", ["Elective", ["ABCD111", "test1"], ["ABCD222", "test2"], ["ABCD333", "test3"]], 3],["CSCI262", "Data Structures", 3],
  ["CBEN110", "Fundementals of Biology 1", 4],["CHGN121", "Principles of Chemistry", 4],["MATH111", "Calculus for Scientists and Engineers", 3],
  ["PHGN100", "Physics 1", 4.5],["PHGN200", "Physics 2", 4.5],["MATH225", "Differential Equations", 3]];
 var takenTableData = JSON.parse(sessionStorage.getItem("takenTableData")) || [];
@@ -147,7 +147,7 @@ function loadElementsInMainTable(){
 		for(var j=0; j<classes[i].length; j++){
 			var colData = classes[i][j];
 			
-			if(j==1 && classes[i][j][0] == "Elective"){
+			if(j==0 && classes[i][j].indexOf("xxx") != -1){
 				createDropDown = true;
 			}
 			if(createRow) {createRow = isInTable(classes[i][j], takenDataTable);}
@@ -155,7 +155,7 @@ function loadElementsInMainTable(){
 			
 			
 			var col = document.createElement("td");
-			if(createDropDown){
+			if(createDropDown && j==1){
 				var menuButton = document.createElement("button");
 				//menuButton.setAttribute("class","btn btn-secondary dropdown-toggle");
 				menuButton.setAttribute("type","button");
@@ -210,7 +210,6 @@ function getNParent(object, number){
 function isInTable(info, table){
 	var ret = true;
 	table.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-		
 		if(this.data()[1]==info){
 			ret = false;
 		}
@@ -218,10 +217,11 @@ function isInTable(info, table){
 	return ret;
 }
 
+
 window.onclick = function(event) {
 	if(event.target.matches("#ElectiveChoice")){
 		var oldData = mainDataTable.row(getNParent(event.target, 3)).data();
-		var newData = [oldData[0], event.target.innerHTML, oldData[2], oldData[3]];
+		var newData = [event.target.innerHTML.substr(0, event.target.innerHTML.indexOf(",")), event.target.innerHTML.substr(event.target.innerHTML.indexOf(",") + 1), oldData[2], oldData[3]];
 		var createRow = true;
 		mainDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
 			if(this.data()[1]==newData[1]){
