@@ -30,36 +30,24 @@ $(document).ready(function(){
 	
 	if(sessionStorage.takenTableData){
 		loadElementsInClassTables(takenDataTable, takenTableData);
+		document.getElementById("tableWrapper").style.display = "block";
 	}
 
 	if(sessionStorage.desiredTableData){
 		loadElementsInClassTables(desiredDataTable, desiredTableData);
+		document.getElementById("tableWrapper").style.display = "block";
 	}
-	
-	/*courseJSONDone.done(function(){
-		for(var i=0; i<courseCatalog.length; i++){
-			var newClass = [];
-			newClass.push(courseCatalog[i].Id);
-			newClass.push(courseCatalog[i].Name);
-
-			if(courseCatalog[i].Max_Credits != courseCatalog[i].Min_Credits){
-				newClass.push(courseCatalog[i].Min_Credits +"-"+courseCatalog[i].Max_Credits);
-			}else{
-				newClass.push(courseCatalog[i].Min_Credits);
-			}
-			classes.push(newClass);
-		}
-		loadElementsInMainTable();
-	});*/
     
-    for(var i=0; i<chosenMajor.length; i++){
-        for(var j=0; j<chosenMajor[i].Classes.length; j++){
-            classes.push(chosenMajor[i].Classes[j]);
-        }
-    }
+    if(sessionStorage.desiredTableData || sessionStorage.takenTableData){
+		loadElementsInMainTable();
+	}
+	$("#loadMainDataTableButton").on('click', function(){
+		document.getElementById("tableWrapper").style.display = "block";
+		loadElementsInMainTable();
+		
+		
+	});
 	
-	loadElementsInMainTable();
-
 	$('#personalClassesWrapper tbody').on( 'click', 'tr', function () {
 		if ( $(this).hasClass('selected') ) {
 			$(this).removeClass('selected');
@@ -162,6 +150,18 @@ function removeItemFromStorage(name, item){
 }
 
 function loadElementsInMainTable(){
+	
+	var chosenMajor = [];
+	for (var i = 0; i < Major.length; i ++){
+		chosenMajor.push(ReadyClasses(inputValues,majorCatalog,bulletinYear,Major[i]));
+	}
+	
+	for(var i=0; i<chosenMajor.length; i++){
+		for(var j=0; j<chosenMajor[i].Classes.length; j++){
+			classes.push(chosenMajor[i].Classes[j]);
+		}
+	}
+	
 	for(var i=0; i<classes.length; i++){
 		var createRow = true;
 		var createDropDown = false;
