@@ -45,11 +45,9 @@ $(document).ready(function(){
 		if (files.length <= 0) {
 			return false;
 		}
-
 		var fr = new FileReader();
 
 		fr.onload = function(e) {
-		console.log(e);
 			var result = JSON.parse(e.target.result);
 			var formatted = JSON.stringify(result, null, 2);
 			document.getElementById('result').value = formatted;
@@ -160,7 +158,7 @@ cardText.innerHTML = startsem;
 });
 
 
-function loadDataTablesFromImportFile(var JSONimport){
+function loadDataTablesFromImportFile(JSONimport){
 	
 	takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
 		takenDataTable.row(this.data()).remove().draw(false);

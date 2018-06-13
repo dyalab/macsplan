@@ -83,13 +83,14 @@ function loadElements(semesterContainer) {
         semesterContainer.appendChild(semester);
 		semesterContainer.appendChild(document.createElement("br"));
         setUpCheckBoxes();
+        $(semesterContainer).append($("<button type='button' class='btn btn-primary btn-lg btn-block' id='modifyButton'>Modify Schedule</button>"));
     }
 }
 
 function createInfoTable() {
     var infoTable = document.createElement("div");
     infoTable.className = "semester-info-table";
-	 $(infoTable).append($("<span class='course-id'>Course ID</span><span class='course-name'>Course Name</span><span class='course-credit'>Credits</span><span class='semesters-label'>Desired Semesters</span>"));
+    $(infoTable).append($("<span class='course-id'>Course ID</span><span class='course-name'>Course Name</span><span class='course-credit'>Credits</span><span class='semesters-label'>Desired Semesters</span>"));
     return infoTable;
 }
 
