@@ -106,8 +106,7 @@ cardText.innerHTML = startsem;
 			//TODO: Nick fills it with his stuff
 
 
-			//TODO: Sebastian, export this out to user's preferred location
-			JSON.stringify(JSONexport); //send this as export JSON files
+
 
 
 
@@ -151,7 +150,14 @@ cardText.innerHTML = startsem;
 
 		var container = document.getElementById('container');
 		container.appendChild(a);
-
+        
+        var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(JSONexport));
+        var downloadAnchorNode = document.createElement('a');
+        downloadAnchorNode.setAttribute("href",     dataStr);
+        downloadAnchorNode.setAttribute("download", "Generated_Schedule.json");
+        document.body.appendChild(downloadAnchorNode); // required for firefox
+        downloadAnchorNode.click();
+        downloadAnchorNode.remove();
 
 	};
 
