@@ -100,7 +100,7 @@ $("#generateButton").click(function(){
     inputValues.taken = taken;
     inputValues.degree = degree;
     inputValues.modify = modify;
-	result = interface.plan(inputValues, inputValues)
+	result = plan(inputValues, inputValues)
 	alert(result)
 
 	console.log(JSON.stringify(inputValues));
