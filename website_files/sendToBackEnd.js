@@ -100,7 +100,8 @@ $("#generateButton").click(function(){
     inputValues.taken = taken;
     inputValues.degree = degree;
     inputValues.modify = modify;
-
+	result = plan(inputValues)
+	alert(result)
 
 	console.log(JSON.stringify(inputValues));
     
