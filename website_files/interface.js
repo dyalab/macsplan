@@ -5,9 +5,9 @@ function plan(student_values){
 							 methods: ['plan'],   //default: null (synchronous introspection populates)
 							 protocol: 'XML-RPC', //default: JSON-RPC
 	});
-	console.log(student_values)
+	console.log(JSON.stringify(student_values))
 	service.plan({
-		params:{arg1:student_values},
+		params:{arg1:JSON.stringify(student_values)},
 		onSuccess:function(message){
 			alert('success')
 			return message;
