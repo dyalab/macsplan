@@ -7,9 +7,9 @@ function plan(student_values){
 	});
 	console.log(JSON.stringify(student_values))
 	service.plan({
-		params:{arg1:JSON.stringify(student_values)},
+		params:{arg1:JSON.stringify(student_values);},
 		onSuccess:function(message){
-			alert('success')
+			alert('success');
 			return message;
 		},
 		onException:function(e){
