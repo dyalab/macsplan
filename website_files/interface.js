@@ -7,7 +7,7 @@ function plan(catalog, student_values){
 	});
 	console.log(JSON.stringify(student_values))
 	service.plan({
-		params:{catalog:JSON.stringify(catalog), student:JSON.stringify(student_values);},
+		params:{catalog:JSON.stringify(catalog);, student:JSON.stringify(student_values);},
 		onSuccess:function(message){
 			alert('success');
 			return message;
