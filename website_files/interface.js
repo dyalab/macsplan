@@ -1,11 +1,8 @@
-var xmlrpc = require('xmlrpc')
-var client = xmlrpc.createClient({host: 'localhost', port: 8080, path: '/RPC2'})
 function plan(catalog, student_values){
-	client.methodCall('plan', [catalog, student_values], function(error,value){
-		if (error){
-			return error
-		}
-		return value
-	})
+	var request = new XmlRpcRequest('localhost:8080/RPC2', 'plan');
+	request.addParam(catalog);
+	request.addParam(student_values);
+	var response = request.send();
+	return response.parseXML();
 	alert('this shouldnt happen')
 }
