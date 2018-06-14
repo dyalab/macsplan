@@ -1,4 +1,4 @@
-function plan(student_values){
+function plan(catalog, student_values){
 	var service = new rpc.ServiceProxy("localhost:8080/RPC2", {
 							 asynchronous: false,   //default: true
 							 sanitize: true,       //default: true
@@ -7,7 +7,7 @@ function plan(student_values){
 	});
 	console.log(JSON.stringify(student_values))
 	service.plan({
-		params:{arg1:JSON.stringify(student_values);},
+		params:{catalog:JSON.stringify(catalog), student:JSON.stringify(student_values);},
 		onSuccess:function(message){
 			alert('success');
 			return message;
