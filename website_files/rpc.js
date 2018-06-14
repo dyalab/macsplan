@@ -716,7 +716,7 @@ rpc.ServiceProxy.prototype.__toXMLRPC = function(value){
 		//case 'function':
 		//case 'unknown':
 		default:
-			throw new TypeError('Unable to convert the value of type "' + typeof(value) + '" to XML-RPC.'); //(' + String(value) + ')
+			throw new TypeError('Unable to convert the value of type "' + typeof(value) + '" to XML-RPC. Value is '+value); //(' + String(value) + ')
 	}
 	xml.push('</value>');
 	return xml.join('');
