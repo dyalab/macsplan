@@ -1,10 +1,20 @@
 function plan(catalog, student_values){
-	var request = new XmlRpcRequest('localhost:8080/RPC2', 'plan');
+	//mimic
+	
+	/*var request = new XmlRpcRequest('localhost:8080/RPC2', 'plan');
 	request.addParam(catalog);
 	request.addParam(student_values);
-	request.send_header("Access-Control-Allow-Origin", "*")
-	request.send_header("Access-Control-Allow-Headers","Content-Type")
 	var response = request.send();
 	return response.parseXML();
-	alert('this shouldnt happen')
+	alert('this shouldnt happen')*/
+	
+	
+	//jQuery xmlrpc
+	$.xmlrpc({
+		url: 'localhost:8080/RPC2',
+		methodName: 'plan',
+		params:[catalog, student_values],
+		success: function(response, status, jqXHR){return response;},
+		error: function(jqXHR, status, error){return error;}
+	});
 }
