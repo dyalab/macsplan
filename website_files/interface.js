@@ -1,13 +1,11 @@
 function plan(catalog, student_values){
 	//mimic
 	
-	var request = new XmlRpcRequest('http://localhost/RPC2:8080', 'plan');
+	var request = new XmlRpcRequest('http://localhost:8080/RPC2', 'plan');
 	request.addParam(catalog);
 	request.addParam(student_values);
 	var response = request.send();
-	return response.parseXML();
-	alert('this shouldnt happen')
-	
+	return response.parseXML();	
 	
 	//jQuery xmlrpc
 	/*$.xmlrpc({
