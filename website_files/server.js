@@ -6,18 +6,6 @@
 var xmlrpc = require('xmlrpc');
 var client = xmlrpc.createClient({host:'localhost', port:8080, path: '/RPC2'});
 
-var server = xmlrpc.createServer({host:'http://macsplan.mines.edu', port:80, path:'/RPC2'});
-server.on('NotFound', function(method, params){
-	console.log('Method ' + method + ' does not exist');
-})
-server.on('plan', function(err, params, callback){
-client.methodCall('plan', params, function(error, value){
-	if(error){
-		console.log('error: '+error);
-	}
-	callback(value);
-	})
-})
 //importing and initializing express
 const express = require('express');
 const path = require('path');

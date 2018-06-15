@@ -1,11 +1,15 @@
 function plan(catalog, student_values){
 	//mimic
-	
+	/*
 	var request = new XmlRpcRequest("http://macsplan.mines.edu/RPC2", 'plan');
 	request.addParam(catalog);
 	request.addParam(student_values);
 	var response = request.send();
-	return response.parseXML();	
+	return response.parseXML();*/
+	client.methodCall('plan', [catalog, student_values], function(error, value){
+		if (error){alert(error);}
+		alert(value);
+	})
 	
 	//jQuery xmlrpc
 	/*$.xmlrpc({
