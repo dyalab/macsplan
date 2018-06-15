@@ -11,7 +11,7 @@ function plan(catalog, student_values){
 	
 	//jQuery xmlrpc
 	$.xmlrpc({
-		url: 'localhost:8080/RPC2',
+		url: 'http://localhost:8080/RPC2',
 		methodName: 'plan',
 		params:[catalog, student_values],
 		success: function(response, status, jqXHR){return response;},
