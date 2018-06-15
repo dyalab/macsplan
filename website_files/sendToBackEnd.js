@@ -104,7 +104,7 @@ $("#generateButton").click(function(){
 	sTest = '{"taken":[], "degree":["A1","A2"], "modify":[]}';
 
 	result = plan(cTest, sTest);
-	alert(result)
+	//alert(result)
 
 	console.log(JSON.stringify(inputValues));
     
