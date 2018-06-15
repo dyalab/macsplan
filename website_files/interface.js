@@ -1,7 +1,7 @@
 function plan(catalog, student_values){
 	//mimic
 	
-	var request = new XmlRpcRequest("http://localhost:8080/RPC2", 'plan');
+	var request = new XmlRpcRequest("https://localhost:8080/RPC2", 'plan');
 	request.addParam(catalog);
 	request.addParam(student_values);
 	var response = request.send();
