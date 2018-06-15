@@ -31,7 +31,9 @@ app.get('/RPC2/', (req, res) =>{
 	if (error){
 	res.send(error);
 	}
+	else{
 	res.send(value);
+	}
 	});
 });
 
