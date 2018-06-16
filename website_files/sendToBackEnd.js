@@ -105,10 +105,4 @@ $("#generateButton").click(function(){
 
     plan(cTest, sTest, function(result){loadResults(result)}, function(error){returnError(error)});
     
-
-	console.log(JSON.stringify(inputValues));
-    
-         var semesterContainer = document.getElementById("semesterContainer");
-	
-        loadElements(semesterContainer);
 	});
