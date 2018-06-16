@@ -99,6 +99,6 @@ $("#generateButton").click(function(){
 	cTest = '[{"Id": "A1", "Name":"A1name","Credits":3.0,"Pre_req":[]},{"Id": "A2", "Name":"A2name","Credits":3.0,"Pre_req":["A1"]}]';
 	sTest = '{"taken":[], "degree":["and","CSCI261","CSCI262"], "modify":[]}';
 
-    plan(JSON.stringify(courseCatalog), sTest, function(result){loadResults(result)}, function(error){returnError(error)});
+    plan(sTest, function(result){loadResults(result)}, function(error){returnError(error)});
     
 	});
