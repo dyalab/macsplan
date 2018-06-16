@@ -1210,7 +1210,7 @@
 "Name": "PRACTICAL DESIGN OF SMALL RENEWABLE ENERGY SYSTEMS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["EENG382"]],
+"Pre_req": [],
 "Semesters": []
 }
 ,
@@ -1246,7 +1246,7 @@
 "Name": "COMPUTATIONAL METHODS IN ENERGY SYSTEMS AND POWER ELECTRONICS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["EENG282", "EENG382"]],
+"Pre_req": [["EENG282"]],
 "Semesters": ["S"]
 }
 ,
