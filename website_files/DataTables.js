@@ -155,7 +155,12 @@ function loadElementsInMainTable(){
 	for (var i = 0; i < Major.length; i ++){
 		chosenMajor.push(ReadyClasses(inputValues,majorCatalog,bulletinYear,Major[i]));
 	}
-		
+	
+	if(chosenMajor.length == 0){
+		alert("please choose a major");
+		return;
+	}
+	
 	for(var i=0; i<chosenMajor.length; i++){
 		for(var j=0; j<chosenMajor[i].Classes.length; j++){
 			temp.push(chosenMajor[i].Classes[j]);
