@@ -4,7 +4,7 @@ var  generatedSchedule = [["CSCI101", "CSCI298", "MATH112", "CSCI370"], ["CSCI27
 
 // pastes error message in container
 function returnError(error) {
-	generatedSchedule = [["CSCI101", "CSCI298", "MATH112", "CSCI370"], ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"]];;
+	generatedSchedule = [["CSCI101", "CSCI298", "MATH112", "CSCI370"], ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"]];
     loadElements(generatedSchedule);
 }
 
