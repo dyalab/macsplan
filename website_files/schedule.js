@@ -28,6 +28,7 @@ function loadResults(result) {
 // Generates HTML for the schedule and assings appropriate classes to each semester
 function loadElements(generatedSchedule) {
 	var semesterContainer = document.getElementById("semesterContainer");
+	semesterContainer.innerHTML = "";
     $(semesterContainer).append($("<h2 id='schedule-label'>Generated Schedule</h2>")); // Generated Schedule
     var num = 0; // variable to determine how many courses entered
     for (var i = 0; i < generatedSchedule.length; i++) { // iterate through number of semesters
