@@ -103,17 +103,7 @@ cardText.innerHTML = startsem;
 				"StartingSemester": startsem,
 			};
 			JSONexport.push(firstElement);
-			//TODO: Nick fills it with his stuff
-
-
-
-
-
-
-
-
-
-
+	
 		var mainTable = document.getElementById('dataTable');
 		
 		var takenExport = [];
@@ -129,28 +119,7 @@ cardText.innerHTML = startsem;
 		
 		JSONexport.push(takenExport);
 		JSONexport.push(desiredExport);
-		
 
-
-		var rows = mainTable.rows;
-		var $th = $('table th');
-		$('table tbody tr').each(function(i, tr){
-			var obj = {}, $tds = $(tr).find('td');
-			$th.each(function(index, th){
-				obj[$(th).text()] = $tds.eq(index).text();
-			});
-			rows.rows.push(obj);
-		});
-		var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(rows));
-
-		var a = document.createElement('a');
-		a.href = 'data:' + data;
-		a.download = 'data.json';
-		a.innerHTML = 'download JSON';
-
-		var container = document.getElementById('container');
-		container.appendChild(a);
-        
         var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(JSONexport));
         var downloadAnchorNode = document.createElement('a');
         downloadAnchorNode.setAttribute("href",     dataStr);
