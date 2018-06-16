@@ -150,7 +150,7 @@ function removeItemFromStorage(name, item){
 }
 
 function loadElementsInMainTable(){
-	
+	var temp = [];
 	var chosenMajor = [];
 	for (var i = 0; i < Major.length; i ++){
 		chosenMajor.push(ReadyClasses(inputValues,majorCatalog,bulletinYear,Major[i]));
@@ -159,10 +159,32 @@ function loadElementsInMainTable(){
 	console.log(chosenMajor);
 	
 	for(var i=0; i<chosenMajor.length; i++){
+		console.log(chosenMajor[i]);
 		for(var j=0; j<chosenMajor[i].Classes.length; j++){
-			classes.push(chosenMajor[i].Classes[j]);
+			temp.push(chosenMajor[i].Classes[j]);
 		}
 	}
+	
+	for(var i=0; i<temp.length; i++){
+		var courseName = "NOT FOUND";
+		var courseCredits = "NOT FOUND";
+		for(var k = 0; k < courseCatalog.length; k++) {
+
+			if(courseCatalog[k].Id == temp[i]) {
+				courseName = courseCatalog[k].Name;
+				// some courses have min and max number of credits so this will display it properly
+				if(courseCatalog[k].Min_Credits == courseCatalog[k].Max_Credits) {
+					courseCredits = courseCatalog[k].Min_Credits;
+				} else {
+				courseCredits = courseCatalog[k].Min_Credits + "-" + courseCatalog[k].Max_Credits;
+				}
+				break;
+			}
+		}
+		classes.push([courseName, temp[i], courseCredits]);
+		
+	}
+	
 	
 	
 	for(var i=0; i<classes.length; i++){
