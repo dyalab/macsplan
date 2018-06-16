@@ -1171,7 +1171,7 @@
 ,
 {
 "Id": "EENG429",
-"Name": "ACTIVE RF & MICROWAVE DEVICES",
+"Name": "ACTIVE RF AND MICROWAVE DEVICES",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
 "Pre_req": ["EENG385"],
@@ -1180,7 +1180,7 @@
 ,
 {
 "Id": "EENG430",
-"Name": "PASSIVE RF & MICROWAVE DEVICES",
+"Name": "PASSIVE RF AND MICROWAVE DEVICES",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
 "Pre_req": ["EENG386"],
