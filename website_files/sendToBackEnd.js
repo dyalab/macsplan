@@ -63,7 +63,6 @@ $("#generateButton").click(function(){
 	//fixes the taken classes to set their taken value to true and puts in the appropriate class where electives are
 	for(var i=0; i<degree.length; i++){
 		desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-			console.log(degree[i]);
 			if(degree[i].indexOf('xxx') != -1 && this.data()[0].slice(0,4) == degree[i].slice(0,4)){
 				degree[i] = this.data()[0];
                 desiredDataTable.row(this.data()).remove().draw(false);

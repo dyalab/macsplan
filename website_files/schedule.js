@@ -18,6 +18,7 @@ function loadResults(result) {
         generatedSchedule = JSON.parse(result);
 		// temporary till working better
 		//generatedSchedule = [["CSCI101", "CSCI298", "MATH112", "CSCI370"], ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"]];
+		console.log(generatedSchedule);
 		loadElements(generatedSchedule);
     } catch {
         returnError(result); // if can't parse result (string) then shows error
