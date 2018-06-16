@@ -202,7 +202,7 @@
 "Name": "ALGORITHMS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": ["CSCI262", ["or", "MATH213", "MATH223", "MATH224"], ["or", "MATH300", "MATH358", "CSCI358"]],
+"Pre_req": [["CSCI262"], ["MATH213", "MATH223", "MATH224"], ["MATH300", "MATH358", "CSCI358"]],
 "Semesters": ["F", "S"]
 }
 ,
@@ -364,7 +364,7 @@
 "Name": "INTRODUCTION TO CRYPTOGRAPHY",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": ["CSCI262", "CSCI358", ["or", "MATH334", "MATH335", "MATH201"]],
+"Pre_req": ["CSCI262", "CSCI358", ["MATH334", "MATH335", "MATH201"]],
 "Semesters": ["S"]
 }
 ,
@@ -490,7 +490,7 @@
 "Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III",
 "Max_Credits": "4.0",
 "Min_Credits": "4.0",
-"Pre_req": [["or", "MATH112", "MATH122", "!MATH113"]],
+"Pre_req": [["MATH112", "MATH122", "!MATH113"]],
 "Semesters": ["F", "S", "Su"]
 }
 ,
@@ -526,7 +526,7 @@
 "Name": "DIFFERENTIAL EQUATIONS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["or", "MATH112", "MATH122", "!MATH113"]],
+"Pre_req": [["MATH112", "MATH122", "!MATH113"]],
 "Semesters": ["F", "S", "Su"]
 }
 ,
@@ -535,7 +535,7 @@
 "Name": "DIFFERENTIAL EQUATIONS HONORS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["or", "MATH112", "MATH122", "!MATH113"]],
+"Pre_req": [["MATH112", "MATH122", "!MATH113"]],
 "Semesters": ["S"]
 }
 ,
@@ -580,7 +580,7 @@
 "Name": "INTRODUCTION TO SCIENTIFIC COMPUTING",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["or", "MATH213", "MATH223", "MATH224"], ["!MATH225", "!MATH235"]],
+"Pre_req": [["MATH213", "MATH223", "MATH224"], ["!MATH225", "!MATH235"]],
 "Semesters": ["F", "S", "Su"]
 }
 ,
@@ -598,7 +598,7 @@
 "Name": "MATHEMATICAL BIOLOGY",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["MATH225", "MATH235"], ["or", "MATH213", "MATH223", "MATH224"]],
+"Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]],
 "Semesters": ["F", "S"]
 }
 ,
@@ -652,7 +652,7 @@
 "Name": "ADVANCED ENGINEERING MATHEMATICS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["MATH225", "MATH235"], ["or", "MATH213", "MATH223", "MATH224"]],
+"Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]],
 "Semesters": ["F", "S", "Su"]
 }
 ,
@@ -661,7 +661,7 @@
 "Name": "DISCRETE MATHEMATICS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["or", "MATH213", "MATH223", "MATH224"]],
+"Pre_req": [["MATH213", "MATH223", "MATH224"]],
 "Semesters": ["F", "S"]
 }
 ,
@@ -796,7 +796,7 @@
 "Name": "COMPLEX ANALYSIS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["MATH225", "MATH235"], ["or", "MATH213", "MATH223", "MATH224"]],
+"Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]],
 "Semesters": ["S"]
 }
 ,
@@ -805,7 +805,7 @@
 "Name": "PARTIAL DIFFERENTIAL EQUATIONS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["MATH225", "MATH235"], ["or", "MATH213", "MATH223", "MATH224"]],
+"Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]],
 "Semesters": ["F", "S"]
 }
 ,
@@ -976,7 +976,7 @@
 "Name": "INTRODUCTION TO FEEDBACK CONTROL SYSTEMS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["or", "EENG281", "EENG282", "PHGN215"], ["MATH225"]],
+"Pre_req": [["EENG281", "EENG282", "PHGN215"], ["MATH225"]],
 "Semesters": ["F", "S"]
 }
 ,
@@ -985,7 +985,7 @@
 "Name": "INFORMATION SYSTEMS SCIENCE I",
 "Max_Credits": "4.0",
 "Min_Credits": "4.0",
-"Pre_req": [["or", "EENG281", "EENG282", "PHGN215"], ["MATH225"]],
+"Pre_req": [["EENG281", "EENG282", "PHGN215"], ["MATH225"]],
 "Semesters": ["F", "S"]
 }
 ,
@@ -1021,7 +1021,7 @@
 "Name": "MICROCOMPUTER ARCHITECTURE AND INTERFACING",
 "Max_Credits": "4.0",
 "Min_Credits": "4.0",
-"Pre_req": [["or", "EENG281", "EENG282", "PHGN215"], ["EENG284", "PHGN317"]],
+"Pre_req": [["EENG281", "EENG282", "PHGN215"], ["EENG284", "PHGN317"]],
 "Semesters": ["F", "S"]
 }
 ,
@@ -1039,7 +1039,7 @@
 "Name": "FUNDAMENTALS OF ENGINEERING ELECTROMAGNETICS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["or", "EENG281", "EENG282"], ["MATH225"]],
+"Pre_req": [["EENG281", "EENG282"], ["MATH225"]],
 "Semesters": ["F", "S"]
 }
 ,
@@ -1048,7 +1048,7 @@
 "Name": "FUNDAMENTALS OF ELECTRIC MACHINERY",
 "Max_Credits": "4.0",
 "Min_Credits": "4.0",
-"Pre_req": [["or", "EENG281", "EENG282"]],
+"Pre_req": [["EENG281", "EENG282"]],
 "Semesters": ["F", "S"]
 }
 ,
@@ -1057,7 +1057,7 @@
 "Name": "ENERGY, ELECTRICITY, RENEWABLE ENERGY, AND ELECTRIC POWER GRID",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["or", "EENG281", "EENG282", "PHGN215"]],
+"Pre_req": [["EENG281", "EENG282", "PHGN215"]],
 "Semesters": ["F"]
 }
 ,
@@ -1129,7 +1129,7 @@
 "Name": "INTRODUCTION TO VLSI DESIGN",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["or", "EENG281", "EENG282"], ["EENG284"]],
+"Pre_req": [["EENG281", "EENG282"], ["EENG284"]],
 "Semesters": ["S"]
 }
 ,
@@ -1309,7 +1309,7 @@
 "Name": "PHYSICS II-ELECTROMAGNETISM AND OPTICS",
 "Max_Credits": "4.5",
 "Min_Credits": "4.5",
-"Pre_req": ["PHGN100", ["or", "!MATH213", "MATH214", "MATH223"]],
+"Pre_req": [["PHGN100"], ["!MATH213", "MATH214", "MATH223"]],
 "Semesters": ["F", "S", "Su"]
 }
 ,
@@ -3667,7 +3667,7 @@
 "Name": "LINEAR PROGRAMMING",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["or", "MATH332", "MATH348", "EBGN409"]],
+"Pre_req": [["MATH332", "MATH348", "EBGN409"]],
 "Semesters": ["F"]
 }
 ,
@@ -3721,7 +3721,7 @@
 "Name": "BUSINESS STRATEGY",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["or", "EBGN321", "EBGN345", "EBGN346"]],
+"Pre_req": [["EBGN321", "EBGN345", "EBGN346"]],
 "Semesters": ["F", "S", "Su"]
 }
 ,
@@ -3838,7 +3838,7 @@
 "Name": "PROPERTIES OF PETROLEUM ENGINEERING FLUIDS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": ["PEGN308", "CHGN209"],
+"Pre_req": [["PEGN308"], ["CHGN209"]],
 "Semesters": ["F"]
 }
 ,
@@ -3946,7 +3946,7 @@
 "Name": "PETROLEUM RESERVOIR ENGINEERING I",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["PEGN419"], ["or", "MATH225", "MATH235", "MATH222"]],
+"Pre_req": [["PEGN419"], ["MATH225", "MATH235", "MATH222"]],
 "Semesters": ["S"]
 }
 ,
