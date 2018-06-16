@@ -44,7 +44,7 @@ $("#generateButton").click(function(){
 	//all front-end input preparation is done here.
 	inputValues = new InputVal();
     taken = [];
-    degree = [];
+    degree = ["and"];
     modify = [];
 
     /*current inputValue format:
@@ -97,8 +97,8 @@ $("#generateButton").click(function(){
     inputValues.degree = degree;
     inputValues.modify = modify;
 	cTest = '[{"Id": "A1", "Name":"A1name","Credits":3.0,"Pre_req":[]},{"Id": "A2", "Name":"A2name","Credits":3.0,"Pre_req":["A1"]}]';
-	sTest = '{"taken":[], "degree":["A1","A2"], "modify":[]}';
+	sTest = '{"taken":[], "degree":["and","CSCI261","CSCI262"], "modify":[]}';
 
-    plan(cTest, sTest, function(result){loadResults(result)}, function(error){returnError(error)});
+    plan(courseCatalog, sTest, function(result){loadResults(result)}, function(error){returnError(error)});
     
 	});
