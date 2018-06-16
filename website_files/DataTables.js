@@ -155,11 +155,8 @@ function loadElementsInMainTable(){
 	for (var i = 0; i < Major.length; i ++){
 		chosenMajor.push(ReadyClasses(inputValues,majorCatalog,bulletinYear,Major[i]));
 	}
-	
-	console.log(chosenMajor);
-	
+		
 	for(var i=0; i<chosenMajor.length; i++){
-		console.log(chosenMajor[i]);
 		for(var j=0; j<chosenMajor[i].Classes.length; j++){
 			temp.push(chosenMajor[i].Classes[j]);
 		}
