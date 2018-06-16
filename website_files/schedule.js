@@ -56,7 +56,7 @@ function loadElements(generatedSchedule) {
             // if it is not in catalog will display NOT FOUND
 			var courseName = "NOT FOUND";
 			var courseCredits = "NOT FOUND";
-			for(var k = 0; k < courseCatalog.length; k++) 
+			for(var k = 0; k < courseCatalog.length; k++) {
 				if(courseCatalog[k].Id == courseID) {
 					courseName = courseCatalog[k].Name;
                     // some courses have min and max number of credits so this will display it properly
@@ -107,11 +107,11 @@ function loadElements(generatedSchedule) {
         // add semester to semesterContainer then a break between semesters
         semesterContainer.appendChild(semester);
 		semesterContainer.appendChild(document.createElement("br"));
-		// set up the checkboxes and add modify schedule button to bottom of page
-		setUpCheckBoxes();
-		$(semesterContainer).append($("<button type='button' class='btn btn-primary btn-lg btn-block' id='modifyButton'>Modify Schedule</button>"));
-
     }
+	// set up the checkboxes and add modify schedule button to bottom of page
+	setUpCheckBoxes();
+	$(semesterContainer).append($("<button type='button' class='btn btn-primary btn-lg btn-block' id='modifyButton'>Modify Schedule</button>"));
+}
 
 // Creates the info at the top of each semester with the column labels
 function createInfoTable() {
