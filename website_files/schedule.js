@@ -106,12 +106,11 @@ function loadElements(generatedSchedule) {
         // add semester to semesterContainer then a break between semesters
         semesterContainer.appendChild(semester);
 		semesterContainer.appendChild(document.createElement("br"));
-    }
-    // set up the checkboxes and add modify schedule button to bottom of page
-    setUpCheckBoxes();
-    $(semesterContainer).append($("<button type='button' class='btn btn-primary btn-lg btn-block' id='modifyButton'>Modify Schedule</button>"));
+		// set up the checkboxes and add modify schedule button to bottom of page
+		setUpCheckBoxes();
+		$(semesterContainer).append($("<button type='button' class='btn btn-primary btn-lg btn-block' id='modifyButton'>Modify Schedule</button>"));
 
-}
+    }
 
 // Creates the info at the top of each semester with the column labels
 function createInfoTable() {
