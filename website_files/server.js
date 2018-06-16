@@ -12,7 +12,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 app.use(express.static(__dirname));
-var catalog = JSON.parse(fs.readFileSync(__dirname+'/courseCatalogData.json', 'utf8'));
+var catalog = fs.readFileSync(__dirname+'/courseCatalogData.json', 'utf8');
 
 app.get('/' /*root url*/, (req, res)=>{
   res.sendFile('input.html',{root: path.join(__dirname)});
@@ -29,7 +29,7 @@ app.get('/majorData', (req, res) =>{
 });
 
 app.get('/RPC2/', (req, res) =>{
-    client.methodCall('plan', [req.param('student_data'), catalog], function(error, value){
+    client.methodCall('plan', [catalog, req.param('student_data')], function(error, value){
 	if (error){
 	res.send(error);
 	}
