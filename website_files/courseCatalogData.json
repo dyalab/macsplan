@@ -760,7 +760,7 @@
 "Name": "PARALLEL SCIENTIFIC COMPUTING",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["MATH307", "CSCI407"]],
+"Pre_req": [["MATH307"]],
 "Semesters": ["F"]
 }
 ,
