@@ -1561,7 +1561,7 @@
 "Name": "SOLID STATE PHYSICS APPLICATIONS AND PHENOMENA",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["PHGN440", "MLGN502"]],
+"Pre_req": [["PHGN440"]],
 "Semesters": []
 }
 ,
