@@ -2052,6 +2052,636 @@
 }
 ,
 {
+"Id": "CBEN110",
+"Name": "FUNDAMENTALS OF BIOLOGY I",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CBEN120",
+"Name": "FUNDAMENTALS OF BIOLOGY II",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["CBEN110"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN200",
+"Name": "COMPUTATIONAL METHODS IN CHEMICAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH112"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN201",
+"Name": "MATERIAL AND ENERGY BALANCES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122"], ["!CBEN210"], ["!CBEN202"], ["!MATH213"], ["!MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN202",
+"Name": "CHEMICAL PROCESS PRINCIPLES LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN210",
+"Name": "INTRO TO THERMODYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121"], ["CHGN122"], ["MATH111"], ["!MATH112"], ["!PHGN100"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CBEN250",
+"Name": "INTRODUCTION TO CHEMICAL ENGINEERING ANALYSIS AND DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["!CBEN210"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN304",
+"Name": "ANATOMY AND PHYSIOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN305",
+"Name": "ANATOMY AND PHYSIOLOGY LAB",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN306",
+"Name": "ANATOMY AND PHYSIOLOGY: BONE, MUSCLE, AND BRAIN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN307",
+"Name": "FLUID MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH225", "CBEN201"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN308",
+"Name": "HEAT TRANSFER",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH225", "CBEN307"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN309",
+"Name": "ANATOMY AND PHYSIOLOGY: BONE, MUSCLE, AND BRAIN LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["BIOL110"], ["!CBEN406"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN310",
+"Name": "INTRODUCTION TO BIOMEDICAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["BIOL110"], ["CBEN210", "CHGN209", "MEGN361"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN311",
+"Name": "INTRODUCTION TO NEUROSCIENCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["BIOL110"], ["CHGN121"], ["CHGN122"], ["PHGN100"], ["PHGN200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CBEN312",
+"Name": "UNIT OPERATIONS LABORATORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN201"], ["CBEN202"], ["CBEN307"], ["CBEN308"], ["CBEN357"], ["CBEN375"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CBEN313",
+"Name": "UNIT OPERATIONS LABORATORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN201"], ["CBEN202"], ["CBEN307"], ["CBEN308"], ["CBEN357"], ["CBEN375"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CBEN314",
+"Name": "CHEMICAL ENGINEERING HEAT AND MASS TRANSFER",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH225", "CBEN307"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN315",
+"Name": "INTRODUCTION TO ELECTROCHEMICAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN210"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN320",
+"Name": "CELL BIOLOGY AND PHYSIOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN321",
+"Name": "INTRO TO GENETICS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN322",
+"Name": "BIOLOGICAL PSYCHOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN110"], ["CHGN122"], ["PHGN200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN323",
+"Name": "GENERAL BIOLOGY II LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CBEN303"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CBEN324",
+"Name": "INTRODUCTION TO BREWING SCIENCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN110"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN325",
+"Name": "MCAT REVIEW",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN110"], ["PHGN200"], ["CHGN222"], ["!CBEN120"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN350",
+"Name": "HONORS UNDERGRADUATE RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN351",
+"Name": "HONORS UNDERGRADUATE RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN357",
+"Name": "CHEMICAL ENGINEERING THERMODYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN210", "MATH225", "CBEN201"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN358",
+"Name": "CHEMICAL ENGINEERING THERMODYNAMICS LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CBEN200"], ["CBEN210"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN360",
+"Name": "BIOPROCESS ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN428"], ["CBEN201"], ["CBEN358"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN365",
+"Name": "INTRODUCTION TO CHEMICAL ENGINEERING PRACTICE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "CBEN201"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN368",
+"Name": "INTRODUCTION TO UNDERGRADUATE RESEARCH",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CBEN375",
+"Name": "CHEMICAL ENGINEERING SEPARATIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN357"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN401",
+"Name": "PROCESS OPTIMIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN201"], ["CBEN308"], ["CBEN307"], ["CBEN357"], ["CBEN375"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CBEN402",
+"Name": "CHEMICAL ENGINEERING DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN307"], ["CBEN308"], ["CBEN357"], ["CBEN358"], ["CBEN375"], ["!CBEN418"], ["!EBGN321"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN403",
+"Name": "PROCESS DYNAMICS AND CONTROL",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN201"], ["CBEN307"], ["CBEN308"], ["CBEN375"], ["MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN408",
+"Name": "NATURAL GAS PROCESSING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN221"], ["CBEN201"], ["CBEN307"], ["CBEN308"], ["CBEN357"], ["CBEN375"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN409",
+"Name": "PETROLEUM PROCESSES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN221"], ["CBEN201"], ["CBEN357"], ["CBEN375"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN411",
+"Name": "NEUROSCIENCE, MEMORY, AND LEARNING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN110"], ["CBEN120"], ["CHGN221"], ["CHGN222"], ["PHGN100"], ["PHGN200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN412",
+"Name": "INTRODUCTION TO PHARMACOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN110"], ["CBEN120"], ["CHGN121"], ["CHGN122"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN413",
+"Name": "INTRODUCTION TO BIOELECTRICITY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN414",
+"Name": "CHEMICAL PROCESS SAFETY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CBEN375"], ["!CBEN418"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN415",
+"Name": "POLYMER SCIENCE AND TECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN221"], ["MATH225"], ["CBEN357"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN416",
+"Name": "POLYMER ENGINEERING AND TECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN307"], ["MATH225"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN418",
+"Name": "KINETICS AND REACTION ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN308"], ["CBEN357"], ["MATH225"], ["CHGN221"], ["!CHGN351"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN420",
+"Name": "MATHEMATICAL METHODS IN CHEMICAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH225", "CHGN209", "CBEN210", "CBEN307", "CBEN357"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN422",
+"Name": "CHEMICAL ENGINEERING FLOW ASSURANCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN357"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN430",
+"Name": "TRANSPORT PHENOMENA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN307"], ["CBEN308"], ["CBEN357"], ["CBEN375"], ["MATH225"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN431",
+"Name": "IMMUNOLOGY FOR ENGINEERS AND SCIENTISTS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["BIOL110"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN432",
+"Name": "TRANSPORT PHENOMENA IN BIOLOGICAL SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN430"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN435",
+"Name": "INTERDISCIPLINARY MICROELECTRONICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN440",
+"Name": "MOLECULAR PERSPECTIVES IN CHEMICAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN307"], ["CBEN308"], ["CBEN357"], ["CBEN375"], ["CHGN351"], ["CHGN353"], ["CHGN221"], ["CHGN222"], ["MATH225"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN450",
+"Name": "HONORS UNDERGRADUATE RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN451",
+"Name": "HONORS UNDERGRADUATE RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN454",
+"Name": "APPLIED BIOINFORMATICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["BIOL110"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN460",
+"Name": "BIOCHEMICAL PROCESS ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN375"], ["CHGN428"], ["CHGN462"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN461",
+"Name": "BIOCHEMICAL PROCESS ENGINEERING LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CBEN375"], ["CHGN428"], ["CHGN462"], ["!CBEN460"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN469",
+"Name": "FUEL CELL SCIENCE AND TECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN361", "CBEN357", "MTGN351"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN470",
+"Name": "INTRODUCTION TO MICROFLUIDICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN307", "MEGN351"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN472",
+"Name": "INTRODUCTION TO ENERGY TECHNOLOGIES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN357"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN480",
+"Name": "NATURAL GAS HYDRATES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN498",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
 "Id": "GPGN101",
 "Name": "INTRODUCTION TO GEOPHYSICS: GEOPHYSICS AND SOCIETY",
 "Max_Credits": "3.0",
