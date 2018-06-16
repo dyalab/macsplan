@@ -2988,6 +2988,519 @@
 }
 ,
 {
+"Id": "GEGN101",
+"Name": "EARTH AND ENVIRONMENTAL SYSTEMS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "GEGN198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN203",
+"Name": "ENGINEERING TERRAIN ANALYSIS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN204",
+"Name": "GEOLOGIC PRINCIPLES AND PROCESSES",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN205",
+"Name": "ADVANCED PHYSICAL GEOLOGY LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN206",
+"Name": "EARTH MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"], ["GEGN203"], ["GEGN204"], ["GEGN205"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN212",
+"Name": "PETROLOGY FOR GEOLOGICAL ENGINEERS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["GEGN206"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN299",
+"Name": "INDEPENDENT STUDY IN ENGINEERING GEOLOGY OR ENGINEERING HYDROGEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN307",
+"Name": "PETROLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEOL321"], ["CHGN209"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN316",
+"Name": "FIELD GEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [["GEGN203", "GEGN204", "GEGN205", "GEGN206", "GEGN212", "GEGN307", "GEOL314", "GEOL309"], ["GEGN317"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "GEGN317",
+"Name": "GEOLOGIC FIELD METHODS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": ["GEGN203", "GEGN204", "GEGN205", ["GEOL309", "GEOL308"], ["GEGN212", "!GEGN307"], ["!GEOL314"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN330",
+"Name": "GEOSCIENTISTS THERMODYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121", "CHGN122", "CHGN125", "MATH111", "MATH112", "GEGN206"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "GEGN342",
+"Name": "ENGINEERING GEOMORPHOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN351",
+"Name": "GEOLOGICAL FLUID MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN398",
+"Name": "SEMINAR IN GEOLOGY OR GEOLOGICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN399",
+"Name": "INDEPENDENT STUDY IN ENGINEERING GEOLOGY OR ENGINEERING HYDROGEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN401",
+"Name": "MINERAL DEPOSITS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["CHGN209"], ["GEGN307"], ["GEGN316"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN403",
+"Name": "MINERAL EXPLORATION DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN401"], ["EDNS251"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN404",
+"Name": "ORE MICROSCOPY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEOL321"], ["GEGN401"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN432",
+"Name": "GEOLOGICAL DATA MANAGEMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "GEGN438",
+"Name": "PETROLEUM GEOLOGY",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["GEOL308", "GEOL309"], ["GEOL314", "GEOL315"], ["GEGN316", "GPGN486", "PEGN316"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN439",
+"Name": "MULTIDISCIPLINARY PETROLEUM DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEOL309"], ["GEOL314"], ["GEGN438"], ["EDNS264"], ["GPGN302"], ["GPGN303"], ["GEOL308"], ["PEGN316"], ["PEGN426"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN466",
+"Name": "GROUNDWATER ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213", "MATH223", "MATH224"], ["MATH225", "MATH235"], ["GEGN351", "MEGN351"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN467",
+"Name": "GROUNDWATER ENGINEERING",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH213", "MATH223", "MATH224"], ["MATH225", "MATH235"], ["GEGN351", "MEGN351"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN468",
+"Name": "ENGINEERING GEOLOGY AND GEOTECHNICS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MNGN321"], ["CEEN312", "CEEN312"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN469",
+"Name": "ENGINEERING GEOLOGY DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN468"], ["EDNS264"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN470",
+"Name": "GROUND-WATER ENGINEERING DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN467"], ["EPIC264"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN473",
+"Name": "GEOLOGICAL ENGINEERING SITE INVESTIGATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN475",
+"Name": "APPLICATIONS OF GEOGRAPHIC INFORMATION SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN481",
+"Name": "ANALYTICAL HYDROLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN467"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN483",
+"Name": "MATHEMATICAL MODELING OF GROUNDWATER SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN467"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN498",
+"Name": "SEMINAR IN GEOLOGY OR GEOLOGICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN499",
+"Name": "INDEPENDENT STUDY IN ENGINEERING GEOLOGY OR ENGINEERING HYDROGEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOC407",
+"Name": "ATMOSPHERE, WEATHER AND CLIMATE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOC408",
+"Name": "INTRODUCTION TO OCEANOGRAPHY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL102",
+"Name": "INTRODUCTION TO GEOLOGICAL ENGINEERING",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL198",
+"Name": "SEMINAR IN GEOLOGY OR GEOLOGICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOL199",
+"Name": "INDEPENDENT STUDY IN GEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOL298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOL308",
+"Name": "INTRODUCTORY APPLIED STRUCTURAL GEOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL309",
+"Name": "STRUCTURAL GEOLOGY AND TECTONICS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["GEGN101"], ["GEGN203"], ["GEGN204"], ["GEGN205"], ["GEGN206", "GPGN200"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEOL310",
+"Name": "EARTH MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEOL311",
+"Name": "MINING GEOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"], ["GEOL310", "MNGN310"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL314",
+"Name": "STRATIGRAPHY",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["GEGN101", "GEGN203", "GEGN204", "GEGN205"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL315",
+"Name": "SEDIMENTOLOGY AND STRATIGRAPHY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"], ["PEGN308"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEOL321",
+"Name": "MINERALOGY AND MINERAL CHARACTERIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101", "CHGN122", "CHGN125", "GEGN206"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEOL398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOL399",
+"Name": "INDEPENDENT STUDY IN GEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOL410",
+"Name": "PLANETARY GEOLOGY",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL443",
+"Name": "UNDERGRADUATE FIELD SEMINAR",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "GEOL444",
+"Name": "INVERTEBRATE PALEONTOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN204"], ["GEGN205"], ["GEGN206"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL470",
+"Name": "APPLICATIONS OF SATELLITE REMOTE SENSING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL498",
+"Name": "SEMINAR IN GEOLOGY OR GEOLOGICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOL499",
+"Name": "INDEPENDENT STUDY IN GEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
 "Id": "HASS100",
 "Name": "NATURE AND HUMAN VALUES",
 "Max_Credits": "4.0",
