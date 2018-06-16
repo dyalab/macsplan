@@ -12,7 +12,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 app.use(express.static(__dirname));
-var catalog = JSON.parse(fs.readFileSync('courseCatalogData.json', 'utf8'));
+var catalog = JSON.parse(fs.readFileSync(__dirname+'courseCatalogData.json', 'utf8'));
 
 app.get('/' /*root url*/, (req, res)=>{
   res.sendFile('input.html',{root: path.join(__dirname)});
