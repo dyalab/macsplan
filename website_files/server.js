@@ -5,14 +5,14 @@
 // delete
 var xmlrpc = require('xmlrpc');
 var client = xmlrpc.createClient({host:'localhost', port:8080, path: '/RPC2'});
-var fs = require('fs')
-var catalog = JSON.parse(fs.readFileSync('courseCatalogData.json', 'utf8'))
+var fs = require('fs');
 
 //importing and initializing express
 const express = require('express');
 const path = require('path');
 const app = express();
 app.use(express.static(__dirname));
+var catalog = JSON.parse(fs.readFileSync('courseCatalogData.json', 'utf8'));
 
 app.get('/' /*root url*/, (req, res)=>{
   res.sendFile('input.html',{root: path.join(__dirname)});
