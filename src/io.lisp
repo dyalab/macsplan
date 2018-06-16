@@ -13,7 +13,12 @@
 
 
 (defun parse-json-cnf (e)
-  (tmsmt::exp-and*  (map 'list #'tmsmt::exp-or* e)))
+  (tmsmt::exp-and*
+   (map 'list (lambda (e)
+                (if (atom e)
+                    e
+                    (tmsmt::exp-or* e)))
+        e)))
 
 (defun parse-json-exp (e)
   (if (atom e)
