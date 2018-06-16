@@ -229,7 +229,7 @@
 "Name": "COMPUTER SIMULATION",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["CSCI306"], ["MATH323", "MATH201"], ["CSCI274"]],
+"Pre_req": [["CSCI306"], ["MATH201"], ["CSCI274"]],
 "Semesters": ["F"]
 }
 ,
