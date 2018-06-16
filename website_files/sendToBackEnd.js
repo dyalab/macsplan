@@ -103,8 +103,8 @@ $("#generateButton").click(function(){
 	cTest = '[{"Id": "A1", "Name":"A1name","Credits":3.0,"Pre_req":[]},{"Id": "A2", "Name":"A2name","Credits":3.0,"Pre_req":["A1"]}]';
 	sTest = '{"taken":[], "degree":["A1","A2"], "modify":[]}';
 
-        plan(cTest, sTest, function(result){console.log(result)});
-	//alert(result)
+    plan(cTest, sTest, function(result){loadResults(result)});
+    
 
 	console.log(JSON.stringify(inputValues));
     
