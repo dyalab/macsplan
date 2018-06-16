@@ -1,6 +1,6 @@
 class InputClass{
   constructor(id){
-    this.id = id;
+    this.Id = id;
     this.desiredSemester= [];
     this.taken = false;
   }
@@ -63,8 +63,8 @@ $("#generateButton").click(function(){
 	//fixes the taken classes to set their taken value to true and puts in the appropriate class where electives are
 	for(var i=0; i<degree.length; i++){
 		desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-
-			if(inputValues[i].Id.indexOf('xxx') != -1 && this.data()[0].slice(0,4) == inputValues[i].Id.slice(0,4)){
+			console.log(degree[i]);
+			if(degree[i].Id.indexOf('xxx') != -1 && this.data()[0].slice(0,4) == degree[i].Id.slice(0,4)){
 				degree[i] = this.data()[0];
                 desiredDataTable.row(this.data()).remove().draw(false);
 			}
