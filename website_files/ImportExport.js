@@ -110,11 +110,11 @@ cardText.innerHTML = startsem;
 		var desiredExport = [];
 		
 		takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-			takenExport.push(this.data());
+			takenExport.push(this.data()[1]);
 		});
 		
 		desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-			desiredExport.push(this.data());
+			desiredExport.push(this.data()[1]);
 		});
 		
 		JSONexport.push(takenExport);
