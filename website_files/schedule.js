@@ -15,15 +15,9 @@ function loadResults(result) {
     result = typeof result !== "string" ? JSON.stringify(result): result; // if result is not a string, stringifies json
     try {
         generatedSchedule = JSON.parse(result);
+        loadElements(generatedSchedule);
     } catch {
         returnError(result); // if can't parse result (string) then shows error
-        return;
-    }
-    if(typeOf result === "object" && result != null) {
-        loadElements(result);
-        return;
-    } else {
-        returnError("Nothing returned"); // if the final result is null then returns that it is empty
     }
 }
 
