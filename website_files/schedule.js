@@ -19,8 +19,8 @@ function loadResults(result) {
         returnError(result); // if can't parse result (string) then shows error
         return;
     }
-    if(typeOf generatedSchedule === "object" && generatedSchedule != null) {
-        loadElements(generatedSchedule);
+    if(typeOf result === "object" && result != null) {
+        loadElements(result);
         return;
     } else {
         returnError("Nothing returned"); // if the final result is null then returns that it is empty
