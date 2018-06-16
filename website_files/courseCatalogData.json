@@ -1162,7 +1162,7 @@
 ,
 {
 "Id": "EENG429",
-"Name": "ACTIVE RF & MICROWAVE DEVICES",
+"Name": "ACTIVE RF AND MICROWAVE DEVICES",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
 "Pre_req": ["EENG385"],
@@ -1171,7 +1171,7 @@
 ,
 {
 "Id": "EENG430",
-"Name": "PASSIVE RF & MICROWAVE DEVICES",
+"Name": "PASSIVE RF AND MICROWAVE DEVICES",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
 "Pre_req": ["EENG386"],
@@ -2062,7 +2062,7 @@
 ,
 {
 "Id": "HASS286",
-"Name": "GLOBAL POLITICS & SOCIETY",
+"Name": "GLOBAL POLITICS AND SOCIETY",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
 "Pre_req": ["and", "HASS100", "!HASS200"],
@@ -2215,7 +2215,7 @@
 ,
 {
 "Id": "HASS337",
-"Name": "ASIA: POLITICS & SOCIETY",
+"Name": "ASIA: POLITICS AND SOCIETY",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
 "Pre_req": ["and", "HASS100", "!HASS200"],
@@ -2224,7 +2224,7 @@
 ,
 {
 "Id": "HASS339",
-"Name": "MIDDLE EAST: POLITICS & SOCIETY",
+"Name": "MIDDLE EAST: POLITICS AND SOCIETY",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
 "Pre_req": ["and", "HASS100", "!HASS200"],
@@ -2233,7 +2233,7 @@
 ,
 {
 "Id": "HASS341",
-"Name": "AFRICA: POLITICS & SOCIETY",
+"Name": "AFRICA: POLITICS AND SOCIETY",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
 "Pre_req": ["and", "HASS100", "!HASS200"],
@@ -2836,7 +2836,7 @@
 ,
 {
 "Id": "HNRS440",
-"Name": "EXPLORATIONS IN INTERNATIONAL STUDIES & GLOBAL AFFAIRS",
+"Name": "EXPLORATIONS IN INTERNATIONAL STUDIES AND GLOBAL AFFAIRS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
 "Pre_req": ["and", "HNRS305", "HNRS315"],
