@@ -12,8 +12,7 @@ function ReadyClasses(input, typeList, bulletin, id){
   // bulletin = bulletinYear variable from dropdownmenu.js
   //id = major, minor, asi variable from dropdownmenu.js
   var selectedType; //major, minor, asi
-  console.log(id);
-  console.log(bulletin);
+  
   for (var i = 0; i < typeList.length; i++){
       /*
       if (typeList[i].Id === id && typeList[i].Bulletin === bulletin){
@@ -24,8 +23,6 @@ function ReadyClasses(input, typeList, bulletin, id){
           selectedType = typeList[i];
       }
   }
-  console.log(selectedType);
-      console.log(selectedType.Classes);
 
   for(var i = 0; i < selectedType.Classes.length; i++){
       degree.push(selectedType.Classes[i]);
