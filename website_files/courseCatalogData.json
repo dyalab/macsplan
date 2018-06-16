@@ -1674,6 +1674,384 @@
 }
 ,
 {
+"Id": "CHGN111",
+"Name": "INTRODUCTORY CHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CHGN121",
+"Name": "PRINCIPLES OF CHEMISTRY I",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN122",
+"Name": "PRINCIPLES OF CHEMISTRY II (SC1)",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["CHGN121"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN125",
+"Name": "MOLECULAR ENGINEERING & MATERIALS CHEMISTRY",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["CHGN121"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN209",
+"Name": "INTRODUCTION TO CHEMICAL THERMODYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121", "CHGN122", "CHGN125", "MATH111", "MATH112", "PHGN100"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN221",
+"Name": "ORGANIC CHEMISTRY I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122", "CHGN125"]],
+"Semesters": ["F", "Su"]
+}
+,
+{
+"Id": "CHGN222",
+"Name": "ORGANIC CHEMISTRY II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN221"]],
+"Semesters": ["S", "Su"]
+}
+,
+{
+"Id": "CHGN223",
+"Name": "ORGANIC CHEMISTRY I LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CHGN221"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN224",
+"Name": "ORGANIC CHEMISTRY II LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CHGN221"], ["CHGN223"], ["CHGN222"]],
+"Semesters": ["S", "Su"]
+}
+,
+{
+"Id": "CHGN298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN311",
+"Name": "INTRODUCTION TO NANOSCIENCE AND NANOTECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121"], ["CHGN122", "CHGN125"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN323",
+"Name": "QUALITATIVE ORGANIC ANALYSIS AND APPLIED SPECTROSCOPY",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["CHGN222", "CHGN224"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN335",
+"Name": "INSTRUMENTAL ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN336",
+"Name": "ANALYTICAL CHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122"], ["CHGN209", "CBEN210"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN337",
+"Name": "ANALYTICAL CHEMISTRY LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CHGN336"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN341",
+"Name": "INORGANIC CHEMISTRY I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN222"], ["CHGN209"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN351",
+"Name": "PHYSICAL CHEMISTRY: A MOLECULAR PERSPECTIVE I",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH225", "PHGN200"], ["CHGN209", "CBEN210"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN353",
+"Name": "PHYSICAL CHEMISTRY: A MOLECULAR PERSPECTIVE II",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["CHGN351"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN395",
+"Name": "INTRODUCTION TO UNDERGRADUATE RESEARCH",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN396",
+"Name": "UNDERGRADUATE RESEARCH",
+"Max_Credits": "5.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN398",
+"Name": "SPECIAL TOPICS IN CHEMISTRY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN401",
+"Name": "INORGANIC CHEMISTRY II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN341"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN403",
+"Name": "INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN222", "CHGN209", "CBEN210"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN406",
+"Name": "INTRODUCTION TO GEOCHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121"], ["CHGN122"], ["GEGN101"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN410",
+"Name": "SURFACE CHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN209"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN411",
+"Name": "APPLIED RADIOCHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121"], ["CHGN122"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN422",
+"Name": "POLYMER CHEMISTRY LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CHGN221"], ["CHGN223"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN428",
+"Name": "BIOCHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN222"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN429",
+"Name": "BIOCHEMISTRY II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN428"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN430",
+"Name": "INTRODUCTION TO POLYMER SCIENCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN462",
+"Name": "MICROBIOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN475",
+"Name": "COMPUTATIONAL CHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN351"], ["CHGN401"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN490",
+"Name": "CHEMISTRY FIELD SESSION",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [["CHGN323"], ["CHGN341"], ["CHGN353"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CHGN495",
+"Name": "UNDERGRADUATE RESEARCH",
+"Max_Credits": "5.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN497",
+"Name": "INTERNSHIP",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN498",
+"Name": "SPECIAL TOPICS IN CHEMISTRY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "0.5.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
 "Id": "GPGN101",
 "Name": "INTRODUCTION TO GEOPHYSICS: GEOPHYSICS AND SOCIETY",
 "Max_Credits": "3.0",
