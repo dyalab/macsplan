@@ -4,7 +4,6 @@ var  generatedSchedule = [["CSCI101", "CSCI298", "MATH112", "CSCI370"], ["CSCI27
 
 // pastes error message in container
 function returnError(error) {
-	console.log("error");
 	generatedSchedule = [["CSCI101", "CSCI298", "MATH112", "CSCI370"], ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"]];
     loadElements(generatedSchedule);
 }
@@ -17,6 +16,8 @@ function loadResults(result) {
     result = typeof result !== "string" ? JSON.stringify(result): result; // if result is not a string, stringifies json
     try {
         generatedSchedule = JSON.parse(result);
+		// temporary till working better
+		generatedSchedule = [["CSCI101", "CSCI298", "MATH112", "CSCI370"], ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"]];
         loadElements(generatedSchedule);
     } catch {
         returnError(result); // if can't parse result (string) then shows error
@@ -28,9 +29,7 @@ function loadElements(generatedSchedule) {
 	var semesterContainer = document.getElementById("semesterContainer");
     $(semesterContainer).append($("<h2 id='schedule-label'>Generated Schedule</h2>")); // Generated Schedule
     var num = 0; // variable to determine how many courses entered
-	console.log(generatedSchedule);
     for (var i = 0; i < generatedSchedule.length; i++) { // iterate through number of semesters
-			console.log("1");
 
         var semester = document.createElement("div"); // semester div
         semester.className = "semester";
@@ -46,7 +45,6 @@ function loadElements(generatedSchedule) {
         
         // iterate through the course in each semester
         for (var j = 0; j < generatedSchedule[i].length; j++) {
-				console.log("2");
 
 			var classDiv = document.createElement("div"); // div for class row
 			classDiv.className = "course";
@@ -63,7 +61,6 @@ function loadElements(generatedSchedule) {
 			var courseName = "NOT FOUND";
 			var courseCredits = "NOT FOUND";
 			for(var k = 0; k < courseCatalog.length; k++) {
-					console.log("3");
 
 				if(courseCatalog[k].Id == courseID) {
 					courseName = courseCatalog[k].Name;
