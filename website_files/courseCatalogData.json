@@ -2065,7 +2065,7 @@
 "Name": "WATER AND WASTEWATER TREATMENT SYSTEMS ANALYSIS AND DESIGN",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": ["CEEN470", ["CEEN570"]],
+"Pre_req": [["CEEN470"]],
 "Semesters": ["S"]
 }
 ,
