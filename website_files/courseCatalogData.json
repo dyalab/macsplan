@@ -6565,7 +6565,7 @@
 "Name": "ADVANCED TOPICS IN MACROECONOMICS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["EBGN301"], ["ENGN302"], ["EBGN303"]],
+"Pre_req": [["EBGN301"], ["EBGN303"]],
 "Semesters": ["F"]
 }
 ,
