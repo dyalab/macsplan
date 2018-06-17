@@ -7510,7 +7510,7 @@
 "Name": "ENERGY AND SOCIETY",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["ENGY330", "EBGN330"], ["ENGY310", "ENGY320", "ENGY340"]],
+"Pre_req": [["EBGN330"]],
 "Semesters": ["S"]
 }
 ,
