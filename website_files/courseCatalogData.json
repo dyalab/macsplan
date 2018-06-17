@@ -3582,6 +3582,555 @@
 }
 ,
 {
+"Id": "MTGN198",
+"Name": "SPECIAL TOPICS IN METALLURGICAL AND MATERIALS ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN202",
+"Name": "ENGINEERED MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122", "CHGN125", "MATH112"], ["PHGN100"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN211",
+"Name": "STRUCTURE OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN202"], ["!PHGN200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN251",
+"Name": "METALLURGICAL AND MATERIALS THERMODYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH112", "CHGN122", "CHGN125"], ["PHGN100"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN272",
+"Name": "MME FIELD SESSION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH112"], ["PHGN100"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "MTGN281",
+"Name": "INTRODUCTION TO PHASE EQUILIBRIA IN MATERIALS SYSTEMS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MTGN202"], ["MTGN251", "MTGN351"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN298",
+"Name": "SPECIAL TOPICS IN METALLURGICAL AND MATERIALS ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN300",
+"Name": "FOUNDRY METALLURGY",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN300L",
+"Name": "FOUNDRY METALLURGY LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN311",
+"Name": "STRUCTURE OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["MTGN202"], ["!MTGN311"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN311L",
+"Name": "STRUCTURE OF MATERIALS LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN314",
+"Name": "PROPERTIES AND PROCESSING OF CERAMICS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN314L",
+"Name": "PROPERTIES AND PROCESSING OF CERAMICS LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN315",
+"Name": "ELECTRICAL PROPERTIES AND APPLICATIONS OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["!MTGN211", "!MTGN311"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN334",
+"Name": "CHEMICAL PROCESSING OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN272"], ["MTGN351"], ["CEEN267", "EDNS251", "EDNS261", "EDNS262", "EDNS264", "EDNS269"], ["!MTGN334"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN334L",
+"Name": "CHEMICAL PROCESSING OF MATERIALS LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN348",
+"Name": "MICROSTRUCTURAL DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN211", "MTGN311"], ["MTGN251", "MTGN351"], ["!MTGN281", "!MTGN381"], ["!MTGN348"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN348L",
+"Name": "MICROSTRUCTURAL DEVELOPMENT LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN350",
+"Name": "STATISTICAL PROCESS CONTROL AND DESIGN OF EXPERIMENTS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN351",
+"Name": "METALLURGICAL AND MATERIALS THERMODYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN209", "CBEN210"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN352",
+"Name": "METALLURGICAL AND MATERIALS KINETICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN272"], ["!MTGN251", "!MTGN351"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN381",
+"Name": "INTRODUCTION TO PHASE EQUILIBRIA IN MATERIALS SYSTEMS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN398",
+"Name": "SPECIAL TOPICS IN METALLURGICAL AND MATERIALS ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN403",
+"Name": "SENIOR THESIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN407",
+"Name": "STEEL BAR MANUFACTURING",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MTGN348"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN412",
+"Name": "CERAMIC ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN348"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN414",
+"Name": "ADVANCED PROCESSING AND SINTERING OF CERAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN314"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN415",
+"Name": "ELECTRICAL PROPERTIES AND APPLICATIONS OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["MTGN311"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN419",
+"Name": "NON-CRYSTALLINE MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN211", "MTGN311"], ["MTGN412", "MTGN314"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN429",
+"Name": "METALLURGICAL ENVIRONMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN334"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN430",
+"Name": "PHYSICAL CHEMISTRY OF IRON AND STEELMAKING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN334"], ["MTGN251", "MTGN351"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN431",
+"Name": "HYDRO- AND ELECTRO-METALLURGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN334"], ["MTGN352"], ["MTGN351", "MTGN251"], ["!MTGN461"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN432",
+"Name": "PYROMETALLURGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN334"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN442",
+"Name": "ENGINEERING ALLOYS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN348"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN445",
+"Name": "MECHANICAL PROPERTIES OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN348"], ["!MTGN445"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN445L",
+"Name": "MECHANICAL PROPERTIES OF MATERIALS LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN450",
+"Name": "STATISTICAL PROCESS CONTROL AND DESIGN OF EXPERIMENTS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN451",
+"Name": "CORROSION ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN251", "MTGN351"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN456",
+"Name": "ELECTRON MICROSCOPY",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MTGN211", "MTGN311"], ["!MTGN456"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN456L",
+"Name": "ELECTRON MICROSCOPY LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN461",
+"Name": "TRANSPORT PHENOMENA AND REACTOR DESIGN FOR METALLURGICAL AND MATERIALS ENGINEERS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH225"], ["MTGN334"], ["MTGN352"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN461L",
+"Name": "TRANSPORT PHENOMENA AND REACTOR DESIGN LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN462",
+"Name": "SOLID WASTE MINIMIZATION AND RECYCLING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301"], ["CEEN302"], ["CHGN403"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN463",
+"Name": "POLYMER ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN464",
+"Name": "FORGING AND FORMING",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["CEEN311", "MEGN312"], ["MTGN348", "MEGN350"], ["!MTGN464"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN464L",
+"Name": "FORGING AND FORMING LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN465",
+"Name": "MECHANICAL PROPERTIES OF CERAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN211", "MTGN311"], ["MTGN314", "MTGN412"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN466",
+"Name": "MATERIALS DESIGN: SYNTHESIS, CHARACTERIZATION AND SELECTION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN351"], ["MTGN352"], ["MTGN445"], ["MTGN461"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN467",
+"Name": "MATERIALS DESIGN: SYNTHESIS, CHARACTERIZATION AND SELECTION",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MTGN348"], ["!MTGN461"], ["!MTGN445"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN468",
+"Name": "MATERIALS DESIGN: SYNTHESIS, CHARACTERIZATION AND SELECTION",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MTGN352"], ["!MTGN348"], ["!MTGN334"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN469",
+"Name": "FUEL CELL SCIENCE AND TECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["MATH315"], ["MTGN251", "MTGN351", "CHGN209", "CHGN210", "MEGN361"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN472",
+"Name": "BIOMATERIALS I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN202"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN475",
+"Name": "METALLURGY OF WELDING",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MTGN348"], ["!MTGN475"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN475L",
+"Name": "METALLURGY OF WELDING LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN497",
+"Name": "SUMMER PROGRAMS",
+"Max_Credits": "0.0",
+"Min_Credits": "0.0",
+"Pre_req": [],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "MTGN498",
+"Name": "SPECIAL TOPICS IN METALLURGICAL AND MATERIALS ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
 "Id": "GPGN101",
 "Name": "INTRODUCTION TO GEOPHYSICS: GEOPHYSICS AND SOCIETY",
 "Max_Credits": "3.0",
@@ -6508,6 +7057,474 @@
 ,
 {
 "Id": "PEGN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN198",
+"Name": "SPECIAL TOPICS IN MINING ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN210",
+"Name": "INTRODUCTORY MINING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN222",
+"Name": "INTRODUCTION TO EXPLOSIVES ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN100"], ["CHGN121"], ["CHGN122"], ["MATH111"], ["MATH112"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "MNGN298",
+"Name": "SPECIAL TOPICS IN MINING ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN300",
+"Name": "SUMMER FIELD SESSION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "MNGN308",
+"Name": "MINE SAFETY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MNGN210"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN309",
+"Name": "MINING ENGINEERING LABORATORY",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MNGN210"], ["MNGN308"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN310",
+"Name": "EARTH MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN311",
+"Name": "MINING GEOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEOL310", "MNGN310"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN312",
+"Name": "SURFACE MINE DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN210"], ["MNGN300"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN314",
+"Name": "UNDERGROUND MINE DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN210"], ["MNGN300"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN316",
+"Name": "COAL MINING METHODS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN317",
+"Name": "DYNAMICS FOR MINING ENGINEERS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MATH213", "CEEN241"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN321",
+"Name": "INTRODUCTION TO ROCK MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241", "MNGN317"]],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN322",
+"Name": "INTRODUCTION TO MINERAL PROCESSING AND LABORATORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200", "MATH213"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN333",
+"Name": "EXPLOSIVES ENGINEERING I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MNGN350",
+"Name": "INTRODUCTION TO GEOTHERMAL ENERGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["ENGY200"]],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN398",
+"Name": "SPECIAL TOPICS IN MINING ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN404",
+"Name": "TUNNELING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN405",
+"Name": "ROCK MECHANICS IN MINING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MN321"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN406",
+"Name": "DESIGN AND SUPPORT OF UNDERGROUND EXCAVATIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN407",
+"Name": "ROCK FRAGMENTATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN408",
+"Name": "UNDERGROUND DESIGN AND CONSTRUCTION",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["CEEN312"], ["MNGN321"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN410",
+"Name": "EXCAVATION PROJECT MANAGEMENT",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN414",
+"Name": "MINE PLANT DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN312"], ["MNGN314"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN418",
+"Name": "ADVANCED ROCK MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN321"]],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN421",
+"Name": "DESIGN OF UNDERGROUND EXCAVATIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN321"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN422",
+"Name": "FLOTATION",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN423",
+"Name": "FLOTATION LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN424",
+"Name": "MINE VENTILATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PEGN251", "MEGN351"], ["CHGN209", "MEGN361"], ["MNGN314"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN427",
+"Name": "MINE VALUATION",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN428",
+"Name": "MINING ENGINEERING EVALUATION AND DESIGN REPORT I",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MNGN210"], ["MNGN300"], ["MNGN308"], ["MNGN312"], ["MNGN314"], ["MNGN309"], ["MNGN321"], ["MNGN316"], ["GEOL310"], ["GEOL311"], ["!MNGN438"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN429",
+"Name": "MINING ENGINEERING EVALUATION AND DESIGN REPORT II",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MNGN428"], ["MNGN210"], ["MNGN300"], ["MNGN308"], ["MNGN312"], ["MNGN314"], ["MNGN309"], ["MNGN321"], ["MNGN316"], ["GEOL310"], ["GEOL311"], ["MNGN438"], ["MNGN414"], ["!MNGN322", "!MNGN323", "!MNGN427"], ["!MNGN433"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN431",
+"Name": "MINING AND METALLURGICAL ENVIRONMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN433",
+"Name": "MINE SYSTEMS ANALYSIS I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN434",
+"Name": "PROCESS ANALYSIS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MNGN422"]],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN436",
+"Name": "UNDERGROUND COAL MINE DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN316"], ["MNGN321"], ["MNGN414"], ["EGGN329"], ["MNGN381", "MNGN384"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN438",
+"Name": "GEOSTATISTICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH112"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN440",
+"Name": "EQUIPMENT REPLACEMENT ANALYSIS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MNGN427"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN444",
+"Name": "EXPLOSIVES ENGINEERING II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN333"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN445",
+"Name": "ROCK SLOPE ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN452",
+"Name": "SOLUTION MINING AND PROCESSING OF ORES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN460",
+"Name": "INDUSTRIAL MINERALS PRODUCTION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN312"], ["MNGN322"], ["MNGN323"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN470",
+"Name": "SAFETY AND HEALTH MANAGEMENT IN THE MINING INDUSTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN482",
+"Name": "MINE MANAGEMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN490",
+"Name": "ENERGY AND SOCIETY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["ENGY330", "EBGN330"], ["ENGY310", "ENGY320", "ENGY340"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN498",
+"Name": "SPECIAL TOPICS IN MINING ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN499",
 "Name": "INDEPENDENT STUDY",
 "Max_Credits": "6.0",
 "Min_Credits": "1.0",
