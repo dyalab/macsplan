@@ -2200,7 +2200,7 @@
 "Name": "ANATOMY AND PHYSIOLOGY: BONE, MUSCLE, AND BRAIN LABORATORY",
 "Max_Credits": "1.0",
 "Min_Credits": "1.0",
-"Pre_req": [["BIOL110"], ["!CBEN406"]],
+"Pre_req": [["!CBEN406"]],
 "Semesters": ["F"]
 }
 ,
@@ -2209,7 +2209,7 @@
 "Name": "INTRODUCTION TO BIOMEDICAL ENGINEERING",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["BIOL110"], ["CBEN210", "CHGN209", "MEGN361"]],
+"Pre_req": [["CBEN210", "CHGN209", "MEGN361"]],
 "Semesters": ["F"]
 }
 ,
@@ -2218,7 +2218,7 @@
 "Name": "INTRODUCTION TO NEUROSCIENCE",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["BIOL110"], ["CHGN121"], ["CHGN122"], ["PHGN100"], ["PHGN200"]],
+"Pre_req": [["CHGN121"], ["CHGN122"], ["PHGN100"], ["PHGN200"]],
 "Semesters": ["F", "S"]
 }
 ,
@@ -2551,7 +2551,7 @@
 "Name": "IMMUNOLOGY FOR ENGINEERS AND SCIENTISTS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["BIOL110"]],
+"Pre_req": [],
 "Semesters": ["S"]
 }
 ,
@@ -2605,7 +2605,7 @@
 "Name": "APPLIED BIOINFORMATICS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["BIOL110"]],
+"Pre_req": [],
 "Semesters": ["S"]
 }
 ,
