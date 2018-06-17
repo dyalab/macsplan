@@ -4288,7 +4288,7 @@
 "Name": "INVERSION",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["GPGN229"], ["MATH332"], ["GPGN335"], ["CSCI250"], ["!GPGN435"]],
+"Pre_req": [["GPGN229"], ["MATH332"], ["CSCI250"], ["!GPGN435"]],
 "Semesters": ["F"]
 }
 ,
@@ -4414,7 +4414,7 @@
 "Name": "GEOPHYSICS FIELD CAMP",
 "Max_Credits": "4.0",
 "Min_Credits": "4.0",
-"Pre_req": [["GPGN268", "GPGN314", "GPGN329", "GPGN335", "GEGN203", "GEGN204", "GEGN205"]],
+"Pre_req": [["GPGN268", "GPGN314", "GPGN329", "GEGN203", "GEGN204", "GEGN205"]],
 "Semesters": ["Su"]
 }
 ,
