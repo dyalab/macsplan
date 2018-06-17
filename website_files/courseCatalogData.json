@@ -3190,7 +3190,7 @@
 "Name": "GENERAL BIOLOGY II LABORATORY",
 "Max_Credits": "1.0",
 "Min_Credits": "1.0",
-"Pre_req": [["CBEN303"]],
+"Pre_req": [],
 "Semesters": ["F", "S"]
 }
 ,
