@@ -7276,7 +7276,7 @@
 "Name": "ROCK MECHANICS IN MINING",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["MN321"]],
+"Pre_req": [],
 "Semesters": ["F"]
 }
 ,
