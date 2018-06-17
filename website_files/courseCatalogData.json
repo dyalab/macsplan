@@ -4702,7 +4702,7 @@
 "Name": "GROUND-WATER ENGINEERING DESIGN",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["GEGN467"], ["EPIC264"]],
+"Pre_req": [["GEGN467"]],
 "Semesters": ["S"]
 }
 ,
