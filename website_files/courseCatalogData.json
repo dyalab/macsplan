@@ -7429,7 +7429,7 @@
 "Name": "UNDERGROUND COAL MINE DESIGN",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["MNGN316"], ["MNGN321"], ["MNGN414"], ["MNGN384"]],
+"Pre_req": [["MNGN316"], ["MNGN321"], ["MNGN414"]],
 "Semesters": ["S"]
 }
 ,
