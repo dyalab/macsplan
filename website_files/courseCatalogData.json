@@ -4657,7 +4657,7 @@
 "Name": "MULTIDISCIPLINARY PETROLEUM DESIGN",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["GEOL309"], ["GEOL314"], ["GEGN438"], ["EDNS264"], ["GPGN302"], ["GPGN303"], ["GEOL308"], ["PEGN316"], ["PEGN426"]],
+"Pre_req": [["GEOL309"], ["GEOL314"], ["GEGN438"], ["EDNS264"], ["GPGN303"], ["GEOL308"], ["PEGN316"], ["PEGN426"]],
 "Semesters": ["S"]
 }
 ,
