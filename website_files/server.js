@@ -29,8 +29,8 @@ app.get('/majorData', (req, res) =>{
 });
 
 app.get('/RPC2/', (req, res) =>{
-	console.log("Student Data: "+req.param('student_data'))
-    client.methodCall('plan', [catalog, req.param('student_data')], function(error, value){
+	console.log("Student Data: "+req.query.student_data')
+    client.methodCall('plan', [catalog, req.query.student_data], function(error, value){
 	if (error){
 	res.send(error);
 	}
