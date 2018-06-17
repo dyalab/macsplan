@@ -1246,7 +1246,7 @@
 "Name": "COMPUTATIONAL METHODS IN ENERGY SYSTEMS AND POWER ELECTRONICS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["EENG282"]],
+"Pre_req": [["EENG282", "EENG382"]],
 "Semesters": ["S"]
 }
 ,
@@ -1543,7 +1543,7 @@
 "Name": "MULTIDISCIPLINARY ENGINEERING LABORATORY III",
 "Max_Credits": "1.0",
 "Min_Credits": "1.0",
-"Pre_req": [["MEGN350"], ["!EENG307"]],
+"Pre_req": [["MEGN350", "EENG382"], ["!EENG307"]],
 "Semesters": ["F", "S"]
 }
 ,
@@ -6529,6 +6529,348 @@
 "Name": "SPECIAL TOPICS",
 "Max_Credits": "6.0",
 "Min_Credits": "0.5.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS151",
+"Name": "INTRODUCTION TO DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EDNS155",
+"Name": "INTRODUCTION TO DESIGN, GRAPHICS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS156",
+"Name": "AUTOCAD BASICS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS157",
+"Name": "SOLIDWORKS BASICS (FOR CERTIFICATION)",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS191",
+"Name": "INTEGRATIVE DESIGN STUDIO IA",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EDNS192",
+"Name": "INTEGRATIVE DESIGN STUDIO IB",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS191"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EDNS198",
+"Name": "SPECIAL TOPCS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS200",
+"Name": "COMMUNICATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS205",
+"Name": "PROGRAMMING CONCEPTS AND ENGINEERING ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS251",
+"Name": "THE PRACTICE OF DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EDNS261",
+"Name": "THE PRACTICE OF DESIGN: GIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EDNS262",
+"Name": "THE PRACTICE OF DESIGN: AUTOCAD",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EDNS263",
+"Name": "EPICS II MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EDNS264",
+"Name": "EPICS II: GEOLOGY GIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EDNS269",
+"Name": "EPICS II: ENGINEERING PHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EDNS291",
+"Name": "INTEGRATIVE DESIGN STUDIO IIA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS192", "HNRS115", "CSM192", "HASS100"], ["EDNS151"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EDNS292",
+"Name": "INTEGRATIVE DESIGN STUDIO IIB",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS291"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EDNS298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS301",
+"Name": "HUMAN-CENTERED PROBLEM DEFINITION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS315",
+"Name": "ENGINEERING FOR SOCIAL AND ENVIRONMENTAL RESPONSIBILITY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["EDNS151", "EDNS192"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS375",
+"Name": "ENGINEERING CULTURES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "EDNS377",
+"Name": "ENGINEERING AND SUSTAINABLE COMMUNITY DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["!HASS200"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EDNS391",
+"Name": "INTEGRATIVE DESIGN STUDIO IIIA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS292"], ["MEGN200", "GPGN268"], ["EDNS200"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EDNS392",
+"Name": "INTEGRATIVE DESIGN STUDIO IIIB",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS391"], ["PHGN200"], ["MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EDNS398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS401",
+"Name": "PROJECTS FOR PEOPLE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS430",
+"Name": "CORPORATE SOCIAL RESPONSIBILITY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "EDNS475",
+"Name": "ENGINEERING CULTURES IN THE DEVELOPING WORLD",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "EDNS478",
+"Name": "ENGINEERING AND SOCIAL JUSTICE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EDNS479",
+"Name": "ENGINEERS ENGAGING COMMUNITIES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EDNS480",
+"Name": "ANTHROPOLOGY OF DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS200"], ["!EDNS377", "!HASS325"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EDNS491",
+"Name": "SENIOR DESIGN I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN481"], ["CEEN443"], "CEEN445", "CEEN440", ["CEEN415"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS492",
+"Name": "SENIOR DESIGN II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EGGN491"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS498",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
 "Pre_req": [],
 "Semesters": ["F", "S"]
 }
