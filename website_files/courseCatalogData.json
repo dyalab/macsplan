@@ -1246,7 +1246,7 @@
 "Name": "COMPUTATIONAL METHODS IN ENERGY SYSTEMS AND POWER ELECTRONICS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["EENG282"]],
+"Pre_req": [["EENG282"],
 "Semesters": ["S"]
 }
 ,
@@ -1270,6 +1270,429 @@
 ,
 {
 "Id": "EENG499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "AMFG401",
+"Name": "ADDITIVE MANUFACTURING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN200"], ["MEGN201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "AMFG498",
+"Name": "SPECIAL TOPICS IN ADVANCED MANUFACTURING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN200",
+"Name": "INTRODUCTION TO MECHANICAL ENGINEERING: PROGRAMMING AND HARDWARE INTERFACE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "HNRS105", "HNRS115"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN201",
+"Name": "MECHANICAL FIELD SESSION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN250",
+"Name": "MULTIDISCIPLINARY ENGINEERING LABORATORY",
+"Max_Credits": "1.5",
+"Min_Credits": "1.5",
+"Pre_req": [["PHGN200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN300",
+"Name": "INSTRUMENTATION & AUTOMATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN200"], ["MEGN201"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN301",
+"Name": "MECHANICAL INTEGRATION & DESIGN",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MEGN200"], ["MEGN201"], ["MEGN300"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN312",
+"Name": "INTRODUCTION TO SOLID MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241"], ["!MEGN200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN315",
+"Name": "DYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241"], ["MATH225"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN330",
+"Name": "INTRODUCTION TO BIOMECHANICAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN312", "CEEN311"], ["PHGN200"], ["!MEGN315"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN350",
+"Name": "MULTIDISCIPLINARY ENGINEERING LABORATORY II",
+"Max_Credits": "1.5",
+"Min_Credits": "1.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN351",
+"Name": "FLUID MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241", "MNGN317"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN361",
+"Name": "THERMODYNAMICS I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN381",
+"Name": "MANUFACTURING PROCESSES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN312"], ["MTGN202"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN391",
+"Name": "AUTOMOTIVE DESIGN: SAE COLLEGIATE DESIGN SERIES (FORMULA SAE)",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MEGN200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN398",
+"Name": "SPECIAL TOPICS IN MECHANICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN408",
+"Name": "INTRODUCTION TO SPACE EXPLORATION",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN412",
+"Name": "ADVANCED MECHANICS OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311", "MEGN312"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN416",
+"Name": "ENGINEERING VIBRATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN315"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN424",
+"Name": "COMPUTER AIDED ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN312", "CEEN311"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN425",
+"Name": "ADVANCED COMPUTER AIDED ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN424"]],
+"Semesters": ["F", "Su"]
+}
+,
+{
+"Id": "MEGN430",
+"Name": "MUSCULOSKELETAL BIOMECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN315", "CEEN311", "MEGN312", "MEGN330"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN435",
+"Name": "MODELING AND SIMULATION OF HUMAN MOVEMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN315"], ["MEGN330"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN436",
+"Name": "COMPUTATIONAL BIOMECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN424"], ["MEGN330"]],
+"Semesters": []
+}
+,
+{
+"Id": "MEGN441",
+"Name": "INTRODUCTION TO ROBOTICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI261"], ["EENG281", "EENG282", "PHGN215"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN450",
+"Name": "MULTIDISCIPLINARY ENGINEERING LABORATORY III",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MEGN350"], ["!EENG307"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN451",
+"Name": "FLUID MECHANICS II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN351"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN461",
+"Name": "THERMODYNAMICS II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN351"], ["MEGN361"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN466",
+"Name": "INTRODUCTION TO INTERNAL COMBUSTION ENGINES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN351"], ["MEGN361"], ["!MEGN471"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN467",
+"Name": "HVAC AND BUILDING ENERGY SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN351"], ["MEGN361"], ["MEGN471"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN469",
+"Name": "FUEL CELL SCIENCE AND TECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN361", "CBEN357", "MTGN351"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN471",
+"Name": "HEAT TRANSFER",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN351"], ["MEGN361"], ["MATH307"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN481",
+"Name": "MACHINE DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN315", "PHGN350"], ["MEGN424"], ["!MEGN489"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN482",
+"Name": "MECHANICAL DESIGN USING GD&T",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN483",
+"Name": "ADDITIVE MANUFACTURING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN200"], ["MEGN201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN485",
+"Name": "MANUFACTURING OPTIMIZATION WITH NETWORK MODELS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH111"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN486",
+"Name": "LINEAR OPTIMIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH332", "EBGN509"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN487",
+"Name": "NONLINEAR OPTIMIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH111"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN488",
+"Name": "INTEGER OPTIMIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH111"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN489",
+"Name": "MACHINE DESIGN LAB",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN493",
+"Name": "ENGINEERING DESIGN OPTIMIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213"], "MATH225", ["CSCI260", "CSCI261"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN498",
+"Name": "SPECIAL TOPICS IN MECHANICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN499",
 "Name": "INDEPENDENT STUDY",
 "Max_Credits": "6.0",
 "Min_Credits": "1.0",
