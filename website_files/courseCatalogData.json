@@ -1642,7 +1642,7 @@
 "Name": "LINEAR OPTIMIZATION",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["MATH332", "EBGN509"]],
+"Pre_req": [["MATH332"]],
 "Semesters": ["F"]
 }
 ,
