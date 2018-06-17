@@ -96,7 +96,7 @@ $("#generateButton").click(function(){
     inputValues.taken = taken;
     inputValues.degree = degree;
     inputValues.modify = modify;
-	sTest = '{"taken" : [], "degree" : ["and", "CSCI101",  "MATH111",  "CSCI261", "MATH112",  "MATH213", "CSCI262",  "CSCI274", "CSCI341", "CSCI358", "MATH225",  "CSCI306", "MATH332", "CSCI403", "CSCI406", "MATH201", "CSCI370", "CSCI400", "CSCI442"]}';
+	sTest = '{"taken" : [\n]\n "degree" :\n ["and"\n "CSCI101",  "MATH111",  "CSCI261", "MATH112",  "MATH213", "CSCI262",  "CSCI274", "CSCI341", "CSCI358", "MATH225",  "CSCI306", "MATH332", "CSCI403", "CSCI406", "MATH201", "CSCI370", "CSCI400", "CSCI442"\n]\n}';
 
     plan(sTest, function(result){loadResults(result)}, function(error){returnError(error)});
     
