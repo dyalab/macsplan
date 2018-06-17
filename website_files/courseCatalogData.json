@@ -4072,7 +4072,7 @@
 "Name": "FUEL CELL SCIENCE AND TECHNOLOGY",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["PHGN200"], ["MTGN251", "MTGN351", "CHGN209", "CHGN210", "MEGN361"]],
+"Pre_req": [["PHGN200"], ["MTGN251", "MTGN351", "CHGN209", "MEGN361"]],
 "Semesters": ["F"]
 }
 ,
