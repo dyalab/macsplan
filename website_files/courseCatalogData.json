@@ -1849,7 +1849,7 @@
 "Name": "ENGINEERING FIELD SESSION, CIVIL",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["EDNS251", "ENDS261", "EDNS262", "CEEN267"]],
+"Pre_req": [["EDNS251", "EDNS262", "CEEN267"]],
 "Semesters": ["Su"]
 }
 ,
