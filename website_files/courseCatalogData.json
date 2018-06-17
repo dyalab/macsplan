@@ -6277,7 +6277,7 @@
 "Name": "MUSIC TECHNOLOGY CAPSTONE COURSE",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["LIMU340"], ["LIMU350"]],
+"Pre_req": [["LIMU350"]],
 "Semesters": []
 }
 ,
