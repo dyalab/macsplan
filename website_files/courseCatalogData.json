@@ -8176,7 +8176,7 @@
 "Name": "INTEGRATIVE DESIGN STUDIO IIA",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["EDNS192", "HNRS115", "CSM192", "HASS100"], ["EDNS151"]],
+"Pre_req": [["EDNS192", "HNRS115", "HASS100"], ["EDNS151"]],
 "Semesters": ["F"]
 }
 ,
