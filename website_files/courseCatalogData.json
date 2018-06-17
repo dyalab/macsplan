@@ -1701,6 +1701,483 @@
 }
 ,
 {
+"Id": "CEEN198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN210",
+"Name": "INTRODUCTION TO CIVIL INFRASTRUCTURE",
+"Max_Credits": "1.5",
+"Min_Credits": "1.5",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN241",
+"Name": "STATICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN100"], ["!MATH112"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CEEN267",
+"Name": "EPICS II: CIVIL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN301",
+"Name": "FUNDAMENTALS OF ENVIRONMENTAL SCIENCE AND ENGINEERING I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122"], ["PHGN100"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN302",
+"Name": "FUNDAMENTALS OF ENVIRONMENTAL SCIENCE AND ENGINEERING II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122"], ["PHGN100"], ["MATH213"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN303",
+"Name": "ENVIRONMENTAL ENGINEERING LABORATORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301", "CEEN302"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN310",
+"Name": "FLUID MECHANICS FOR CIVIL AND ENVIRONMENTAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN100"], ["!CEEN241"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN311",
+"Name": "MECHANICS OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CEEN312",
+"Name": "SOIL MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN312L",
+"Name": "SOIL MECHANICS LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN314",
+"Name": "STRUCTURAL THEORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN330",
+"Name": "ENGINEERING FIELD SESSION, ENVIRONMENTAL",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CEEN331",
+"Name": "ENGINEERING FIELD SESSION, CIVIL",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS251", "ENDS261", "EDNS262", "CEEN267"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CEEN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CEEN350",
+"Name": "CIVIL AND CONSTRUCTION ENGINEERING MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN360",
+"Name": "INTRODUCTION TO CONSTRUCTION ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN381",
+"Name": "HYDROLOGY AND WATER RESOURCES ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN310"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN398",
+"Name": "SPECIAL TOPICS IN CIVIL AND ENVIRONMENTAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN401",
+"Name": "LIFE CYCLE ASSESSMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN405",
+"Name": "NUMERICAL METHODS FOR ENGINEERS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI260", "CSCI261", "MATH307"], "MATH225"],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CEEN406",
+"Name": "FINITE ELEMENT METHODS FOR ENGINEERS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311", "MEGN312", "MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN410",
+"Name": "ADVANCED SOIL MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN312"]],
+"Semesters": []
+}
+,
+{
+"Id": "CEEN411",
+"Name": "SOIL DYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311"], ["CEEN312"], ["MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN412",
+"Name": "UNSATURATED SOIL MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN312"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN415",
+"Name": "FOUNDATION ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN312"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN421",
+"Name": "HIGHWAY AND TRAFFIC ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CEEN423",
+"Name": "SURVEYING FOR ENGINEERS AND INFRASTRUCTURE DESIGN PRACTICES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN331"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN430",
+"Name": "ADVANCED STRUCTURAL ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN314"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN433",
+"Name": "MATRIX STRUCTURAL ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN314"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN440",
+"Name": "TIMBER AND MASONRY DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN441",
+"Name": "INTRODUCTION TO THE SEISMIC DESIGN OF STRUCTURES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": ["CEEN443", ["CEEN445"], ["CEEN440"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN443",
+"Name": "DESIGN OF STEEL STRUCTURES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN314"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN445",
+"Name": "DESIGN OF REINFORCED CONCRETE STRUCTURES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN314"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN461",
+"Name": "FUNDAMENTALS OF ECOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN470",
+"Name": "WATER AND WASTEWATER TREATMENT PROCESSES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN471",
+"Name": "WATER AND WASTEWATER TREATMENT SYSTEMS ANALYSIS AND DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": ["CEEN470", ["CEEN570"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN472",
+"Name": "ONSITE WATER RECLAMATION AND REUSE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN473",
+"Name": "HYDRAULIC PROBLEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN310"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN474",
+"Name": "SOLID WASTE MINIMIZATION AND RECYCLING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN475",
+"Name": "SITE REMEDIATION ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN476",
+"Name": "POLLUTION PREVENTION: FUNDAMENTALS AND PRACTICE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301", "CEEN302"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN477",
+"Name": "SUSTAINABLE ENGINEERING DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN479",
+"Name": "AIR POLLUTION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN302"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN480",
+"Name": "CHEMICAL FATE AND TRANSPORT IN THE ENVIRONMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN482",
+"Name": "HYDROLOGY AND WATER RESOURCES LABORATORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN381"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN492",
+"Name": "ENVIRONMENTAL LAW",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301", "CEEN302"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN498",
+"Name": "SPECIAL TOPICS IN CIVIL AND ENVIRONMENTAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
 "Id": "PHGN100",
 "Name": "PHYSICS I - MECHANICS",
 "Max_Credits": "4.5",
