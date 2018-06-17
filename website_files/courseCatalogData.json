@@ -7393,7 +7393,7 @@
 "Name": "MINING ENGINEERING EVALUATION AND DESIGN REPORT II",
 "Max_Credits": "2.0",
 "Min_Credits": "2.0",
-"Pre_req": [["MNGN428"], ["MNGN210"], ["MNGN300"], ["MNGN308"], ["MNGN312"], ["MNGN314"], ["MNGN309"], ["MNGN321"], ["MNGN316"], ["GEOL310"], ["GEOL311"], ["MNGN438"], ["MNGN414"], ["!MNGN322", "!MNGN323", "!MNGN427"], ["!MNGN433"]],
+"Pre_req": [["MNGN428"], ["MNGN210"], ["MNGN300"], ["MNGN308"], ["MNGN312"], ["MNGN314"], ["MNGN309"], ["MNGN321"], ["MNGN316"], ["GEOL310"], ["GEOL311"], ["MNGN438"], ["MNGN414"], ["!MNGN322", "!MNGN427"], ["!MNGN433"]],
 "Semesters": ["S"]
 }
 ,
@@ -7483,7 +7483,7 @@
 "Name": "INDUSTRIAL MINERALS PRODUCTION",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["MNGN312"], ["MNGN322"], ["MNGN323"]],
+"Pre_req": [["MNGN312"], ["MNGN322"]],
 "Semesters": ["S"]
 }
 ,
