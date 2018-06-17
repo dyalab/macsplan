@@ -8347,7 +8347,7 @@
 "Name": "SENIOR DESIGN II",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["EGGN491"]],
+"Pre_req": [],
 "Semesters": ["F", "S"]
 }
 ,
