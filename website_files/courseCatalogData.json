@@ -2200,7 +2200,7 @@
 "Name": "ANATOMY AND PHYSIOLOGY: BONE, MUSCLE, AND BRAIN LABORATORY",
 "Max_Credits": "1.0",
 "Min_Credits": "1.0",
-"Pre_req": [["!CBEN406"]],
+"Pre_req": [],
 "Semesters": ["F"]
 }
 ,
