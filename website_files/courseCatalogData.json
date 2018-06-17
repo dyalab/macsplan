@@ -1246,7 +1246,7 @@
 "Name": "COMPUTATIONAL METHODS IN ENERGY SYSTEMS AND POWER ELECTRONICS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["EENG282"],
+"Pre_req": [["EENG282"]],
 "Semesters": ["S"]
 }
 ,
