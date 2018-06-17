@@ -1246,7 +1246,7 @@
 "Name": "COMPUTATIONAL METHODS IN ENERGY SYSTEMS AND POWER ELECTRONICS",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["EENG282", "EENG382"]],
+"Pre_req": [["EENG282"]],
 "Semesters": ["S"]
 }
 ,
@@ -1543,7 +1543,7 @@
 "Name": "MULTIDISCIPLINARY ENGINEERING LABORATORY III",
 "Max_Credits": "1.0",
 "Min_Credits": "1.0",
-"Pre_req": [["MEGN350", "EENG382"], ["!EENG307"]],
+"Pre_req": [["MEGN350"], ["!EENG307"]],
 "Semesters": ["F", "S"]
 }
 ,
