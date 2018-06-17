@@ -6916,7 +6916,7 @@
 "Name": "PETROLEUM RESERVOIR ENGINEERING I",
 "Max_Credits": "3.0",
 "Min_Credits": "3.0",
-"Pre_req": [["PEGN419"], ["MATH225", "MATH235", "MATH222"]],
+"Pre_req": [["PEGN419"], ["MATH225", "MATH235"]],
 "Semesters": ["S"]
 }
 ,
