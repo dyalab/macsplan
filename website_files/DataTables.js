@@ -268,7 +268,7 @@ function populateClassesList(){
 	
 }
 
-function createButtons(){return $("<div class='row'><input type='checkbox' class='semCheck' /></div>");}
+function createButtons(){return $("<div class='row'><label class='container'>Taken<input type='checkbox' checked='checked'><span class='checkmark'></span></label></div>");}
 
 function getNParent(object, number){
 	if(number == 0){return object;}
