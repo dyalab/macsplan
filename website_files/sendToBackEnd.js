@@ -97,8 +97,8 @@ $("#generateButton").click(function(){
     inputValues.degree = degree;
     inputValues.modify = modify;
 
-	sTest = '{"taken" : [], "degree" : ["and", "CSCI101",  "MATH111", "CSCI261", "MATH112",  "MATH213", "CSCI262", "CSCI274", "CSCI341", "CSCI358", "MATH225", "CSCI306", "MATH332", "CSCI403", "CSCI406", "MATH201", "CSCI370", "CSCI400", "CSCI442"]}';
-
-    plan(sTest, function(result){loadResults(result)}, function(error){returnError(error)});
+	//sTest = '{"taken" : [], "degree" : ["and", "CSCI101",  "MATH111", "CSCI261", "MATH112",  "MATH213", "CSCI262", "CSCI274", "CSCI341", "CSCI358", "MATH225", "CSCI306", "MATH332", "CSCI403", "CSCI406", "MATH201", "CSCI370", "CSCI400", "CSCI442"]}';
+	console.log(inputValues);
+    plan(inputValues, function(result){loadResults(result)}, function(error){returnError(error)});
     
 	});
