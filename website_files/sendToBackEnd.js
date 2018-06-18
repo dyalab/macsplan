@@ -57,17 +57,34 @@ $("#generateButton").click(function(){
 	
    
 	} */
-    console.log("before taken");
+    
+    
+    
     mainDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-        if(this.getElementsByClassName("takenCheck")[0].checked) {
+        console.log(this.data()[3]);
+        if(this.data()[3].indexOf("value=\"true\"") !=-1) {
             taken.push(this.data()[1]);
         }
     });
     electiveDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-        if(this.getElementsByClassName("takenCheck")[0].checked) {
-            //Add code to get courseID
+        var courseid;
+        var nameBox = this.data()[0];
+        for(var i = 0; i < courseCatalog.length; i++) {
+            if(courseCatalog[i].Name == nameBox) {
+                courseid = courseCatalog[i].Id;
+                break;
+            }
         }
+        if(this.data()[3].indexOf("value=\"true\"") !=-1) {
+            taken.push(courseid);
+        }
+        else{
+            degree.push(courseid);
+        }
+        
     });
+        console.log(taken);
+
 	//TODO: for Nick, For all classes desired, update class name if it’s just electives (ex. CSCI4xx -> CSCI470)
 	console.log("after taken");
 

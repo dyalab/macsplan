@@ -165,66 +165,76 @@ function loadTables(){
 
 
 function loadElementsInMainTable(){
-	console.log("loading elements in the main datatable, the classes list is: " + classes);
+	
 	for(var i=0; i<classes.length; i++){
 		var row = document.createElement("tr");
-		var col = document.createElement("td");
+		
 		
 		for(var j=0; j<classes[i].length; j++){
+            var col = document.createElement("td");
 			col.appendChild(document.createTextNode(classes[i][j]));
+            row.appendChild(col);
 		}
-		
+		var col = document.createElement("td");
 		$(col).append(createButtons);
 		row.appendChild(col);
-		
 		mainDataTable.row.add(row).draw(true);
 		
 	}
-	console.log("end loading elements in the main datatable");
 }
 
 function loadElementsInElectivesTable(){
 	
-	console.log("loading elements in the electives datatable, the electives list is: " + electiveClasses);
 	for(var i=0; i<electiveClasses.length; i++){
 		var row = document.createElement("tr");
-		var col = document.createElement("td");
-		if(i==1){
-			for(var j=0; j<electiveClasses[i].length; j++){
-				var menuButton = document.createElement("button");
-				menuButton.setAttribute("type","button");
-				menuButton.setAttribute("class","btn");
-				menuButton.setAttribute("data-toggle","dropdown");
-				menuButton.setAttribute("style", "max-height:'250px'; overflow:'auto';");
-				menuButton.innerHTML = "Choose One";
+        var buttonCol = document.createElement("td");
+        for(var j=0; j<electiveClasses[i].length; j++){
+            var col = document.createElement("td");
+            if(j==1){
+                var menuButton = document.createElement("button");
+                menuButton.setAttribute("type","button");
+                menuButton.setAttribute("class","btn");
+                menuButton.setAttribute("data-toggle","dropdown");
+                //menuButton.setAttribute("style", "max-height:250px; overflow:auto;");
+                menuButton.innerHTML = "Choose One";
+                var menu = document.createElement("div");
+                menu.setAttribute("class", "dropdown-menu");
+                menu.setAttribute("style", "max-height:250px; overflow:auto;");
 
-				var menu = document.createElement("div");
-				menu.setAttribute("class", "dropdown-menu");
-
-				for(var k=1; k<electiveClasses[i][j].length; k++){
-					var item = document.createElement("a");
-					item.setAttribute("class", "dropdown-item");
-					item.setAttribute("id", "ElectiveChoice");
-					var itemData = document.createTextNode(electiveClasses[i][j][k]);
-					item.appendChild(itemData);
-					menu.appendChild(item);
-				}
-				var div = document.createElement("div");
-				div.appendChild(menu);
-				div.appendChild(menuButton);
-				col.appendChild(div);
-				row.appendChild(col);
-			}
-		}
-		$(col).append(createButtons);
-		row.appendChild(col);
+                for(var k=0; k<electiveClasses[i][j].length; k++){
+                    var item = document.createElement("a");
+                    item.setAttribute("class", "dropdown-item");
+                    item.setAttribute("id", "ElectiveChoice");
+                    var itemData = document.createTextNode(electiveClasses[i][j][k]);
+                    item.appendChild(itemData);
+                    menu.appendChild(item);
+                    
+                }
+                var div = document.createElement("div");
+                div.appendChild(menu);
+                div.appendChild(menuButton);
+                col.appendChild(div);
+                row.appendChild(col);
+            }else{
+                var col = document.createElement("td");
+                if(j==0){
+                    col.appendChild(document.createTextNode(electiveClasses[i][j].substr(0,electiveClasses[i][j].length-3)));
+                }
+                else{
+                    col.appendChild(document.createTextNode(electiveClasses[i][j]));
+                }
+                row.appendChild(col);
+            }
+            
+        }
+		$(buttonCol).append(createButtons);
+		row.appendChild(buttonCol);
+        electiveDataTable.row.add(row).draw(true);
 	}
 	
-	console.log("end loading elements in the elective datatable");
 }
 
 function populateClassesList(){
-	console.log("starting to populate the classes list");
 	var ret = true;
 	var chosenMajor = [];
 	
@@ -236,25 +246,24 @@ function populateClassesList(){
 		ret = false;
 	}
 	
-	console.log("starting the loop: chosen major is: " + chosenMajor);
 	for(var i=0; i<chosenMajor.length; i++){
-		console.log("looping through the major list, the classes are: " + chosenMajor[i].Classes + " and the electives are: " + chosenMajor[i].Electives);
 		for(var j=0; j<chosenMajor[i].Classes.length; j++){
 			classes.push(chosenMajor[i].Classes[j]);
 		}
+        
 		for(var j=0; j<chosenMajor[i].Electives.length; j++){
-			for(var k=0; k<electives.length; k++){
-				if(electives[k].Id == chosenMajor[i].Electives[j][0]){
-					var elec = [electives[k].Id, electives[k].Classes, 0.0];
-					electiveClasses.push(elec);
-				}
-			}
+            for(var l=0; l<chosenMajor[i].Electives[j][1]; l++){
+                for(var k=0; k<electives.length; k++){
+                    if(electives[k].Id == chosenMajor[i].Electives[j][0]){
+                        var elec = [electives[k].Id, electives[k].Classes, 0.0];
+                        electiveClasses.push(elec);
+                    }
+                }
+            }
 		}
 	}
-	console.log("adding in other information to the classes list from the catalog");
 	classes = getOtherInfoFromCatalog(classes);
 	
-	console.log("end populating classes list");
 	return ret;
 }
 
@@ -282,7 +291,7 @@ function getOtherInfoFromCatalog(list){
 	return temp;
 }
 
-function createButtons(){return $("<div class='row'><label class='container'>Taken<input class='takenCheck' type='checkbox'><span class='checkmark'></span></label></div>");}
+function createButtons(){return $("<label class='container'>Taken<input type='checkbox' value='false' class='takenCheck'><span class='checkmark'></span></label>");}
 
 function getNParent(object, number){
 	if(number == 0){return object;}
@@ -304,18 +313,62 @@ function isInTable(info, table){
 
 window.onclick = function(event) {
 	if(event.target.matches("#ElectiveChoice")){
-		var oldData = mainDataTable.row(getNParent(event.target, 3)).data();
-		var newData = [event.target.innerHTML.substr(0, event.target.innerHTML.indexOf(",")), event.target.innerHTML.substr(event.target.innerHTML.indexOf(",") + 1), oldData[2], oldData[3]];
-		var createRow = true;
-		mainDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-			if(this.data()[1]==newData[1]){
-				createRow = false;
+        var courseID = event.target.innerHTML;
+        var row = electiveDataTable.row(getNParent(event.target, 3)).data();
+        var courseName = "NOT FOUND";
+		var courseCredits = "NOT FOUND";
+		for(var i = 0; i < courseCatalog.length; i++) {
+
+			if(courseCatalog[i].Id == courseID) {
+				courseName = courseCatalog[i].Name;
+				// some courses have min and max number of credits so this will display it properly
+				if(courseCatalog[i].Min_Credits == courseCatalog[i].Max_Credits) {
+					courseCredits = courseCatalog[i].Min_Credits;
+				} else {
+				courseCredits = courseCatalog[i].Min_Credits + "-" + courseCatalog[i].Max_Credits;
+				}
+				break;
 			}
-		});
-		if(createRow){
-			mainDataTable.row.add(newData).draw(true);
 		}
+        row[0] = courseName;
+        row[2] = courseCredits;
+        row[1] = row[1].substr(0,row[1].indexOf("dropdown\">") + "dropdown\">".length) + courseID + row[1].substr(row[1].indexOf("</button"));
+        electiveDataTable.row(getNParent(event.target, 3)).remove().draw(false);
+        electiveDataTable.row.add(row).draw(true);
 	}
+    else if(event.target.matches(".takenCheck")){
+        var row = null;
+        var changeElectives = true;
+        try{
+            row = electiveDataTable.row(getNParent(event.target, 3)).data();
+            changeElectives = true;
+        }
+        catch{
+            row = mainDataTable.row(getNParent(event.target, 3)).data();
+            changeElectives = false;
+        } 
+    
+    
+        var loc = row[3].indexOf("value=\"")  + "value=\"".length;
+        if(row[3].substr(loc, 5)=="false"){
+           row[3] = row[3].substr(0,loc) + "true" + row[3].substr(loc+5); 
+        }
+        else{
+            row[3] = row[3].substr(0,loc) + "false" + row[3].substr(loc+4);
+        }
+        
+        /*if(changeElectives){
+            electiveDataTable.row(getNParent(event.target, 3)).remove().draw(false);
+            electiveDataTable.row.add(row).draw(true);
+        }
+        else{
+            mainDataTable.row(getNParent(event.target, 3)).remove().draw(false);
+            mainDataTable.row.add(row).draw(true);
+        }*/
+        
+            
+        
+    }
 
 
 }
