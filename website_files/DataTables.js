@@ -169,7 +169,7 @@ function loadElementsInMainTable(){
 		for(var j=0; j<chosenMajor[i].Electives.length; j++){
 			for(var k=0; k<electives.length; k++){
 				if(electives[k].Id == chosenMajor[i].Electives[j][0]){
-					var elec = electives[k].Classes[];
+					var elec = electives[k].Classes;
 					var ret = [electives[k].Id, elec];
 					classes.push(ret);
 					console.log(ret);
