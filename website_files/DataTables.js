@@ -48,7 +48,7 @@ $(document).ready(function(){
 	
 	$("#loadMainDataTableButton").on('click', function(){
 		document.getElementById("tableWrapper").style.display = "block";
-		loadElementsInMainTable();
+		loadTables();
 		
 		
 	});
