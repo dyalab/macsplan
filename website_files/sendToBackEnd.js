@@ -6,7 +6,31 @@ class InputClass{
   }
 }
 
-function ReadyClasses(input, typeList, bulletin, id){
+
+function FindMajorObjects(input, typeList, bulletin, id){
+	  // input = inputValues array that will be the input to sendToBackEnd
+		// typeList = the array of major, minor, or ASI
+		// bulletin = bulletinYear variable from dropdownmenu.js
+		//id = major, minor, asi variable from dropdownmenu.js
+	 
+	 var selectedType; //major, minor, asi
+  
+  for (var i = 0; i < typeList.length; i++){
+      /*
+      if (typeList[i].Id === id && typeList[i].Bulletin === bulletin){
+          selectedType = typeList[i];
+      }
+      */
+            if (typeList[i].Id === id){
+          selectedType = typeList[i];
+      }
+  }
+  return selectedType;
+	
+	
+}
+
+function InsertCoreClasses(input, typeList, bulletin, id){
   // input = inputValues array that will be the input to sendToBackEnd
   // typeList = the array of major, minor, or ASI
   // bulletin = bulletinYear variable from dropdownmenu.js
@@ -27,15 +51,6 @@ function ReadyClasses(input, typeList, bulletin, id){
   for(var i = 0; i < selectedType.Classes.length; i++){
       degree.push(selectedType.Classes[i]);
   }
-
-  for (var i = 0; i < selectedType.Electives.length; i++){
-      var name = selectedType.Electives[i][0];
-      var count = Number(selectedType.Electives[i][1]);
-      for (var j = 0; j < count; j++){
-      degree.push(name);
-    }
-  }
-    return selectedType;
 }
 
 
@@ -54,9 +69,8 @@ $("#generateButton").click(function(){
         "modify":[[class, [1,2,3,4]], [asdf, [1,2,4]]
         }
 */
-    var chosenMajor = [];
     for (var i = 0; i < Major.length; i ++){
-		chosenMajor.push(ReadyClasses(inputValues,majorCatalog,bulletinYear,Major[i]));
+		InsertCoreClasses(inputValues,majorCatalog,bulletinYear,Major[i]));
 	}
     
 	//TODO: call this function for minor, asi too
