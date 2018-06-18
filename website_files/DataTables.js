@@ -173,7 +173,6 @@ function loadElementsInMainTable(){
 					var ret = [electives[k].Id, elec];
 					ret.push(3.0);
 					classes.push(ret);
-					console.log(ret);
 				}
 			}
 		}
@@ -200,7 +199,6 @@ function loadElementsInMainTable(){
 		classes.push([courseName, temp[i], courseCredits]);
 		
 	}
-	console.log(classes);
 	
 	
 	for(var i=0; i<classes.length; i++){
@@ -219,7 +217,7 @@ function loadElementsInMainTable(){
 
 			var col = document.createElement("td");
 			if(createDropDown && j==1){
-				console.log(colData);
+				
 				var menuButton = document.createElement("button");
 				//menuButton.setAttribute("class","btn btn-secondary dropdown-toggle");
 				menuButton.setAttribute("type","button");
@@ -231,11 +229,11 @@ function loadElementsInMainTable(){
 				var menu = document.createElement("div");
 				menu.setAttribute("class", "dropdown-menu");
 
-				for(var k=1; k<colData[1].length; k++){
+				for(var k=1; k<colData.length; k++){
 					var item = document.createElement("a");
 					item.setAttribute("class", "dropdown-item");
 					item.setAttribute("id", "ElectiveChoice");
-					var itemData = document.createTextNode(colData[1][k]);
+					var itemData = document.createTextNode(colData[k]);
 					item.appendChild(itemData);
 					menu.appendChild(item);
 				}
