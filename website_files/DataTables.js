@@ -173,7 +173,7 @@ function loadElementsInMainTable(){
 					for(var l=0; l<electives[k].Classes.length; l++){
 						elec.push(electives[k].Classes[l]);
 					}
-					temp.push(elec);
+					classes.push(elec);
 				}
 			}
 		}
