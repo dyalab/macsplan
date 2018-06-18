@@ -62,7 +62,7 @@ $("#generateButton").click(function(){
 	//TODO: call this function for minor, asi too
 	//fixes the taken classes to set their taken value to true and puts in the appropriate class where electives are
 
-	for(var i=0; i<degree.length; i++){
+	/* for(var i=0; i<degree.length; i++){
 		
 		desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
 			
@@ -75,7 +75,7 @@ $("#generateButton").click(function(){
 		});
 	
    
-	}
+	} */
     console.log("before taken");
     takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
         taken.push(this.data()[1]);
@@ -103,7 +103,7 @@ $("#generateButton").click(function(){
     inputValues.degree = degree;
     inputValues.modify = modify;
 
-	//sTest = '{"taken" : [], "degree" : ["and", "CSCI101",  "MATH111", "CSCI261", "MATH112",  "MATH213", "CSCI262", "CSCI274", "CSCI341", "CSCI358", "MATH225", "CSCI306", "MATH332", "CSCI403", "CSCI406", "MATH201", "CSCI370", "CSCI400", "CSCI442"]}';
+	sTest = '{"taken" : [], "degree" : ["and", "CSCI101",  "MATH111", "CSCI261", "MATH112",  "MATH213", "CSCI262", "CSCI274", "CSCI341", "CSCI358", "MATH225", "CSCI306", "MATH332", "CSCI403", "CSCI406", "MATH201", "CSCI370", "CSCI400", "CSCI442"]}';
 	console.log(JSON.stringify(inputValues));
     plan(JSON.stringify(inputValues), function(result){loadResults(result)}, function(error){returnError(error)});
     
