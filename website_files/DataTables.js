@@ -151,6 +151,7 @@ function removeItemFromStorage(name, item){
 
 function loadElementsInMainTable(){
 	var temp = [];
+	var electiveList = [];
 	var chosenMajor = [];
 	for (var i = 0; i < Major.length; i ++){
 		chosenMajor.push(ReadyClasses(inputValues,majorCatalog,bulletinYear,Major[i]));
@@ -165,7 +166,20 @@ function loadElementsInMainTable(){
 		for(var j=0; j<chosenMajor[i].Classes.length; j++){
 			temp.push(chosenMajor[i].Classes[j]);
 		}
+		for(var j=0; j<chosenMajor[i].Electives.length; j++){
+			for(var k=0; k<electives.length; k++){
+				if(electives[k].Id == chosenMajor[i].Electives[j]){
+					var elec = [electives[k].Id];
+					for(var l=0; l<electives[k].Classes.length; l++){
+						elec.push(electives[k].Classes[l]);
+					}
+					temp.push(elec);
+				}
+			}
+		}
 	}
+	
+	
 	
 	for(var i=0; i<temp.length; i++){
 		var courseName = "NOT FOUND";
