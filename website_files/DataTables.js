@@ -34,7 +34,6 @@ function FindObjects(typeList, bulletin, id){
 
 $(document).ready(function(){
 
-	//NOTE: Also remember to get rid of datatable.js in js folder!!!!
 	mainDataTable = $('#dataTable').DataTable( {
         "lengthMenu": [[5, 10, 15], [5, 10, 15]],
 		"iDisplayLength":5
@@ -47,7 +46,6 @@ $(document).ready(function(){
 
 	
 	$("#loadMainDataTableButton").on('click', function(){
-		document.getElementById("tableWrapper").style.display = "block";
 		loadTables();
 		
 		
@@ -156,6 +154,7 @@ function removeItemFromStorage(name, item){
 
 function loadTables(){
 	if(populateClassesList()){
+		document.getElementById("tableWrapper").style.display = "block";
 		loadElementsInMainTable();
 		loadElementsInElectivesTable();
 	}
@@ -166,7 +165,7 @@ function loadTables(){
 
 
 function loadElementsInMainTable(){
-	
+	console.log("loading elements in the main datatable, the classes list is: " + classes);
 	for(var i=0; i<classes.length; i++){
 		var row = document.createElement("tr");
 		var col = document.createElement("td");
@@ -181,11 +180,12 @@ function loadElementsInMainTable(){
 		mainDataTable.row.add(row).draw(true);
 		
 	}
-
+	console.log("end loading elements in the main datatable");
 }
 
 function loadElementsInElectivesTable(){
 	
+	console.log("loading elements in the electives datatable, the electives list is: " + electiveClasses);
 	for(var i=0; i<electiveClasses.length; i++){
 		var row = document.createElement("tr");
 		var col = document.createElement("td");
@@ -220,10 +220,11 @@ function loadElementsInElectivesTable(){
 		row.appendChild(col);
 	}
 	
-	
+	console.log("end loading elements in the elective datatable");
 }
 
 function populateClassesList(){
+	console.log("starting to populate the classes list");
 	var ret = true;
 	var chosenMajor = [];
 	
@@ -235,7 +236,9 @@ function populateClassesList(){
 		ret = false;
 	}
 	
+	console.log("starting the loop: chosen major is: " + chosenMajor);
 	for(var i=0; i<chosenMajor.length; i++){
+		console.log("looping through the major list, the classes are: " + chosenMajor[i].Classes + " and the electives are: " + chosenMajor[i].Electives);
 		for(var j=0; j<chosenMajor[i].Classes.length; j++){
 			classes.push(chosenMajor[i].Classes[j]);
 		}
@@ -248,9 +251,10 @@ function populateClassesList(){
 			}
 		}
 	}
-	
+	console.log("adding in other information to the classes list from the catalog");
 	classes = getOtherInfoFromCatalog(classes);
 	
+	console.log("end populating classes list");
 	return ret;
 }
 
