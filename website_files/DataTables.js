@@ -229,11 +229,11 @@ function loadElementsInMainTable(){
 				var menu = document.createElement("div");
 				menu.setAttribute("class", "dropdown-menu");
 
-				for(var k=1; k<colData.length; k++){
+				for(var k=1; k<colData[1].length; k++){
 					var item = document.createElement("a");
 					item.setAttribute("class", "dropdown-item");
 					item.setAttribute("id", "ElectiveChoice");
-					var itemData = document.createTextNode(colData[k]);
+					var itemData = document.createTextNode(colData[1][k]);
 					item.appendChild(itemData);
 					menu.appendChild(item);
 				}
