@@ -111,5 +111,18 @@ $("#generateButton").click(function(){
 	sTest = '{"taken" : [], "degree" : ["and", "CSCI101",  "MATH111", "CSCI261", "MATH112",  "MATH213", "CSCI262", "CSCI274", "CSCI341", "CSCI358", "MATH225", "CSCI306", "MATH332", "CSCI403", "CSCI406", "MATH201", "CSCI370", "CSCI400", "CSCI442"]}';
 	//console.log(JSON.stringify(inputValues));
     plan(JSON.stringify(inputValues), function(result){loadResults(result)}, function(error){returnError(error)});
-    
+    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(inputValues));
+    var downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href",     dataStr);
+    downloadAnchorNode.setAttribute("download", "Generated_Schedule.json");
+    document.body.appendChild(downloadAnchorNode); // required for firefox
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
+    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(courseCatalog));
+    var downloadAnchorNode = document.createElement('a');
+    downloadAnchorNode.setAttribute("href",     dataStr);
+    downloadAnchorNode.setAttribute("download", "Generated_Schedule.json");
+    document.body.appendChild(downloadAnchorNode); // required for firefox
+    downloadAnchorNode.click();
+    downloadAnchorNode.remove();
 	});

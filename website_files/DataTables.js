@@ -242,7 +242,7 @@ function populateClassesList(){
 		chosenMajor.push(FindObjects(majorCatalog,bulletinYear,Major[i]));
 	}
 	
-	if(chosenMajor.length == 0){
+	if(chosenMajor.length == 0 || document.getElementById("tableWrapper").style.display == "block"){
 		ret = false;
 	}
 	
