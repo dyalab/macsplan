@@ -154,7 +154,7 @@ function loadElementsInMainTable(){
 	var electiveList = [];
 	var chosenMajor = [];
 	for (var i = 0; i < Major.length; i ++){
-		chosenMajor.push(ReadyClasses(inputValues,majorCatalog,bulletinYear,Major[i]));
+		chosenMajor.push(FindMajorObjects(inputValues,majorCatalog,bulletinYear,Major[i]));
 	}
 	
 	if(chosenMajor.length == 0){
