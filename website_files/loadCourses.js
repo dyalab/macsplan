@@ -16,7 +16,6 @@ var majorJSONDone = $.getJSON("http://localhost:80/majorData.json", function(jso
 var electives;
 var electivesDone = $.getJSON("http://localhost:80/electives.json", function(json){
 	electives = json;
-	console.log(json)
 });
 
 

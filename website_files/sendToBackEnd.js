@@ -37,7 +37,7 @@ $("#generateButton").click(function(){
         }
 */
     for (var i = 0; i < Major.length; i ++){
-		InsertCoreClasses(inputValues,majorCatalog,bulletinYear,Major[i]));
+		InsertCoreClasses(inputValues,majorCatalog,bulletinYear,Major[i]);
 	}
     
 	//TODO: call this function for minor, asi too
@@ -58,8 +58,15 @@ $("#generateButton").click(function(){
    
 	} */
     console.log("before taken");
-    takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-        taken.push(this.data()[1]);
+    mainDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+        if(this.getElementsByClassName("takenCheck")[0].checked) {
+            taken.push(this.data()[1]);
+        }
+    });
+    electiveDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+        if(this.getElementsByClassName("takenCheck")[0].checked) {
+            //Add code to get courseID
+        }
     });
 	//TODO: for Nick, For all classes desired, update class name if it’s just electives (ex. CSCI4xx -> CSCI470)
 	console.log("after taken");
