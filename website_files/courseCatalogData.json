@@ -115,4 +115,8257 @@
 "Pre_req": [["CSCI262"]],
 "Semesters": ["F", "S"]
 }
+,
+{
+"Id": "CSCI340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CSCI341",
+"Name": "COMPUTER ORGANIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI261"], ["!CSCI262"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CSCI358",
+"Name": "DISCRETE MATHEMATICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213", "MATH223", "MATH224"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CSCI370",
+"Name": "ADVANCED SOFTWARE ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [["CSCI306"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CSCI398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CSCI399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CSCI400",
+"Name": "PRINCIPLES OF PROGRAMMING LANGUAGES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI306"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CSCI403",
+"Name": "DATA BASE MANAGEMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CSCI404",
+"Name": "ARTIFICIAL INTELLIGENCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262", "CSCI358"], ["MATH201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CSCI406",
+"Name": "ALGORITHMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262"], ["MATH213", "MATH223", "MATH224"], ["MATH300", "MATH358", "CSCI358"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CSCI410",
+"Name": "ELEMENTS OF COMPUTING SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI341", "EENG383"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CSCI422",
+"Name": "USER INTERFACES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CSCI423",
+"Name": "COMPUTER SIMULATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI306"], ["MATH201"], ["CSCI274"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CSCI437",
+"Name": "INTRODUCTION TO COMPUTER VISION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH201", "EENG311", "MATH332", "CSCI261"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CSCI440",
+"Name": "PARALLEL COMPUTING FOR SCIENTISTS AND ENGINEERS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262", "CSCI341"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CSCI441",
+"Name": "COMPUTER GRAPHICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262", "MATH332"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CSCI442",
+"Name": "OPERATING SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262", "CSCI274", "CSCI341"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CSCI443",
+"Name": "ADVANCED PROGRAMMING CONCEPTS USING JAVA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI306"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CSCI444",
+"Name": "ADVANCED COMPUTER GRAPHICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI441"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CSCI445",
+"Name": "WEB PROGRAMMING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262"], ["!CSCI403"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CSCI446",
+"Name": "WEB APPLICATIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262"], ["!CSCI403"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CSCI447",
+"Name": "SCIENTIFIC VISUALIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262"], ["MATH441"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CSCI448",
+"Name": "MOBILE APPLICATION DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI306"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CSCI455",
+"Name": "GAME THEORY AND NETWORKS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI358"], ["CSCI406"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CSCI470",
+"Name": "INTRODUCTION TO MACHINE LEARNING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH201"], ["MATH332"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CSCI471",
+"Name": "COMPUTER NETWORKS I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262"], ["CSCI274"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CSCI473",
+"Name": "HUMAN-CENTERED ROBOTICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262"], ["MATH201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CSCI474",
+"Name": "INTRODUCTION TO CRYPTOGRAPHY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": ["CSCI262", "CSCI358", ["MATH334", "MATH335", "MATH201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CSCI475",
+"Name": "INFORMATION SECURITY AND PRIVACY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CSCI477",
+"Name": "ELEMENTS OF GAMES AND GAME DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CSCI480",
+"Name": "COMPUTER SCIENCE HONORS THESIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI306"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CSCI498",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CSCI499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH100",
+"Name": "INTRODUCTORY TOPICS FOR CALCULUS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "MATH111",
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS I",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MATH112",
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH111"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MATH113",
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II - SHORT FORM",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH122",
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II HONORS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH111"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH201",
+"Name": "PROBABILITY AND STATISTICS FOR ENGINEERS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH112", "MATH122", "!MATH113"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MATH213",
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH112", "MATH122", "!MATH113"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MATH214",
+"Name": "CALCULUS FOR SCIENTIST AND ENGINEERS III - SHORT FORM",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH223",
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III HONORS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH122"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH224",
+"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III HONORS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH122"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH225",
+"Name": "DIFFERENTIAL EQUATIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH112", "MATH122", "!MATH113"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MATH235",
+"Name": "DIFFERENTIAL EQUATIONS HONORS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH112", "MATH122", "!MATH113"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH300",
+"Name": "FOUNDATIONS OF ADVANCED MATHEMATICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH112", "MATH122"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH301",
+"Name": "INTRODUCTION TO ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH300"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH307",
+"Name": "INTRODUCTION TO SCIENTIFIC COMPUTING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213", "MATH223", "MATH224"], ["!MATH225", "!MATH235"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MATH310",
+"Name": "INTRODUCTION TO MATHEMATICAL MODELING",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH201"], ["MATH225"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "MATH331",
+"Name": "MATHEMATICAL BIOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH332",
+"Name": "LINEAR ALGEBRA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213", "MATH223", "MATH224"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH334",
+"Name": "INTRODUCTION TO PROBABILITY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213", "MATH223", "MATH224"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH335",
+"Name": "INTRODUCTION TO MATHEMATICAL STATISTICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH334"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MATH342",
+"Name": "HONORS LINEAR ALGEBRA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213", "MATH223", "MATH224"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH348",
+"Name": "ADVANCED ENGINEERING MATHEMATICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MATH358",
+"Name": "DISCRETE MATHEMATICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213", "MATH223", "MATH224"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH406",
+"Name": "ALGORITHMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262"], ["MATH213", "MATH223", "MATH224"], ["MATH358", "CSCI358"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH408",
+"Name": "COMPUTATIONAL METHODS FOR DIFFERENTIAL EQUATIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH307"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH424",
+"Name": "INTRODUCTION TO APPLIED STATISTICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH201", "MATH335"], ["MATH332", "MATH342"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH432",
+"Name": "SPATIAL STATISTICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH335"], ["!MATH424"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH436",
+"Name": "ADVANCED STATISTICAL MODELING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH335"], ["MATH424"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH437",
+"Name": "MULTIVARIATE ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH335", "MATH201"], ["MATH332", "MATH342"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH438",
+"Name": "STOCHASTIC MODELS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH334"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH439",
+"Name": "SURVIVAL ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH335"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH440",
+"Name": "PARALLEL SCIENTIFIC COMPUTING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH307"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH441",
+"Name": "COMPUTER GRAPHICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH444",
+"Name": "ADVANCED COMPUTER GRAPHICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH447",
+"Name": "SCIENTIFIC VISUALIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262"], ["MATH441"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH454",
+"Name": "COMPLEX ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH455",
+"Name": "PARTIAL DIFFERENTIAL EQUATIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH457",
+"Name": "INTEGRAL EQUATIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH332", "MATH342"], ["MATH455"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH458",
+"Name": "ABSTRACT ALGEBRA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH300"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH459",
+"Name": "ASYMPTOTICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213"], ["MATH225"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH472",
+"Name": "MATHEMATICAL AND COMPUTATIONAL NEUROSCIENCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH331"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH474",
+"Name": "INTRODUCTION TO CRYPTOGRAPHY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI262", "MATH334", "MATH335", "MATH358"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH482",
+"Name": "STATISTICS PRACTICUM (CAPSTONE)",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH335"], ["MATH424"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH484",
+"Name": "MATHEMATICAL AND COMPUTATIONAL MODELING (CAPSTONE)",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH331"], ["MATH307"], ["MATH455"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH491",
+"Name": "UNDERGRADUATE RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MATH492",
+"Name": "UNDERGRADUATE RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MATH498",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MATH499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG281",
+"Name": "INTRODUCTION TO ELECTRICAL CIRCUITS, ELECTRONICS AND POWER",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG282",
+"Name": "ELECTRICAL CIRCUITS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["PHGN200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG284",
+"Name": "DIGITAL LOGIC",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["CSCI261"], ["!EENG282", "!EENG281", "!PHGN215"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG298",
+"Name": "SPECIAL TOPICS IN ELECTRICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG307",
+"Name": "INTRODUCTION TO FEEDBACK CONTROL SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG281", "EENG282", "PHGN215"], ["MATH225"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG310",
+"Name": "INFORMATION SYSTEMS SCIENCE I",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["EENG281", "EENG282", "PHGN215"], ["MATH225"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG311",
+"Name": "INFORMATION SYSTEMS SCIENCE II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG310"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG334",
+"Name": "ENGINEERING FIELD SESSION, ELECTRICAL",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG284", "EENG385"], ["EENG389"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "EENG340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EENG383",
+"Name": "MICROCOMPUTER ARCHITECTURE AND INTERFACING",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["EENG281", "EENG282", "PHGN215"], ["EENG284", "PHGN317"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG385",
+"Name": "ELECTRONIC DEVICES AND CIRCUITS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["EENG307"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG386",
+"Name": "FUNDAMENTALS OF ENGINEERING ELECTROMAGNETICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG281", "EENG282"], ["MATH225"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG389",
+"Name": "FUNDAMENTALS OF ELECTRIC MACHINERY",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["EENG281", "EENG282"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG390",
+"Name": "ENERGY, ELECTRICITY, RENEWABLE ENERGY, AND ELECTRIC POWER GRID",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG281", "EENG282", "PHGN215"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EENG395",
+"Name": "UNDERGRADUATE RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG398",
+"Name": "SPECIAL TOPICS IN ELECTRICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG411",
+"Name": "DIGITAL SIGNAL PROCESSING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG310"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EENG413",
+"Name": "ANALOG AND DIGITAL COMMUNICATION SYSTEMS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["EENG310"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EENG417",
+"Name": "MODERN CONTROL DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG307"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EENG421",
+"Name": "SEMICONDUCTOR DEVICE PHYSICS AND DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EENG423",
+"Name": "INTRODUCTION TO VLSI DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG281", "EENG282"], ["EENG284"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EENG425",
+"Name": "INTRODUCTION TO ANTENNAS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG386"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EENG427",
+"Name": "WIRELESS COMMUNICATIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG311", "MATH201"], ["EENG310"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EENG428",
+"Name": "COMPUTATIONAL ELECTROMAGNETICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG386"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EENG429",
+"Name": "ACTIVE RF & MICROWAVE DEVICES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG385"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EENG430",
+"Name": "PASSIVE RF & MICROWAVE DEVICES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG386"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EENG437",
+"Name": "INTRODUCTION TO COMPUTER VISION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH201", "EENG311", "MATH332", "CSCI261"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EENG450",
+"Name": "SYSTEMS EXPLORATION AND ENGINEERING DESIGN LAB",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["EENG383"], ["EENG307"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG470",
+"Name": "INTRODUCTION TO HIGH POWER ELECTRONICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG282"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EENG472",
+"Name": "PRACTICAL DESIGN OF SMALL RENEWABLE ENERGY SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "EENG480",
+"Name": "POWER SYSTEMS ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG389"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EENG481",
+"Name": "ANALYSIS AND DESIGN OF ADVANCED ENERGY SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG480"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EENG486",
+"Name": "ELECTROMAGNETIC FIELDS AND WAVES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG386"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EENG489",
+"Name": "COMPUTATIONAL METHODS IN ENERGY SYSTEMS AND POWER ELECTRONICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EENG282"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EENG495",
+"Name": "UNDERGRADUATE RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG498",
+"Name": "SPECIAL TOPICS IN ELECTRICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EENG499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "AMFG401",
+"Name": "ADDITIVE MANUFACTURING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN200"], ["MEGN201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "AMFG498",
+"Name": "SPECIAL TOPICS IN ADVANCED MANUFACTURING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN200",
+"Name": "INTRODUCTION TO MECHANICAL ENGINEERING: PROGRAMMING AND HARDWARE INTERFACE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "HNRS105", "HNRS115"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN201",
+"Name": "MECHANICAL FIELD SESSION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN250",
+"Name": "MULTIDISCIPLINARY ENGINEERING LABORATORY",
+"Max_Credits": "1.5",
+"Min_Credits": "1.5",
+"Pre_req": [["PHGN200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN300",
+"Name": "INSTRUMENTATION & AUTOMATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN200"], ["MEGN201"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN301",
+"Name": "MECHANICAL INTEGRATION & DESIGN",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MEGN200"], ["MEGN201"], ["MEGN300"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN312",
+"Name": "INTRODUCTION TO SOLID MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241"], ["!MEGN200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN315",
+"Name": "DYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241"], ["MATH225"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN330",
+"Name": "INTRODUCTION TO BIOMECHANICAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN312", "CEEN311"], ["PHGN200"], ["!MEGN315"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN350",
+"Name": "MULTIDISCIPLINARY ENGINEERING LABORATORY II",
+"Max_Credits": "1.5",
+"Min_Credits": "1.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN351",
+"Name": "FLUID MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241", "MNGN317"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN361",
+"Name": "THERMODYNAMICS I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN381",
+"Name": "MANUFACTURING PROCESSES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN312"], ["MTGN202"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN391",
+"Name": "AUTOMOTIVE DESIGN: SAE COLLEGIATE DESIGN SERIES (FORMULA SAE)",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MEGN200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN398",
+"Name": "SPECIAL TOPICS IN MECHANICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN408",
+"Name": "INTRODUCTION TO SPACE EXPLORATION",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN412",
+"Name": "ADVANCED MECHANICS OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311", "MEGN312"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN416",
+"Name": "ENGINEERING VIBRATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN315"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN424",
+"Name": "COMPUTER AIDED ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN312", "CEEN311"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MEGN425",
+"Name": "ADVANCED COMPUTER AIDED ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN424"]],
+"Semesters": ["F", "Su"]
+}
+,
+{
+"Id": "MEGN430",
+"Name": "MUSCULOSKELETAL BIOMECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN315", "CEEN311", "MEGN312", "MEGN330"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN435",
+"Name": "MODELING AND SIMULATION OF HUMAN MOVEMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN315"], ["MEGN330"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN436",
+"Name": "COMPUTATIONAL BIOMECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN424"], ["MEGN330"]],
+"Semesters": []
+}
+,
+{
+"Id": "MEGN441",
+"Name": "INTRODUCTION TO ROBOTICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI261"], ["EENG281", "EENG282", "PHGN215"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN450",
+"Name": "MULTIDISCIPLINARY ENGINEERING LABORATORY III",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MEGN350"], ["!EENG307"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN451",
+"Name": "FLUID MECHANICS II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN351"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN461",
+"Name": "THERMODYNAMICS II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN351"], ["MEGN361"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN466",
+"Name": "INTRODUCTION TO INTERNAL COMBUSTION ENGINES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN351"], ["MEGN361"], ["!MEGN471"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN467",
+"Name": "HVAC AND BUILDING ENERGY SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN351"], ["MEGN361"], ["MEGN471"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN469",
+"Name": "FUEL CELL SCIENCE AND TECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN361", "CBEN357", "MTGN351"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN471",
+"Name": "HEAT TRANSFER",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN351"], ["MEGN361"], ["MATH307"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN481",
+"Name": "MACHINE DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN315", "PHGN350"], ["MEGN424"], ["!MEGN489"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN482",
+"Name": "MECHANICAL DESIGN USING GD&T",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN483",
+"Name": "ADDITIVE MANUFACTURING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN200"], ["MEGN201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN485",
+"Name": "MANUFACTURING OPTIMIZATION WITH NETWORK MODELS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH111"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN486",
+"Name": "LINEAR OPTIMIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH332"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN487",
+"Name": "NONLINEAR OPTIMIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH111"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN488",
+"Name": "INTEGER OPTIMIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH111"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MEGN489",
+"Name": "MACHINE DESIGN LAB",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN493",
+"Name": "ENGINEERING DESIGN OPTIMIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213"], "MATH225", ["CSCI260", "CSCI261"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MEGN498",
+"Name": "SPECIAL TOPICS IN MECHANICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MEGN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN210",
+"Name": "INTRODUCTION TO CIVIL INFRASTRUCTURE",
+"Max_Credits": "1.5",
+"Min_Credits": "1.5",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN241",
+"Name": "STATICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN100"], ["!MATH112"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CEEN267",
+"Name": "EPICS II: CIVIL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN301",
+"Name": "FUNDAMENTALS OF ENVIRONMENTAL SCIENCE AND ENGINEERING I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122"], ["PHGN100"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN302",
+"Name": "FUNDAMENTALS OF ENVIRONMENTAL SCIENCE AND ENGINEERING II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122"], ["PHGN100"], ["MATH213"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN303",
+"Name": "ENVIRONMENTAL ENGINEERING LABORATORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301", "CEEN302"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN310",
+"Name": "FLUID MECHANICS FOR CIVIL AND ENVIRONMENTAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN100"], ["!CEEN241"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN311",
+"Name": "MECHANICS OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CEEN312",
+"Name": "SOIL MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN312L",
+"Name": "SOIL MECHANICS LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN314",
+"Name": "STRUCTURAL THEORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN330",
+"Name": "ENGINEERING FIELD SESSION, ENVIRONMENTAL",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CEEN331",
+"Name": "ENGINEERING FIELD SESSION, CIVIL",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS251", "EDNS262", "CEEN267"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CEEN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CEEN350",
+"Name": "CIVIL AND CONSTRUCTION ENGINEERING MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN360",
+"Name": "INTRODUCTION TO CONSTRUCTION ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN381",
+"Name": "HYDROLOGY AND WATER RESOURCES ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN310"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN398",
+"Name": "SPECIAL TOPICS IN CIVIL AND ENVIRONMENTAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN401",
+"Name": "LIFE CYCLE ASSESSMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN405",
+"Name": "NUMERICAL METHODS FOR ENGINEERS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI260", "CSCI261", "MATH307"], "MATH225"],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CEEN406",
+"Name": "FINITE ELEMENT METHODS FOR ENGINEERS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311", "MEGN312", "MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN410",
+"Name": "ADVANCED SOIL MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN312"]],
+"Semesters": []
+}
+,
+{
+"Id": "CEEN411",
+"Name": "SOIL DYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311"], ["CEEN312"], ["MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN412",
+"Name": "UNSATURATED SOIL MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN312"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN415",
+"Name": "FOUNDATION ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN312"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN421",
+"Name": "HIGHWAY AND TRAFFIC ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CEEN423",
+"Name": "SURVEYING FOR ENGINEERS AND INFRASTRUCTURE DESIGN PRACTICES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN331"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN430",
+"Name": "ADVANCED STRUCTURAL ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN314"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN433",
+"Name": "MATRIX STRUCTURAL ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN314"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN440",
+"Name": "TIMBER AND MASONRY DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN441",
+"Name": "INTRODUCTION TO THE SEISMIC DESIGN OF STRUCTURES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": ["CEEN443", ["CEEN445"], ["CEEN440"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN443",
+"Name": "DESIGN OF STEEL STRUCTURES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN314"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN445",
+"Name": "DESIGN OF REINFORCED CONCRETE STRUCTURES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN314"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN461",
+"Name": "FUNDAMENTALS OF ECOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN470",
+"Name": "WATER AND WASTEWATER TREATMENT PROCESSES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN471",
+"Name": "WATER AND WASTEWATER TREATMENT SYSTEMS ANALYSIS AND DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN470"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN472",
+"Name": "ONSITE WATER RECLAMATION AND REUSE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN473",
+"Name": "HYDRAULIC PROBLEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN310"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN474",
+"Name": "SOLID WASTE MINIMIZATION AND RECYCLING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN475",
+"Name": "SITE REMEDIATION ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN476",
+"Name": "POLLUTION PREVENTION: FUNDAMENTALS AND PRACTICE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301", "CEEN302"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN477",
+"Name": "SUSTAINABLE ENGINEERING DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN479",
+"Name": "AIR POLLUTION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN302"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CEEN480",
+"Name": "CHEMICAL FATE AND TRANSPORT IN THE ENVIRONMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN482",
+"Name": "HYDROLOGY AND WATER RESOURCES LABORATORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN381"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN492",
+"Name": "ENVIRONMENTAL LAW",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301", "CEEN302"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CEEN498",
+"Name": "SPECIAL TOPICS IN CIVIL AND ENVIRONMENTAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CEEN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PHGN100",
+"Name": "PHYSICS I - MECHANICS",
+"Max_Credits": "4.5",
+"Min_Credits": "4.5",
+"Pre_req": [["MATH111"], ["!MATH112", "!MATH113", "!MATH122"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "PHGN198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PHGN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PHGN200",
+"Name": "PHYSICS II-ELECTROMAGNETISM AND OPTICS",
+"Max_Credits": "4.5",
+"Min_Credits": "4.5",
+"Pre_req": [["PHGN100"], ["!MATH213", "MATH214", "MATH223"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "PHGN215",
+"Name": "ANALOG ELECTRONICS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["PHGN200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PHGN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PHGN300",
+"Name": "PHYSICS III-MODERN PHYSICS I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["!MATH225"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PHGN310",
+"Name": "HONORS PHYSICS III-MODERN PHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["!MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN311",
+"Name": "INTRODUCTION TO MATHEMATICAL PHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN300", "PHGN310", "MATH225", "MATH332"], ["CSCI250"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PHGN315",
+"Name": "ADVANCED PHYSICS LAB I",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["PHGN300", "PHGN384"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PHGN317",
+"Name": "SEMICONDUCTOR CIRCUITS- DIGITAL",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN215"], ["CSCI250"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PHGN320",
+"Name": "MODERN PHYSICS II: BASICS OF QUANTUM MECHANICS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["PHGN300", "PHGN310"], ["PHGN311"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN324",
+"Name": "INTRODUCTION TO ASTRONOMY AND ASTROPHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN326",
+"Name": "ADVANCED PHYSICS LAB II",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["PHGN315"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "PHGN341",
+"Name": "THERMAL PHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122", "CHGN125"], ["PHGN311"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN350",
+"Name": "INTERMEDIATE MECHANICS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["PHGN200"], ["!PHGN311"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PHGN361",
+"Name": "INTERMEDIATE ELECTROMAGNETISM",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["PHGN311"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN384",
+"Name": "FIELD SESSION TECHNIQUES IN PHYSICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [["PHGN300", "PHGN310", "PHGN215", "CSCI250"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "PHGN398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PHGN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PHGN401",
+"Name": "THEORETICAL PHYSICS SEMINAR",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PHGN418",
+"Name": "GENERAL RELATIVITY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN350"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN419",
+"Name": "PRINCIPLES OF SOLAR ENERGY SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["MATH225"]],
+"Semesters": []
+}
+,
+{
+"Id": "PHGN422",
+"Name": "NUCLEAR PHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN300"]],
+"Semesters": []
+}
+,
+{
+"Id": "PHGN423",
+"Name": "PARTICLE PHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN350"], ["!PHGN320"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN424",
+"Name": "ASTROPHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN300"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN433",
+"Name": "BIOPHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN110"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN435",
+"Name": "INTERDISCIPLINARY MICROELECTRONICS PROCESSING LABORATORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "PHGN440",
+"Name": "SOLID STATE PHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN320"]],
+"Semesters": []
+}
+,
+{
+"Id": "PHGN441",
+"Name": "SOLID STATE PHYSICS APPLICATIONS AND PHENOMENA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN440"]],
+"Semesters": []
+}
+,
+{
+"Id": "PHGN450",
+"Name": "COMPUTATIONAL PHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN311"]],
+"Semesters": []
+}
+,
+{
+"Id": "PHGN462",
+"Name": "ELECTROMAGNETIC WAVES AND OPTICAL PHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN361"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PHGN466",
+"Name": "MODERN OPTICAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN462"]],
+"Semesters": []
+}
+,
+{
+"Id": "PHGN471",
+"Name": "SENIOR DESIGN PRINCIPLES I",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [["PHGN384"], ["PHGN326"], ["!PHGN481", "!PHGN491"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PHGN472",
+"Name": "SENIOR DESIGN PRINCIPLES II",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [["PHGN384"], ["PHGN326"], ["!PHGN482", "!PHGN492"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN480",
+"Name": "LASER PHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN320"], ["!PHGN462"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PHGN481",
+"Name": "SENIOR DESIGN PRACTICE",
+"Max_Credits": "2.5",
+"Min_Credits": "2.5",
+"Pre_req": [["PHGN384"], ["PHGN326"], ["!PHGN471"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PHGN482",
+"Name": "SENIOR DESIGN PRACTICE",
+"Max_Credits": "2.5",
+"Min_Credits": "2.5",
+"Pre_req": [["PHGN384"], ["PHGN326"], ["!PHGN472"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN491",
+"Name": "HONORS SENIOR DESIGN PRACTICE",
+"Max_Credits": "2.5",
+"Min_Credits": "2.5",
+"Pre_req": [["PHGN384"], ["PHGN326"], ["!PHGN471"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PHGN492",
+"Name": "HONORS SENIOR DESIGN PRACTICE",
+"Max_Credits": "2.5",
+"Min_Credits": "2.5",
+"Pre_req": [["PHGN481", "PHGN491"], ["!PHGN472"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PHGN498",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PHGN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN111",
+"Name": "INTRODUCTORY CHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CHGN121",
+"Name": "PRINCIPLES OF CHEMISTRY I",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN122",
+"Name": "PRINCIPLES OF CHEMISTRY II (SC1)",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["CHGN121"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN125",
+"Name": "MOLECULAR ENGINEERING & MATERIALS CHEMISTRY",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["CHGN121"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN209",
+"Name": "INTRODUCTION TO CHEMICAL THERMODYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121", "CHGN122", "CHGN125", "MATH111", "MATH112", "PHGN100"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN221",
+"Name": "ORGANIC CHEMISTRY I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122", "CHGN125"]],
+"Semesters": ["F", "Su"]
+}
+,
+{
+"Id": "CHGN222",
+"Name": "ORGANIC CHEMISTRY II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN221"]],
+"Semesters": ["S", "Su"]
+}
+,
+{
+"Id": "CHGN223",
+"Name": "ORGANIC CHEMISTRY I LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CHGN221"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN224",
+"Name": "ORGANIC CHEMISTRY II LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CHGN221"], ["CHGN223"], ["CHGN222"]],
+"Semesters": ["S", "Su"]
+}
+,
+{
+"Id": "CHGN298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN311",
+"Name": "INTRODUCTION TO NANOSCIENCE AND NANOTECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121"], ["CHGN122", "CHGN125"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN323",
+"Name": "QUALITATIVE ORGANIC ANALYSIS AND APPLIED SPECTROSCOPY",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["CHGN222", "CHGN224"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN335",
+"Name": "INSTRUMENTAL ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN336",
+"Name": "ANALYTICAL CHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122"], ["CHGN209", "CBEN210"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN337",
+"Name": "ANALYTICAL CHEMISTRY LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CHGN336"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN341",
+"Name": "INORGANIC CHEMISTRY I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN222"], ["CHGN209"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN351",
+"Name": "PHYSICAL CHEMISTRY: A MOLECULAR PERSPECTIVE I",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH225", "PHGN200"], ["CHGN209", "CBEN210"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN353",
+"Name": "PHYSICAL CHEMISTRY: A MOLECULAR PERSPECTIVE II",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["CHGN351"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN395",
+"Name": "INTRODUCTION TO UNDERGRADUATE RESEARCH",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN396",
+"Name": "UNDERGRADUATE RESEARCH",
+"Max_Credits": "5.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN398",
+"Name": "SPECIAL TOPICS IN CHEMISTRY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN401",
+"Name": "INORGANIC CHEMISTRY II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN341"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN403",
+"Name": "INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN222", "CHGN209", "CBEN210"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN406",
+"Name": "INTRODUCTION TO GEOCHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121"], ["CHGN122"], ["GEGN101"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN410",
+"Name": "SURFACE CHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN209"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN411",
+"Name": "APPLIED RADIOCHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121"], ["CHGN122"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN422",
+"Name": "POLYMER CHEMISTRY LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CHGN221"], ["CHGN223"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN428",
+"Name": "BIOCHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN222"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN429",
+"Name": "BIOCHEMISTRY II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN428"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN430",
+"Name": "INTRODUCTION TO POLYMER SCIENCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CHGN462",
+"Name": "MICROBIOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN475",
+"Name": "COMPUTATIONAL CHEMISTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN351"], ["CHGN401"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CHGN490",
+"Name": "CHEMISTRY FIELD SESSION",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [["CHGN323"], ["CHGN341"], ["CHGN353"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CHGN495",
+"Name": "UNDERGRADUATE RESEARCH",
+"Max_Credits": "5.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN497",
+"Name": "INTERNSHIP",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CHGN498",
+"Name": "SPECIAL TOPICS IN CHEMISTRY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CHGN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "0.5.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CBEN110",
+"Name": "FUNDAMENTALS OF BIOLOGY I",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CBEN120",
+"Name": "FUNDAMENTALS OF BIOLOGY II",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["CBEN110"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN200",
+"Name": "COMPUTATIONAL METHODS IN CHEMICAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH112"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN201",
+"Name": "MATERIAL AND ENERGY BALANCES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122"], ["!CBEN210"], ["!CBEN202"], ["!MATH213"], ["!MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN202",
+"Name": "CHEMICAL PROCESS PRINCIPLES LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN210",
+"Name": "INTRO TO THERMODYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121"], ["CHGN122"], ["MATH111"], ["!MATH112"], ["!PHGN100"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CBEN250",
+"Name": "INTRODUCTION TO CHEMICAL ENGINEERING ANALYSIS AND DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["!CBEN210"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN304",
+"Name": "ANATOMY AND PHYSIOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN305",
+"Name": "ANATOMY AND PHYSIOLOGY LAB",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN306",
+"Name": "ANATOMY AND PHYSIOLOGY: BONE, MUSCLE, AND BRAIN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN307",
+"Name": "FLUID MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH225", "CBEN201"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN308",
+"Name": "HEAT TRANSFER",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH225", "CBEN307"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN309",
+"Name": "ANATOMY AND PHYSIOLOGY: BONE, MUSCLE, AND BRAIN LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN310",
+"Name": "INTRODUCTION TO BIOMEDICAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN210", "CHGN209", "MEGN361"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN311",
+"Name": "INTRODUCTION TO NEUROSCIENCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121"], ["CHGN122"], ["PHGN100"], ["PHGN200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CBEN312",
+"Name": "UNIT OPERATIONS LABORATORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN201"], ["CBEN202"], ["CBEN307"], ["CBEN308"], ["CBEN357"], ["CBEN375"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CBEN313",
+"Name": "UNIT OPERATIONS LABORATORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN201"], ["CBEN202"], ["CBEN307"], ["CBEN308"], ["CBEN357"], ["CBEN375"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "CBEN314",
+"Name": "CHEMICAL ENGINEERING HEAT AND MASS TRANSFER",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH225", "CBEN307"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN315",
+"Name": "INTRODUCTION TO ELECTROCHEMICAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN210"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN320",
+"Name": "CELL BIOLOGY AND PHYSIOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN321",
+"Name": "INTRO TO GENETICS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN322",
+"Name": "BIOLOGICAL PSYCHOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN110"], ["CHGN122"], ["PHGN200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN323",
+"Name": "GENERAL BIOLOGY II LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CBEN324",
+"Name": "INTRODUCTION TO BREWING SCIENCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN110"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN325",
+"Name": "MCAT REVIEW",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN110"], ["PHGN200"], ["CHGN222"], ["!CBEN120"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN350",
+"Name": "HONORS UNDERGRADUATE RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN351",
+"Name": "HONORS UNDERGRADUATE RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN357",
+"Name": "CHEMICAL ENGINEERING THERMODYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN210", "MATH225", "CBEN201"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN358",
+"Name": "CHEMICAL ENGINEERING THERMODYNAMICS LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CBEN200"], ["CBEN210"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN360",
+"Name": "BIOPROCESS ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN428"], ["CBEN201"], ["CBEN358"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN365",
+"Name": "INTRODUCTION TO CHEMICAL ENGINEERING PRACTICE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "CBEN201"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN368",
+"Name": "INTRODUCTION TO UNDERGRADUATE RESEARCH",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "CBEN375",
+"Name": "CHEMICAL ENGINEERING SEPARATIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN357"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN401",
+"Name": "PROCESS OPTIMIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN201"], ["CBEN308"], ["CBEN307"], ["CBEN357"], ["CBEN375"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "CBEN402",
+"Name": "CHEMICAL ENGINEERING DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN307"], ["CBEN308"], ["CBEN357"], ["CBEN358"], ["CBEN375"], ["!CBEN418"], ["!EBGN321"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN403",
+"Name": "PROCESS DYNAMICS AND CONTROL",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN201"], ["CBEN307"], ["CBEN308"], ["CBEN375"], ["MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN408",
+"Name": "NATURAL GAS PROCESSING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN221"], ["CBEN201"], ["CBEN307"], ["CBEN308"], ["CBEN357"], ["CBEN375"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN409",
+"Name": "PETROLEUM PROCESSES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN221"], ["CBEN201"], ["CBEN357"], ["CBEN375"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN411",
+"Name": "NEUROSCIENCE, MEMORY, AND LEARNING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN110"], ["CBEN120"], ["CHGN221"], ["CHGN222"], ["PHGN100"], ["PHGN200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN412",
+"Name": "INTRODUCTION TO PHARMACOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN110"], ["CBEN120"], ["CHGN121"], ["CHGN122"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN413",
+"Name": "INTRODUCTION TO BIOELECTRICITY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN414",
+"Name": "CHEMICAL PROCESS SAFETY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CBEN375"], ["!CBEN418"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN415",
+"Name": "POLYMER SCIENCE AND TECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN221"], ["MATH225"], ["CBEN357"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN416",
+"Name": "POLYMER ENGINEERING AND TECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN307"], ["MATH225"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN418",
+"Name": "KINETICS AND REACTION ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN308"], ["CBEN357"], ["MATH225"], ["CHGN221"], ["!CHGN351"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN420",
+"Name": "MATHEMATICAL METHODS IN CHEMICAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH225", "CHGN209", "CBEN210", "CBEN307", "CBEN357"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN422",
+"Name": "CHEMICAL ENGINEERING FLOW ASSURANCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN357"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN430",
+"Name": "TRANSPORT PHENOMENA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN307"], ["CBEN308"], ["CBEN357"], ["CBEN375"], ["MATH225"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN431",
+"Name": "IMMUNOLOGY FOR ENGINEERS AND SCIENTISTS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN432",
+"Name": "TRANSPORT PHENOMENA IN BIOLOGICAL SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN430"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN435",
+"Name": "INTERDISCIPLINARY MICROELECTRONICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN440",
+"Name": "MOLECULAR PERSPECTIVES IN CHEMICAL ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN307"], ["CBEN308"], ["CBEN357"], ["CBEN375"], ["CHGN351"], ["CHGN353"], ["CHGN221"], ["CHGN222"], ["MATH225"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN450",
+"Name": "HONORS UNDERGRADUATE RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN451",
+"Name": "HONORS UNDERGRADUATE RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN454",
+"Name": "APPLIED BIOINFORMATICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN460",
+"Name": "BIOCHEMICAL PROCESS ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN375"], ["CHGN428"], ["CHGN462"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN461",
+"Name": "BIOCHEMICAL PROCESS ENGINEERING LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["CBEN375"], ["CHGN428"], ["CHGN462"], ["!CBEN460"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN469",
+"Name": "FUEL CELL SCIENCE AND TECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN361", "CBEN357", "MTGN351"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "CBEN470",
+"Name": "INTRODUCTION TO MICROFLUIDICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN307", "MEGN351"]],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN472",
+"Name": "INTRODUCTION TO ENERGY TECHNOLOGIES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CBEN357"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "CBEN480",
+"Name": "NATURAL GAS HYDRATES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN498",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "CBEN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "MTGN198",
+"Name": "SPECIAL TOPICS IN METALLURGICAL AND MATERIALS ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN202",
+"Name": "ENGINEERED MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN122", "CHGN125", "MATH112"], ["PHGN100"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN211",
+"Name": "STRUCTURE OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN202"], ["!PHGN200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN251",
+"Name": "METALLURGICAL AND MATERIALS THERMODYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH112", "CHGN122", "CHGN125"], ["PHGN100"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN272",
+"Name": "MME FIELD SESSION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH112"], ["PHGN100"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "MTGN281",
+"Name": "INTRODUCTION TO PHASE EQUILIBRIA IN MATERIALS SYSTEMS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MTGN202"], ["MTGN251", "MTGN351"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN298",
+"Name": "SPECIAL TOPICS IN METALLURGICAL AND MATERIALS ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN300",
+"Name": "FOUNDRY METALLURGY",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN300L",
+"Name": "FOUNDRY METALLURGY LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN311",
+"Name": "STRUCTURE OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["MTGN202"], ["!MTGN311"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN311L",
+"Name": "STRUCTURE OF MATERIALS LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN314",
+"Name": "PROPERTIES AND PROCESSING OF CERAMICS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN314L",
+"Name": "PROPERTIES AND PROCESSING OF CERAMICS LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN315",
+"Name": "ELECTRICAL PROPERTIES AND APPLICATIONS OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["!MTGN211", "!MTGN311"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN334",
+"Name": "CHEMICAL PROCESSING OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN272"], ["MTGN351"], ["CEEN267", "EDNS251", "EDNS261", "EDNS262", "EDNS264", "EDNS269"], ["!MTGN334"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN334L",
+"Name": "CHEMICAL PROCESSING OF MATERIALS LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN348",
+"Name": "MICROSTRUCTURAL DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN211", "MTGN311"], ["MTGN251", "MTGN351"], ["!MTGN281", "!MTGN381"], ["!MTGN348"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN348L",
+"Name": "MICROSTRUCTURAL DEVELOPMENT LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN350",
+"Name": "STATISTICAL PROCESS CONTROL AND DESIGN OF EXPERIMENTS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN351",
+"Name": "METALLURGICAL AND MATERIALS THERMODYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN209", "CBEN210"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN352",
+"Name": "METALLURGICAL AND MATERIALS KINETICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN272"], ["!MTGN251", "!MTGN351"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN381",
+"Name": "INTRODUCTION TO PHASE EQUILIBRIA IN MATERIALS SYSTEMS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN398",
+"Name": "SPECIAL TOPICS IN METALLURGICAL AND MATERIALS ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN403",
+"Name": "SENIOR THESIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN407",
+"Name": "STEEL BAR MANUFACTURING",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MTGN348"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN412",
+"Name": "CERAMIC ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN348"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN414",
+"Name": "ADVANCED PROCESSING AND SINTERING OF CERAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN314"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN415",
+"Name": "ELECTRICAL PROPERTIES AND APPLICATIONS OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["MTGN311"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN419",
+"Name": "NON-CRYSTALLINE MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN211", "MTGN311"], ["MTGN412", "MTGN314"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN429",
+"Name": "METALLURGICAL ENVIRONMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN334"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN430",
+"Name": "PHYSICAL CHEMISTRY OF IRON AND STEELMAKING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN334"], ["MTGN251", "MTGN351"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN431",
+"Name": "HYDRO- AND ELECTRO-METALLURGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN334"], ["MTGN352"], ["MTGN351", "MTGN251"], ["!MTGN461"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN432",
+"Name": "PYROMETALLURGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN334"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN442",
+"Name": "ENGINEERING ALLOYS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN348"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN445",
+"Name": "MECHANICAL PROPERTIES OF MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN348"], ["!MTGN445"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN445L",
+"Name": "MECHANICAL PROPERTIES OF MATERIALS LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN450",
+"Name": "STATISTICAL PROCESS CONTROL AND DESIGN OF EXPERIMENTS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN451",
+"Name": "CORROSION ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN251", "MTGN351"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN456",
+"Name": "ELECTRON MICROSCOPY",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MTGN211", "MTGN311"], ["!MTGN456"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN456L",
+"Name": "ELECTRON MICROSCOPY LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN461",
+"Name": "TRANSPORT PHENOMENA AND REACTOR DESIGN FOR METALLURGICAL AND MATERIALS ENGINEERS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH225"], ["MTGN334"], ["MTGN352"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN461L",
+"Name": "TRANSPORT PHENOMENA AND REACTOR DESIGN LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN462",
+"Name": "SOLID WASTE MINIMIZATION AND RECYCLING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN301"], ["CEEN302"], ["CHGN403"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN463",
+"Name": "POLYMER ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN464",
+"Name": "FORGING AND FORMING",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["CEEN311", "MEGN312"], ["MTGN348", "MEGN350"], ["!MTGN464"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN464L",
+"Name": "FORGING AND FORMING LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN465",
+"Name": "MECHANICAL PROPERTIES OF CERAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN211", "MTGN311"], ["MTGN314", "MTGN412"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN466",
+"Name": "MATERIALS DESIGN: SYNTHESIS, CHARACTERIZATION AND SELECTION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN351"], ["MTGN352"], ["MTGN445"], ["MTGN461"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN467",
+"Name": "MATERIALS DESIGN: SYNTHESIS, CHARACTERIZATION AND SELECTION",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MTGN348"], ["!MTGN461"], ["!MTGN445"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN468",
+"Name": "MATERIALS DESIGN: SYNTHESIS, CHARACTERIZATION AND SELECTION",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MTGN352"], ["!MTGN348"], ["!MTGN334"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MTGN469",
+"Name": "FUEL CELL SCIENCE AND TECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["MTGN251", "MTGN351", "CHGN209", "MEGN361"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN472",
+"Name": "BIOMATERIALS I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MTGN202"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MTGN475",
+"Name": "METALLURGY OF WELDING",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MTGN348"], ["!MTGN475"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN475L",
+"Name": "METALLURGY OF WELDING LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN497",
+"Name": "SUMMER PROGRAMS",
+"Max_Credits": "0.0",
+"Min_Credits": "0.0",
+"Pre_req": [],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "MTGN498",
+"Name": "SPECIAL TOPICS IN METALLURGICAL AND MATERIALS ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MTGN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "GPGN101",
+"Name": "INTRODUCTION TO GEOPHYSICS: GEOPHYSICS AND SOCIETY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GPGN198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GPGN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GPGN200",
+"Name": "INTRODUCTION TO GEOPHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GPGN228",
+"Name": "INTRODUCTION TO ROCK PHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GPGN229",
+"Name": "MATHEMATICAL GEOPHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH111"], ["MATH112"], ["MATH213"], ["PHGN100"], ["PHGN200"], ["!MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GPGN268",
+"Name": "GEOPHYSICAL DATA ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GPGN298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GPGN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GPGN314",
+"Name": "APPLIED GEOPHYSICS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH213"], ["MATH225"], ["GPGN228"], ["GPGN328"], ["CSCI250"], ["!GPGN329"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GPGN328",
+"Name": "PHYSICS OF THE EARTH - I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["GPGN229"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GPGN329",
+"Name": "PHYSICS OF THE EARTH - II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["MATH225"], ["GPGN229"], ["GPGN328"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GPGN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "GPGN350",
+"Name": "SCIENCE AND COMMUNICATION SKILLS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GPGN398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GPGN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GPGN404",
+"Name": "DIGITAL SIGNAL PROCESSING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI250"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GPGN409",
+"Name": "INVERSION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GPGN229"], ["MATH332"], ["CSCI250"], ["!GPGN435"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GPGN411",
+"Name": "GRAVITY AND MAGNETIC METHODS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GPGN314"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GPGN419",
+"Name": "INTRODUCTION TO FORMATION EVALUATION AND WELL LOGGING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GPGN314"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GPGN420",
+"Name": "ELECTRICAL AND ELECTROMAGNETIC METHODS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GPGN314"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GPGN432",
+"Name": "FORMATION EVALUATION",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH225", "MATH348", "PHGN311"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GPGN435",
+"Name": "GEOPHYSICAL COMPUTING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CSCI250"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GPGN438",
+"Name": "GEOPHYSICS PROJECT DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GPGN314"], ["GPGN329"], ["GPGN404"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GPGN455",
+"Name": "EARTHQUAKE SEISMOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["GPGN461"], ["GPGN229"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GPGN458",
+"Name": "SEISMIC INTERPRETATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GPGN461",
+"Name": "SEISMIC DATA PROCESSING",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["GPGN404"], ["GPGN329"], ["GPGN314"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GPGN470",
+"Name": "APPLICATIONS OF SATELLITE REMOTE SENSING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GPGN471",
+"Name": "GEODYNAMICS AND GEOLOGY",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GPGN474",
+"Name": "HYDROGEOPHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GPGN314"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GPGN475",
+"Name": "PLANETARY GEOPHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN100"], ["MATH225"], ["GEGN205", "GEOL410"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GPGN486",
+"Name": "GEOPHYSICS FIELD CAMP",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["GPGN268", "GPGN314", "GPGN329", "GEGN203", "GEGN204", "GEGN205"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "GPGN498",
+"Name": "SPECIAL TOPICS IN GEOPHYSICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GPGN499",
+"Name": "GEOPHYSICAL INVESTIGATION",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN101",
+"Name": "EARTH AND ENVIRONMENTAL SYSTEMS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "GEGN198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN203",
+"Name": "ENGINEERING TERRAIN ANALYSIS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN204",
+"Name": "GEOLOGIC PRINCIPLES AND PROCESSES",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN205",
+"Name": "ADVANCED PHYSICAL GEOLOGY LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN206",
+"Name": "EARTH MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"], ["GEGN203"], ["GEGN204"], ["GEGN205"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN212",
+"Name": "PETROLOGY FOR GEOLOGICAL ENGINEERS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["GEGN206"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN299",
+"Name": "INDEPENDENT STUDY IN ENGINEERING GEOLOGY OR ENGINEERING HYDROGEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN307",
+"Name": "PETROLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEOL321"], ["CHGN209"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN316",
+"Name": "FIELD GEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [["GEGN203", "GEGN204", "GEGN205", "GEGN206", "GEGN212", "GEGN307", "GEOL314", "GEOL309"], ["GEGN317"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "GEGN317",
+"Name": "GEOLOGIC FIELD METHODS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": ["GEGN203", "GEGN204", "GEGN205", ["GEOL309", "GEOL308"], ["GEGN212", "!GEGN307"], ["!GEOL314"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN330",
+"Name": "GEOSCIENTISTS THERMODYNAMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CHGN121", "CHGN122", "CHGN125", "MATH111", "MATH112", "GEGN206"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "GEGN342",
+"Name": "ENGINEERING GEOMORPHOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN351",
+"Name": "GEOLOGICAL FLUID MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN398",
+"Name": "SEMINAR IN GEOLOGY OR GEOLOGICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN399",
+"Name": "INDEPENDENT STUDY IN ENGINEERING GEOLOGY OR ENGINEERING HYDROGEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN401",
+"Name": "MINERAL DEPOSITS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["CHGN209"], ["GEGN307"], ["GEGN316"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN403",
+"Name": "MINERAL EXPLORATION DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN401"], ["EDNS251"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN404",
+"Name": "ORE MICROSCOPY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEOL321"], ["GEGN401"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN432",
+"Name": "GEOLOGICAL DATA MANAGEMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "GEGN438",
+"Name": "PETROLEUM GEOLOGY",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["GEOL308", "GEOL309"], ["GEOL314", "GEOL315"], ["GEGN316", "GPGN486", "PEGN316"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN439",
+"Name": "MULTIDISCIPLINARY PETROLEUM DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEOL309"], ["GEOL314"], ["GEGN438"], ["EDNS264"], ["GEOL308"], ["PEGN316"], ["PEGN426"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN466",
+"Name": "GROUNDWATER ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213", "MATH223", "MATH224"], ["MATH225", "MATH235"], ["GEGN351", "MEGN351"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN467",
+"Name": "GROUNDWATER ENGINEERING",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MATH213", "MATH223", "MATH224"], ["MATH225", "MATH235"], ["GEGN351", "MEGN351"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN468",
+"Name": "ENGINEERING GEOLOGY AND GEOTECHNICS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["MNGN321"], ["CEEN312", "CEEN312"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN469",
+"Name": "ENGINEERING GEOLOGY DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN468"], ["EDNS264"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN470",
+"Name": "GROUND-WATER ENGINEERING DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN467"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN473",
+"Name": "GEOLOGICAL ENGINEERING SITE INVESTIGATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN475",
+"Name": "APPLICATIONS OF GEOGRAPHIC INFORMATION SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN481",
+"Name": "ANALYTICAL HYDROLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN467"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEGN483",
+"Name": "MATHEMATICAL MODELING OF GROUNDWATER SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN467"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEGN498",
+"Name": "SEMINAR IN GEOLOGY OR GEOLOGICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEGN499",
+"Name": "INDEPENDENT STUDY IN ENGINEERING GEOLOGY OR ENGINEERING HYDROGEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOC407",
+"Name": "ATMOSPHERE, WEATHER AND CLIMATE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOC408",
+"Name": "INTRODUCTION TO OCEANOGRAPHY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL102",
+"Name": "INTRODUCTION TO GEOLOGICAL ENGINEERING",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL198",
+"Name": "SEMINAR IN GEOLOGY OR GEOLOGICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOL199",
+"Name": "INDEPENDENT STUDY IN GEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOL298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOL308",
+"Name": "INTRODUCTORY APPLIED STRUCTURAL GEOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL309",
+"Name": "STRUCTURAL GEOLOGY AND TECTONICS",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["GEGN101"], ["GEGN203"], ["GEGN204"], ["GEGN205"], ["GEGN206", "GPGN200"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEOL310",
+"Name": "EARTH MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEOL311",
+"Name": "MINING GEOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"], ["GEOL310", "MNGN310"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL314",
+"Name": "STRATIGRAPHY",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["GEGN101", "GEGN203", "GEGN204", "GEGN205"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL315",
+"Name": "SEDIMENTOLOGY AND STRATIGRAPHY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"], ["PEGN308"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEOL321",
+"Name": "MINERALOGY AND MINERAL CHARACTERIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101", "CHGN122", "CHGN125", "GEGN206"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "GEOL398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOL399",
+"Name": "INDEPENDENT STUDY IN GEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOL410",
+"Name": "PLANETARY GEOLOGY",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL443",
+"Name": "UNDERGRADUATE FIELD SEMINAR",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "GEOL444",
+"Name": "INVERTEBRATE PALEONTOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN204"], ["GEGN205"], ["GEGN206"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL470",
+"Name": "APPLICATIONS OF SATELLITE REMOTE SENSING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200"], ["MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "GEOL498",
+"Name": "SEMINAR IN GEOLOGY OR GEOLOGICAL ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "GEOL499",
+"Name": "INDEPENDENT STUDY IN GEOLOGY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HASS100",
+"Name": "NATURE AND HUMAN VALUES",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "HASS198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HASS199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HASS200",
+"Name": "GLOBAL STUDIES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS201",
+"Name": "WORKSHOP FOUNDATIONS: THE ART AND CRAFT OF CREATIVE WRITING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS202",
+"Name": "TECHNICAL COMMUNICATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "HASS220",
+"Name": "INTRODUCTION TO PHILOSOPHY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "HASS221",
+"Name": "INTRODUCTION TO RELIGIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "HASS226",
+"Name": "BEGINNING CLASS PIANO AND FUNDAMENTALS OF MUSIC",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS286",
+"Name": "GLOBAL POLITICS & SOCIETY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HASS299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [["!HASS200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HASS300",
+"Name": "CREATIVE WRITING: FICTION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS301",
+"Name": "CREATIVE WRITING: POETRY I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS305",
+"Name": "AMERICAN LITERATURE: COLONIAL PERIOD TO THE PRESENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS307",
+"Name": "EXPLORATIONS IN COMPARATIVE LITERATURE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS309",
+"Name": "LITERATURE AND SOCIETY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS315",
+"Name": "MUSICAL TRADITIONS OF THE WESTERN WORLD",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS320",
+"Name": "ETHICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS323",
+"Name": "INTRODUCTION TO SCIENCE COMMUNICATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS324",
+"Name": "AUDIO/ACOUSTICAL ENGINEERING AND SCIENCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "HASS325",
+"Name": "CULTURAL ANTHROPOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS326",
+"Name": "MUSIC THEORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "HASS327",
+"Name": "MUSIC TECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HASS328",
+"Name": "BASIC MUSIC COMPOSITION AND ARRANGING",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "HASS330",
+"Name": "MUSIC TECHNOLOGY CAPSTONE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "HASS337",
+"Name": "ASIA: POLITICS & SOCIETY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS339",
+"Name": "MIDDLE EAST: POLITICS & SOCIETY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS341",
+"Name": "AFRICA: POLITICS & SOCIETY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS344",
+"Name": "INTERNATIONAL RELATIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS365",
+"Name": "HISTORY OF WAR",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS370",
+"Name": "HISTORY OF SCIENCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS376",
+"Name": "COMMUNITY ENGAGEMENT THROUGH SERVICE LEARNING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "HASS398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HASS399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [["!HASS200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HASS400",
+"Name": "ADVANCED SHORT FICTION WRITING WORKSHOP",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["HASS200"], ["!HASS300"], ["!HASS301"], ["!HASS401"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "HASS401",
+"Name": "CREATIVE WRITING: POETRY II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["HASS301"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS404",
+"Name": "WOMEN, LITERATURE, AND SOCIETY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS406",
+"Name": "THE LITERATURE OF WAR AND REMEMBRANCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS407",
+"Name": "SCIENCE IN LITERATURE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS408",
+"Name": "LIFE STORIES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS409",
+"Name": "SHAKESPEAREAN DRAMA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS410",
+"Name": "CRITICAL PERSPECTIVES ON 20TH CENTURY LITERATURE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS411",
+"Name": "LITERATURES OF THE AFRICAN WORLD",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS412",
+"Name": "LITERATURE AND THE ENVIRONMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS415",
+"Name": "MASS MEDIA STUDIES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS416",
+"Name": "FILM STUDIES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS418",
+"Name": "NARRATING THE NATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS419",
+"Name": "ENVIRONMENTAL COMMUNICATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS421",
+"Name": "ENVIRONMENTAL PHILOSOPHY AND POLICY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS423",
+"Name": "ADVANCED SCIENCE COMMUNICATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS425",
+"Name": "INTERCULTURAL COMMUNICATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HASS426",
+"Name": "SCIENTIFIC CONTROVERSIES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HASS429",
+"Name": "REAL WORLD RECORDING/RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["HASS315", "HASS327"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS431",
+"Name": "MORAL PSYCHOLOGY, RELIGION, AND AMERICAN SOCIETY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS433",
+"Name": "SHAKESPEARE AND THE SCIENTIFIC REVOLUTION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS435",
+"Name": "LATIN AMERICAN DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS437",
+"Name": "ASIAN DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS439",
+"Name": "MIDDLE EAST DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS441",
+"Name": "AFRICAN DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS442",
+"Name": "NATURAL RESOURCES AND WAR IN AFRICA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS446",
+"Name": "GLOBALIZATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS448",
+"Name": "GLOBAL ENVIRONMENTAL ISSUES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS450",
+"Name": "POLITICAL RISK ASSESSMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS452",
+"Name": "CORRUPTION AND DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS453",
+"Name": "ETHNIC CONFLICT IN GLOBAL PERSPECTIVE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS456",
+"Name": "POWER AND POLITICS IN EURASIA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS458",
+"Name": "NATURAL RESOURCES AND DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS460",
+"Name": "GEOPOLITICS OF NATURAL RESOURCES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS464",
+"Name": "HISTORY OF ENERGY AND THE ENVIRONMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "HASS467",
+"Name": "HISTORY OF EARTH AND ENVIRONMENTAL SCIENCES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS484",
+"Name": "US WATER POLITICS AND POLICY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "HASS485",
+"Name": "CONSTITUTIONAL LAW AND POLITICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS486",
+"Name": "SCIENCE AND TECHNOLOGY POLICY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS487",
+"Name": "ENVIRONMENTAL POLITICS AND POLICY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "HASS488",
+"Name": "GLOBAL WATER POLITICS AND POLICY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "HASS490",
+"Name": "ENERGY AND SOCIETY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HASS491",
+"Name": "ENERGY POLITICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS492",
+"Name": "ENERGY AND SECURITY POLICY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "HASS498",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HASS499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HNRS105",
+"Name": "INNOVATION AND DISCOVERY IN ENGINEERING, ARTS, AND SCIENCES I",
+"Max_Credits": "3.5",
+"Min_Credits": "3.5",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "HNRS115",
+"Name": "INNOVATION AND DISCOVERY IN ENGINEERING, ARTS, AND SCIENCES II",
+"Max_Credits": "3.5",
+"Min_Credits": "3.5",
+"Pre_req": [["HNRS105"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "HNRS198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "HNRS199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "HNRS298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "HNRS299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "HNRS305",
+"Name": "EXPLORATIONS IN MODERN AMERICA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HNRS315",
+"Name": "EXPLORATIONS IN THE MODERN WORLD",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HNRS398",
+"Name": "SPECIAL TOPICS IN THE MCBRIDE HONORS PROGRAM IN PUBLIC AFFAIRS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "HNRS399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "HNRS405",
+"Name": "MCBRIDE PRACTICUM",
+"Max_Credits": "3.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HNRS425",
+"Name": "EXPLORATIONS IN POLITICS, POLICY, AND LEADERSHIP",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HNRS305"], ["HNRS315"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HNRS430",
+"Name": "EXPLORATIONS IN IDEAS, ETHICS, AND RELIGION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HNRS305"], ["HNRS315"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HNRS435",
+"Name": "EXPLORATIONS IN CULTURE, SOCIETY, AND CREATIVE ARTS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HNRS305"], ["HNRS315"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HNRS440",
+"Name": "EXPLORATIONS IN INTERNATIONAL STUDIES & GLOBAL AFFAIRS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HNRS305"], ["HNRS315"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HNRS445",
+"Name": "EXPLORATIONS IN SCIENCE, TECHNOLOGY, AND SOCIETY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HNRS305"], ["HNRS315"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HNRS450",
+"Name": "EXPLORATIONS IN EARTH, ENERGY, AND ENVIRONMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HNRS305"], ["HNRS315"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "HNRS476",
+"Name": "COMMUNITY ENGAGEMENT THROUGH SERVICE LEARNING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "HNRS498",
+"Name": "SPECIAL TOPICS IN THE MCBRIDE HONORS PROGRAM IN PUBLIC AFFAIRS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "HNRS499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LICM198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "0.5.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LICM298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "0.5.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIFL113",
+"Name": "SPANISH I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIFL114",
+"Name": "ARABIC I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIFL115",
+"Name": "GERMAN I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIFL119",
+"Name": "FRENCH I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "LIFL123",
+"Name": "SPANISH II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIFL124",
+"Name": "ARABIC II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIFL125",
+"Name": "GERMAN II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIFL129",
+"Name": "FRENCH II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["LIFL119"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "LIFL198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIFL199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIFL213",
+"Name": "SPANISH III",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIFL298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIFL299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIFL398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIFL399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIFL498",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIFL499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIMU101",
+"Name": "CONCERT/MARCH BAND-FRESHMAN",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU102",
+"Name": "SCHOOL OF MINES SYMPHONY ORCHESTRA - FRESHMAN",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "LIMU111",
+"Name": "CHORUS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU112",
+"Name": "CHORUS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU121",
+"Name": "GUITAR ENSEMBLE",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "LIMU189",
+"Name": "INDIVIDUAL INSTRUMENTAL OR VOCAL MUSIC INSTRUCTION",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIMU198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIMU199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIMU201",
+"Name": "CONCERT/MARCH BAND-SOPHOMORE",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU202",
+"Name": "COLORADO SCHOOL OF MINES SYMPHONY ORCHESTRA - SOPHOMORE",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "LIMU211",
+"Name": "CHORUS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU212",
+"Name": "CHORUS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIMU299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIMU301",
+"Name": "CONCERT/MARCH BAND-JUNIOR",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU302",
+"Name": "COLORADO SCHOOL OF MINES SYMPHONY ORCHESTRA - JUNIOR",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "LIMU311",
+"Name": "CHORUS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU312",
+"Name": "CHORUS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIMU399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIMU401",
+"Name": "CONCERT/MARCH BAND-JUNIOR",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "LIMU402",
+"Name": "COLORADO SCHOOL OF MINES SYMPHONY ORCHESTRA - SENIOR",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "LIMU411",
+"Name": "CHORUS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU412",
+"Name": "CHORUS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU421",
+"Name": "JAZZ ENSEMBLE",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU422",
+"Name": "JAZZ ENSEMBLE/PEP BAND - SPRING",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU423",
+"Name": "JAZZ LAB",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU450",
+"Name": "MUSIC TECHNOLOGY CAPSTONE COURSE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "LIMU498",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "LIMU499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EBGN198",
+"Name": "SPECIAL TOPICS IN ECONOMICS AND BUSINESS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EBGN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "0.5.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EBGN201",
+"Name": "PRINCIPLES OF ECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EBGN298",
+"Name": "SPECIAL TOPICS IN ECONOMICS AND BUSINESS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EBGN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EBGN301",
+"Name": "INTERMEDIATE MICROECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"], ["MATH213"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EBGN302",
+"Name": "INTERMEDIATE MACROECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"], ["MATH213"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EBGN303",
+"Name": "ECONOMETRICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"], ["MATH201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN304",
+"Name": "PERSONAL FINANCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "EBGN305",
+"Name": "FINANCIAL ACCOUNTING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EBGN306",
+"Name": "MANAGERIAL ACCOUNTING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"], ["EBGN305"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN310",
+"Name": "ENVIRONMENTAL AND RESOURCE ECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EBGN314",
+"Name": "PRINCIPLES OF MANAGEMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN315",
+"Name": "THE ECONOMICS OF STRATEGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EBGN320",
+"Name": "ECONOMICS AND TECHNOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN321",
+"Name": "ENGINEERING ECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN325",
+"Name": "OPERATIONS RESEARCH",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"], ["MATH112"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EBGN330",
+"Name": "ENERGY ECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EBGN340",
+"Name": "ENERGY AND ENVIRONMENTAL POLICY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": []
+}
+,
+{
+"Id": "EBGN342",
+"Name": "ECONOMIC DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN345",
+"Name": "PRINCIPLES OF CORPORATE FINANCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN346",
+"Name": "INTRODUCTION TO INVESTMENTS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EBGN360",
+"Name": "INTRODUCTION TO ENTREPRENEURSHIP",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN361",
+"Name": "BUSINESS PRINCIPLES FOR ENTREPRENEURS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EBGN398",
+"Name": "SPECIAL TOPICS IN ECONOMICS AND BUSINESS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EBGN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EBGN401",
+"Name": "ADVANCED TOPICS IN ECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN301"], ["EBGN302"], ["EBGN303"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EBGN403",
+"Name": "FIELD SESSION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN301"], ["EBGN302"], ["EBGN303"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "EBGN404",
+"Name": "ADVANCED TOPICS IN MICROECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN301"], ["EBGN302"], ["EBGN303"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EBGN405",
+"Name": "ADVANCED TOPICS IN MACROECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN301"], ["EBGN303"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EBGN409",
+"Name": "MATHEMATICAL ECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213"], ["EBGN301"], ["EBGN302"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN425",
+"Name": "BUSINESS ANALYTICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"], ["MATH112"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EBGN430",
+"Name": "ADVANCED ENERGY ECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN301"], ["EBGN330"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EBGN434",
+"Name": "PROPERTY RIGHTS AND NATURAL RESOURCES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN201"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN437",
+"Name": "REGIONAL ECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN301", "EBGN302"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN441",
+"Name": "INTERNATIONAL ECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN301"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN443",
+"Name": "PUBLIC ECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN301"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EBGN455",
+"Name": "LINEAR PROGRAMMING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH332", "MATH348", "EBGN409"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EBGN459",
+"Name": "SUPPLY CHAIN MANAGEMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN460",
+"Name": "BUSINESS PLAN DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN360"], ["EBGN361"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN461",
+"Name": "STOCHASTIC MODELS IN MANAGEMENT SCIENCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN470",
+"Name": "ENVIRONMENTAL ECONOMICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN301"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN474",
+"Name": "INVENTING, PATENTING AND LICENSING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "EBGN485",
+"Name": "BUSINESS STRATEGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN321", "EBGN345", "EBGN346"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EBGN495",
+"Name": "ECONOMIC FORECASTING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN301"], ["EBGN302"], ["EBGN303"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EBGN498",
+"Name": "SPECIAL TOPICS IN ECONOMICS AND BUSINESS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EBGN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PEGN102",
+"Name": "INTRODUCTION TO PETROLEUM INDUSTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN198",
+"Name": "SPECIAL TOPICS IN PETROLEUM ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PEGN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PEGN251",
+"Name": "FLUID MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PEGN298",
+"Name": "SPECIAL TOPICS IN PETROLEUM ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PEGN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PEGN305",
+"Name": "COMPUTATIONAL METHODS IN PETROLEUM ENGINEERING",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MATH213"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PEGN308",
+"Name": "RESERVOIR ROCK PROPERTIES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PEGN311",
+"Name": "DRILLING ENGINEERING",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [["PEGN251", "PEGN315", "CEEN241"], ["!PEGN305"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PEGN312",
+"Name": "PROPERTIES OF PETROLEUM ENGINEERING FLUIDS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PEGN308"], ["CHGN209"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PEGN315",
+"Name": "SUMMER FIELD SESSION I",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["PEGN308"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "PEGN316",
+"Name": "SUMMER FIELD SESSION II",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["PEGN315"], ["PEGN419"], ["GEOL308"], ["GEOL315"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "PEGN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "PEGN350",
+"Name": "SUSTAINABLE ENERGY SYSTEMS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151"]],
+"Semesters": []
+}
+,
+{
+"Id": "PEGN361",
+"Name": "COMPLETION ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PEGN311"], ["CEEN311", "MEGN312"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN398",
+"Name": "SPECIAL TOPICS IN PETROLEUM ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PEGN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PEGN411",
+"Name": "MECHANICS OF PETROLEUM PRODUCTION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PEGN251", "PEGN308", "PEGN311"], ["PEGN312"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN414",
+"Name": "WELL TESTING AND ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH225"], ["PEGN419"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PEGN419",
+"Name": "WELL LOG ANALYSIS AND FORMATION EVALUATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEOL315"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN422",
+"Name": "ECONOMICS AND EVALUATION OF OIL AND GAS PROJECTS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PEGN423",
+"Name": "PETROLEUM RESERVOIR ENGINEERING I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PEGN419"], ["MATH225", "MATH235"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN424",
+"Name": "PETROLEUM RESERVOIR ENGINEERING II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PEGN423"], ["PEGN438"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN426",
+"Name": "FORMATION DAMAGE AND STIMULATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PEGN361"], ["PEGN411"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN428",
+"Name": "ADVANCED DRILLING ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PEGN311"], ["PEGN361"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN430",
+"Name": "ENVIRONMENTAL LAW AND SUSTAINABILITY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN438",
+"Name": "PETROLEUM DATA ANALYTICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH112"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN439",
+"Name": "MULTIDISCIPLINARY PETROLEUM DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEOL309"], ["GEOL314"], ["GEGN438"], ["EDNS264"], ["GPGN268"], ["GEOL308"], ["PEGN316"], ["!PEGN426"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN440",
+"Name": "PETROLEUM DATA ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN325"], ["CSCI303"], ["PEGN438"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN450",
+"Name": "ENERGY ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH213"], ["PHGN200"]],
+"Semesters": []
+}
+,
+{
+"Id": "PEGN460",
+"Name": "FLOW IN PIPE NETWORKS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PEGN251"], ["CHGN209"], ["MATH225"], ["PEGN305"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN461",
+"Name": "SURFACE FACILITIES DESIGN AND OPERATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PEGN251"], ["CHGN209"], ["MATH225"], ["PEGN305"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PEGN462",
+"Name": "FLOW ASSURANCE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PEGN251"], ["CHGN209"], ["MATH225"], ["PEGN305"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PEGN463",
+"Name": "PETROLEUM MIDSTREAM DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PEGN251"], ["PEGN305"], ["CHGN209"], ["MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PEGN481",
+"Name": "PETROLEUM SEMINAR",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PEGN490",
+"Name": "RESERVOIR GEOMECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN311"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PEGN498",
+"Name": "SPECIAL TOPICS IN PETROLEUM ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PEGN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN198",
+"Name": "SPECIAL TOPICS IN MINING ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN210",
+"Name": "INTRODUCTORY MINING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN222",
+"Name": "INTRODUCTION TO EXPLOSIVES ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN100"], ["CHGN121"], ["CHGN122"], ["MATH111"], ["MATH112"]],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "MNGN298",
+"Name": "SPECIAL TOPICS IN MINING ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "6.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN300",
+"Name": "SUMMER FIELD SESSION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "MNGN308",
+"Name": "MINE SAFETY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MNGN210"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN309",
+"Name": "MINING ENGINEERING LABORATORY",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MNGN210"], ["MNGN308"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN310",
+"Name": "EARTH MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEGN101"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN311",
+"Name": "MINING GEOLOGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["GEOL310", "MNGN310"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN312",
+"Name": "SURFACE MINE DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN210"], ["MNGN300"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN314",
+"Name": "UNDERGROUND MINE DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN210"], ["MNGN300"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN316",
+"Name": "COAL MINING METHODS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN317",
+"Name": "DYNAMICS FOR MINING ENGINEERS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MATH213", "CEEN241"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN321",
+"Name": "INTRODUCTION TO ROCK MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241", "MNGN317"]],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN322",
+"Name": "INTRODUCTION TO MINERAL PROCESSING AND LABORATORY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PHGN200", "MATH213"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN333",
+"Name": "EXPLOSIVES ENGINEERING I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN340",
+"Name": "COOPERATIVE EDUCATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "MNGN350",
+"Name": "INTRODUCTION TO GEOTHERMAL ENERGY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN398",
+"Name": "SPECIAL TOPICS IN MINING ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN404",
+"Name": "TUNNELING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN405",
+"Name": "ROCK MECHANICS IN MINING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN406",
+"Name": "DESIGN AND SUPPORT OF UNDERGROUND EXCAVATIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN407",
+"Name": "ROCK FRAGMENTATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["CEEN241"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN408",
+"Name": "UNDERGROUND DESIGN AND CONSTRUCTION",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["CEEN312"], ["MNGN321"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN410",
+"Name": "EXCAVATION PROJECT MANAGEMENT",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN414",
+"Name": "MINE PLANT DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN312"], ["MNGN314"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN418",
+"Name": "ADVANCED ROCK MECHANICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN321"]],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN421",
+"Name": "DESIGN OF UNDERGROUND EXCAVATIONS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN321"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN422",
+"Name": "FLOTATION",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN423",
+"Name": "FLOTATION LABORATORY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN424",
+"Name": "MINE VENTILATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["PEGN251", "MEGN351"], ["CHGN209", "MEGN361"], ["MNGN314"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN427",
+"Name": "MINE VALUATION",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN428",
+"Name": "MINING ENGINEERING EVALUATION AND DESIGN REPORT I",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MNGN210"], ["MNGN300"], ["MNGN308"], ["MNGN312"], ["MNGN314"], ["MNGN309"], ["MNGN321"], ["MNGN316"], ["GEOL310"], ["GEOL311"], ["!MNGN438"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN429",
+"Name": "MINING ENGINEERING EVALUATION AND DESIGN REPORT II",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MNGN428"], ["MNGN210"], ["MNGN300"], ["MNGN308"], ["MNGN312"], ["MNGN314"], ["MNGN309"], ["MNGN321"], ["MNGN316"], ["GEOL310"], ["GEOL311"], ["MNGN438"], ["MNGN414"], ["!MNGN322", "!MNGN427"], ["!MNGN433"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN431",
+"Name": "MINING AND METALLURGICAL ENVIRONMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN433",
+"Name": "MINE SYSTEMS ANALYSIS I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN434",
+"Name": "PROCESS ANALYSIS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [["MNGN422"]],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN436",
+"Name": "UNDERGROUND COAL MINE DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN316"], ["MNGN321"], ["MNGN414"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN438",
+"Name": "GEOSTATISTICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MATH112"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN440",
+"Name": "EQUIPMENT REPLACEMENT ANALYSIS",
+"Max_Credits": "2.0",
+"Min_Credits": "2.0",
+"Pre_req": [["MNGN427"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN444",
+"Name": "EXPLOSIVES ENGINEERING II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN333"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN445",
+"Name": "ROCK SLOPE ENGINEERING",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": []
+}
+,
+{
+"Id": "MNGN452",
+"Name": "SOLUTION MINING AND PROCESSING OF ORES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN460",
+"Name": "INDUSTRIAL MINERALS PRODUCTION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MNGN312"], ["MNGN322"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN470",
+"Name": "SAFETY AND HEALTH MANAGEMENT IN THE MINING INDUSTRY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "MNGN482",
+"Name": "MINE MANAGEMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN490",
+"Name": "ENERGY AND SOCIETY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EBGN330"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "MNGN498",
+"Name": "SPECIAL TOPICS IN MINING ENGINEERING",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "MNGN499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN101",
+"Name": "PHYSICAL EDUCATION",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "PAGN102",
+"Name": "PHYSICAL EDUCATION",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "PAGN133",
+"Name": "OUTDOOR LEADERSHIP",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN151",
+"Name": "VARSITY BASEBALL",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN153",
+"Name": "VARSITY MEN'S BASKETBALL",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN154",
+"Name": "VARSITY WOMEN'S BASKETBALL",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN157",
+"Name": "VARSITY CROSS COUNTRY",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN159",
+"Name": "VARSITY FOOTBALL",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN161",
+"Name": "VARSITY GOLF",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN167",
+"Name": "VARSITY MEN'S SOCCER",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN168",
+"Name": "VARSITY WOMEN'S SOCCER",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN169",
+"Name": "VARSITY SWIMMING",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN173",
+"Name": "VARSITY TRACK AND FIELD",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN175",
+"Name": "VARSITY WRESTLING",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN177",
+"Name": "VARSITY VOLLEYBALL",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN179",
+"Name": "VARSITY SOFTBALL",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN198",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "0.5.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN201",
+"Name": "PERSONAL WELLNESS",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN202",
+"Name": "INDOOR SOCCER",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN203",
+"Name": "TECHNIQUES OF RELAXATION",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN204",
+"Name": "FLY FISHING",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN205",
+"Name": "BEGINNING KARATE",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN206",
+"Name": "INTERMEDIATE KARATE",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN207",
+"Name": "TRAIL RUNNING",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN208",
+"Name": "KAYAKING",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN209",
+"Name": "AIKIDO",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN210",
+"Name": "HIKING",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN211",
+"Name": "BEGINNING SWIMMING",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN212",
+"Name": "INTERMEDIATE SWIMMING",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN221",
+"Name": "BEGINNING WEIGHT TRAINING",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN222",
+"Name": "ADVANCED WEIGHT TRAINING",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN223",
+"Name": "DISTANCE RUNNING",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN232",
+"Name": "YOGA",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN233",
+"Name": "OUTDOOR LEADERSHIP ADVANCED",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN235",
+"Name": "WORKOUTS AND WELLNESS",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN241",
+"Name": "WOMEN'S WEIGHT TRAINING",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN242",
+"Name": "WOMEN'S RAQUETBALL",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN251",
+"Name": "GOLF",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN255",
+"Name": "MOUNTAIN BIKING",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN257",
+"Name": "INTRODUCTION TO ROCK CLIMBING",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN258",
+"Name": "WOMEN'S ROCK CLIMBING",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN271",
+"Name": "BEGINNING BADMINTON",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN272",
+"Name": "ADVANCED BADMINTON",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN273",
+"Name": "BEGINNING BASKETBALL",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN274",
+"Name": "ADVANCED BASKETBALL",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN275",
+"Name": "VOLLEYBALL",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN277",
+"Name": "BEGINNING RACQUETBALL",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN279",
+"Name": "HANDBALL",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN280",
+"Name": "CLUB SPORTS",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN281",
+"Name": "ADVANCED HANDBALL",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN285",
+"Name": "PHYSICAL ACTIVITY",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["Su"]
+}
+,
+{
+"Id": "PAGN298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "0.5.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "0.5.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "0.5.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "PAGN498",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "0.5.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS151",
+"Name": "INTRODUCTION TO DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EDNS155",
+"Name": "INTRODUCTION TO DESIGN, GRAPHICS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS156",
+"Name": "AUTOCAD BASICS",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS157",
+"Name": "SOLIDWORKS BASICS (FOR CERTIFICATION)",
+"Max_Credits": "1.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS191",
+"Name": "INTEGRATIVE DESIGN STUDIO IA",
+"Max_Credits": "4.0",
+"Min_Credits": "4.0",
+"Pre_req": [],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EDNS192",
+"Name": "INTEGRATIVE DESIGN STUDIO IB",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS191"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EDNS198",
+"Name": "SPECIAL TOPCS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS199",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS200",
+"Name": "COMMUNICATION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS205",
+"Name": "PROGRAMMING CONCEPTS AND ENGINEERING ANALYSIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS251",
+"Name": "THE PRACTICE OF DESIGN",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EDNS261",
+"Name": "THE PRACTICE OF DESIGN: GIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EDNS262",
+"Name": "THE PRACTICE OF DESIGN: AUTOCAD",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EDNS263",
+"Name": "EPICS II MATERIALS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EDNS264",
+"Name": "EPICS II: GEOLOGY GIS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EDNS269",
+"Name": "EPICS II: ENGINEERING PHYSICS",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS151", "EDNS155", "EDNS192", "HNRS115"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EDNS291",
+"Name": "INTEGRATIVE DESIGN STUDIO IIA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS192", "HNRS115", "HASS100"], ["EDNS151"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EDNS292",
+"Name": "INTEGRATIVE DESIGN STUDIO IIB",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS291"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EDNS298",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS299",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS301",
+"Name": "HUMAN-CENTERED PROBLEM DEFINITION",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS315",
+"Name": "ENGINEERING FOR SOCIAL AND ENVIRONMENTAL RESPONSIBILITY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["EDNS151", "EDNS192"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS375",
+"Name": "ENGINEERING CULTURES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "EDNS377",
+"Name": "ENGINEERING AND SUSTAINABLE COMMUNITY DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["!HASS200"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EDNS391",
+"Name": "INTEGRATIVE DESIGN STUDIO IIIA",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS292"], ["MEGN200", "GPGN268"], ["EDNS200"]],
+"Semesters": ["F"]
+}
+,
+{
+"Id": "EDNS392",
+"Name": "INTEGRATIVE DESIGN STUDIO IIIB",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["EDNS391"], ["PHGN200"], ["MATH225"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EDNS398",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS399",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS401",
+"Name": "PROJECTS FOR PEOPLE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS430",
+"Name": "CORPORATE SOCIAL RESPONSIBILITY",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "EDNS475",
+"Name": "ENGINEERING CULTURES IN THE DEVELOPING WORLD",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": []
+}
+,
+{
+"Id": "EDNS478",
+"Name": "ENGINEERING AND SOCIAL JUSTICE",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["S"]
+}
+,
+{
+"Id": "EDNS479",
+"Name": "ENGINEERS ENGAGING COMMUNITIES",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS100"], ["!HASS200"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EDNS480",
+"Name": "ANTHROPOLOGY OF DEVELOPMENT",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["HASS200"], ["!EDNS377", "!HASS325"]],
+"Semesters": ["F", "S", "Su"]
+}
+,
+{
+"Id": "EDNS491",
+"Name": "SENIOR DESIGN I",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [["MEGN481"], ["CEEN443"], "CEEN445", "CEEN440", ["CEEN415"]],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS492",
+"Name": "SENIOR DESIGN II",
+"Max_Credits": "3.0",
+"Min_Credits": "3.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS498",
+"Name": "SPECIAL TOPICS",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
+"Id": "EDNS499",
+"Name": "INDEPENDENT STUDY",
+"Max_Credits": "6.0",
+"Min_Credits": "1.0",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
 ]

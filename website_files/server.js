@@ -29,7 +29,7 @@ app.get('/majorData', (req, res) =>{
 });
 
 app.get('/RPC2/', (req, res) =>{
-    client.methodCall('plan', [catalog, req.param('student_data')], function(error, value){
+    client.methodCall('plan', [catalog, req.query.student_data], function(error, value){
 	if (error){
 	res.send(error);
 	}
