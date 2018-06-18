@@ -7,28 +7,6 @@ class InputClass{
 }
 
 
-function FindObjects( typeList, bulletin, id){
-	  // input = inputValues array that will be the input to sendToBackEnd
-		// typeList = the array of major, minor, or ASI
-		// bulletin = bulletinYear variable from dropdownmenu.js
-		//id = major, minor, asi variable from dropdownmenu.js
-	 
-	 var selectedType; //major, minor, asi
-  
-  for (var i = 0; i < typeList.length; i++){
-      /*
-      if (typeList[i].Id === id && typeList[i].Bulletin === bulletin){
-          selectedType = typeList[i];
-      }
-      */
-            if (typeList[i].Id === id){
-          selectedType = typeList[i];
-      }
-  }
-  return selectedType;
-	
-	
-}
 
 function InsertCoreClasses(input, typeList, bulletin, id){
   // input = inputValues array that will be the input to sendToBackEnd

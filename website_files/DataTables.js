@@ -8,6 +8,29 @@ var mainDataTable = null;
 var electiveDataTable = null;
 var deleteKeyCode = 46;
 
+function FindObjects(typeList, bulletin, id){
+	  // input = inputValues array that will be the input to sendToBackEnd
+		// typeList = the array of major, minor, or ASI
+		// bulletin = bulletinYear variable from dropdownmenu.js
+		//id = major, minor, asi variable from dropdownmenu.js
+	 
+	 var selectedType; //major, minor, asi
+  
+  for (var i = 0; i < typeList.length; i++){
+      /*
+      if (typeList[i].Id === id && typeList[i].Bulletin === bulletin){
+          selectedType = typeList[i];
+      }
+      */
+            if (typeList[i].Id === id){
+          selectedType = typeList[i];
+      }
+  }
+  return selectedType;
+	
+	
+}
+
 $(document).ready(function(){
 
 	//NOTE: Also remember to get rid of datatable.js in js folder!!!!
@@ -132,6 +155,28 @@ function removeItemFromStorage(name, item){
 
 function loadElementsInMainTable(){
 	
+	
+	for(var i=0; i<temp.length; i++){
+		var courseName = "NOT FOUND";
+		var courseCredits = "NOT FOUND";
+		for(var k = 0; k < courseCatalog.length; k++) {
+
+			if(courseCatalog[k].Id == temp[i]) {
+				courseName = courseCatalog[k].Name;
+				// some courses have min and max number of credits so this will display it properly
+				if(courseCatalog[k].Min_Credits == courseCatalog[k].Max_Credits) {
+					courseCredits = courseCatalog[k].Min_Credits;
+				} else {
+				courseCredits = courseCatalog[k].Min_Credits + "-" + courseCatalog[k].Max_Credits;
+				}
+				break;
+			}
+		}
+		classes.push([courseName, temp[i], courseCredits]);
+		
+	}
+
+	
 	populateClassesList();
 	
 	for(var i=0; i<classes.length; i++){
@@ -244,7 +289,7 @@ function populateClassesList(){
 	
 }
 
-function createButtons(){return $("<div class='row'><button class='btn btn-secondary btn-sm m-2' type='button' id='takenButton'>Taken</button><button class='btn btn-secondary btn-sm m-2' type='button' id='desiredButton'>Desired</button></div>");}
+function createButtons(){return $("<div class='row'><input type='checkbox' class='semCheck' /></div>");}
 
 function getNParent(object, number){
 	if(number == 0){return object;}
