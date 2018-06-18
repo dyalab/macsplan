@@ -3,19 +3,20 @@
 
 
 var courseCatalog;
-var courseJSONDone = $.getJSON("http://localhost:80/courseCatalogData.json", function(json){
+var courseJSONDone = $.getJSON("http://macsplan.mines.edu/courseCatalogData.json", function(json){
     courseCatalog = json;
 });
 
 var majorCatalog;
 
-var majorJSONDone = $.getJSON("http://localhost:80/majorData.json", function(json){
+var majorJSONDone = $.getJSON("http://macsplan.mines.edu/majorData.json", function(json){
     majorCatalog = json;
 });
 
 var electives;
-var electivesDone = $.getJSON("http://localhost:80/electives.json", function(json){
+var electivesDone = $.getJSON("http://macsplan.mines.edu/electives.json", function(json){
 	electives = json;
+	console.log(json)
 });
 
 
