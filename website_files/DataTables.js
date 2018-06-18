@@ -171,6 +171,7 @@ function loadElementsInMainTable(){
 				if(electives[k].Id == chosenMajor[i].Electives[j][0]){
 					var elec = electives[k].Classes;
 					var ret = [electives[k].Id, elec];
+					ret.push(3.0);
 					classes.push(ret);
 					console.log(ret);
 				}
@@ -218,6 +219,7 @@ function loadElementsInMainTable(){
 
 			var col = document.createElement("td");
 			if(createDropDown && j==1){
+				console.log(colData);
 				var menuButton = document.createElement("button");
 				//menuButton.setAttribute("class","btn btn-secondary dropdown-toggle");
 				menuButton.setAttribute("type","button");
