@@ -58,11 +58,12 @@ $("#generateButton").click(function(){
     for (var i = 0; i < Major.length; i ++){
 		chosenMajor.push(ReadyClasses(inputValues,majorCatalog,bulletinYear,Major[i]));
 	}
-    console.log(chosenMajor);
+    
 	//TODO: call this function for minor, asi too
 	//fixes the taken classes to set their taken value to true and puts in the appropriate class where electives are
 	for(var i=0; i<degree.length; i++){
 		desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+			console.log(this.data());
 			if(degree[i].indexOf('xxx') != -1 && this.data()[1].slice(0,4) == degree[i].slice(0,4)){
 				degree[i] = this.data()[1];
                 desiredDataTable.row(this.data()).remove().draw(false);
