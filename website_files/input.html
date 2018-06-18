@@ -146,7 +146,7 @@
 	<div id="tableWrapper" style="display:none">
 		<div class="card mb-3">
 			<div class="card-header">
-				<i class="fa fa-table"></i> Class list
+				<i class="fa fa-table"></i> Class List
 			</div>
 			<div class="card-body">
 				<div class="table-responsive">
@@ -173,70 +173,36 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="row" id="personalClassesWrapper">
-			<div class="col">
-
-				<!--Taken Class List-->
-				<div class="card mb-3">
-					<div class="card-header">
-						<i class="fa fa-table"></i> Taken Classes
-					</div>
-					<div class="card-body">
-						<div class="table-responsive">
-							<table class="table table-bordered" id="TakenDataTable" width="100%" cellspacing="0">
-								<thead>
-									<tr>
-										<th>Name</th>
-										<th>ID</th>
-										<th>Credit Hours</th>
-									</tr>
-								</thead>
-								<tfoot>
-									<tr>
-										<th>Name</th>
-										<th>ID</th>
-										<th>Credit Hours</th>
-									</tr>
-								</tfoot>
-								<tbody id="takenTableBody">
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
+		<div class="card mb-3">
+			<div class="card-header">
+				<i class="fa fa-table"></i> Elective List
 			</div>
-			<div class="col">
-				<!--Want to Take Class List-->
-				<div class="card mb-3">
-					<div class="card-header">
-						<i class="fa fa-table"></i> Desired Classes
-					</div>
-					<div class="card-body">
-						<div class="table-responsive">
-							<table class="table table-bordered" id="DesiredDataTable" width="100%" cellspacing="0">
-								<thead>
-									<tr>
-										<th>Name</th>
-										<th>ID</th>
-										<th>Credit Hours</th>
-									</tr>
-								</thead>
-								<tfoot>
-									<tr>
-										<th>Name</th>
-										<th>ID</th>
-										<th>Credit Hours</th>
-									</tr>
-								</tfoot>
-								<tbody id="desiredTableBody">
-								</tbody>
-							</table>
-						</div>
-					</div>
+			<div class="card-body">
+				<div class="table-responsive">
+					<table id="electiveDataTable" class="display" style="width:100%">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>ID</th>
+								<th>Credit Hours</th>
+								<th/>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<th>Name</th>
+								<th>ID</th>
+								<th>Credit Hours</th>
+								<th/>
+							</tr>
+						</tfoot>
+						<tbody id="mainTableBody">
+						</tbody>
+					</table>
 				</div>
 			</div>
 		</div>
+
         <button class="btn btn-secondary" type="button" id="removeButton">
             Remove
         </button>
