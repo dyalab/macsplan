@@ -63,7 +63,6 @@ $("#generateButton").click(function(){
 	//fixes the taken classes to set their taken value to true and puts in the appropriate class where electives are
 	for(var i=0; i<degree.length; i++){
 		desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-			console.log(this.data());
 			if(degree[i].indexOf('xxx') != -1 && this.data()[1].slice(0,4) == degree[i].slice(0,4)){
 				degree[i] = this.data()[1];
                 desiredDataTable.row(this.data()).remove().draw(false);
@@ -71,12 +70,12 @@ $("#generateButton").click(function(){
 		});
    
 	}
-    
+    console.log("before taken");
     takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
         taken.push(this.data()[1]);
     });
 	//TODO: for Nick, For all classes desired, update class name if it’s just electives (ex. CSCI4xx -> CSCI470)
-
+	console.log("after taken");
 
 	//For class in InputValue:
 	//Make desiredSemester array be 1 to numberOfSemester decided
