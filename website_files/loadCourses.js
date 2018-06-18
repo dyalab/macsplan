@@ -13,6 +13,12 @@ var majorJSONDone = $.getJSON("http://macsplan.mines.edu/majorData.json", functi
     majorCatalog = json;
 });
 
+var electives;
+var electivesDone = $.getJSON("http://macsplan.mines.edu/electiveData.json", function(json){
+	electives = json;
+	console.log(json)
+});
+
 
 
 //variable to put into backend planner along with catalogJSON

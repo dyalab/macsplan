@@ -1,5 +1,14 @@
 [
 {
+"Id": "CSM101",
+"Name": "FRESHMAN SUCCESS SEMINAR",
+"Max_Credits": "0.5",
+"Min_Credits": "0.5",
+"Pre_req": [],
+"Semesters": ["F", "S"]
+}
+,
+{
 "Id": "CSCI101",
 "Name": "INTRODUCTION TO COMPUTER SCIENCE",
 "Max_Credits": "3.0",

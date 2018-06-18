@@ -28,6 +28,11 @@ app.get('/majorData', (req, res) =>{
 
 });
 
+app.get('/electiveData', (req, res) =>{
+	res.sendFile('electives.json', {root: path.join(__dirname)});
+
+});
+
 app.get('/RPC2/', (req, res) =>{
     client.methodCall('plan', [catalog, req.query.student_data], function(error, value){
 	if (error){
