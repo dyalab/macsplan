@@ -260,7 +260,7 @@ function loadElementsInMainTable(){
 	}
 }
 
-function createButtons(){return $("<div class='row'><button class='btn btn-secondary btn-sm m-2' type='button' id='takenButton'>Taken</button><button class='btn btn-secondary btn-sm m-2' type='button' id='desiredButton'>Desired</button></div>");}
+function createButtons(){return $("<div class='row'><input type='checkbox' class='semCheck' /></div>");}
 
 function getNParent(object, number){
 	if(number == 0){return object;}
