@@ -200,7 +200,7 @@ function loadElementsInMainTable(){
 		classes.push([courseName, temp[i], courseCredits]);
 		
 	}
-	
+	console.log(classes);
 	
 	
 	for(var i=0; i<classes.length; i++){
