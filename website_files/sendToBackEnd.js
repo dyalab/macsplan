@@ -63,8 +63,8 @@ $("#generateButton").click(function(){
 	//fixes the taken classes to set their taken value to true and puts in the appropriate class where electives are
 	for(var i=0; i<degree.length; i++){
 		desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-			if(degree[i].indexOf('xxx') != -1 && this.data()[0].slice(0,4) == degree[i].slice(0,4)){
-				degree[i] = this.data()[0];
+			if(degree[i].indexOf('xxx') != -1 && this.data()[1].slice(0,4) == degree[i].slice(0,4)){
+				degree[i] = this.data()[1];
                 desiredDataTable.row(this.data()).remove().draw(false);
 			}
 		});
@@ -72,7 +72,7 @@ $("#generateButton").click(function(){
 	}
     
     takenDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-        taken.push(this.data()[0]);
+        taken.push(this.data()[1]);
     });
 	//TODO: for Nick, For all classes desired, update class name if it’s just electives (ex. CSCI4xx -> CSCI470)
 
@@ -98,7 +98,7 @@ $("#generateButton").click(function(){
     inputValues.modify = modify;
 
 	//sTest = '{"taken" : [], "degree" : ["and", "CSCI101",  "MATH111", "CSCI261", "MATH112",  "MATH213", "CSCI262", "CSCI274", "CSCI341", "CSCI358", "MATH225", "CSCI306", "MATH332", "CSCI403", "CSCI406", "MATH201", "CSCI370", "CSCI400", "CSCI442"]}';
-	console.log(inputValues);
-    plan(inputValues, function(result){loadResults(result)}, function(error){returnError(error)});
+	console.log(JSON.stringify(inputValues));
+    plan(JSON.stringify(inputValues), function(result){loadResults(result)}, function(error){returnError(error)});
     
 	});
