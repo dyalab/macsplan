@@ -67,7 +67,7 @@ $("#generateButton").click(function(){
 		desiredDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
 			
 			if(degree[i].indexOf('xxx') != -1 && this.data()[1].slice(0,4) == degree[i].slice(0,4)){
-				console.log("in loop");
+				console.log(this.data());
 				degree[i] = this.data()[1];
                 desiredDataTable.row(this.data()).remove().draw(false);
 				
