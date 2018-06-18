@@ -1,4 +1,5 @@
 var classes = [];
+var electiveClasses = [];
 var takenTableData = JSON.parse(sessionStorage.getItem("takenTableData")) || [];
 var desiredTableData = JSON.parse(sessionStorage.getItem("desiredTableData")) || [];
 var mainTable = document.getElementById("mainTableBody");
@@ -153,42 +154,58 @@ function removeItemFromStorage(name, item){
 	sessionStorage.setItem(name, JSON.stringify(data));
 }
 
-function loadElementsInMainTable(){
+function loadTables(){
+	if(populateClassesList()){
+		loadElementsInMainTable();
+		loadElementsInElectivesTable();
+	}
+	else{
+		alert("please choose a major");
+	}
+}
 
-	
-	populateClassesList();
+
+function loadElementsInMainTable(){
 	
 	for(var i=0; i<classes.length; i++){
-		var createRow = true;
-		var createDropDown = false;
 		var row = document.createElement("tr");
+		var col = document.createElement("td");
+		
 		for(var j=0; j<classes[i].length; j++){
-			var colData = classes[i][j];
+			col.appendChild(document.createTextNode(classes[i][j]));
+		}
+		
+		$(col).append(createButtons);
+		row.appendChild(col);
+		
+		mainDataTable.row.add(row).draw(true);
+		
+	}
 
-			if(j==0 && classes[i][j].indexOf("xxx") != -1){
-				createDropDown = true;
-			}
-			
+}
 
-
-			var col = document.createElement("td");
-			if(createDropDown && j==1){
-				
+function loadElementsInElectivesTable(){
+	
+	for(var i=0; i<electiveClasses.length; i++){
+		var row = document.createElement("tr");
+		var col = document.createElement("td");
+		if(i==1){
+			for(var j=0; j<electiveClasses[i].length; j++){
 				var menuButton = document.createElement("button");
 				menuButton.setAttribute("type","button");
 				menuButton.setAttribute("class","btn");
 				menuButton.setAttribute("data-toggle","dropdown");
-				menuButton.setAttribute("data", colData);
-				menuButton.innerHTML = colData[0];
+				menuButton.setAttribute("style", "max-height:'250px'; overflow:'auto';");
+				menuButton.innerHTML = "Choose One";
 
 				var menu = document.createElement("div");
 				menu.setAttribute("class", "dropdown-menu");
 
-				for(var k=1; k<colData.length; k++){
+				for(var k=1; k<electiveClasses[i][j].length; k++){
 					var item = document.createElement("a");
 					item.setAttribute("class", "dropdown-item");
 					item.setAttribute("id", "ElectiveChoice");
-					var itemData = document.createTextNode(colData[k]);
+					var itemData = document.createTextNode(electiveClasses[i][j][k]);
 					item.appendChild(itemData);
 					menu.appendChild(item);
 				}
@@ -197,61 +214,54 @@ function loadElementsInMainTable(){
 				div.appendChild(menuButton);
 				col.appendChild(div);
 				row.appendChild(col);
-
-				createDropDown = false;
-			}
-			else{
-				var colInfo = document.createTextNode(colData);
-				col.appendChild(colInfo);
-				row.appendChild(col);
 			}
 		}
-		var col = document.createElement("td");
 		$(col).append(createButtons);
 		row.appendChild(col);
-		if(createRow){
-			mainDataTable.row.add(row).draw(true);
-		}
 	}
+	
+	
 }
 
 function populateClassesList(){
-	var temp = [];
-	var electiveList = [];
+	var ret = true;
 	var chosenMajor = [];
+	
 	for (var i = 0; i < Major.length; i ++){
 		chosenMajor.push(FindObjects(majorCatalog,bulletinYear,Major[i]));
 	}
 	
 	if(chosenMajor.length == 0){
-		alert("please choose a major");
-		return 0;
+		ret = false;
 	}
 	
 	for(var i=0; i<chosenMajor.length; i++){
 		for(var j=0; j<chosenMajor[i].Classes.length; j++){
-			temp.push(chosenMajor[i].Classes[j]);
+			classes.push(chosenMajor[i].Classes[j]);
 		}
 		for(var j=0; j<chosenMajor[i].Electives.length; j++){
 			for(var k=0; k<electives.length; k++){
 				if(electives[k].Id == chosenMajor[i].Electives[j][0]){
-					var elec = electives[k].Classes;
-					var ret = [electives[k].Id, elec];
-					ret.push(0.0);
-					classes.push(ret);
+					var elec = [electives[k].Id, electives[k].Classes, 0.0];
+					electiveClasses.push(elec);
 				}
 			}
 		}
 	}
 	
+	classes = getOtherInfoFromCatalog(classes);
 	
-	
-	for(var i=0; i<temp.length; i++){
+	return ret;
+}
+
+function getOtherInfoFromCatalog(list){
+	var temp = [];
+	for(var i=0; i<list.length; i++){
 		var courseName = "NOT FOUND";
 		var courseCredits = "NOT FOUND";
 		for(var k = 0; k < courseCatalog.length; k++) {
 
-			if(courseCatalog[k].Id == temp[i]) {
+			if(courseCatalog[k].Id == list[i]) {
 				courseName = courseCatalog[k].Name;
 				// some courses have min and max number of credits so this will display it properly
 				if(courseCatalog[k].Min_Credits == courseCatalog[k].Max_Credits) {
@@ -262,10 +272,10 @@ function populateClassesList(){
 				break;
 			}
 		}
-		classes.push([courseName, temp[i], courseCredits]);
+		temp.push([courseName, list[i], courseCredits]);
 		
 	}
-	
+	return temp;
 }
 
 function createButtons(){return $("<div class='row'><input type='checkbox' class='semCheck' /></div>");}
