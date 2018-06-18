@@ -168,12 +168,13 @@ function loadElementsInMainTable(){
 		}
 		for(var j=0; j<chosenMajor[i].Electives.length; j++){
 			for(var k=0; k<electives.length; k++){
-				if(electives[k].Id == chosenMajor[i].Electives[j]){
+				if(electives[k].Id == chosenMajor[i].Electives[j][0]){
 					var elec = [electives[k].Id];
 					for(var l=0; l<electives[k].Classes.length; l++){
 						elec.push(electives[k].Classes[l]);
 					}
 					classes.push(elec);
+					console.log(elec);
 				}
 			}
 		}
