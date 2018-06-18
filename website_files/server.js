@@ -28,7 +28,7 @@ app.get('/majorData', (req, res) =>{
 
 });
 
-app.get('/electiveData', (req, res) =>{
+app.get('/electives', (req, res) =>{
 	res.sendFile('electives.json', {root: path.join(__dirname)});
 
 });

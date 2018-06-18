@@ -14,7 +14,7 @@ var majorJSONDone = $.getJSON("http://macsplan.mines.edu/majorData.json", functi
 });
 
 var electives;
-var electivesDone = $.getJSON("http://macsplan.mines.edu/electiveData.json", function(json){
+var electivesDone = $.getJSON("http://macsplan.mines.edu/electives.json", function(json){
 	electives = json;
 	console.log(json)
 });
