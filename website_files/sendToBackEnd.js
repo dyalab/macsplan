@@ -61,7 +61,7 @@ $("#generateButton").click(function(){
     
     
     mainDataTable.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
-        console.log(this.data()[3]);
+        //console.log(this.data()[3]);
         if(this.data()[3].indexOf("value=\"true\"") !=-1) {
             taken.push(this.data()[1]);
         }
@@ -83,10 +83,10 @@ $("#generateButton").click(function(){
         }
         
     });
-        console.log(taken);
+        //console.log(taken);
 
 	//TODO: for Nick, For all classes desired, update class name if it’s just electives (ex. CSCI4xx -> CSCI470)
-	console.log("after taken");
+	//console.log("after taken");
 
 	//For class in InputValue:
 	//Make desiredSemester array be 1 to numberOfSemester decided
@@ -109,7 +109,7 @@ $("#generateButton").click(function(){
     inputValues.modify = modify;
 
 	sTest = '{"taken" : [], "degree" : ["and", "CSCI101",  "MATH111", "CSCI261", "MATH112",  "MATH213", "CSCI262", "CSCI274", "CSCI341", "CSCI358", "MATH225", "CSCI306", "MATH332", "CSCI403", "CSCI406", "MATH201", "CSCI370", "CSCI400", "CSCI442"]}';
-	console.log(JSON.stringify(inputValues));
-    plan(sTest, function(result){loadResults(result)}, function(error){returnError(error)});
+	//console.log(JSON.stringify(inputValues));
+    plan(JSON.stringify(inputValues), function(result){loadResults(result)}, function(error){returnError(error)});
     
 	});
