@@ -75,13 +75,15 @@ $("#generateButton").click(function(){
                 break;
             }
         }
-        if(this.data()[3].indexOf("value=\"true\"") !=-1) {
-            taken.push(courseid);
+        if(courseID != null) {
+            if(this.data()[3].indexOf("value=\"true\"") !=-1) {
+                taken.push(courseid);
+            }
+            else{
+                degree.push(courseid);
+            }
         }
-        else{
-            degree.push(courseid);
-        }
-        
+
     });
         //console.log(taken);
 
