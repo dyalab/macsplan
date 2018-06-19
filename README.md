@@ -1,4 +1,5 @@
 Scheduler website
+NOTE: xmlrpc_server branch is the MASTER branch.
 //for local
 download NodeJs
 
@@ -21,9 +22,9 @@ do "sudo npm install" if node modules folder is not there
 check in loadCourses.js that all http requests to macsplan.mines.edu not localhost
 
 to run website:
-sudo node server.js
+sudo forever start server.js
 
 to stop website:
-sudo node server.js
+sudo forever stop server.js
 
 
