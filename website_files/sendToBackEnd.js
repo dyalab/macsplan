@@ -75,7 +75,7 @@ $("#generateButton").click(function(){
                 break;
             }
         }
-        if(courseID != null) {
+        if(courseid != null) {
             if(this.data()[3].indexOf("value=\"true\"") !=-1) {
                 taken.push(courseid);
             }
@@ -97,7 +97,7 @@ $("#generateButton").click(function(){
 	for (var i = 1 ; i <= numSemester; i++){
 		semesterArray.push(i);
 	}
-
+le
 	for (var i = 0; i < inputValues.length; i++){
 		inputValues[i].desiredSemester = semesterArray.slice();
 	}
