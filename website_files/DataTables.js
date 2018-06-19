@@ -101,36 +101,8 @@ $(document).ready(function(){
 		mainDataTable.row(node).remove().draw( false );
 	});
 
-	$("#removeButton").click(function(){
-		RemoveButtonPressed();
-	});
-
+	
 });
-
-function keyPressedFunction(event){
-	if(event.keyCode==deleteKeyCode){
-		RemoveButtonPressed();
-	}
-}
-
-function RemoveButtonPressed(){
-	var data = null;
-		var tableUsed = "";
-		if(takenDataTable.$('tr.selected').length==1){
-			data = takenDataTable.row($(takenDataTable.$('tr.selected')[0])).data();
-			takenDataTable.row($(takenDataTable.$('tr.selected')[0])).remove().draw(false);
-			tableUsed = "takenTableData";
-		}
-		else if(desiredDataTable.$('tr.selected').length==1){
-			data = desiredDataTable.row($(desiredDataTable.$('tr.selected')[0])).data();
-			desiredDataTable.row($(desiredDataTable.$('tr.selected')[0])).remove().draw(false);
-			tableUsed = "desiredTableData";
-		}
-		else{return;}
-		removeItemFromStorage(tableUsed, data);
-		mainDataTable.row.add(data).draw(true);
-
-}
 
 function loadElementsInClassTables(table, data){
 	for(var i=0; i<data.length; i++){
