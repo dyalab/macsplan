@@ -48,5 +48,5 @@ app.get('/RPC2/', (req, res) =>{
 
 //PORT
 //const port = process.env.PORT || 80;
-const port = 80;
+const port = 8000;
 app.listen(port, ()=>{console.log('listening on port ' + port );});
