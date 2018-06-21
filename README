@@ -3,6 +3,9 @@ Mines Automatic Class Schedule Planner (MACSPlan)
 Installation
 ============
 
+Backend
+-------
+
 1. Install [TMKit](http://tmkit.dyalab.org/)
 
 2. Link the ASD file, usually as follows:
@@ -13,6 +16,17 @@ Installation
 
        (ql:quickload 'macsplan)
 
+Frontend
+--------
+
+1. Install Node.js
+
+2. In website directory:
+
+       npm install
+
+3. Set port in `server.js`
+
 Usage
 =====
 
@@ -22,8 +36,8 @@ Data Formats
 See the example files for the course catalog and student info under
 `./data/`.
 
-Using the XML-RPC Server
-------------------------
+Running the Backend
+-------------------
 
 Run the startup script:
 
@@ -33,3 +47,9 @@ The server will listen on port 8080 under path `/RPC2`.  The exposed
 method `plan` takes two arguments, the JSON-encoded course catalog and
 the JSON-encoded student data.  It returns a list of the list of
 courses to take each semester.
+
+
+Running the Frontened
+---------------------
+
+    node server.js

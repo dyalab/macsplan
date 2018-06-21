@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Dantam Scheduler</title>
+    <!-- Bootstrap core CSS-->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template-->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Page level plugin CSS-->
+    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="css/schedule.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+    <!-- angular JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+
+</head>
+
+<body ng-app="myApp" ng-controller="myCtrl" onkeydown="keyPressedFunction(event)">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link">Mines Automatic Class Scheduler</a>
+            </li>
+        </ul>
+    </nav>
+  <!-- Import Export buttons -->
+	<div>
+		Select a Pre-Made Schedule
+		<span style="display:inline-block; width: 15%;"></span>
+		Export This Schedule
+		<p></p>
+		<input type="file" id="scheduleFile" value="Import" />
+		<span style="display:inline-block; width: 9%;"></span>
+		<button id="Export">Export Options</button>
+		<p></p>
+		<button id="Import">Import</button>
+		<p></p>
+	</div>
+	<hr>
+    <br />
+    <div class="row">
+        <div class="card-deck">
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">		<div class="dropdown">
+
+		   <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		   Bulletin Year
+		   </button>
+		   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="bulletinOptions">
+		</div>
+		</div></h5>
+                    <p class="card-text" id="bulcard"> {{bulYear}} </p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title"><div class="dropdown">
+		<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		Major
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="majorOptions">
+	
+
+		</div>
+		</div></h5>
+                    <p class="card-text" id="majcard">{{major}}</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title"><div class="dropdown">
+		   <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		   Minor
+		   </button>
+		   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="minorOptions">
+		</div>
+		</div></h5>
+                    <p class="card-text" id="mincard">{{minor}}</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title"><div class="dropdown">
+		   <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		   ASI
+		   </button>
+		   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="ASIOptions">
+		</div>
+		</div></h5>
+                    <p class="card-text" id="ASIcard">{{ASI}}</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title"><div class="dropdown">
+		   <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Number of Semesters
+		   </button>
+		   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="semesterOptions">
+		</div>
+		</div></h5>
+                    <p class="card-text" id="numcard">{{numS}}</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">		<div class="dropdown">
+		   <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		   Starting Semester
+		   </button>
+		   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="startSemesterOptions">
+			<a class="dropdown-item" href="#">Fall</a>
+            <a class="dropdown-item" href="#">Spring</a>
+		</div>
+		</div></h5>
+                    <p class="card-text" id="startsemcard">{{startsem}}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <br />
+    <br />
+
+    <!-- DataTables-->
+	<div align="center">
+		<button class="btn btn-secondary" type="button" id="loadMainDataTableButton">Load Table</button>
+	</div>
+	<div id="tableWrapper" style="display:none">
+		<div class="card mb-3">
+			<div class="card-header">
+				<i class="fa fa-table"></i> Class List
+			</div>
+			<div class="card-body">
+				<div class="table-responsive">
+					<table id="dataTable" class="display" style="width:100%">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>ID</th>
+								<th>Credit Hours</th>
+								<th>Taken</th>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<th>Name</th>
+								<th>ID</th>
+								<th>Credit Hours</th>
+								<th>Taken</th>
+							</tr>
+						</tfoot>
+						<tbody id="mainTableBody">
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="card mb-3">
+			<div class="card-header">
+				<i class="fa fa-table"></i> Elective List
+			</div>
+			<div class="card-body">
+				<div class="table-responsive">
+					<table id="electiveDataTable" class="display" style="width:100%">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>ID</th>
+								<th>Credit Hours</th>
+								<th>Taken</th>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<th>Name</th>
+								<th>ID</th>
+								<th>Credit Hours</th>
+								<th>Taken</th>
+							</tr>
+						</tfoot>
+						<tbody id="mainTableBody">
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+         <br />
+        <br />
+
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="generateButton">
+         Generate Schedule!
+        </button>
+	</div>
+    <div align="center">
+        
+       
+    </div>    
+    <div id="semesterContainer">
+    </div>
+	
+    <br/>
+
+    <!-- /.container-fluid-->
+    <!-- /.content-wrapper-->
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Page level plugin JavaScript-->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin.min.js"></script>
+
+</body>
+
+<!-- Our Javascript files -->
+<script src="loadCourses.js"></script>
+<script src="ImportExport.js"></script>
+<script src="DropdownMenus.js"></script>
+<script src="DataTables.js"></script>
+<script src="schedule.js"></script>
+<script src="interface.js"></script>
+<script src="sendToBackEnd.js"></script>
+
+</html>
