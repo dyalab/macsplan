@@ -42,8 +42,8 @@
 				      ,(tmsmt::fluent-next id))))
 
 	;;credit hour totals
-	(setf credit-hour-total (cons `(ite ,(action-now) ,(course-credits course) 0)
-				      ,credit-hour-total))))
+	(setf credit-hour-total (cons `(ite ,action-now ,(course-credits course) 0)
+				      credit-hour-total))))
     (funcall add-function
 	     `(tmsmt::transition (>= 15 ,(cons + credit-hour-total))))))
 

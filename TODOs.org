@@ -1,0 +1,29 @@
+* TODO Electives
+new fluent for taking an elective where:
+parameters - course and elective
+precondition - prereques of the course are met and not taken course
+effect - taken course and taken elective
+
+In the transition function taking a course for an elective implies
+that you can't take the course for any other elective
+
+Goal state ands with taking elective
+* TODO Limiting credits
+assert in transition function that the sum of the credit hours for all
+classes that you are acting on is less than the number of allowed
+credit hours.
+
+(>= allowed-credit hours (+ (ite taking-... credit-hours-of-... 0)
+                            (ite taking-... credit-hours-of-... 0)))
+* TODO Semester offerings
+add another precondition for taking a class to say if it is offered
+that semester and that we are in that semester
+
+frame axiom for semesters moves it to the next semster summer -> fall -> winter
+
+add a new parameter to taking class and elective for semester
+* TODO Time offerings
+  Maybe not, it's not as standard as Neil makes it out to be
+
+* TODO Preferred teachers
+* TODO Minors
