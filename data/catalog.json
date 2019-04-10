@@ -4,7 +4,7 @@
 "Name": "INTRODUCTION TO COMPUTER SCIENCE"
 "Credits": 3.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -12,7 +12,7 @@
 "Name": "INTRODUCTION TO COMPUTER SCIENCE - LAB"
 "Credits": 1.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -20,7 +20,7 @@
 "Name": "SPECIAL TOPICS"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -28,7 +28,7 @@
 "Name": "INDEPENDENT STUDY"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -36,7 +36,7 @@
 "Name": "PYTHON-BASED COMPUTING: BUILDING A SENSOR SYSTEM"
 "Credits": 3.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -44,7 +44,7 @@
 "Name": "FORTRAN PROGRAMMING"
 "Credits": 2.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -52,7 +52,7 @@
 "Name": "PROGRAMMING CONCEPTS"
 "Credits": 3.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -60,7 +60,7 @@
 "Name": "DATA STRUCTURES"
 "Credits": 3.0
 "Pre_req": [["CSCI261"]]
-"Semester": [ ["Fall"], ["Spring"], ["Summer"] ]
+"Semester": [ "Fall", "Spring", "Summer" ]
 }
 ,
 {
@@ -68,7 +68,7 @@
 "Name": "INTRODUCTION TO THE LINUX OPERATING SYSTEM"
 "Credits": 1.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -76,7 +76,7 @@
 "Name": "SPECIAL TOPICS"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -84,7 +84,7 @@
 "Name": "INDEPENDENT STUDY"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -92,7 +92,7 @@
 "Name": "INTRODUCTION TO DATA SCIENCE"
 "Credits": 3.0
 "Pre_req": [["CSCI101", "CSCI261"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -100,7 +100,7 @@
 "Name": "SOFTWARE ENGINEERING"
 "Credits": 3.0
 "Pre_req": [["CSCI262"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -108,7 +108,7 @@
 "Name": "COOPERATIVE EDUCATION"
 "Credits": 3.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"], ["Summer"] ]
+"Semester": [ "Fall", "Spring", "Summer" ]
 }
 ,
 {
@@ -116,7 +116,7 @@
 "Name": "COMPUTER ORGANIZATION"
 "Credits": 3.0
 "Pre_req": [["CSCI261"], ["!CSCI262"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -124,7 +124,7 @@
 "Name": "DISCRETE MATHEMATICS"
 "Credits": 3.0
 "Pre_req": [["MATH213", "MATH223", "MATH224"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -132,7 +132,7 @@
 "Name": "ADVANCED SOFTWARE ENGINEERING"
 "Credits": 6.0
 "Pre_req": [["CSCI306"]]
-"Semester": [ ["Fall"], ["Summer"] ]
+"Semester": [ "Fall", "Summer" ]
 }
 ,
 {
@@ -140,7 +140,7 @@
 "Name": "SPECIAL TOPICS"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -148,7 +148,7 @@
 "Name": "INDEPENDENT STUDY"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -156,7 +156,7 @@
 "Name": "PRINCIPLES OF PROGRAMMING LANGUAGES"
 "Credits": 3.0
 "Pre_req": [["CSCI306"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -164,7 +164,7 @@
 "Name": "DATA BASE MANAGEMENT"
 "Credits": 3.0
 "Pre_req": [["CSCI262"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -172,7 +172,7 @@
 "Name": "ARTIFICIAL INTELLIGENCE"
 "Credits": 3.0
 "Pre_req": [["CSCI262", "CSCI358"], ["MATH201"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -180,7 +180,7 @@
 "Name": "ALGORITHMS"
 "Credits": 3.0
 "Pre_req": [["CSCI262", "MATH213", "MATH223", "MATH224"], ["MATH300", "MATH358", "CSCI358"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -188,7 +188,7 @@
 "Name": "ELEMENTS OF COMPUTING SYSTEMS"
 "Credits": 3.0
 "Pre_req": [["CSCI341", "EENG383"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -196,7 +196,7 @@
 "Name": "USER INTERFACES"
 "Credits": 3.0
 "Pre_req": [["CSCI262"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -204,7 +204,7 @@
 "Name": "COMPUTER SIMULATION"
 "Credits": 3.0
 "Pre_req": [["CSCI306"], ["MATH323", "MATH201"], ["CSCI274"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -212,7 +212,7 @@
 "Name": "INTRODUCTION TO COMPUTER VISION"
 "Credits": 3.0
 "Pre_req": [["MATH201", "EENG311", "MATH332", "CSCI261"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -220,7 +220,7 @@
 "Name": "PARALLEL COMPUTING FOR SCIENTISTS AND ENGINEERS"
 "Credits": 3.0
 "Pre_req": [["CSCI262", "CSCI341"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -228,7 +228,7 @@
 "Name": "COMPUTER GRAPHICS"
 "Credits": 3.0
 "Pre_req": [["CSCI262", "MATH332"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -236,7 +236,7 @@
 "Name": "OPERATING SYSTEMS"
 "Credits": 3.0
 "Pre_req": [["CSCI262", "CSCI274", "CSCI341"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -244,7 +244,7 @@
 "Name": "ADVANCED PROGRAMMING CONCEPTS USING JAVA"
 "Credits": 3.0
 "Pre_req": [["CSCI306"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -252,7 +252,7 @@
 "Name": "ADVANCED COMPUTER GRAPHICS"
 "Credits": 3.0
 "Pre_req": [["CSCI441"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -260,7 +260,7 @@
 "Name": "WEB PROGRAMMING"
 "Credits": 3.0
 "Pre_req": [["CSCI262"], ["!CSCI403"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -268,7 +268,7 @@
 "Name": "WEB APPLICATIONS"
 "Credits": 3.0
 "Pre_req": [["CSCI262"], ["!CSCI403"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -276,7 +276,7 @@
 "Name": "SCIENTIFIC VISUALIZATION"
 "Credits": 3.0
 "Pre_req": [["CSCI262"], ["MATH441"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -284,7 +284,7 @@
 "Name": "MOBILE APPLICATION DEVELOPMENT"
 "Credits": 3.0
 "Pre_req": [["CSCI306"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -292,7 +292,7 @@
 "Name": "GAME THEORY AND NETWORKS"
 "Credits": 3.0
 "Pre_req": [["CSCI358"], ["CSCI406"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -300,7 +300,7 @@
 "Name": "INTRODUCTION TO MACHINE LEARNING"
 "Credits": 3.0
 "Pre_req": [["MATH201"], ["MATH332"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -308,7 +308,7 @@
 "Name": "COMPUTER NETWORKS I"
 "Credits": 3.0
 "Pre_req": [["CSCI262"], ["CSCI274"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -316,7 +316,7 @@
 "Name": "HUMAN-CENTERED ROBOTICS"
 "Credits": 3.0
 "Pre_req": [["CSCI262"], ["MATH201"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -324,7 +324,7 @@
 "Name": "INTRODUCTION TO CRYPTOGRAPHY"
 "Credits": 3.0
 "Pre_req": [["CSCI262", "CSCI358", "MATH334", "MATH335", "MATH201"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -332,7 +332,7 @@
 "Name": "INFORMATION SECURITY AND PRIVACY"
 "Credits": 3.0
 "Pre_req": []
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -340,7 +340,7 @@
 "Name": "ELEMENTS OF GAMES AND GAME DEVELOPMENT"
 "Credits": 3.0
 "Pre_req": [["CSCI262"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -348,7 +348,7 @@
 "Name": "COMPUTER SCIENCE HONORS THESIS"
 "Credits": 3.0
 "Pre_req": [["CSCI306"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -356,7 +356,7 @@
 "Name": "SPECIAL TOPICS"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -364,7 +364,7 @@
 "Name": "INDEPENDENT STUDY"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -372,7 +372,7 @@
 "Name": "INTRODUCTORY TOPICS FOR CALCULUS"
 "Credits": 3.0
 "Pre_req": []
-"Semester": [ ["Summer"] ]
+"Semester": [ "Summer" ]
 }
 ,
 {
@@ -380,7 +380,7 @@
 "Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS I"
 "Credits": 4.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"], [ "Summer"] ]
+"Semester": [ "Fall", "Spring", [ "Summer"] ]
 }
 ,
 {
@@ -388,7 +388,7 @@
 "Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II"
 "Credits": 4.0
 "Pre_req": [["MATH111"]]
-"Semester": [ ["Fall"], ["Spring"], ["Summer"] ]
+"Semester": [ "Fall", "Spring", "Summer" ]
 }
 ,
 {
@@ -396,7 +396,7 @@
 "Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II - SHORT FORM"
 "Credits": 1.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -404,7 +404,7 @@
 "Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II HONORS"
 "Credits": 4.0
 "Pre_req": [["MATH111"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -412,7 +412,7 @@
 "Name": "SPECIAL TOPICS"
 "Credits": 6.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -420,7 +420,7 @@
 "Name": "INDEPENDENT STUDY"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -428,7 +428,7 @@
 "Name": "PROBABILITY AND STATISTICS FOR ENGINEERS"
 "Credits": 3.0
 "Pre_req": [["MATH112", "MATH122", "!MATH113"]]
-"Semester": [ ["Fall"], ["Spring"], ["Summer"] ]
+"Semester": [ "Fall", "Spring", "Summer" ]
 }
 ,
 {
@@ -436,7 +436,7 @@
 "Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III"
 "Credits": 4.0
 "Pre_req": [["MATH112", "MATH122", "!MATH113"]]
-"Semester": [ ["Fall"], ["Spring"], ["Summer"] ]
+"Semester": [ "Fall", "Spring", "Summer" ]
 }
 ,
 {
@@ -444,7 +444,7 @@
 "Name": "CALCULUS FOR SCIENTIST AND ENGINEERS III - SHORT FORM"
 "Credits": 1.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -452,7 +452,7 @@
 "Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III HONORS"
 "Credits": 4.0
 "Pre_req": [["MATH122"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -460,7 +460,7 @@
 "Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III HONORS"
 "Credits": 4.0
 "Pre_req": [["MATH122"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -468,7 +468,7 @@
 "Name": "DIFFERENTIAL EQUATIONS"
 "Credits": 3.0
 "Pre_req": [["MATH112", "MATH122", "!MATH113"]]
-"Semester": [ ["Fall"], ["Spring"], ["Summer"] ]
+"Semester": [ "Fall", "Spring", "Summer" ]
 }
 ,
 {
@@ -476,7 +476,7 @@
 "Name": "DIFFERENTIAL EQUATIONS HONORS"
 "Credits": 3.0
 "Pre_req": [["MATH112", "MATH122", "!MATH113"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -484,7 +484,7 @@
 "Name": "SPECIAL TOPICS"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -492,7 +492,7 @@
 "Name": "INDEPENDENT STUDY"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -500,7 +500,7 @@
 "Name": "FOUNDATIONS OF ADVANCED MATHEMATICS"
 "Credits": 3.0
 "Pre_req": [["MATH112", "MATH122"]]
-"Semester": [ ["Fall"], ["Winter"] ]
+"Semester": [ "Fall", "Winter" ]
 }
 ,
 {
@@ -508,7 +508,7 @@
 "Name": "INTRODUCTION TO ANALYSIS"
 "Credits": 3.0
 "Pre_req": [["MATH300"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -516,7 +516,7 @@
 "Name": "INTRODUCTION TO SCIENTIFIC COMPUTING"
 "Credits": 3.0
 "Pre_req": [["MATH213", "MATH223", "MATH224"], ["!MATH225", "!MATH235"]]
-"Semester": [ ["Fall"], ["Spring"], ["Summer"] ]
+"Semester": [ "Fall", "Spring", "Summer" ]
 }
 ,
 {
@@ -524,7 +524,7 @@
 "Name": "INTRODUCTION TO MATHEMATICAL MODELING"
 "Credits": 4.0
 "Pre_req": [["MATH201"], ["MATH225"]]
-"Semester": [ ["Summer"] ]
+"Semester": [ "Summer" ]
 }
 ,
 {
@@ -532,7 +532,7 @@
 "Name": "MATHEMATICAL BIOLOGY"
 "Credits": 3.0
 "Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -540,7 +540,7 @@
 "Name": "LINEAR ALGEBRA"
 "Credits": 3.0
 "Pre_req": [["MATH213", "MATH223", "MATH224"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -548,7 +548,7 @@
 "Name": "INTRODUCTION TO PROBABILITY"
 "Credits": 3.0
 "Pre_req": [["MATH213", "MATH223", "MATH224"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -556,7 +556,7 @@
 "Name": "INTRODUCTION TO MATHEMATICAL STATISTICS"
 "Credits": 3.0
 "Pre_req": [["MATH334"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -564,7 +564,7 @@
 "Name": "COOPERATIVE EDUCATION"
 "Credits": 3.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"], ["Summer"], ["Winter"] ]
+"Semester": [ "Fall", "Spring", "Summer", "Winter" ]
 }
 ,
 {
@@ -572,7 +572,7 @@
 "Name": "HONORS LINEAR ALGEBRA"
 "Credits": 3.0
 "Pre_req": [["MATH213", "MATH223", "MATH224"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -580,7 +580,7 @@
 "Name": "ADVANCED ENGINEERING MATHEMATICS"
 "Credits": 3.0
 "Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]]
-"Semester": [ ["Fall"], ["Spring"], ["Summer"] ]
+"Semester": [ "Fall", "Spring", "Summer" ]
 }
 ,
 {
@@ -588,7 +588,7 @@
 "Name": "DISCRETE MATHEMATICS"
 "Credits": 3.0
 "Pre_req": [["MATH213", "MATH223", "MATH224"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -596,7 +596,7 @@
 "Name": "SPECIAL TOPICS"
 "Credits": 6.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -604,7 +604,7 @@
 "Name": "INDEPENDENT STUDY"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -612,7 +612,7 @@
 "Name": "ALGORITHMS"
 "Credits": 3.0
 "Pre_req": [["CSCI262"], ["MATH213", "MATH223", "MATH224"], ["MATH358", "CSCI358"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -620,7 +620,7 @@
 "Name": "COMPUTATIONAL METHODS FOR DIFFERENTIAL EQUATIONS"
 "Credits": 3.0
 "Pre_req": [["MATH307"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -628,7 +628,7 @@
 "Name": "INTRODUCTION TO APPLIED STATISTICS"
 "Credits": 3.0
 "Pre_req": [["MATH201", "MATH335"], ["MATH332", "MATH342"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -636,7 +636,7 @@
 "Name": "SPATIAL STATISTICS"
 "Credits": 3.0
 "Pre_req": [["MATH335"], ["!MATH424"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -644,7 +644,7 @@
 "Name": "ADVANCED STATISTICAL MODELING"
 "Credits": 3.0
 "Pre_req": [["MATH335"], ["MATH424"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -652,7 +652,7 @@
 "Name": "MULTIVARIATE ANALYSIS"
 "Credits": 3.0
 "Pre_req": [["MATH335", "MATH201"], ["MATH332", "MATH342"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -660,7 +660,7 @@
 "Name": "STOCHASTIC MODELS"
 "Credits": 3.0
 "Pre_req": [["MATH334"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -668,7 +668,7 @@
 "Name": "SURVIVAL ANALYSIS"
 "Credits": 3.0
 "Pre_req": [["MATH335"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -676,7 +676,7 @@
 "Name": "PARALLEL SCIENTIFIC COMPUTING"
 "Credits": 3.0
 "Pre_req": [["MATH307", "CSCI407"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -684,7 +684,7 @@
 "Name": "COMPUTER GRAPHICS"
 "Credits": 3.0
 "Pre_req": [["CSCI262"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -692,7 +692,7 @@
 "Name": "ADVANCED COMPUTER GRAPHICS"
 "Credits": 3.0
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -700,7 +700,7 @@
 "Name": "SCIENTIFIC VISUALIZATION"
 "Credits": 3.0
 "Pre_req": [["CSCI262"], ["MATH441"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -708,7 +708,7 @@
 "Name": "COMPLEX ANALYSIS"
 "Credits": 3.0
 "Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -716,7 +716,7 @@
 "Name": "PARTIAL DIFFERENTIAL EQUATIONS"
 "Credits": 3.0
 "Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]]
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -724,7 +724,7 @@
 "Name": "INTEGRAL EQUATIONS"
 "Credits": 3.0
 "Pre_req": [["MATH332", "MATH342"], ["MATH455"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -732,7 +732,7 @@
 "Name": "ABSTRACT ALGEBRA"
 "Credits": 3.0
 "Pre_req": [["MATH300"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -740,7 +740,7 @@
 "Name": "ASYMPTOTICS"
 "Credits": 3.0
 "Pre_req": [["MATH213"], ["MATH225"]]
-"Semester": [ ["Fall"] ]
+"Semester": [ "Fall" ]
 }
 ,
 {
@@ -748,7 +748,7 @@
 "Name": "MATHEMATICAL AND COMPUTATIONAL NEUROSCIENCE"
 "Credits": 3.0
 "Pre_req": [["MATH331"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -756,7 +756,7 @@
 "Name": "INTRODUCTION TO CRYPTOGRAPHY"
 "Credits": 3.0
 "Pre_req": [["CSCI262", "MATH334", "MATH335", "MATH358"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -764,7 +764,7 @@
 "Name": "STATISTICS PRACTICUM (CAPSTONE)"
 "Credits": 3.0
 "Pre_req": [["MATH335"], ["MATH424"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -772,7 +772,7 @@
 "Name": "MATHEMATICAL AND COMPUTATIONAL MODELING (CAPSTONE)"
 "Credits": 3.0
 "Pre_req": [["MATH331"], ["MATH307"], ["MATH455"]]
-"Semester": [ ["Spring"] ]
+"Semester": [ "Spring" ]
 }
 ,
 {
@@ -780,7 +780,7 @@
 "Name": "UNDERGRADUATE RESEARCH"
 "Credits": "1-3 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Winter"] ]
+"Semester": [ "Fall", "Winter" ]
 }
 ,
 {
@@ -788,7 +788,7 @@
 "Name": "UNDERGRADUATE RESEARCH"
 "Credits": "1-3 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Spring"], ["Winter"] ]
+"Semester": [ "Spring", "Winter" ]
 }
 ,
 {
@@ -796,7 +796,7 @@
 "Name": "SPECIAL TOPICS"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 {
@@ -804,7 +804,7 @@
 "Name": "INDEPENDENT STUDY"
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
-"Semester": [ ["Fall"], ["Spring"] ]
+"Semester": [ "Fall", "Spring" ]
 }
 ,
 
