@@ -373,6 +373,7 @@
 "Credits": 3.0
 "Pre_req": []
 "Semester": [ "Summer" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -381,6 +382,7 @@
 "Credits": 4.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring", [ "Summer"] ]
+"Elective": [ ]
 }
 ,
 {
@@ -389,6 +391,7 @@
 "Credits": 4.0
 "Pre_req": [["MATH111"]]
 "Semester": [ "Fall", "Spring", "Summer" ]
+"Elective": [ ]
 }
 ,
 {
@@ -397,6 +400,7 @@
 "Credits": 1.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -405,6 +409,7 @@
 "Credits": 4.0
 "Pre_req": [["MATH111"]]
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -413,6 +418,7 @@
 "Credits": 6.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -421,6 +427,7 @@
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -429,6 +436,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH112", "MATH122", "!MATH113"]]
 "Semester": [ "Fall", "Spring", "Summer" ]
+"Elective": [ ]
 }
 ,
 {
@@ -437,6 +445,7 @@
 "Credits": 4.0
 "Pre_req": [["MATH112", "MATH122", "!MATH113"]]
 "Semester": [ "Fall", "Spring", "Summer" ]
+"Elective": [ ]
 }
 ,
 {
@@ -445,6 +454,7 @@
 "Credits": 1.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -453,6 +463,7 @@
 "Credits": 4.0
 "Pre_req": [["MATH122"]]
 "Semester": [ "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -461,6 +472,7 @@
 "Credits": 4.0
 "Pre_req": [["MATH122"]]
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -469,6 +481,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH112", "MATH122", "!MATH113"]]
 "Semester": [ "Fall", "Spring", "Summer" ]
+"Elective": [ ]
 }
 ,
 {
@@ -477,6 +490,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH112", "MATH122", "!MATH113"]]
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -485,6 +499,7 @@
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -493,6 +508,7 @@
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -501,6 +517,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH112", "MATH122"]]
 "Semester": [ "Fall", "Winter" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -509,6 +526,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH300"]]
 "Semester": [ "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -517,6 +535,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH213", "MATH223", "MATH224"], ["!MATH225", "!MATH235"]]
 "Semester": [ "Fall", "Spring", "Summer" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -525,6 +544,7 @@
 "Credits": 4.0
 "Pre_req": [["MATH201"], ["MATH225"]]
 "Semester": [ "Summer" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -533,6 +553,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]]
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -541,6 +562,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH213", "MATH223", "MATH224"]]
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ ]
 }
 ,
 {
@@ -549,6 +571,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH213", "MATH223", "MATH224"]]
 "Semester": [ "Fall" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -557,6 +580,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH334"]]
 "Semester": [ "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -565,6 +589,7 @@
 "Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring", "Summer", "Winter" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -573,6 +598,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH213", "MATH223", "MATH224"]]
 "Semester": [ "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -581,6 +607,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]]
 "Semester": [ "Fall", "Spring", "Summer" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -589,6 +616,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH213", "MATH223", "MATH224"]]
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -597,6 +625,7 @@
 "Credits": 6.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -605,6 +634,7 @@
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -613,6 +643,7 @@
 "Credits": 3.0
 "Pre_req": [["CSCI262"], ["MATH213", "MATH223", "MATH224"], ["MATH358", "CSCI358"]]
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -621,6 +652,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH307"]]
 "Semester": [ "Fall" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -629,6 +661,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH201", "MATH335"], ["MATH332", "MATH342"]]
 "Semester": [ "Fall" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -637,6 +670,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH335"], ["!MATH424"]]
 "Semester": [ "Fall" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -645,6 +679,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH335"], ["MATH424"]]
 "Semester": [ "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -653,6 +688,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH335", "MATH201"], ["MATH332", "MATH342"]]
 "Semester": [ "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -661,6 +697,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH334"]]
 "Semester": [ "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -669,6 +706,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH335"]]
 "Semester": [ "Fall" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -677,6 +715,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH307", "CSCI407"]]
 "Semester": [ "Fall" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -685,6 +724,7 @@
 "Credits": 3.0
 "Pre_req": [["CSCI262"]]
 "Semester": [ "Fall" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -693,6 +733,7 @@
 "Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -701,6 +742,7 @@
 "Credits": 3.0
 "Pre_req": [["CSCI262"], ["MATH441"]]
 "Semester": [ "Fall" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -709,6 +751,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]]
 "Semester": [ "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -717,6 +760,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH225", "MATH235"], ["MATH213", "MATH223", "MATH224"]]
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -725,6 +769,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH332", "MATH342"], ["MATH455"]]
 "Semester": [ "Fall" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -733,6 +778,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH300"]]
 "Semester": [ "Fall" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -741,6 +787,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH213"], ["MATH225"]]
 "Semester": [ "Fall" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -749,6 +796,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH331"]]
 "Semester": [ "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -757,6 +805,7 @@
 "Credits": 3.0
 "Pre_req": [["CSCI262", "MATH334", "MATH335", "MATH358"]]
 "Semester": [ "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -765,6 +814,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH335"], ["MATH424"]]
 "Semester": [ "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -773,6 +823,7 @@
 "Credits": 3.0
 "Pre_req": [["MATH331"], ["MATH307"], ["MATH455"]]
 "Semester": [ "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -781,6 +832,7 @@
 "Credits": "1-3 Semester Hr."
 "Pre_req": []
 "Semester": [ "Fall", "Winter" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -789,6 +841,7 @@
 "Credits": "1-3 Semester Hr."
 "Pre_req": []
 "Semester": [ "Spring", "Winter" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -797,6 +850,7 @@
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
 {
@@ -805,20 +859,85 @@
 "Credits": "1-6 Semester Hr."
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
+"Elective": [ "FREEXXX" ]
 }
 ,
-
+{
+"Id": "CSM101"
+"Name": "FRESHMAN SUCESS SEMINAR"
+"Credits": "0.5"
+"Pre_req": []
+"Semester": [ "Fall", "Spring" ]
+"Elective": [ ]
+}
+,
+{"Id": "CHGN121"
+"Name": "PRINCIPLES OF CHEMISTRY I"
+"Credits": "4.0"
+"Pre_req": []
+"Semester": [ "Fall", "Spring" ]
+"Elective": [ ]
+}
+,
+{"Id": "HASS100"
+"Name": "NATURE AND HUMAN VALUES"
+"Credits": "4.0"
+"Pre_req": []
+"Semester": [ "Fall" ]
+"Elective": [ ]
+}
+,
+{"Id": "PHGN100"
+"Name": "PHYSICS I"
+"Credits": "4.5"
+"Pre_req": ["MATH111"]
+"Semester": [ "Fall", "Spring","Summer" ]
+"Elective": [ ]
+}
+,
+{"Id": "EDNS151"
+"Name": "DESIGN I"
+"Credits": "3.0"
+"Pre_req": []
+"Semester": [ "Fall", "Spring", "Summer" ]
+"Elective": [ ]
+}
+,
+{"Id": "PHGN200"
+"Name": "PHYSICS II"
+"Credits": "4.5"
+"Pre_req": ["PHGN100"]
+"Semester": [ "Fall", "Spring","Summer" ]
+"Elective": [ ]
+}
+,
+{"Id": "EBGN201"
+"Name": "PRINCIPLES OF ECONOMICS"
+"Credits": "3.0"
+"Pre_req": []
+"Semester": [ "Fall", "Spring","Summer" ]
+"Elective": [ ]
+}
+,
+{"Id": "HASS200"
+"Name": "GLOBAL STUDIES"
+"Credits": "3.0"
+"Pre_req": ["HASS100"]
+"Semester": [ "Fall", "Spring","Summer" ]
+"Elective": [ ]
+}
+,
     {
-        "Id" : "EENG383"
+        "Id" : "PAGNXXX"
     }
     ,
     {
-        "Id" : "MATH323"
+        "Id" : "HASS3XX"
     },
     {
-        "Id" : "EENG311"
+        "Id" : "HASS4XX"
     },
     {
-        "Id" : "CSCI407"
+        "Id" : "FREEXXX"
     }
 ]
