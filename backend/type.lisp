@@ -2,7 +2,15 @@
 
 (defstruct course
   id
-  prereq)
+  prereq
+  credits
+  elective-type)
+
+(defstruct offering
+  course
+  semester
+  teacher
+  time)
 
 (defun catalog-contains-id (catalog id)
   (gethash id catalog))

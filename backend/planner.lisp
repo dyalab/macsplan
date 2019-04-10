@@ -19,26 +19,33 @@
    (course-prereq course)))
 
 (defun macsplan-transition (catalog add-function)
-  (do-catalog (course catalog)
-    (let* ((id (course-id course))
-           (action (course-action id))
-           (course-now (tmsmt::fluent-now id))
-           (action-now (tmsmt::fluent-now action)))
+  (let ((credit-hour-total nil))
+    (do-catalog (course catalog)
+      (let* ((id (course-id course))
+	     (action (course-action id))
+	     (course-now (tmsmt::fluent-now id))
+	     (action-now (tmsmt::fluent-now action)))
 
-    ;; prereq
-    (when (and (course-prereq course)
-               (not (tmsmt::smt-true-p (course-prereq course))))
-      (funcall add-function
-               `(tmsmt::transition (tmsmt::=>
-                                    ,action-now
-                                    ,(macsplan-prereq course)))))
-    ;; no duplicate
+	;; prereq
+	(when (and (course-prereq course)
+		   (not (tmsmt::smt-true-p (course-prereq course))))
+	  (funcall add-function
+		   `(tmsmt::transition (=>
+					,action-now
+					,(macsplan-prereq course)))))
+	;; no duplicate
+	(funcall add-function
+		 `(tmsmt::transition (=> ,action-now (not ,course-now))))
+	;; frame/effect
+	(funcall add-function
+             `(tmsmt::transition (<=> (or ,course-now ,action-now)
+				      ,(tmsmt::fluent-next id))))
+
+	;;credit hour totals
+	(setf credit-hour-total (cons `(ite ,(action-now) ,(course-credits course) 0)
+				      ,credit-hour-total))))
     (funcall add-function
-             `(tmsmt::transition (tmsmt::=> ,action-now (not ,course-now))))
-    ;; frame/effect
-    (funcall add-function
-             `(tmsmt::transition (tmsmt::<=> (or ,course-now ,action-now)
-                                             ,(tmsmt::fluent-next id)))))))
+	     `(tmsmt::transition (>= 15 ,(cons + credit-hour-total))))))
 
 (defun macsplan-goal (student add-function)
   (funcall add-function `(tmsmt::goal ,(student-degree student))))
@@ -51,6 +58,8 @@
       (do-catalog (course catalog)
         (let* ((id (course-id course))
                (action (course-action id)))
+
+	  ;;TODO: build elective list
           ;; fluents
           (add `(tmsmt::declare-fluent ,id tmsmt::bool))
           (add `(tmsmt::declare-fluent ,action tmsmt::bool))
@@ -62,8 +71,7 @@
       ;; goal
       (macsplan-goal student #'add)
       ;; transition
-      (macsplan-transition catalog #'add)
-      )))
+      (macsplan-transition catalog #'add))))
 
 (defun macsplan-result (plan)
   (let ((v (make-array 1 :adjustable t :initial-element nil)))
