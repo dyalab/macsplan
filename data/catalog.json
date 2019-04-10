@@ -229,6 +229,7 @@
 "Credits": 3.0
 "Pre_req": [["CSCI262", "MATH332"]]
 "Semester": [ "Fall" ]
+"Elective": ["Free","CSCIXXX","CSCI4XX"]
 }
 ,
 {

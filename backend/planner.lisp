@@ -50,16 +50,39 @@
 (defun macsplan-goal (student add-function)
   (funcall add-function `(tmsmt::goal ,(student-degree student))))
 
+(defun convert-degree-requirements (student catalog)
+  (let ((electives nil)
+	(i 0))
+    (labels ((parse-degree (e)
+	       (if (atom e)
+		   (if (null (gethash e catalog))
+		       (let ((req (format nil "E_~s_~d" e i)))
+			 (push (cons req e) electives)
+			 (+ 1 i)
+			 req)
+		       e)
+		   (destructuring-bind (op &rest args) e
+		     (cond ((string= op "and")
+			    (cons 'and (map 'list #'parse-json-exp args)))
+			   ((string= op "or")
+			    (cons 'or (map 'list #'parse-json-exp args)))
+			   ((string= op "not")
+			    (cons 'not (map 'list #'parse-json-exp args)))
+			   (t (loop for exp in e
+				 collect (parse-degree exp))))))))
+      (setf (student-degree student) (parse-degree (student-degree student))))))
+
+
 (defun macsplan-cpdl (catalog student)
   (let ((catalog (ensure-catalog catalog))
-        (student (ensure-student student)))
+        (student (ensure-student student))
+	(electives (make-hash-table :test 'equal))) ;;elective => list of courses that count
     (check-student catalog student)
     (tmsmt::with-collected (add)
       (do-catalog (course catalog)
         (let* ((id (course-id course))
                (action (course-action id)))
 
-	  ;;TODO: build elective list
           ;; fluents
           (add `(tmsmt::declare-fluent ,id tmsmt::bool))
           (add `(tmsmt::declare-fluent ,action tmsmt::bool))
@@ -67,7 +90,12 @@
           ;; start
           (if (gethash course (student-taken student))
               (add `(tmsmt::start ,id))
-              (add `(tmsmt::start (not ,id))))))
+              (add `(tmsmt::start (not ,id))))
+	  ;; create elective hash table
+	  (dolist (elect (course-elective-type course))
+	    (setf (gethash elect electives) (cons course (gethash elect electives))))))
+
+      (convert-degree-requirements student catalog)
       ;; goal
       (macsplan-goal student #'add)
       ;; transition

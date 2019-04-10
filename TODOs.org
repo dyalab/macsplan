@@ -7,8 +7,9 @@ effect - taken course and taken elective
 In the transition function taking a course for an elective implies
 that you can't take the course for any other elective
 
-Goal state ands with taking elective
-* TODO Limiting credits
+Goal state ands with taking elective*
+* DONE Limiting credits
+  CLOSED: [2019-04-10 Wed 12:23]
 assert in transition function that the sum of the credit hours for all
 classes that you are acting on is less than the number of allowed
 credit hours.

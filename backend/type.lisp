@@ -4,7 +4,8 @@
   id
   prereq
   credits
-  elective-type)
+  elective-type
+  semester)
 
 (defstruct offering
   course

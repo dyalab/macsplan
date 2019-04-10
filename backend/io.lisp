@@ -40,12 +40,6 @@
 (defun parse-prereq (e)
   (parse-json-cnf e))
 
-(defun parse-credits (e)
-  (parse-json-cnf e))
-
-(defun parse-semesters (e)
- (parse-json-cnf e))
-
 
 (defun parse-catalog (string)
   (let ((json (parse-json string))
@@ -55,8 +49,9 @@
       (let* ((id (getf elt :|Id|))
              (course (make-course  :id id
                                    :prereq (parse-prereq (getf elt :|Pre_req|))
-				   :credits (parse-credits (getf elt :|Credits|))))
-	     (semesters (parse-semesters (getf elt :|Semester|))))
+				   :credits (getf elt :|Credits|)
+				   :semester (getf elt :|Semester|)
+				   :elective-type (getf elt :|Elective|))))
         (cond ((null id)
                (error "Missing course ID"))
               ((catalog-contains-id catalog id)
