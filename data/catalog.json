@@ -20,7 +20,7 @@
 {
 "Id": "CSCI198"
 "Name": "SPECIAL TOPICS"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI1XX" ]
@@ -29,7 +29,7 @@
 {
 "Id": "CSCI199"
 "Name": "INDEPENDENT STUDY"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI1XX" ]
@@ -83,7 +83,7 @@
 {
 "Id": "CSCI298"
 "Name": "SPECIAL TOPICS"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI2XX" ]
@@ -92,7 +92,7 @@
 {
 "Id": "CSCI299"
 "Name": "INDEPENDENT STUDY"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI2XX" ]
@@ -155,7 +155,7 @@
 {
 "Id": "CSCI398"
 "Name": "SPECIAL TOPICS"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI3XX" ]
@@ -164,7 +164,7 @@
 {
 "Id": "CSCI399"
 "Name": "INDEPENDENT STUDY"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI3XX" ]
@@ -398,7 +398,7 @@
 {
 "Id": "CSCI498"
 "Name": "SPECIAL TOPICS"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
@@ -407,7 +407,7 @@
 {
 "Id": "CSCI499"
 "Name": "INDEPENDENT STUDY"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
@@ -470,7 +470,7 @@
 {
 "Id": "MATH199"
 "Name": "INDEPENDENT STUDY"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": [ "FREEXXX" ]
@@ -542,7 +542,7 @@
 {
 "Id": "MATH298"
 "Name": "SPECIAL TOPICS"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": [ "FREEXXX" ]
@@ -551,7 +551,7 @@
 {
 "Id": "MATH299"
 "Name": "INDEPENDENT STUDY"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": [ "FREEXXX" ]
@@ -677,7 +677,7 @@
 {
 "Id": "MATH399"
 "Name": "INDEPENDENT STUDY"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": [ "FREEXXX" ]
@@ -875,7 +875,7 @@
 {
 "Id": "MATH491"
 "Name": "UNDERGRADUATE RESEARCH"
-"Credits": "1-3 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Winter" ]
 "Elective": [ "FREEXXX" ]
@@ -884,7 +884,7 @@
 {
 "Id": "MATH492"
 "Name": "UNDERGRADUATE RESEARCH"
-"Credits": "1-3 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Spring", "Winter" ]
 "Elective": [ "FREEXXX" ]
@@ -893,7 +893,7 @@
 {
 "Id": "MATH498"
 "Name": "SPECIAL TOPICS"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": [ "FREEXXX" ]
@@ -902,7 +902,7 @@
 {
 "Id": "MATH499"
 "Name": "INDEPENDENT STUDY"
-"Credits": "1-6 Semester Hr."
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": [ "FREEXXX" ]
@@ -911,7 +911,7 @@
 {
 "Id": "CSM101"
 "Name": "FRESHMAN SUCESS SEMINAR"
-"Credits": "0.5"
+"Credits": 0.5
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": [ ]
@@ -919,7 +919,7 @@
 ,
 {"Id": "CHGN121"
 "Name": "PRINCIPLES OF CHEMISTRY I"
-"Credits": "4.0"
+"Credits": 4.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": [ ]
@@ -927,7 +927,7 @@
 ,
 {"Id": "HASS100"
 "Name": "NATURE AND HUMAN VALUES"
-"Credits": "4.0"
+"Credits": 4.0
 "Pre_req": []
 "Semester": [ "Fall" ]
 "Elective": [ ]
@@ -935,7 +935,7 @@
 ,
 {"Id": "PHGN100"
 "Name": "PHYSICS I"
-"Credits": "4.5"
+"Credits": 4.5
 "Pre_req": ["MATH111"]
 "Semester": [ "Fall", "Spring","Summer" ]
 "Elective": [ ]
@@ -943,7 +943,7 @@
 ,
 {"Id": "EDNS151"
 "Name": "DESIGN I"
-"Credits": "3.0"
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring", "Summer" ]
 "Elective": [ ]
@@ -951,7 +951,7 @@
 ,
 {"Id": "PHGN200"
 "Name": "PHYSICS II"
-"Credits": "4.5"
+"Credits": 4.5
 "Pre_req": ["PHGN100"]
 "Semester": [ "Fall", "Spring","Summer" ]
 "Elective": [ ]
@@ -959,7 +959,7 @@
 ,
 {"Id": "EBGN201"
 "Name": "PRINCIPLES OF ECONOMICS"
-"Credits": "3.0"
+"Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring","Summer" ]
 "Elective": [ ]
@@ -967,7 +967,7 @@
 ,
 {"Id": "HASS200"
 "Name": "GLOBAL STUDIES"
-"Credits": "3.0"
+"Credits": 3.0
 "Pre_req": ["HASS100"]
 "Semester": [ "Fall", "Spring","Summer" ]
 "Elective": [ ]
