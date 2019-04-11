@@ -3,6 +3,11 @@
 (defun course-action (id)
   (concatenate 'string "take-" id))
 
+(defun elective-action (id elective)
+  (concatenate 'string
+	       (concatenate 'string "take-" elective)
+	       (concatenate 'string "-" id)))
+
 (defun course-action-id (action)
   (subseq action 5))
 
@@ -45,7 +50,19 @@
 	(setf credit-hour-total (cons `(ite ,action-now ,(course-credits course) 0)
 				      credit-hour-total))))
     (funcall add-function
-	     `(tmsmt::transition (>= 15 ,(cons + credit-hour-total))))))
+	     `(tmsmt::transition (>= 15 ,(cons '+ credit-hour-total))))))
+
+(defun macsplan-add-electives (electives-needed electives add-function)
+  (loop for (name . elect) in electives-needed
+     do (let ((eligable-courses (gethash elect electives)))
+	  ;;add fluents for electives
+	  (funcall add-function `(tmsmt::declare-fluent ,name))
+	  (dolist (course eligable-courses)
+	    (let ((action (elective-action name course)))
+	      ;;add elective actions
+	      (funcall add-function `(tmsmt::declare-fluent ,action))
+	      (funcall add-function `(tmsmt::output ,action))))))) ;;maybe not this....
+
 
 (defun macsplan-goal (student add-function)
   (funcall add-function `(tmsmt::goal ,(student-degree student))))
@@ -56,27 +73,29 @@
     (labels ((parse-degree (e)
 	       (if (atom e)
 		   (if (null (gethash e catalog))
-		       (let ((req (format nil "E_~s_~d" e i)))
+		       (let ((req (concatenate 'string (format nil "E~d_" i) e)))
 			 (push (cons req e) electives)
-			 (+ 1 i)
+			 (incf i)
 			 req)
 		       e)
 		   (destructuring-bind (op &rest args) e
-		     (cond ((string= op "and")
-			    (cons 'and (map 'list #'parse-json-exp args)))
-			   ((string= op "or")
-			    (cons 'or (map 'list #'parse-json-exp args)))
-			   ((string= op "not")
-			    (cons 'not (map 'list #'parse-json-exp args)))
+		     (cond ((eq op 'and)
+			    (cons 'and (map 'list #'parse-degree args)))
+			   ((eq op 'or)
+			    (cons 'or (map 'list #'parse-degree args)))
+			   ((eq op 'not)
+			    (cons 'not (map 'list #'parse-degree args)))
 			   (t (loop for exp in e
 				 collect (parse-degree exp))))))))
-      (setf (student-degree student) (parse-degree (student-degree student))))))
+      (setf (student-degree student) (parse-degree (student-degree student)))
+      electives)))
 
 
 (defun macsplan-cpdl (catalog student)
-  (let ((catalog (ensure-catalog catalog))
+  (let* ((catalog (ensure-catalog catalog))
         (student (ensure-student student))
-	(electives (make-hash-table :test 'equal))) ;;elective => list of courses that count
+	(electives (make-hash-table :test 'equal))  ;;elective => list of courses that count
+	(electives-needed (convert-degree-requirements student catalog)))
     (check-student catalog student)
     (tmsmt::with-collected (add)
       (do-catalog (course catalog)
@@ -93,9 +112,10 @@
               (add `(tmsmt::start (not ,id))))
 	  ;; create elective hash table
 	  (dolist (elect (course-elective-type course))
-	    (setf (gethash elect electives) (cons course (gethash elect electives))))))
+	    (setf (gethash elect electives) (cons id (gethash elect electives))))))
 
-      (convert-degree-requirements student catalog)
+      ;;Electives
+      (macsplan-add-electives electives-needed electives #'add)
       ;; goal
       (macsplan-goal student #'add)
       ;; transition

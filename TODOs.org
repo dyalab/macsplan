@@ -25,6 +25,7 @@ frame axiom for semesters moves it to the next semster summer -> fall -> winter
 add a new parameter to taking class and elective for semester
 * TODO Time offerings
   Maybe not, it's not as standard as Neil makes it out to be
-
 * TODO Preferred teachers
 * TODO Minors
+
+Adding things to the degree requirements

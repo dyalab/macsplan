@@ -972,7 +972,19 @@
 "Semester": [ "Fall", "Spring","Summer" ]
 "Elective": [ ]
 }
-,
+    ,
+    {
+	"Id": "EENG383"
+    },
+    {
+	"Id": "MATH323"
+    },
+    {
+	"Id": "EENG311"
+    },
+    {
+	"Id": "CSCI407"
+    },
     {
         "Id" : "PAGNXXX"
     }
