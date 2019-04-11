@@ -23,7 +23,7 @@
                (tmsmt::fluent-now id)))))
    (course-prereq course)))
 
-(defun macsplan-transition (catalog add-function)
+(defun macsplan-transition (catalog electives add-function)
   (let ((credit-hour-total nil))
     (do-catalog (course catalog)
       (let* ((id (course-id course))
@@ -119,7 +119,7 @@
       ;; goal
       (macsplan-goal student #'add)
       ;; transition
-      (macsplan-transition catalog #'add))))
+      (macsplan-transition catalog electives-needed #'add))))
 
 (defun macsplan-result (plan)
   (let ((v (make-array 1 :adjustable t :initial-element nil)))
