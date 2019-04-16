@@ -228,7 +228,7 @@
 "Id": "CSCI423"
 "Name": "COMPUTER SIMULATION"
 "Credits": 3.0
-"Pre_req": [["CSCI306"], ["MATH323", "MATH201"], ["CSCI274"]]
+"Pre_req": [["CSCI306"], ["MATH201"], ["CSCI274"]]
 "Semester": [ "Fall" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
 }
@@ -237,7 +237,7 @@
 "Id": "CSCI437"
 "Name": "INTRODUCTION TO COMPUTER VISION"
 "Credits": 3.0
-"Pre_req": [["MATH201", "EENG311", "MATH332", "CSCI261"]]
+"Pre_req": [["MATH335","MATH201"],["MATH332","MATH342"]]
 "Semester": [ "Fall" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
 }
@@ -759,7 +759,7 @@
 "Id": "MATH440"
 "Name": "PARALLEL SCIENTIFIC COMPUTING"
 "Credits": 3.0
-"Pre_req": [["MATH307", "CSCI407"]]
+"Pre_req": [["MATH307", "CSCI341"]]
 "Semester": [ "Fall" ]
 "Elective": [ "FREEXXX" ]
 }
@@ -971,18 +971,48 @@
 "Pre_req": ["HASS100"]
 "Semester": [ "Fall", "Spring","Summer" ]
 "Elective": [ ]
-}
-    ,
+},
     {
 	"Id": "EENG383"
+	"Name": "MICROCOMPUTER ARCHITECTURE AND INTERFACING"
+	"Credits": 4.0
+	"Pre_req":[["EENG281", "EENG282","PHGN215"],["EENG284","PHGN317"]]
+	"Semester": ["Fall","Spring"]
     },
     {
-	"Id": "MATH323"
+	"Id": "EENG281"
+	"Name": "INTRODUCTION TO ELECTRICAL CIRCUITS, ELECTRONICS AND POWER"
+	"Credits": 3.0
+	"Pre_req": ["PHGN200"]
+	"Semester": ["Fall","Spring"]
     },
     {
-	"Id": "EENG311"
+	"Id": "EENG282"
+	"Name": "ELECTRICAL CIRCUITS"
+	"Credits": 4.0
+	"Pre_req": ["PHGN200"]
+	"Semester": ["Fall","Spring"]
     },
     {
-	"Id": "CSCI407"
+	"Id": "PHGN215"
+	"Name": "ANALOG ELECTRONICS"
+	"Credits": 4.0
+	"Pre_req": ["PHGN200"]
+	"Semester": ["Spring"]
+    },
+    {
+	"Id": "EENG284"
+	"Name": "DIGITAL LOGIC"
+	"Credits": 4.0
+	"Pre_req": ["CSCI261"]
+	"Semester": ["Fall","Spring"]
+    },
+    {
+	"Id": "PHGN317"
+	"Name": "SEMICONDUCTOR CIRCUITS-DIGITAL"
+	"Credits": 3.0
+	"Pre_req": ["PHGN215","CSCI250"]
+	"Semester":["Fall"]
     }
+
 ]
