@@ -188,7 +188,7 @@
            (domain (tmsmt::parse-cpdl cpdl)))
      ; domain
       (multiple-value-bind (plan found)
-          (tmsmt::cpd-plan domain '((:max-steps . 8)(:trace . t)))
+          (tmsmt::cpd-plan domain)
         (when found
           (macsplan-result plan)))
       ;(tmsmt::cpd-smt domain 1)
