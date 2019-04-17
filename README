@@ -8,11 +8,13 @@ Backend
 
 1. Install [TMKit](http://tmkit.dyalab.org/)
 
-2. Link the ASD file, usually as follows:
+2. Checkout the path-checker branch of TMKit
+
+3. Link the ASD file, usually as follows:
 
        ln -s `pwd`/src/macsplan.asd ~/.local/share/common-lisp/source/
 
-3. From the Lisp REPL, load (including dependencies) via quicklisp:
+4. From the Lisp REPL, load (including dependencies) via quicklisp:
 
        (ql:quickload 'macsplan)
 
