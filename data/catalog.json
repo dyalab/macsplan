@@ -141,7 +141,7 @@
 "Id": "CSCI358"
 "Name": "DISCRETE MATHEMATICS"
 "Credits": 3.0
-    "Pre_req": [["MATH213", "MATH223", "MATH224"]]
+"Pre_req": [["MATH213", "MATH223", "MATH224"]]
 "Semester": [ "Fall", "Spring" ]
 "Elective": []
 }
@@ -204,7 +204,7 @@
 "Id": "CSCI406"
 "Name": "ALGORITHMS"
 "Credits": 3.0
-    "Pre_req": [["CSCI262"],["MATH213", "MATH223", "MATH224"], ["MATH300", "MATH358", "CSCI358"]]
+"Pre_req": [["CSCI262"],["MATH213", "MATH223", "MATH224"], ["MATH300", "MATH358", "CSCI358"]]
 "Semester": [ "Fall", "Spring" ]
 "Elective": []
 }
@@ -231,7 +231,7 @@
 "Id": "CSCI423"
 "Name": "COMPUTER SIMULATION"
 "Credits": 3.0
-    "Pre_req": [["CSCI306"], ["MATH201", "MATH323"], ["CSCI274"]]
+"Pre_req": [["CSCI306"], ["MATH201", "MATH323"], ["CSCI274"]]
 "Semester": [ "Fall" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
 }
@@ -240,7 +240,7 @@
 "Id": "CSCI437"
 "Name": "INTRODUCTION TO COMPUTER VISION"
 "Credits": 3.0
-    "Pre_req": [["CSCI261"],["MATH201","EENG311" ],["MATH332"]]
+"Pre_req": [["CSCI261"],["MATH201","EENG311" ],["MATH332"]]
 "Semester": [ "Fall" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
 }
@@ -375,7 +375,7 @@
 "Id": "CSCI475"
 "Name": "INFORMATION SECURITY AND PRIVACY"
 "Credits": 3.0
-    "Pre_req": [["CSCI262"],["CSCI341"]]
+"Pre_req": [["CSCI262"],["CSCI341"]]
 "Semester": [ "Fall" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
 }
@@ -537,7 +537,7 @@
 "Id": "MATH235"
 "Name": "DIFFERENTIAL EQUATIONS HONORS"
 "Credits": 3.0
-    "Pre_req": [["MATH112"], ["MATH122", "!MATH113","MATH113"]]
+"Pre_req": [["MATH112"], ["MATH122", "!MATH113","MATH113"]]
 "Semester": [ "Fall", "Spring" ]
 "Elective": [ "FREEXXX" ]
 }
@@ -920,7 +920,8 @@
 "Elective": [ ]
 }
 ,
-{"Id": "CHGN121"
+{
+"Id": "CHGN121"
 "Name": "PRINCIPLES OF CHEMISTRY I"
 "Credits": 4.0
 "Pre_req": []
@@ -928,7 +929,8 @@
 "Elective": [ ]
 }
 ,
-{"Id": "HASS100"
+{
+"Id": "HASS100"
 "Name": "NATURE AND HUMAN VALUES"
 "Credits": 4.0
 "Pre_req": []
@@ -936,7 +938,8 @@
 "Elective": [ ]
 }
 ,
-{"Id": "PHGN100"
+{
+"Id": "PHGN100"
 "Name": "PHYSICS I"
 "Credits": 4.5
 "Pre_req": ["MATH111"]
@@ -944,7 +947,8 @@
 "Elective": [ ]
 }
 ,
-{"Id": "EDNS151"
+{
+"Id": "EDNS151"
 "Name": "DESIGN I"
 "Credits": 3.0
 "Pre_req": []
@@ -952,7 +956,8 @@
 "Elective": [ ]
 }
 ,
-{"Id": "PHGN200"
+{
+"Id": "PHGN200"
 "Name": "PHYSICS II"
 "Credits": 4.5
 "Pre_req": ["PHGN100"]
@@ -960,7 +965,8 @@
 "Elective": [ ]
 }
 ,
-{"Id": "EBGN201"
+{
+"Id": "EBGN201"
 "Name": "PRINCIPLES OF ECONOMICS"
 "Credits": 3.0
 "Pre_req": []
@@ -968,54 +974,60 @@
 "Elective": [ ]
 }
 ,
-{"Id": "HASS200"
+{
+"Id": "HASS200"
 "Name": "GLOBAL STUDIES"
 "Credits": 3.0
 "Pre_req": ["HASS100"]
 "Semester": [ "Fall", "Spring","Summer" ]
 "Elective": [ ]
-},
-    {
-	"Id": "EENG383"
-	"Name": "MICROCOMPUTER ARCHITECTURE AND INTERFACING"
-	"Credits": 4.0
-	"Pre_req":[["EENG281", "EENG282","PHGN215"],["EENG284","PHGN317"]]
-	"Semester": ["Fall","Spring"]
-    },
-    {
-	"Id": "EENG281"
-	"Name": "INTRODUCTION TO ELECTRICAL CIRCUITS, ELECTRONICS AND POWER"
-	"Credits": 3.0
-	"Pre_req": ["PHGN200"]
-	"Semester": ["Fall","Spring"]
-    },
-    {
-	"Id": "EENG282"
-	"Name": "ELECTRICAL CIRCUITS"
-	"Credits": 4.0
-	"Pre_req": ["PHGN200"]
-	"Semester": ["Fall","Spring"]
-    },
-    {
-	"Id": "PHGN215"
-	"Name": "ANALOG ELECTRONICS"
-	"Credits": 4.0
-	"Pre_req": ["PHGN200"]
-	"Semester": ["Spring"]
-    },
-    {
-	"Id": "EENG284"
-	"Name": "DIGITAL LOGIC"
-	"Credits": 4.0
-	"Pre_req": ["CSCI261"]
-	"Semester": ["Fall","Spring"]
-    },
-    {
-	"Id": "PHGN317"
-	"Name": "SEMICONDUCTOR CIRCUITS-DIGITAL"
-	"Credits": 3.0
-	"Pre_req": ["PHGN215","CSCI250"]
-	"Semester":["Fall"]
-    }
-
+}
+,
+{
+"Id": "EENG383"
+"Name": "MICROCOMPUTER ARCHITECTURE AND INTERFACING"
+"Credits": 4.0
+"Pre_req":[["EENG281", "EENG282","PHGN215"],["EENG284","PHGN317"]]
+"Semester": ["Fall","Spring"]
+}
+,
+{
+"Id": "EENG281"
+"Name": "INTRODUCTION TO ELECTRICAL CIRCUITS, ELECTRONICS AND POWER"
+"Credits": 3.0
+"Pre_req": ["PHGN200"]
+"Semester": ["Fall","Spring"]
+}
+,
+{
+"Id": "EENG282"
+"Name": "ELECTRICAL CIRCUITS"
+"Credits": 4.0
+"Pre_req": ["PHGN200"]
+"Semester": ["Fall","Spring"]
+}
+,
+{
+"Id": "PHGN215"
+"Name": "ANALOG ELECTRONICS"
+"Credits": 4.0
+"Pre_req": ["PHGN200"]
+"Semester": ["Spring"]
+}
+,
+{
+"Id": "EENG284"
+"Name": "DIGITAL LOGIC"
+"Credits": 4.0
+"Pre_req": ["CSCI261"]
+"Semester": ["Fall","Spring"]
+}
+,
+{
+"Id": "PHGN317"
+"Name": "SEMICONDUCTOR CIRCUITS-DIGITAL"
+"Credits": 3.0
+"Pre_req": ["PHGN215","CSCI250"]
+"Semester":["Fall"]
+}
 ]
