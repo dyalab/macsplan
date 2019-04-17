@@ -480,7 +480,7 @@
 "Id": "MATH201"
 "Name": "PROBABILITY AND STATISTICS FOR ENGINEERS"
 "Credits": 3.0
-"Pre_req": [["MATH112", "MATH122", "!MATH113"]]
+"Pre_req": ["MATH112", ["MATH122", "!MATH113"]]
 "Semester": [ "Fall", "Spring", "Summer" ]
 "Elective": [ ]
 }

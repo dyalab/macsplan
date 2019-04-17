@@ -35,13 +35,20 @@
 	     (semesters (course-semester course)))
 
 	;; prereq
-	(when (and (course-prereq course)
+	(if (and (course-prereq course)
 		   (not (tmsmt::smt-true-p (course-prereq course))))
 	  (funcall add-function
 		   `(tmsmt::transition (=>
 					,action-now
-					(AND ,(macsplan-prereq course) (OR ,(map 'list #'tmsmt::fluent-now semesters)))))))
-	
+					(AND ,(macsplan-prereq course)
+					     ,(cons 'OR
+						    (map 'list #'tmsmt::fluent-now semesters))))))
+	  (funcall add-function
+		   `(tmsmt::transition (=>
+					,action-now
+					,(cons 'or
+					       (map 'list #'tmsmt::fluent-now semesters))))))
+
 	;; no duplicate
 	(funcall add-function
 		 `(tmsmt::transition (=> ,action-now (not ,course-now))))
@@ -49,24 +56,24 @@
 	(funcall add-function
              `(tmsmt::transition (<=> (or ,course-now ,action-now)
 				      ,(tmsmt::fluent-next id))))
-	
+
 	;;credit hour totals
 	(setf credit-hour-total (cons `(ite ,action-now ,(course-credits course) 0)
 				      credit-hour-total))))
     ;;Credit Hours
     (funcall add-function
-	     `(tmsmt::transition (<= 15 ,(cons + credit-hour-total))))
+	     `(tmsmt::transition (>= 15 ,(cons '+ credit-hour-total))))
 
     ;;Semester
     (funcall add-function
-	     `(tmsmt::transition (=> (tmsmt::now "Fall") (tsmst::next "Winter") )))
+	     `(tmsmt::transition (<=> (tmsmt::now "Fall") (tmsmt::next "Winter") )))
     (funcall add-function
-	     `(tmsmt::transition (=> (tmsmt::now "Winter") (tsmst::next "Spring") )))
+	     `(tmsmt::transition (<=> (tmsmt::now "Winter") (tmsmt::next "Spring") )))
     (funcall add-function
-	     `(tmsmt::transition (=> (tmsmt::now "Spring") (tsmst::next "Summer") )))
+	     `(tmsmt::transition (<=> (tmsmt::now "Spring") (tmsmt::next "Summer") )))
     (funcall add-function
-	     `(tmsmt::transition (=> (tmsmt::now "Summer") (tsmst::next "Fall") ))) 
-    
+	     `(tmsmt::transition (<=> (tmsmt::now "Summer") (tmsmt::next "Fall") )))
+
 
     (loop for course being the hash-keys of electives
        using (hash-value elect-list)
@@ -118,8 +125,7 @@
 	       do (progn
 		    (let ((action (elective-action course name)))
 		      ;;add elective actions
-		      (funcall add-function `(tmsmt::declare-fluent ,action))
-		      (funcall add-function `(tmsmt::output ,action)))))))) ;;maybe not this....
+		      (funcall add-function `(tmsmt::declare-fluent ,action))))))))
 
 
 (defun macsplan-goal (student add-function)
@@ -172,7 +178,7 @@
 	  (dolist (elect (course-elective-type course))
 	    (setf (gethash id electives) (append (gethash elect electives-needed)
 						 (gethash id electives))))))
-      
+
       ;;Semester List
       (add `(tmsmt::declare-fluent "Fall" tmsmt::bool))
       (add `(tmsmt::declare-fluent "Spring" tmsmt::bool))
@@ -183,7 +189,7 @@
       (add `(tmsmt::start (not "Spring")))
       (add `(tmsmt::start (not "Winter")))
       (add `(tmsmt::start (not "Summer")))
-      
+
 
       ;;Elective fluents
       (loop for elect being the hash-keys of electives-needed
@@ -206,9 +212,9 @@
        do
          (when (< (length v) (1+ i))
            (adjust-array v (1+ i) :initial-element nil))
-         (push (course-action-id a)
-               (aref v i)))
-    v))
+	 (push (course-action-id a)
+	       (aref v i)))
+  v))
 
 
 (defun macsplan (catalog student)
