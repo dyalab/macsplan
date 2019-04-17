@@ -190,7 +190,4 @@
       (multiple-value-bind (plan found)
           (tmsmt::cpd-plan domain)
         (when found
-          (macsplan-result plan)))
-      ;(tmsmt::cpd-smt domain 1)
-      ;(tmsmt::cpd-stmts domain)
-      ))
+          (macsplan-result plan)))))
