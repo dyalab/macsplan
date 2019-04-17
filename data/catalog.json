@@ -39,7 +39,7 @@
 "Id": "CSCI250"
 "Name": "PYTHON-BASED COMPUTING: BUILDING A SENSOR SYSTEM"
 "Credits": 3.0
-"Pre_req": []
+"Pre_req": [["!MATH213"],["!PHGN200"]]
 "Semester": [ "Fall", "Spring" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI2XX" ]
 }
@@ -77,7 +77,7 @@
 "Id": "CSCI274"
 "Name": "INTRODUCTION TO THE LINUX OPERATING SYSTEM"
 "Credits": 1.0
-"Pre_req": []
+"Pre_req": [["CSCI261"]]
 "Semester": [ "Fall", "Spring" ]
 "Elective": []
 "Teacher": ["Kellyn R. Larson", "Tracy K Camp"]
@@ -141,7 +141,7 @@
 "Id": "CSCI358"
 "Name": "DISCRETE MATHEMATICS"
 "Credits": 3.0
-"Pre_req": [["MATH213", "MATH223", "MATH224"]]
+    "Pre_req": [["MATH213", "MATH223", "MATH224"]]
 "Semester": [ "Fall", "Spring" ]
 "Elective": []
 }
@@ -195,7 +195,7 @@
 "Id": "CSCI404"
 "Name": "ARTIFICIAL INTELLIGENCE"
 "Credits": 3.0
-"Pre_req": [["CSCI262", "CSCI358"], ["MATH201"]]
+"Pre_req": [["CSCI262"], ["MATH201"]]
 "Semester": [ "Spring" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
 }
@@ -204,7 +204,7 @@
 "Id": "CSCI406"
 "Name": "ALGORITHMS"
 "Credits": 3.0
-"Pre_req": [["CSCI262", "MATH213", "MATH223", "MATH224"], ["MATH300", "MATH358", "CSCI358"]]
+    "Pre_req": [["CSCI262"],["MATH213", "MATH223", "MATH224"], ["MATH300", "MATH358", "CSCI358"]]
 "Semester": [ "Fall", "Spring" ]
 "Elective": []
 }
@@ -231,7 +231,7 @@
 "Id": "CSCI423"
 "Name": "COMPUTER SIMULATION"
 "Credits": 3.0
-"Pre_req": [["CSCI306"], ["MATH201"], ["CSCI274"]]
+    "Pre_req": [["CSCI306"], ["MATH201", "MATH323"], ["CSCI274"]]
 "Semester": [ "Fall" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
 }
@@ -240,7 +240,7 @@
 "Id": "CSCI437"
 "Name": "INTRODUCTION TO COMPUTER VISION"
 "Credits": 3.0
-"Pre_req": [["MATH335","MATH201"],["MATH332","MATH342"]]
+    "Pre_req": [["CSCI261"],["MATH201","EENG311" ],["MATH332"]]
 "Semester": [ "Fall" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
 }
@@ -249,7 +249,7 @@
 "Id": "CSCI440"
 "Name": "PARALLEL COMPUTING FOR SCIENTISTS AND ENGINEERS"
 "Credits": 3.0
-"Pre_req": [["CSCI262", "CSCI341"]]
+"Pre_req": [["CSCI262"],["CSCI341"]]
 "Semester": [ "Spring" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
 }
@@ -258,7 +258,7 @@
 "Id": "CSCI441"
 "Name": "COMPUTER GRAPHICS"
 "Credits": 3.0
-"Pre_req": [["CSCI262", "MATH332"]]
+"Pre_req": [["CSCI262"],["MATH332"]]
 "Semester": [ "Fall" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
 }
@@ -267,7 +267,7 @@
 "Id": "CSCI442"
 "Name": "OPERATING SYSTEMS"
 "Credits": 3.0
-"Pre_req": [["CSCI262", "CSCI274", "CSCI341"]]
+"Pre_req": [["CSCI262"],["CSCI274"],["CSCI341"]]
 "Semester": [ "Fall", "Spring" ]
 "Elective": []
 }
@@ -366,7 +366,7 @@
 "Id": "CSCI474"
 "Name": "INTRODUCTION TO CRYPTOGRAPHY"
 "Credits": 3.0
-"Pre_req": [["CSCI262", "CSCI358", "MATH334", "MATH335", "MATH201"]]
+"Pre_req": [["CSCI262"],["CSCI358"],["MATH334", "MATH335", "MATH201"]]
 "Semester": [ "Spring" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
 }
@@ -375,7 +375,7 @@
 "Id": "CSCI475"
 "Name": "INFORMATION SECURITY AND PRIVACY"
 "Credits": 3.0
-"Pre_req": []
+    "Pre_req": [["CSCI262"],["CSCI341"]]
 "Semester": [ "Fall" ]
 "Elective": ["FREEXXX","CSCIXXX","CSCI4XX" ]
 }
@@ -492,7 +492,7 @@
 "Id": "MATH213"
 "Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III"
 "Credits": 4.0
-"Pre_req": [["MATH112", "MATH122", "!MATH113"]]
+"Pre_req": [["MATH112"],["MATH122", "!MATH113"]]
 "Semester": [ "Fall", "Spring", "Summer" ]
 "Elective": [ ]
 }
@@ -528,7 +528,7 @@
 "Id": "MATH225"
 "Name": "DIFFERENTIAL EQUATIONS"
 "Credits": 3.0
-"Pre_req": [["MATH112", "MATH122", "!MATH113"]]
+"Pre_req": [["MATH112"],["MATH122", "!MATH113"]]
 "Semester": [ "Fall", "Spring", "Summer" ]
 "Elective": [ ]
 }
@@ -537,7 +537,7 @@
 "Id": "MATH235"
 "Name": "DIFFERENTIAL EQUATIONS HONORS"
 "Credits": 3.0
-"Pre_req": [["MATH112", "MATH122", "!MATH113"]]
+    "Pre_req": [["MATH112"], ["MATH122", "!MATH113","MATH113"]]
 "Semester": [ "Fall", "Spring" ]
 "Elective": [ "FREEXXX" ]
 }
@@ -762,7 +762,7 @@
 "Id": "MATH440"
 "Name": "PARALLEL SCIENTIFIC COMPUTING"
 "Credits": 3.0
-"Pre_req": [["MATH307", "CSCI341"]]
+"Pre_req": [["MATH307", "CSCI407"]]
 "Semester": [ "Fall" ]
 "Elective": [ "FREEXXX" ]
 }
@@ -852,7 +852,7 @@
 "Id": "MATH474"
 "Name": "INTRODUCTION TO CRYPTOGRAPHY"
 "Credits": 3.0
-"Pre_req": [["CSCI262", "MATH334", "MATH335", "MATH358"]]
+"Pre_req": [["CSCI262"],[ "MATH334", "MATH335"],["MATH358"]]
 "Semester": [ "Spring" ]
 "Elective": [ "FREEXXX" ]
 }
