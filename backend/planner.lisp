@@ -3,6 +3,11 @@
 (defun course-action (id)
   (concatenate 'string "take-" id))
 
+(defun elective-action (id elective)
+  (concatenate 'string
+	       (concatenate 'string "take-" elective)
+	       (concatenate 'string "-" id)))
+
 (defun course-action-id (action)
   (subseq action 5))
 
@@ -19,8 +24,9 @@
    (course-prereq course)))
 
 
-(defun macsplan-transition (catalog add-function)
-  (let ((credit-hour-total nil))
+(defun macsplan-transition (catalog electives add-function)
+  (let ((credit-hour-total nil)
+	(elect-hash (make-hash-table :test 'equal))) ;;CPDL elective => actions that can modify it
     (do-catalog (course catalog)
       (let* ((id (course-id course))
 	     (action (course-action id))
@@ -59,22 +65,101 @@
     (funcall add-function
 	     `(tmsmt::transition (=> (tmsmt::now "Spring") (tsmst::next "Summer") )))
     (funcall add-function
-	     `(tmsmt::transition (=> (tmsmt::now "Summer") (tsmst::next "Fall") ))) ))
+	     `(tmsmt::transition (=> (tmsmt::now "Summer") (tsmst::next "Fall") ))) 
     
+
+    (loop for course being the hash-keys of electives
+       using (hash-value elect-list)
+       do (let ((action-electives (map 'list (lambda (x)
+					  (elective-action course x))
+				  elect-list)))
+	    (dolist (elect elect-list)
+	      (let* ((course-action (tmsmt::fluent-now (course-action course)))
+		     (elect-now (tmsmt::fluent-now elect))
+		     (action (elective-action course elect))
+		     (elect-action (tmsmt::fluent-now action))
+		     (mutex-elect (map 'list (lambda (x)
+					       (tmsmt::fluent-now x))
+				       (remove action action-electives))))
+
+		;; no duplicates
+		(funcall add-function
+			 `(tmsmt::transition (=>
+					      ,elect-action
+					      (not ,elect-now))))
+
+		;; prereqs (just that we are taking the action to do the course)
+		(funcall add-function
+			 `(tmsmt::transition (=>
+					      ,elect-action
+					      ,course-action)))
+
+		;; mutex with other possible electives
+		(funcall add-function
+			 `(tmsmt::transition (=>
+					      ,elect-action
+					      (not ,(cons 'or mutex-elect)))))
+
+		(setf (gethash elect elect-hash)
+		      (cons elect-action (gethash elect elect-hash)))))))
+
+    (loop for elect being the hash-keys of elect-hash
+       using (hash-value action-list)
+	 do ;;frame
+	 (funcall add-function
+		  `(tmsmt::transition (<=> (or ,(tmsmt::fluent-now elect) ,(cons 'or action-list))
+					   ,(tmsmt::fluent-next elect)))))))
+
+
+(defun macsplan-add-elective-actions (elective-hash add-function)
+  (loop for course being the hash-keys of elective-hash
+     do (let ((electives (gethash course elective-hash)))
+	  (loop for name in electives
+	       do (progn
+		    (let ((action (elective-action course name)))
+		      ;;add elective actions
+		      (funcall add-function `(tmsmt::declare-fluent ,action))
+		      (funcall add-function `(tmsmt::output ,action)))))))) ;;maybe not this....
+
 
 (defun macsplan-goal (student add-function)
   (funcall add-function `(tmsmt::goal ,(student-degree student))))
 
+(defun convert-degree-requirements (student catalog)
+  (let ((electives (make-hash-table :test 'equal))
+	(i 0))
+    (labels ((parse-degree (e)
+	       (if (atom e)
+		   (if (null (gethash e catalog))
+		       (let ((req (concatenate 'string (format nil "E~d_" i) e)))
+			 (setf (gethash e electives) (cons req (gethash e electives)))
+			 (incf i)
+			 req)
+		       e)
+		   (destructuring-bind (op &rest args) e
+		     (cond ((eq op 'and)
+			    (cons 'and (map 'list #'parse-degree args)))
+			   ((eq op 'or)
+			    (cons 'or (map 'list #'parse-degree args)))
+			   ((eq op 'not)
+			    (cons 'not (map 'list #'parse-degree args)))
+			   (t (loop for exp in e
+				 collect (parse-degree exp))))))))
+      (setf (student-degree student) (parse-degree (student-degree student)))
+      electives)))
+
+
 (defun macsplan-cpdl (catalog student)
-  (let ((catalog (ensure-catalog catalog))
-        (student (ensure-student student)))
+  (let* ((catalog (ensure-catalog catalog))
+	 (student (ensure-student student))
+	 (electives (make-hash-table :test 'equal)) ;;id => list of CPDLelectives that count
+	 (electives-needed (convert-degree-requirements student catalog)));;elective => CPDL electives
     (check-student catalog student)
     (tmsmt::with-collected (add)
       (do-catalog (course catalog)
         (let* ((id (course-id course))
                (action (course-action id)))
 
-	  ;;TODO: build elective list
           ;; fluents
           (add `(tmsmt::declare-fluent ,id tmsmt::bool))
           (add `(tmsmt::declare-fluent ,action tmsmt::bool))
@@ -82,7 +167,11 @@
           ;; start
           (if (gethash course (student-taken student))
               (add `(tmsmt::start ,id))
-	    (add `(tmsmt::start (not ,id))))))
+	      (add `(tmsmt::start (not ,id))))
+	  ;; create elective hash table
+	  (dolist (elect (course-elective-type course))
+	    (setf (gethash id electives) (append (gethash elect electives-needed)
+						 (gethash id electives))))))
       
       ;;Semester List
       (add `(tmsmt::declare-fluent "Fall" tmsmt::bool))
@@ -95,10 +184,20 @@
       (add `(tmsmt::start (not "Winter")))
       (add `(tmsmt::start (not "Summer")))
       
+
+      ;;Elective fluents
+      (loop for elect being the hash-keys of electives-needed
+	 using (hash-value elect-list)
+	 do (dolist (cpdl-elect elect-list)
+	      (add `(tmsmt::declare-fluent ,cpdl-elect tmsmt::bool))))
+
+      ;;Electives actions
+      (macsplan-add-elective-actions electives #'add)
+
       ;; goal
       (macsplan-goal student #'add)
       ;; transition
-      (macsplan-transition catalog #'add))))
+      (macsplan-transition catalog electives #'add))))
 
 (defun macsplan-result (plan)
   (let ((v (make-array 1 :adjustable t :initial-element nil)))

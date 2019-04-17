@@ -4,7 +4,8 @@
   id
   prereq
   credits
-  elective-type)
+  elective-type
+  semester)
 
 (defstruct offering
   course
@@ -28,7 +29,8 @@
 (defun check-catalog-exp (catalog exp)
   (tmsmt::check-exp (lambda (v)
                       (unless (or (tmsmt::smt-true-p v)
-                                  (catalog-contains-id catalog (normalize-prereq v)))
+                                  (catalog-contains-id catalog (normalize-prereq v))
+				  (find #\X v))
                         (error "Course not found `~A'" v)))
                     exp))
 
