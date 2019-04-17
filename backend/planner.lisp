@@ -3,6 +3,9 @@
 (defun course-action (id)
   (concatenate 'string "take-" id))
 
+(defun teach-course (teacher id)
+  (concatenate 'string teacher id))
+
 (defun elective-action (id elective)
   (concatenate 'string
 	       (concatenate 'string "take-" elective)
@@ -32,8 +35,7 @@
 	     (action (course-action id))
 	     (course-now (tmsmt::fluent-now id))
 	     (action-now (tmsmt::fluent-now action))
-	     (semesters (course-semester course))
-	     (teacher (course-teacher course)))
+	     (semesters (course-semester course)))
 
 	;; prereq
 	(if (and (course-prereq course)
@@ -160,21 +162,35 @@
   (let* ((catalog (ensure-catalog catalog))
 	 (student (ensure-student student))
 	 (electives (make-hash-table :test 'equal)) ;;id => list of CPDLelectives that count
-	 (electives-needed (convert-degree-requirements student catalog)));;elective => CPDL electives
+	 (electives-needed (convert-degree-requirements student catalog));;elective => CPDL electives
+	 (teach-want (student-pref-teach student)))
     (check-student catalog student)
     (tmsmt::with-collected (add)
       (do-catalog (course catalog)
         (let* ((id (course-id course))
-               (action (course-action id)))
+               (action (course-action id))
+	       (teacher-list (course-teacher course)))
 
           ;; fluents
           (add `(tmsmt::declare-fluent ,id tmsmt::bool))
           (add `(tmsmt::declare-fluent ,action tmsmt::bool))
           (add `(tmsmt::output ,action))
+
+	  ;;perfer plans where we take these courses
+	  (loop for teach in (intersection teacher-list teach-want :test 'equal)
+	     do (let ((teach-fluent (teach-course teach id)))
+		  (add `(tmsmt::declare-fluent ,teach-fluent tmsmt::bool))
+		  (add `(tmsmt::start (not ,teach-fluent)))
+		  (add `(tmsmt::transition (<=> (or ,(tmsmt::fluent-now teach-fluent)
+						     ,(tmsmt::fluent-now action))
+						,(tmsmt::fluent-next teach-fluent))))
+		  (add `(tmsmt::assert-soft ,(teach-course teach id) 1))))
+
           ;; start
           (if (gethash course (student-taken student))
               (add `(tmsmt::start ,id))
 	      (add `(tmsmt::start (not ,id))))
+
 	  ;; create elective hash table
 	  (dolist (elect (course-elective-type course))
 	    (setf (gethash id electives) (append (gethash elect electives-needed)

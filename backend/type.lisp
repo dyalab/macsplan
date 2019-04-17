@@ -41,7 +41,8 @@
 
 (defstruct student
   (taken (make-hash-table :test #'equal))
-  degree)
+  degree
+  pref-teach)
 
 
 (defun check-student (catalog student)
