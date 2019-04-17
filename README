@@ -8,7 +8,7 @@ Installation
 Backend
 -------
 
-1.  [TMKit](http://tmkit.dyalab.org/)
+1. Install [TMKit](http://tmkit.dyalab.org/)
 
 2. Checkout the path-checker branch of TMKit
 
@@ -63,8 +63,8 @@ Running a test
 --------------
 In the macsplan package, you can test the planner by the command:
 
-(macsplan <path to catalog> <path to student>)
+   (macsplan path-to-catalog path-to-student)
 
 For example, the following command will run Macsplan with the provided catalog and student files
 
-(macsplan #p"*macsplan-root*/data/catalog.json" #p"*macsplan-root*/data/student.json")
+    (macsplan #p"**macsplan-root**/data/catalog.json" #p"**macsplan-root**/data/student.json")
