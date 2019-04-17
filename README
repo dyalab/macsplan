@@ -57,3 +57,14 @@ Running the Frontened
 ---------------------
 
     node server.js
+
+
+Running a test
+--------------
+In the macsplan package, you can test the planner by the command:
+
+(macsplan <path to catalog> <path to student>)
+
+For example, the following command will run Macsplan with the provided catalog and student files
+
+(macsplan #p"*macsplan-root*/data/catalog.json" #p"*macsplan-root*/data/student.json")
