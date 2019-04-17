@@ -1,12 +1,14 @@
 Mines Automatic Class Schedule Planner (MACSPlan)
 
+Backend Authors : Curtis Burke, Tyler Evans, Matthew Schack
+
 Installation
 ============
 
 Backend
 -------
 
-1. Install [TMKit](http://tmkit.dyalab.org/)
+1.  [TMKit](http://tmkit.dyalab.org/)
 
 2. Checkout the path-checker branch of TMKit
 
