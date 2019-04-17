@@ -18,13 +18,15 @@
                (tmsmt::fluent-now id)))))
    (course-prereq course)))
 
+
 (defun macsplan-transition (catalog add-function)
   (let ((credit-hour-total nil))
     (do-catalog (course catalog)
       (let* ((id (course-id course))
 	     (action (course-action id))
 	     (course-now (tmsmt::fluent-now id))
-	     (action-now (tmsmt::fluent-now action)))
+	     (action-now (tmsmt::fluent-now action))
+	     (semesters (course-semester course)))
 
 	;; prereq
 	(when (and (course-prereq course)
@@ -32,7 +34,8 @@
 	  (funcall add-function
 		   `(tmsmt::transition (=>
 					,action-now
-					,(macsplan-prereq course)))))
+					(AND ,(macsplan-prereq course) (OR ,(map 'list #'tmsmt::fluent-now semesters)))))))
+	
 	;; no duplicate
 	(funcall add-function
 		 `(tmsmt::transition (=> ,action-now (not ,course-now))))
@@ -40,12 +43,24 @@
 	(funcall add-function
              `(tmsmt::transition (<=> (or ,course-now ,action-now)
 				      ,(tmsmt::fluent-next id))))
-
+	
 	;;credit hour totals
 	(setf credit-hour-total (cons `(ite ,action-now ,(course-credits course) 0)
 				      credit-hour-total))))
+    ;;Credit Hours
     (funcall add-function
-	     `(tmsmt::transition (>= 15 ,(cons + credit-hour-total))))))
+	     `(tmsmt::transition (<= 15 ,(cons + credit-hour-total))))
+
+    ;;Semester
+    (funcall add-function
+	     `(tmsmt::transition (=> (tmsmt::now "Fall") (tsmst::next "Winter") )))
+    (funcall add-function
+	     `(tmsmt::transition (=> (tmsmt::now "Winter") (tsmst::next "Spring") )))
+    (funcall add-function
+	     `(tmsmt::transition (=> (tmsmt::now "Spring") (tsmst::next "Summer") )))
+    (funcall add-function
+	     `(tmsmt::transition (=> (tmsmt::now "Summer") (tsmst::next "Fall") ))) ))
+    
 
 (defun macsplan-goal (student add-function)
   (funcall add-function `(tmsmt::goal ,(student-degree student))))
@@ -67,7 +82,19 @@
           ;; start
           (if (gethash course (student-taken student))
               (add `(tmsmt::start ,id))
-              (add `(tmsmt::start (not ,id))))))
+	    (add `(tmsmt::start (not ,id))))))
+      
+      ;;Semester List
+      (add `(tmsmt::declare-fluent "Fall" tmsmt::bool))
+      (add `(tmsmt::declare-fluent "Spring" tmsmt::bool))
+      (add `(tmsmt::declare-fluent "Winter" tmsmt::bool))
+      (add `(tmsmt::declare-fluent "Summer" tmsmt::bool))
+
+      (add `(tmsmt::start "Fall"))
+      (add `(tmsmt::start (not "Spring")))
+      (add `(tmsmt::start (not "Winter")))
+      (add `(tmsmt::start (not "Summer")))
+      
       ;; goal
       (macsplan-goal student #'add)
       ;; transition
