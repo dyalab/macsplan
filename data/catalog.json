@@ -5,7 +5,7 @@
 "Credits": 3.0
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
-"Elective": []
+"Elective": []    
 }
 ,
 {
@@ -60,6 +60,7 @@
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": []
+"Teacher": ["Brandon Robert Rodriguez", "Glen W Oberhauser", "Mark Lewis Baldwin"]
 }
 ,
 {
@@ -69,6 +70,7 @@
 "Pre_req": [["CSCI261"]]
 "Semester": [ "Fall", "Spring", "Summer" ]
 "Elective": []
+"Teacher": ["Christopher Robert Painter-Wakefield", "Wendy Denise Fisher"]
 }
 ,
 {
@@ -78,6 +80,7 @@
 "Pre_req": []
 "Semester": [ "Fall", "Spring" ]
 "Elective": []
+"Teacher": ["Kellyn R. Larson", "Tracy K Camp"]
 }
 ,
 {
@@ -440,24 +443,24 @@
 "Elective": [ ]
 }
 ,
-{
-"Id": "MATH113"
-"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II - SHORT FORM"
-"Credits": 1.0
-"Pre_req": []
-"Semester": [ "Fall", "Spring" ]
-"Elective": [ "FREEXXX" ]
-}
-,
-{
-"Id": "MATH122"
-"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II HONORS"
-"Credits": 4.0
-"Pre_req": [["MATH111"]]
-"Semester": [ "Fall", "Spring" ]
-"Elective": [ "FREEXXX" ]
-}
-,
+// {				
+// "Id": "MATH113"
+// "Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II - SHORT FORM"
+// "Credits": 1.0
+// "Pre_req": []
+// "Semester": [ "Fall", "Spring" ]
+// "Elective": [ "FREEXXX" ]
+// }
+// ,
+// {
+// "Id": "MATH122"
+// "Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS II HONORS"
+// "Credits": 4.0
+// "Pre_req": [["MATH111"]]
+// "Semester": [ "Fall", "Spring" ]
+// "Elective": [ "FREEXXX" ]
+// }
+// ,
 {
 "Id": "MATH198"
 "Name": "SPECIAL TOPICS"
@@ -493,33 +496,33 @@
 "Semester": [ "Fall", "Spring", "Summer" ]
 "Elective": [ ]
 }
-,
-{
-"Id": "MATH214"
-"Name": "CALCULUS FOR SCIENTIST AND ENGINEERS III - SHORT FORM"
-"Credits": 1.0
-"Pre_req": []
-"Semester": [ "Fall", "Spring" ]
-"Elective": [ "FREEXXX" ]
-}
-,
-{
-"Id": "MATH223"
-"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III HONORS"
-"Credits": 4.0
-"Pre_req": [["MATH122"]]
-"Semester": [ "Spring" ]
-"Elective": [ "FREEXXX" ]
-}
-,
-{
-"Id": "MATH224"
-"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III HONORS"
-"Credits": 4.0
-"Pre_req": [["MATH122"]]
-"Semester": [ "Fall", "Spring" ]
-"Elective": [ "FREEXXX" ]
-}
+// ,
+// {
+// "Id": "MATH214"
+// "Name": "CALCULUS FOR SCIENTIST AND ENGINEERS III - SHORT FORM"
+// "Credits": 1.0
+// "Pre_req": []
+// "Semester": [ "Fall", "Spring" ]
+// "Elective": [ "FREEXXX" ]
+// }
+// ,
+// {
+// "Id": "MATH223"
+// "Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III HONORS"
+// "Credits": 4.0
+// "Pre_req": [["MATH122"]]
+// "Semester": [ "Spring" ]
+// "Elective": [ "FREEXXX" ]
+// }
+// ,
+// {
+// "Id": "MATH224"
+// "Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS III HONORS"
+// "Credits": 4.0
+// "Pre_req": [["MATH122"]]
+// "Semester": [ "Fall", "Spring" ]
+// "Elective": [ "FREEXXX" ]
+// }
 ,
 {
 "Id": "MATH225"
