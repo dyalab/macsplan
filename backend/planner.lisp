@@ -32,7 +32,8 @@
 	     (action (course-action id))
 	     (course-now (tmsmt::fluent-now id))
 	     (action-now (tmsmt::fluent-now action))
-	     (semesters (course-semester course)))
+	     (semesters (course-semester course))
+	     (teacher (course-teacher course)))
 
 	;; prereq
 	(when (and (course-prereq course)

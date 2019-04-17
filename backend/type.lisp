@@ -5,7 +5,8 @@
   prereq
   credits
   elective-type
-  semester)
+  semester
+  teacher)
 
 (defstruct offering
   course
