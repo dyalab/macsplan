@@ -932,6 +932,27 @@
      "Semester": [ "Fall", "Spring","Summer" ]
      "Elective": [ ]
     },
+     {"Id": "HASS201"
+     "Name": "WORKSHOP FOUNDATIONS: THE ART AND CRAFT OF CREATIVE WRITING"
+     "Credits": 3.0
+      "Pre_req": ["HASS100", "!HASS200"]
+     "Semester": [ "Fall", "Spring","Summer" ]
+     "Elective": [ "HASS2XX"]
+     },
+     {"Id": "HASS220"
+     "Name": "INTRODUCTION TO PHILOSOPHY"
+     "Credits": 3.0
+      "Pre_req": ["HASS100","!HASS200"]
+     "Semester": [ "Fall", "Spring","Summer" ]
+     "Elective": [ "HASS2XX"]
+     },
+     {"Id": "HASS407"
+     "Name": "SCIENCE IN LIERATURE"
+     "Credits": 3.0
+      "Pre_req": ["HASS100", "!HASS200"]
+     "Semester": [ "Fall", "Spring","Summer" ]
+     "Elective": [ "HASS4XX"]
+    },
     {
 	"Id": "EENG383"
 	"Name": "MICROCOMPUTER ARCHITECTURE AND INTERFACING"
@@ -1018,5 +1039,37 @@
     "Pre_req": [["MATH122"]]
     "Semester": [ "Fall", "Spring" ]
     "Elective": [ "FREEXXX" ]
+    },
+    {
+	"Id": "PAGN101"
+	"Name": "PHYSICAL EDUCATION"
+	"Credits": 0.5
+	"Pre_req":[]
+	"Semester":["Fall"]
+	"Elective":["PAGNXXX"]
+    },
+        {
+	"Id": "PAGN102"
+	"Name": "PHYSICAL EDUCATION"
+	"Credits": 0.5
+	"Pre_req":[]
+	"Semester":["Spring"]
+	"Elective":["PAGNXXX"]
+	},
+     {
+	"Id": "PAGN113"
+	"Name": "OUTDOOR LEADERSHIP"
+	"Credits": 0.5
+	"Pre_req":[]
+	 "Semester":["Fall", "Spring"]
+	"Elective":["PAGNXXX"]
+     },
+    {
+	"Id": "PAGN114"
+	"Name": "OUTDOOR LEADERSHIP"
+	"Credits": 0.5
+	"Pre_req":[]
+	 "Semester":["Fall", "Spring"]
+	"Elective":["PAGNXXX"]
     }
 ]

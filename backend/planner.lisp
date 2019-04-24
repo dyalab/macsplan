@@ -90,7 +90,7 @@
 		     (elect-action (tmsmt::fluent-now action))
 		     (mutex-elect (map 'list (lambda (x)
 					       (tmsmt::fluent-now x))
-				       (remove action action-electives))))
+				       (remove action action-electives :test 'equal))))
 
 		;; no duplicates
 		(funcall add-function
@@ -187,7 +187,7 @@
 		  (add `(tmsmt::assert-soft ,(teach-course teach id) 1))))
 
           ;; start
-          (if (gethash course (student-taken student))
+          (if (gethash id (student-taken student))
               (add `(tmsmt::start ,id))
 	      (add `(tmsmt::start (not ,id))))
 
@@ -212,7 +212,8 @@
       (loop for elect being the hash-keys of electives-needed
 	 using (hash-value elect-list)
 	 do (dolist (cpdl-elect elect-list)
-	      (add `(tmsmt::declare-fluent ,cpdl-elect tmsmt::bool))))
+	      (add `(tmsmt::declare-fluent ,cpdl-elect tmsmt::bool))
+	      (add `(tmsmt::start (not ,cpdl-elect)))))
 
       ;;Electives actions
       (macsplan-add-elective-actions electives #'add)
@@ -239,6 +240,6 @@
            (domain (tmsmt::parse-cpdl cpdl)))
      ; domain
       (multiple-value-bind (plan found)
-          (tmsmt::cpd-plan domain)
+          (tmsmt::cpd-plan domain '((:max-steps . 20)(:trace . nil)))
         (when found
           (macsplan-result plan)))))
