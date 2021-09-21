@@ -4,8 +4,8 @@ var  generatedSchedule = [["CSCI101", "CSCI298", "MATH112", "CSCI370"], ["CSCI27
 
 // pastes error message in container
 function returnError(error) {
-	generatedSchedule = [["CSCI101", "CSCI298", "MATH112", "CSCI370"], ["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"],["CSCI274", "CSCI303", "CSCI341", "MATH213", "MATH225"]];
-    loadElements(generatedSchedule);
+    console.log("Error in generating schedule:")
+    console.log(error)
 }
 
 // checks to see if result is a json file
