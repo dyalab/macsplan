@@ -242,4 +242,4 @@
       (multiple-value-bind (plan found)
           (tmsmt::cpd-plan domain '((:max-steps . 20)(:trace . nil)))
         (when found
-          (macsplan-result plan)))))
+            (macsplan-result plan)))))

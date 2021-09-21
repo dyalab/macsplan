@@ -1,106 +1,967 @@
 [
-{
-"Id": "Computer Science",
-"Bulletin": "2018-2019",
-"Classes": ["CSCI101", "CHGN121", "MATH111", "HASS100", "CSM101", "CSCI261", "MATH112", "EDNS151", "PHGN100", "MATH213", "PHGN200", "CSCI262", "EBGN201", "CSCI274", "CSCI341", "CSCI358", "MATH225", "HASS200", "CSCI306", "MATH332", "CSCI403", "CSCI406", "MATH201", "CSCI370", "CSCI400", "CSCI442"],
-"Electives": [["PAGNxxx", 4], ["FREE ELECTIVExxx", 6], ["COMPUTER SCIENCE ELECTIVExxx", 5], ["HASS MID-LEVEL RESTRICTED ELECTIVExxx", 2], ["HASS 400-LEVEL RESTRICTED ELECTIVExxx", 1]]
-}
-,
-{
-"Id": "Applied Mathematics and Statistics",
-"Bulletin": "2018-2019",
-"Classes": ["CHGN121", "CSCI101", "CSM101", "HASS100", "MATH111", "EBGN201", "EDNS151", "MATH112", "PHGN100", "CSCI261", "MATH213", "MATH225", "PHGN200", "HASS200", "MATH201", "MATH332", "MATH310", "MATH300", "MATH307", "MATH331", "MATH334", "MATH301", "MATH335", "MATH408", "MATH455", "MATH484"],
-"Electives": [["PAGNxxx", 4], ["COMPUTER ELECTIVE1xxx", 1], ["FREE ELECTIVExxx", 4], ["HASS MID-LEVEL RESTRICTED ELECTIVExxx", 2], ["MATHEMATICS-CAM ELECTIVE2xxx", 2], ["MATHEMATICS-CAM/STAT ELECTIVE2xxx", 4], ["HASS 400-LEVEL RESTRICTED ELECTIVExxx", 1]]
-}
-,
-{
-"Id": "Electrical Engineering",
-"Bulletin": "2018-2019",
-"Classes": ["CHGN121", "GEGN101", "MATH111", "HASS100", "CSM101", "MATH112", "EDNS151", "PHGN100", "CSCI101", "HASS200", "MATH213", "PHGN200", "CSCI261", "MATH225", "EBGN201", "EENG284", "EENG282", "MATH332", "EENG307", "EENG310", "EENG383", "EENG389", "EENG385", "EENG386", "EENG311", "MEGN361", "EENG334", "EENG450", "EDNS491", "EDNS492"],
-"Electives": [["PAGNxxx", 4], ["HASS MID-LEVEL RESTRICTED ELECTIVExxx", 2], ["ELECTRICAL ENGINEERING ELECTIVExxx", 3], ["HASS 400-LEVEL RESTRICTED ELECTIVExxx", 1], ["FREE ELECTIVExxx", 3]]
-}
-,
-{
-"Id": "Mechanical Engineering",
-"Bulletin": "2018-2019",
-"Classes": ["CBEN110", "CHGN121", "CSM101", "HASS100", "MATH111", "CHGN122", "EDNS151", "MATH112", "PHGN100", "CEEN241", "HASS200", "MATH213", "MEGN200", "PHGN200", "EENG281", "MATH225", "MEGN361", "MEGN312", "MTGN202", "MEGN201", "EBGN201", "MATH307", "MEGN315", "MEGN424", "MEGN300", "EENG307", "MEGN381", "MEGN481", "MEGN301", "MEGN351", "EDNS491", "MEGN471", "EDNS492"],
-"Electives": [["PAGNxxx", 4], ["HASS MID-LEVEL RESTRICTED ELECTIVExxx", 2], ["FREE ELECTIVExxx", 3], ["MECHANICAL ENGINEERING ELECTIVExxx", 3], ["HASS 400-LEVEL RESTRICTED ELECTIVExxx", 1]]
-}
-,
-{
-"Id": "Civil and Environmental Engineering",
-"Bulletin": "2018-2019",
-"Classes": ["MATH111", "CHGN121", "GEGN101", "HASS100", "CSM101", "MATH112", "PHGN100", "CHGN122", "EDNS151", "CEEN210", "MATH213", "PHGN200", "CEEN241", "HASS200", "CEEN310", "CEEN267", "CEEN311", "MEGN350", "MATH201", "CSCI260", "CEEN331", "CEEN350", "CEEN314", "CEEN312", "CEEN312L", "MATH225", "EBGN201", "CEEN415", "MEGN315", "EDNS491", "EDNS492"],
-"Electives": [["PAGNxxx", 4], ["CIVIL ENGINEERING BREADTH ELECTIVExxx", 2], ["STRUCTURAL DESIGN ELECTIVExxx", 1], ["HASS MID-LEVEL RESTRICTED ELECTIVExxx", 2], ["CIVIL ENGINEERING TECHNICAL ELECTIVExxx", 4], ["FREE ELECTIVExxx", 3], ["HASS 400-LEVEL RESTRICTED ELECTIVExxx", 1]]
-}
-,
-{
-"Id": "Physics",
-"Bulletin": "2018-2019",
-"Classes": ["MATH111", "CHGN121", "HASS100", "CSM101", "GEGN101", "MATH112", "CHGN122", "PHGN100", "EDNS151", "MATH213", "PHGN200", "EDNS269", "HASS200", "CSCI250", "MATH225", "MATH332", "PHGN310", "PHGN215", "PHGN384", "PHGN315", "PHGN311", "PHGN317", "PHGN350", "PHGN361", "PHGN320", "PHGN326", "PHGN341", "EBGN201", "PHGN471", "PHGN481", "PHGN462", "PHGN472", "PHGN482"],
-"Electives": [["PAGNxxx", 4], ["HASS MID-LEVEL RESTRICTED ELECTIVExxx", 2], ["FREE ELECTIVExxx", 4], ["HASS 400-LEVEL RESTRICTED ELECTIVExxx", 1], ["ENGINEERING SCIENCE ELECTIVExxx", 1]]
-}
-,
-{
-"Id": "Chemistry and Geochemistry",
-"Bulletin": "2018-2019",
-"Classes": ["CHGN121", "CSM101", "EDNS151", "GEGN101", "MATH111", "CHGN122", "MATH112", "HASS100", "PHGN100", "MATH213", "PHGN200", "CHGN209", "CHGN221", "CHGN223", "EBGN201", "HASS200", "CHGN222", "CHGN224", "MATH225", "CHGN335", "CHGN336", "CHGN337", "CHGN341", "CHGN351", "CHGN395", "CHGN353", "CHGN323", "CHGN428", "CHGN490", "CHGN401"],
-"Electives": [["PAGNxxx", 4], ["HASS MID-LEVEL RESTRICTED ELECTIVExxx", 2], ["FREE ELECTIVExxx", 3], ["TECHNICAL ELECTIVExxx", 5], ["CHEMISTRY ELECTIVExxx", 2], ["HASS 400-LEVEL RESTRICTED ELECTIVExxx", 1]]
-}
-,
-{
-"Id": "Chemical and Biological Engineering",
-"Bulletin": "2018-2019",
-"Classes": ["CHGN121", "CSM101", "MATH111", "EDNS151", "HASS100", "CBEN110", "CHGN122", "MATH112", "PHGN100", "CBEN210", "CHGN221", "CHGN223", "MATH213", "PHGN200", "CBEN200", "CBEN201", "CHGN222", "EBGN201", "MATH225", "CBEN307", "CBEN357", "CHGN351", "HASS200", "CBEN358", "CBEN314", "CBEN375", "CBEN403", "CBEN312", "CBEN313", "CBEN402", "CBEN414", "CBEN418"],
-"Electives": [["PAGNxxx", 4], ["TECH ELECTIVExxx", 2], ["HASS MID-LEVEL RESTRICTED ELECTIVExxx", 2], ["CHEMICAL ENGINEERING ELECTIVExxx", 1], ["FREE ELECTIVExxx", 3], ["400-LEVEL CHEMICAL ENGINEERING ELECTIVExxx", 1], ["CHGN OR CBEN ELECTIVE (300 OR HIGHER)xxx", 1], ["HASS 400-LEVEL RESTRICTED ELECTIVExxx", 1]]
-}
-,
-{
-"Id": "Metallurgical and Materials Engineering",
-"Bulletin": "2018-2019",
-"Classes": ["CHGN121", "CSM101", "EDNS151", "MATH111", "MATH201", "CHGN122", "HASS100", "PHGN100", "MATH112", "MTGN272", "MATH213", "PHGN200", "MTGN202", "HASS200", "MTGN251", "MATH225", "CEEN241", "EBGN201", "MTGN211", "MTGN281", "EDNS263", "CEEN311", "MTGN352", "MTGN314", "MTGN314L", "MTGN350", "MTGN334", "MTGN334L", "MTGN348", "MTGN348L", "MTGN315", "MTGN445", "MTGN445L", "MTGN461", "MTGN467", "MTGN468"],
-"Electives": [["PAGNxxx", 4], ["RESTRICTED TECHNICAL ELECTIVExxx", 1], ["FREE ELECTIVExxx", 3], ["HASS MID-LEVEL RESTRICTED ELECTIVExxx", 2], ["MTGN ELECTIVExxx", 4], ["HASS 400-LEVEL RESTRICTED ELECTIVExxx", 1]]
-}
-,
-{
-"Id": "Geophysics",
-"Bulletin": "2018-2019",
-"Classes": ["GEGN101", "MATH111", "CHGN121", "CSM101", "CSCI101", "MATH112", "PHGN100", "EDNS151", "HASS100", "GPGN228", "MATH213", "PHGN200", "GEGN205", "GEGN204", "GPGN268", "GPGN229", "MATH225", "EBGN201", "HASS200", "GPGN328", "GPGN350", "MATH332", "CSCI250", "GPGN404", "GPGN329", "GPGN314", "GPGN486", "GPGN435", "GPGN409", "GPGN438", "CSCI303"],
-"Electives": [["PAGNxxx", 4], ["GEOLOGY ELECTIVE1xxx", 1], ["FREE ELECTIVExxx", 3], ["HASS MID-LEVEL RESTRICTED ELECTIVE2xxx", 2], ["GPGN ADVANCED ELECTIVE3xxx", 4], ["HASS 400-LEVEL RESTRICTED ELECTIVE2xxx", 1]]
-}
-,
-{
-"Id": "Geology and Geological Engineering",
-"Bulletin": "2018-2019",
-"Classes": ["GEGN101", "MATH111", "CHGN121", "EDNS151", "CSM101", "PHGN100", "MATH112", "CHGN122", "HASS100", "GEGN203", "GEGN204", "GEGN205", "MATH213", "CEEN241", "HASS200", "EDNS264", "GEGN206", "PHGN200", "MATH225", "CEEN311", "GEOL309", "GEOL321", "GEGN330", "EBGN201", "CEEN312", "GEGN307", "GEGN317", "GEOL314", "GEGN351", "GEGN316", "GEGN432"],
-"Electives": [["PAGNxxx", 4], ["HASS MID-LEVEL RESTRICTED ELECTIVExxx", 2], ["TECH ELECTIVE IIxxx", 1], ["GEGN4XX OPTION ELECTIVExxx", 2], ["FREE ELECTIVExxx", 3], ["GEGN4XX DESIGN ELECTIVExxx", 2], ["HASS 400-LEVEL RESTRICTED ELECTIVExxx", 1]]
-}
-,
-{
-"Id": "Economics and Business",
-"Bulletin": "2018-2019",
-"Classes": ["MATH111", "CHGN121", "CSM101", "EDNS151", "PHGN100", "MATH112", "CSCI101", "HASS100", "EBGN201", "MATH213", "HASS200", "EBGN301", "MATH201", "MATH225", "EBGN302", "EBGN425", "EBGN303", "EBGN321", "EBGN409", "EBGN403", "EBGN401", "EBGN455"],
-"Electives": [["DISTRIBUTED SCIENCExxx", 1], ["PAGNxxx", 4], ["FREE ELECTIVExxx", 7], ["EBGN ELECTIVE Ixxx", 1], ["EBGN ELECTIVE IIxxx", 1], ["HASS MID-LEVEL RESTRICTED ELECTIVExxx", 2], ["OR EBGN ELECTIVE IIIxxx", 2], ["HASS 400-LEVEL RESTRICTED ELECTIVExxx", 1], ["EBGN ELECTIVE IVxxx", 1], ["EBGN ELECTIVE Vxxx", 1], ["EBGN ELECTIVE VIxxx", 1], ["EBGN ELECTIVE VIIxxx", 1]]
-}
-,
-{
-"Id": "Petroleum Engineering",
-"Bulletin": "2018-2019",
-"Classes": ["CSM101", "GEGN101", "MATH111", "CHGN121", "EDNS151", "PHGN100", "MATH112", "CHGN122", "HASS100", "EBGN201", "EDNS251", "CEEN241", "MATH213", "PHGN200", "CHGN209", "CEEN311", "PEGN251", "PEGN308", "MATH225", "HASS200", "PEGN315", "GEOL315", "PEGN305", "PEGN311", "PEGN312", "GEOL308", "PEGN361", "PEGN411", "PEGN419", "PEGN438", "PEGN316", "PEGN481", "PEGN423", "PEGN414", "PEGN422", "PEGN424", "PEGN426", "PEGN439"],
-"Electives": [["PAGNxxx", 4], ["HASS MID-LEVEL RESTRICTED ELECTIVExxx", 2], ["FREE ELECTIVExxx", 3], ["HASS 400-LEVEL RESTRICTED ELECTIVExxx", 1]]
-}
-,
-{
-"Id": "Mining Engineering",
-"Bulletin": "2018-2019",
-"Classes": ["GEGN101", "MATH111", "CHGN121", "EDNS151", "CSM101", "PHGN100", "MATH112", "CHGN122", "HASS100", "MATH213", "PHGN200", "EBGN201", "CEEN241", "EDNS251", "MEGN351", "MATH225", "MNGN210", "HASS200", "MNGN317", "CEEN311", "MNGN308", "MNGN300", "MEGN361", "MNGN309", "MNGN312", "MNGN321", "GEOL310", "EENG281", "MNGN314", "MNGN316", "GEOL311", "MNGN414", "MNGN408", "MNGN428", "MNGN438", "MNGN322", "MNGN429", "MNGN433", "MNGN427", "MNGN424", "MNGN410"],
-"Electives": [["PAGNxxx", 4], ["FREE ELECTIVExxx", 3], ["HASS MID-LEVEL RESTRICTED ELECTIVExxx", 2], ["HASS 400-LEVEL RESTRICTED ELECTIVExxx", 1]]
-}
-,
-{
-"Id": "Engineering, Design, and Society",
-"Bulletin": "2018-2019",
-"Classes": ["CSM101", "MATH111", "CHGN121", "EDNS200", "EDNS191", "MATH112", "PHGN100", "CSCI101", "EDNS192", "MATH213", "PHGN200", "MATH201", "EDNS291", "MATH225", "CHGN209", "CEEN241", "EDNS292", "MTGN202", "EBGN201", "EENG281", "EDNS391", "PEGN251", "EDNS392", "EDNS491", "EDNS492"],
-"Electives": [["PAGNxxx", 4], ["HASS MID-LEVEL RESTRICTED ELECTIVEǂǂxxx", 2], ["ENGINEERING ELECTIVEǂǂǂxxx", 5], ["FOCUS AREAǂǂǂǂxxx", 6], ["FREE ELECTIVExxx", 3], ["HASS 400-LEVEL RESTRICTED ELECTIVEǂǂxxx", 1]]
-}
+    {
+        "Id": "Computer Science",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "CSCI101",
+            "CHGN121",
+            "MATH111",
+            "HASS100",
+            "CSM101",
+            "CSCI261",
+            "MATH112",
+            "EDNS151",
+            "PHGN100",
+            "MATH213",
+            "PHGN200",
+            "CSCI262",
+            "EBGN201",
+            "CSCI274",
+            "CSCI341",
+            "CSCI358",
+            "MATH225",
+            "HASS200",
+            "CSCI306",
+            "MATH332",
+            "CSCI403",
+            "CSCI406",
+            "MATH201",
+            "CSCI370",
+            "CSCI400",
+            "CSCI442"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "FREE ELECTIVExxx",
+                6
+            ],
+            [
+                "COMPUTER SCIENCE ELECTIVExxx",
+                5
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVExxx",
+                2
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVExxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Applied Mathematics and Statistics",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "CHGN121",
+            "CSCI101",
+            "CSM101",
+            "HASS100",
+            "MATH111",
+            "EBGN201",
+            "EDNS151",
+            "MATH112",
+            "PHGN100",
+            "CSCI261",
+            "MATH213",
+            "MATH225",
+            "PHGN200",
+            "HASS200",
+            "MATH201",
+            "MATH332",
+            "MATH310",
+            "MATH300",
+            "MATH307",
+            "MATH331",
+            "MATH334",
+            "MATH301",
+            "MATH335",
+            "MATH408",
+            "MATH455",
+            "MATH484"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "COMPUTER ELECTIVE1xxx",
+                1
+            ],
+            [
+                "FREE ELECTIVExxx",
+                4
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVExxx",
+                2
+            ],
+            [
+                "MATHEMATICS-CAM ELECTIVE2xxx",
+                2
+            ],
+            [
+                "MATHEMATICS-CAM/STAT ELECTIVE2xxx",
+                4
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVExxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Electrical Engineering",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "CHGN121",
+            "GEGN101",
+            "MATH111",
+            "HASS100",
+            "CSM101",
+            "MATH112",
+            "EDNS151",
+            "PHGN100",
+            "CSCI101",
+            "HASS200",
+            "MATH213",
+            "PHGN200",
+            "CSCI261",
+            "MATH225",
+            "EBGN201",
+            "EENG284",
+            "EENG282",
+            "MATH332",
+            "EENG307",
+            "EENG310",
+            "EENG383",
+            "EENG389",
+            "EENG385",
+            "EENG386",
+            "EENG311",
+            "MEGN361",
+            "EENG334",
+            "EENG450",
+            "EDNS491",
+            "EDNS492"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVExxx",
+                2
+            ],
+            [
+                "ELECTRICAL ENGINEERING ELECTIVExxx",
+                3
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVExxx",
+                1
+            ],
+            [
+                "FREE ELECTIVExxx",
+                3
+            ]
+        ]
+    },
+    {
+        "Id": "Mechanical Engineering",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "CBEN110",
+            "CHGN121",
+            "CSM101",
+            "HASS100",
+            "MATH111",
+            "CHGN122",
+            "EDNS151",
+            "MATH112",
+            "PHGN100",
+            "CEEN241",
+            "HASS200",
+            "MATH213",
+            "MEGN200",
+            "PHGN200",
+            "EENG281",
+            "MATH225",
+            "MEGN361",
+            "MEGN312",
+            "MTGN202",
+            "MEGN201",
+            "EBGN201",
+            "MATH307",
+            "MEGN315",
+            "MEGN424",
+            "MEGN300",
+            "EENG307",
+            "MEGN381",
+            "MEGN481",
+            "MEGN301",
+            "MEGN351",
+            "EDNS491",
+            "MEGN471",
+            "EDNS492"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVExxx",
+                2
+            ],
+            [
+                "FREE ELECTIVExxx",
+                3
+            ],
+            [
+                "MECHANICAL ENGINEERING ELECTIVExxx",
+                3
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVExxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Civil and Environmental Engineering",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "MATH111",
+            "CHGN121",
+            "GEGN101",
+            "HASS100",
+            "CSM101",
+            "MATH112",
+            "PHGN100",
+            "CHGN122",
+            "EDNS151",
+            "CEEN210",
+            "MATH213",
+            "PHGN200",
+            "CEEN241",
+            "HASS200",
+            "CEEN310",
+            "CEEN267",
+            "CEEN311",
+            "MEGN350",
+            "MATH201",
+            "CSCI260",
+            "CEEN331",
+            "CEEN350",
+            "CEEN314",
+            "CEEN312",
+            "CEEN312L",
+            "MATH225",
+            "EBGN201",
+            "CEEN415",
+            "MEGN315",
+            "EDNS491",
+            "EDNS492"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "CIVIL ENGINEERING BREADTH ELECTIVExxx",
+                2
+            ],
+            [
+                "STRUCTURAL DESIGN ELECTIVExxx",
+                1
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVExxx",
+                2
+            ],
+            [
+                "CIVIL ENGINEERING TECHNICAL ELECTIVExxx",
+                4
+            ],
+            [
+                "FREE ELECTIVExxx",
+                3
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVExxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Physics",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "MATH111",
+            "CHGN121",
+            "HASS100",
+            "CSM101",
+            "GEGN101",
+            "MATH112",
+            "CHGN122",
+            "PHGN100",
+            "EDNS151",
+            "MATH213",
+            "PHGN200",
+            "EDNS269",
+            "HASS200",
+            "CSCI250",
+            "MATH225",
+            "MATH332",
+            "PHGN310",
+            "PHGN215",
+            "PHGN384",
+            "PHGN315",
+            "PHGN311",
+            "PHGN317",
+            "PHGN350",
+            "PHGN361",
+            "PHGN320",
+            "PHGN326",
+            "PHGN341",
+            "EBGN201",
+            "PHGN471",
+            "PHGN481",
+            "PHGN462",
+            "PHGN472",
+            "PHGN482"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVExxx",
+                2
+            ],
+            [
+                "FREE ELECTIVExxx",
+                4
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVExxx",
+                1
+            ],
+            [
+                "ENGINEERING SCIENCE ELECTIVExxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Chemistry and Geochemistry",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "CHGN121",
+            "CSM101",
+            "EDNS151",
+            "GEGN101",
+            "MATH111",
+            "CHGN122",
+            "MATH112",
+            "HASS100",
+            "PHGN100",
+            "MATH213",
+            "PHGN200",
+            "CHGN209",
+            "CHGN221",
+            "CHGN223",
+            "EBGN201",
+            "HASS200",
+            "CHGN222",
+            "CHGN224",
+            "MATH225",
+            "CHGN335",
+            "CHGN336",
+            "CHGN337",
+            "CHGN341",
+            "CHGN351",
+            "CHGN395",
+            "CHGN353",
+            "CHGN323",
+            "CHGN428",
+            "CHGN490",
+            "CHGN401"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVExxx",
+                2
+            ],
+            [
+                "FREE ELECTIVExxx",
+                3
+            ],
+            [
+                "TECHNICAL ELECTIVExxx",
+                5
+            ],
+            [
+                "CHEMISTRY ELECTIVExxx",
+                2
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVExxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Chemical and Biological Engineering",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "CHGN121",
+            "CSM101",
+            "MATH111",
+            "EDNS151",
+            "HASS100",
+            "CBEN110",
+            "CHGN122",
+            "MATH112",
+            "PHGN100",
+            "CBEN210",
+            "CHGN221",
+            "CHGN223",
+            "MATH213",
+            "PHGN200",
+            "CBEN200",
+            "CBEN201",
+            "CHGN222",
+            "EBGN201",
+            "MATH225",
+            "CBEN307",
+            "CBEN357",
+            "CHGN351",
+            "HASS200",
+            "CBEN358",
+            "CBEN314",
+            "CBEN375",
+            "CBEN403",
+            "CBEN312",
+            "CBEN313",
+            "CBEN402",
+            "CBEN414",
+            "CBEN418"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "TECH ELECTIVExxx",
+                2
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVExxx",
+                2
+            ],
+            [
+                "CHEMICAL ENGINEERING ELECTIVExxx",
+                1
+            ],
+            [
+                "FREE ELECTIVExxx",
+                3
+            ],
+            [
+                "400-LEVEL CHEMICAL ENGINEERING ELECTIVExxx",
+                1
+            ],
+            [
+                "CHGN OR CBEN ELECTIVE (300 OR HIGHER)xxx",
+                1
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVExxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Metallurgical and Materials Engineering",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "CHGN121",
+            "CSM101",
+            "EDNS151",
+            "MATH111",
+            "MATH201",
+            "CHGN122",
+            "HASS100",
+            "PHGN100",
+            "MATH112",
+            "MTGN272",
+            "MATH213",
+            "PHGN200",
+            "MTGN202",
+            "HASS200",
+            "MTGN251",
+            "MATH225",
+            "CEEN241",
+            "EBGN201",
+            "MTGN211",
+            "MTGN281",
+            "EDNS263",
+            "CEEN311",
+            "MTGN352",
+            "MTGN314",
+            "MTGN314L",
+            "MTGN350",
+            "MTGN334",
+            "MTGN334L",
+            "MTGN348",
+            "MTGN348L",
+            "MTGN315",
+            "MTGN445",
+            "MTGN445L",
+            "MTGN461",
+            "MTGN467",
+            "MTGN468"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "RESTRICTED TECHNICAL ELECTIVExxx",
+                1
+            ],
+            [
+                "FREE ELECTIVExxx",
+                3
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVExxx",
+                2
+            ],
+            [
+                "MTGN ELECTIVExxx",
+                4
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVExxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Geophysics",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "GEGN101",
+            "MATH111",
+            "CHGN121",
+            "CSM101",
+            "CSCI101",
+            "MATH112",
+            "PHGN100",
+            "EDNS151",
+            "HASS100",
+            "GPGN228",
+            "MATH213",
+            "PHGN200",
+            "GEGN205",
+            "GEGN204",
+            "GPGN268",
+            "GPGN229",
+            "MATH225",
+            "EBGN201",
+            "HASS200",
+            "GPGN328",
+            "GPGN350",
+            "MATH332",
+            "CSCI250",
+            "GPGN404",
+            "GPGN329",
+            "GPGN314",
+            "GPGN486",
+            "GPGN435",
+            "GPGN409",
+            "GPGN438",
+            "CSCI303"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "GEOLOGY ELECTIVE1xxx",
+                1
+            ],
+            [
+                "FREE ELECTIVExxx",
+                3
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVE2xxx",
+                2
+            ],
+            [
+                "GPGN ADVANCED ELECTIVE3xxx",
+                4
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVE2xxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Geology and Geological Engineering",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "GEGN101",
+            "MATH111",
+            "CHGN121",
+            "EDNS151",
+            "CSM101",
+            "PHGN100",
+            "MATH112",
+            "CHGN122",
+            "HASS100",
+            "GEGN203",
+            "GEGN204",
+            "GEGN205",
+            "MATH213",
+            "CEEN241",
+            "HASS200",
+            "EDNS264",
+            "GEGN206",
+            "PHGN200",
+            "MATH225",
+            "CEEN311",
+            "GEOL309",
+            "GEOL321",
+            "GEGN330",
+            "EBGN201",
+            "CEEN312",
+            "GEGN307",
+            "GEGN317",
+            "GEOL314",
+            "GEGN351",
+            "GEGN316",
+            "GEGN432"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVExxx",
+                2
+            ],
+            [
+                "TECH ELECTIVE IIxxx",
+                1
+            ],
+            [
+                "GEGN4XX OPTION ELECTIVExxx",
+                2
+            ],
+            [
+                "FREE ELECTIVExxx",
+                3
+            ],
+            [
+                "GEGN4XX DESIGN ELECTIVExxx",
+                2
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVExxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Economics and Business",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "MATH111",
+            "CHGN121",
+            "CSM101",
+            "EDNS151",
+            "PHGN100",
+            "MATH112",
+            "CSCI101",
+            "HASS100",
+            "EBGN201",
+            "MATH213",
+            "HASS200",
+            "EBGN301",
+            "MATH201",
+            "MATH225",
+            "EBGN302",
+            "EBGN425",
+            "EBGN303",
+            "EBGN321",
+            "EBGN409",
+            "EBGN403",
+            "EBGN401",
+            "EBGN455"
+        ],
+        "Electives": [
+            [
+                "DISTRIBUTED SCIENCExxx",
+                1
+            ],
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "FREE ELECTIVExxx",
+                7
+            ],
+            [
+                "EBGN ELECTIVE Ixxx",
+                1
+            ],
+            [
+                "EBGN ELECTIVE IIxxx",
+                1
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVExxx",
+                2
+            ],
+            [
+                "OR EBGN ELECTIVE IIIxxx",
+                2
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVExxx",
+                1
+            ],
+            [
+                "EBGN ELECTIVE IVxxx",
+                1
+            ],
+            [
+                "EBGN ELECTIVE Vxxx",
+                1
+            ],
+            [
+                "EBGN ELECTIVE VIxxx",
+                1
+            ],
+            [
+                "EBGN ELECTIVE VIIxxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Petroleum Engineering",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "CSM101",
+            "GEGN101",
+            "MATH111",
+            "CHGN121",
+            "EDNS151",
+            "PHGN100",
+            "MATH112",
+            "CHGN122",
+            "HASS100",
+            "EBGN201",
+            "EDNS251",
+            "CEEN241",
+            "MATH213",
+            "PHGN200",
+            "CHGN209",
+            "CEEN311",
+            "PEGN251",
+            "PEGN308",
+            "MATH225",
+            "HASS200",
+            "PEGN315",
+            "GEOL315",
+            "PEGN305",
+            "PEGN311",
+            "PEGN312",
+            "GEOL308",
+            "PEGN361",
+            "PEGN411",
+            "PEGN419",
+            "PEGN438",
+            "PEGN316",
+            "PEGN481",
+            "PEGN423",
+            "PEGN414",
+            "PEGN422",
+            "PEGN424",
+            "PEGN426",
+            "PEGN439"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVExxx",
+                2
+            ],
+            [
+                "FREE ELECTIVExxx",
+                3
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVExxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Mining Engineering",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "GEGN101",
+            "MATH111",
+            "CHGN121",
+            "EDNS151",
+            "CSM101",
+            "PHGN100",
+            "MATH112",
+            "CHGN122",
+            "HASS100",
+            "MATH213",
+            "PHGN200",
+            "EBGN201",
+            "CEEN241",
+            "EDNS251",
+            "MEGN351",
+            "MATH225",
+            "MNGN210",
+            "HASS200",
+            "MNGN317",
+            "CEEN311",
+            "MNGN308",
+            "MNGN300",
+            "MEGN361",
+            "MNGN309",
+            "MNGN312",
+            "MNGN321",
+            "GEOL310",
+            "EENG281",
+            "MNGN314",
+            "MNGN316",
+            "GEOL311",
+            "MNGN414",
+            "MNGN408",
+            "MNGN428",
+            "MNGN438",
+            "MNGN322",
+            "MNGN429",
+            "MNGN433",
+            "MNGN427",
+            "MNGN424",
+            "MNGN410"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "FREE ELECTIVExxx",
+                3
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVExxx",
+                2
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVExxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Engineering, Design, and Society",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "CSM101",
+            "MATH111",
+            "CHGN121",
+            "EDNS200",
+            "EDNS191",
+            "MATH112",
+            "PHGN100",
+            "CSCI101",
+            "EDNS192",
+            "MATH213",
+            "PHGN200",
+            "MATH201",
+            "EDNS291",
+            "MATH225",
+            "CHGN209",
+            "CEEN241",
+            "EDNS292",
+            "MTGN202",
+            "EBGN201",
+            "EENG281",
+            "EDNS391",
+            "PEGN251",
+            "EDNS392",
+            "EDNS491",
+            "EDNS492"
+        ],
+        "Electives": [
+            [
+                "PAGNxxx",
+                4
+            ],
+            [
+                "HASS MID-LEVEL RESTRICTED ELECTIVEǂǂxxx",
+                2
+            ],
+            [
+                "ENGINEERING ELECTIVEǂǂǂxxx",
+                5
+            ],
+            [
+                "FOCUS AREAǂǂǂǂxxx",
+                6
+            ],
+            [
+                "FREE ELECTIVExxx",
+                3
+            ],
+            [
+                "HASS 400-LEVEL RESTRICTED ELECTIVEǂǂxxx",
+                1
+            ]
+        ]
+    },
+    {
+        "Id": "Test major",
+        "Bulletin": "2018-2019",
+        "Classes": [
+            "MATH111"
+        ],
+        "Electives": []
+    }
 ]
