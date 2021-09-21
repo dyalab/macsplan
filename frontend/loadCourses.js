@@ -10,19 +10,20 @@ var host = (
 );
 
 
+console.log(host)
 var courseCatalog;
-var courseJSONDone = $.getJSON(host + "/courseCatalogData.json", function (json) {
+var courseJSONDone = $.getJSON(host + "/courseCatalogData", function (json) {
   courseCatalog = json;
 });
 
 var majorCatalog;
 
-var majorJSONDone = $.getJSON(host + "/majorData.json", function (json) {
+var majorJSONDone = $.getJSON(host + "/majorData", function (json) {
   majorCatalog = json;
 });
 
 var electives;
-var electivesDone = $.getJSON(host + "/electives.json", function (json) {
+var electivesDone = $.getJSON(host + "/electives", function (json) {
   electives = json;
   console.log(json)
 });

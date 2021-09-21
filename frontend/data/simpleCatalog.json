@@ -1,0 +1,18 @@
+[
+    {
+	"Id": "MATH111"
+	"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS I"
+	"Credits": 4.0
+	"Pre_req": []
+	"Semesters": [ "Fall", "Spring",  "Summer" ]
+	"Elective": [ ]
+    },
+    {
+	"Id": "MATH112"
+	"Name": "CALCULUS FOR SCIENTISTS AND ENGINEERS I"
+	"Credits": 4.0
+	"Pre_req": ["MATH111"]
+	"Semesters": [ "Fall", "Spring",  "Summer" ]
+	"Elective": [ ]
+    }
+]

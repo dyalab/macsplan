@@ -38,7 +38,7 @@ Data Formats
 ------------
 
 See the example files for the course catalog and student info under
-`./data/`.
+`./frontend/data/`.
 
 Running the Backend
 -------------------
@@ -67,4 +67,4 @@ In the macsplan package, you can test the planner by the command.
 
 For example, the following command will run Macsplan with the provided catalog and student files.
 
-    (macsplan #p"**macsplan-root**/data/catalog.json" #p"**macsplan-root**/data/student.json")
+    (macsplan #p"**macsplan-root**/frontend/data/courseCatalogData.json" #p"**macsplan-root**/frontend/data/student.json")
