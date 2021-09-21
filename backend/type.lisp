@@ -2,7 +2,17 @@
 
 (defstruct course
   id
-  prereq)
+  prereq
+  credits
+  elective-type
+  semester
+  teacher)
+
+(defstruct offering
+  course
+  semester
+  teacher
+  time)
 
 (defun catalog-contains-id (catalog id)
   (gethash id catalog))
@@ -20,7 +30,8 @@
 (defun check-catalog-exp (catalog exp)
   (tmsmt::check-exp (lambda (v)
                       (unless (or (tmsmt::smt-true-p v)
-                                  (catalog-contains-id catalog (normalize-prereq v)))
+                                  (catalog-contains-id catalog (normalize-prereq v))
+				  (find #\X v))
                         (error "Course not found `~A'" v)))
                     exp))
 
@@ -30,7 +41,8 @@
 
 (defstruct student
   (taken (make-hash-table :test #'equal))
-  degree)
+  degree
+  pref-teach)
 
 
 (defun check-student (catalog student)

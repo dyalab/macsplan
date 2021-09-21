@@ -38,7 +38,7 @@
 
 
 (defun parse-prereq (e)
- (parse-json-cnf e))
+  (parse-json-cnf e))
 
 
 (defun parse-catalog (string)
@@ -48,7 +48,13 @@
     (dolist (elt json)
       (let* ((id (getf elt :|Id|))
              (course (make-course  :id id
-                                   :prereq (parse-prereq (getf elt :|Pre_req|)))))
+                                   :prereq (parse-prereq (getf elt :|Pre_req|))
+				   :credits (or (getf elt :|Credits|) (getf elt :|Max_Credits|))
+				   :semester (getf elt :|Semesters|)
+				   :elective-type (getf elt :|Elective|)
+				   :teacher (getf elt :|Teacher|))))
+        (if (stringp (course-credits course))
+            (setf (course-credits course) (read-from-string (course-credits course))))
         (cond ((null id)
                (error "Missing course ID"))
               ((catalog-contains-id catalog id)
@@ -74,7 +80,8 @@
 (defun parse-student (string)
   (let* ((json (parse-json string))
          (student (make-student ;:taken (getf json :|taken|)
-                   :degree (parse-json-exp (getf json :|degree|)))))
+                   :degree (parse-json-exp (getf json :|degree|))
+		   :pref-teach (getf json :|teacher|))))
     (dolist (c (getf json :|taken|))
       (setf (gethash c (student-taken student)) t))
     student))

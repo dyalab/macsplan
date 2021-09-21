@@ -1,5 +1,7 @@
 Mines Automatic Class Schedule Planner (MACSPlan)
 
+Backend Authors : Curtis Burke, Tyler Evans, Matthew Schack
+
 Installation
 ============
 
@@ -8,11 +10,13 @@ Backend
 
 1. Install [TMKit](http://tmkit.dyalab.org/)
 
-2. Link the ASD file, usually as follows:
+2. Checkout the path-checker branch of TMKit
+
+3. Link the ASD file, usually as follows:
 
        ln -s `pwd`/src/macsplan.asd ~/.local/share/common-lisp/source/
 
-3. From the Lisp REPL, load (including dependencies) via quicklisp:
+4. From the Lisp REPL, load (including dependencies) via quicklisp:
 
        (ql:quickload 'macsplan)
 
@@ -34,7 +38,7 @@ Data Formats
 ------------
 
 See the example files for the course catalog and student info under
-`./data/`.
+`./frontend/data/`.
 
 Running the Backend
 -------------------
@@ -53,3 +57,14 @@ Running the Frontened
 ---------------------
 
     node server.js
+
+
+Running a test
+--------------
+In the macsplan package, you can test the planner by the command.
+
+    (macsplan path-to-catalog path-to-student)
+
+For example, the following command will run Macsplan with the provided catalog and student files.
+
+    (macsplan #p"**macsplan-root**/frontend/data/courseCatalogData.json" #p"**macsplan-root**/frontend/data/student.json")

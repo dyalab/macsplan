@@ -1,0 +1,3 @@
+- Send elective information to the backend planner
+- Clean up front end/streamline workflow
+- Speed up backend (remove classes that have no effect, etc)
