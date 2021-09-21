@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import urllib.request
 import re
 import json
@@ -100,15 +101,15 @@ for department in majors:
             descblock = courseblock.findAll('p')[1]
             parts = titleblock.text.split('.')
             course_id = parts[0]
-            
+
             #all classes satisfy free electives
             free_elect.append(course_id)
-            
+
             #all PAGN classes satisfy PAGN electives
             if 'PAGN' in course_id:
                 pagn.append(course_id)
-                
-            #CSCI4xx and two other classes satisfy CSCI electives    
+
+            #CSCI4xx and two other classes satisfy CSCI electives
             if 'CSCI' in course_id and level_regex.search(course_id):
                 csci_elect.append(course_id)
             elif course_id in ['MATH307', 'EENG383']:
@@ -118,7 +119,7 @@ for department in majors:
             if 'CHGN' in course_id:
                 #TODO - remove required classes
                 chem.append(course_id)
-                
+
             name = parts[1].strip()
             hours = parts[2].strip()+'.'+parts[3].split(' ')[0]
             catalogJson += '"Id": "{}",\n'.format(course_id)
@@ -204,11 +205,11 @@ for department in majors:
             semesters = []
             if m:
                 if m.group(1):
-                    semesters.append('F')
+                    semesters.append('Fall')
                 if m.group(2):
-                    semesters.append('S')
+                    semesters.append('Spring')
                 if m.group(3):
-                    semesters.append('Su')
+                    semesters.append('Summer')
             catalogJson += '"Semesters": {}\n'.format(semesters).replace("'", '"')
             catalogJson += '}\n,'
 
